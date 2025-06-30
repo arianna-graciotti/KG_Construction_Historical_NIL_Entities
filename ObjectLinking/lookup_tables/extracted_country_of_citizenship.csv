@@ -1,0 +1,3371 @@
+QID,Label,Aliases
+Q31,Belgium,Kingdom of Belgium|BEL|be|🇧🇪|BE
+Q45,Portugal,Portuguese Republic|PRT|POR
+Q148,People's Republic of China,Red China|PR China|Communist China|Mainland China|China PR|CHN|RPC|PRC|CN|🇨🇳|cn|The PRC|China|Zhōngguó|P.R.C.
+Q155,Brazil,Federative Republic of Brazil|br|Brasil
+Q183,Germany,Federal Republic of Germany|Deutschland|BR Deutschland|Bundesrepublik Deutschland
+Q233,Malta,Republic of Malta|MLT|MT
+Q298,Chile,Republic of Chile|CL|cl|República de Chile|CHI
+Q398,Bahrain,bh|Kingdom of Bahrain|BAH|Bahrein Islands|ISO 3166-1:BH|مملكة البحرين|Mamlakat al-Baḥrayn|Dawlat al-Bahrain
+Q686,Vanuatu,Republic of Vanuatu|vu|vut|van|VAN
+Q801,Israel,ISR|IL|State of Israel|il|Yisrael
+Q819,Laos,Lao People's Democratic Republic|la|Lao PDR|LAO
+Q863,Tajikistan,Republic of Tajikistan|tj|TJK
+Q869,Thailand,Kingdom of Thailand|th|Siam|Land of Smiles|THA
+Q878,United Arab Emirates,U.A.E.|UAE|ae|Emirates|the United Arab Emirates|the UAE|the U.A.E.|the Emirates|ARE
+Q912,Mali,Republic of Mali|ml|MLI
+Q916,Angola,ANG|Republic of Angola|ao|Ngola
+Q1044,Sierra Leone,Republic of Sierra Leone|sl|SLE
+Q1049,Sudan,Republic of the Sudan|as-Sūdān|sd|North Sudan|the Sudan|Republic of Sudan|SUD|Soudan|as-Sudan|al-Sudan
+Q3908,Galicia,Galiza|Galicia (Spain)
+Q5257,Satavahana dynasty,Ancient Marathi dynasty
+Q7318,Nazi Germany,Third Reich|Greater German Reich|Hitler's Third Reich|German Reich|Thousand-Year Reich
+Q12544,Byzantine Empire,Byzantium|Eastern Roman Empire|Roman Empire|Lower Empire|Romanía
+Q12560,Ottoman Empire,Ottoman State|Turkish Empire|Sublime Ottoman State
+Q18097,Korea,Corea
+Q25227,Netherlands Antilles,AN|Dutch Antillean|Netherland Antilles|The Netherlands Antilles|Dutch Antilles/West Indies|Antillen|Netherland Antillies|N.W.I.|Netherlands-Antilles|Nederlandse Antillen|Dutch Antilles|Netherlands Antilleans|ISO 3166-1:AN|Netherlands Antillean|AHO
+Q28025,Ryukyu Kingdom,Ryukyu
+Q28428,Baekje,Nambuyeo|Paekche|Baekje Kingdom|Paekche Kingdom
+Q28511,Buyeo,
+Q28573,Inca Empire,Tawantinsuyu|Tahuantinsuyo|Incan empire|Quechuan empire|Empire of the incas|Tawantin Suyu
+Q38610,Dominion of Newfoundland,Newfoundland
+Q45670,Kingdom of Portugal,Portuguese Kingdom
+Q49322,Sultanate of Demak,Demak Sultanate
+Q55502,Kingdom of Jerusalem,Latin Kingdom of Jerusalem|Jerusalem
+Q62633,Grand Principality of Finland,Finland|Grand Duchy of Finland (1809–1917)
+Q83891,Sasanian Empire,Neo-Persian Empire|Ērānshahr|Ērān|Second Persian Empire|Persian Empire|Persia|Sassanid Empire|Sasanid Empire|Sassanid Persia|Sasanid Persia|Sasanian Persia|Sassanian Persia|Sassanian Empire
+Q83958,Macedonia,Macedon|Macedonian Empire|Ancient Macedonia|Macedonian Kingdom|Ancient Macedon|Kingdom of Alexander|Macedonian hegemony
+Q105092,Kingdom of Mercia,Mercia
+Q107380,Lippe,
+Q124298,Marquisate of Bodonitsa,Boudonitza
+Q127861,Khedivate of Egypt,Egypt|Egyptian Khedivate
+Q146713,Arab Federation,
+Q149805,Kingdom of Iraq,The Hashemite Kingdom of Iraq|Hashemite Kingdom of Iraq
+Q150069,United Suvadive Republic,
+Q153963,German East Africa,Deutsch-Ostafrika
+Q154741,Confederation of the Rhine,
+Q154849,Grand Duchy of Tuscany,Granducato di Toscana
+Q156038,Duchy of Courland and Semigallia,
+Q157367,Brandenburg-Prussia,
+Q157904,Sultanate of Zanzibar,Zanzibar
+Q159856,Duchy of Brabant,Brabant
+Q170588,Republic of Texas,Not Texas|Texas Republic
+Q172107,Polish–Lithuanian Commonwealth,Republic of Both Nations|Commonwealth of Poland|First Republic of Poland|Poland|Poland–Lithuania|Polish-Lithuanian Commonwealth|Poland-Lithuania
+Q173082,Dacia,
+Q175276,Kingdom of León,Kingdom of Leon
+Q175881,Roman Republic,Repubblica Romana|Prima Repubblica romana|Roman Republic (1798-1799)|Repubblica romana (1798-1799)|Republica romana (1798-1799)|République romaine (1798-1799)
+Q176495,Federal State of Austria,Ständestaat
+Q178913,Empire of Trebizond,Trebizond Empire|Trapezuntine Empire
+Q182647,Khwarazm,Chorasmia|Corasmia|Khvarezm|Khwaremia|Khvarezmia|Khorezm|Khwarezm
+Q185488,Volga Bulgaria,
+Q199821,Gran Colombia,Great Colombia
+Q203751,Upper Egypt,
+Q203817,First Bulgarian Empire,Danube Bulgaria
+Q206789,Ghana Empire,
+Q210542,Fourth Brazilian Republic,Estados Unidos do Brasil|Republic of 46|United States of Brazil
+Q215443,Swedish Empire,
+Q221457,Congress Poland,Kingdom of Poland|Russian Poland|Tsardom of Poland|Congress Kingdom of Poland
+Q264970,Anhalt-Köthen,
+Q278874,Anhalt-Dessau,
+Q287996,Kingdom of Blambangan,
+Q289577,Himyarite kingdom,Himyar|Homerite kingdom
+Q315609,Roman Catholic Diocese of Naumburg-Zeitz,Diocese of Naumburg|Diocese of Zeitz|Roman Catholic Diocese of Naumburg|Roman Catholic Diocese of Zeitz|Bishopric of Naumburg-Zeitz|bishop of Naumburg
+Q322763,County of Dagsburg,
+Q325461,Kingdom of Thessalonica,
+Q330362,Commonwealth of England,"English Republic|Commonwealth|Interregnum|Protectorate|Commonwealth of England, Scotland and Ireland"
+Q370173,Sultanate of Egypt,
+Q370736,Cape Colony,Cape of Good Hope
+Q422065,Sultanate of Sulu,Kesultanan Sulu|Kasultanan ng Sulu|Kesultanan Suluk
+Q424856,Kingdom of al-Abwab,
+Q449639,Alodia,Alwa|Aloa
+Q457167,West Ukrainian People's Republic,ZUNR|Zakhidnoukrayins’ka Narodna Respublyka|Western Ukrainian National Republic|Zakhidno-Ukrainska Narodnia Respublika
+Q476757,Democratic Republic of Afghanistan,Republic of Afghanistan|DR Afghanistan
+Q484370,People's Republic of Korea,
+Q501303,Free City of Kraków,Free City of Krakow|Free City of Cracow
+Q501684,Kingdom of Gomma,
+Q527527,Prince-Bishopric of Lübeck,Diocese of Lübeck|Bishopric of Lübeck
+Q538636,Ankole,Kingdom of Ankole|Ankole Kingdom
+Q542165,Despotate of Dobruja,
+Q548114,Free State of Fiume,
+Q552157,Nieuwe Republiek,
+Q558596,Hadiya Kingdom,Hadia|Hadiya
+Q570702,Duchy of Nysa,
+Q574644,Prince-Bishopric of Speyer,Bishopric of Speyer|Bishopric of Spire|Bishopric of Espira|diocese of Speyer|Speyer
+Q600562,Mthethwa Paramountcy,
+Q603771,Emirate of Crete,
+Q605000,North Caucasian Soviet Republic,
+Q630882,Republic of New Granada,República de la Nueva Granada|New Granada|New Granada Republic|New Grenada
+Q654766,North Peru,North Peruvian State|North Peruvian Republic|Republic of North Peru
+Q657861,Dholpur State,
+Q660393,Lower Lotharingia,Lower Lorraine
+Q668412,Pala Empire,pala dynasty
+Q668415,Orchha State,
+Q682318,Swedish Pomerania,
+Q693570,Duchy of Ferrara,
+Q693980,Duchy of Swabia,Swabia
+Q696651,Saxe-Eisenach,Sachsen-Eisenach|Duchy of Saxe-Eisenach
+Q700229,Saxe-Gotha,Sachsen-Gotha
+Q701337,Empire of Vietnam,
+Q701614,Prince-Archbishopric of Salzburg,Fürsterzbistum Salzburg|Prince-Archbishopric of Salzburg|Archdiocese of Salzburg
+Q703695,Great Balhae Kingdom,Daewonguk|Great Bohai Kingdom|Dayuan Kingdom
+Q713750,West Germany,FRG|Westdeutschland|West-Deutschland|BRD|BR Dtld.|history of West Germany from 1949 to 1990|Federal Republic of Germany (1949–1990)
+Q714006,Republic of Ezo,Ezo Kyōwakoku|Ezo Kyowakoku|Ezo Republic
+Q715210,Geumgwan Gaya,Kŭmgwan Kaya
+Q716890,Indore State,Holkar State|Indore
+Q722071,Ashanti Empire,Ashantee|Ashanti
+Q729768,Zulu Kingdom,Zulu Empire|Zululand|Kingdom of Zululand|Kingdom of Zulu|Zulu polity
+Q746558,Emirate of Bukhara,Bokhara|Bukhara|Emirate of Bokhara|Bokhara Emirate|Bukhara Emirate|Khanate of Bokhara|Bokhara Khanate|Khanate of Bukhara|Bukhara Khanate
+Q762084,Bamana Empire,Bambara Empire|Ségou Empire|Bambara
+Q766543,Hispanic Monarchy,Kingdom of the Spains|Spain|Crown of Spain|Hispanic Crown|Spains|Kingdom of Spains
+Q767089,Salamis,Salamína
+Q799042,Badis,
+Q808575,Baroda State,Baroda
+Q818666,Berar Sultanate,Berar|Imad Shahi Sultanate|Imad Shahi dynasty|'Imād Sẖāhī Dynasty
+Q818742,Mon State,
+Q831310,Bethio,Bequio
+Q837998,Kingdom of East Anglia,Kingdom of the East Angles|East Anglia
+Q838291,Socialist Republic of Montenegro,SR Montenegro|PR Montenegro|People's Republic of Montenegro|Socijalistička Republika Crna Gora|SR Crna Gora
+Q838931,Kingdom of Italy,Regnum Italiae|Regnum Italicum|Italian Kingdom|Italy|Regnum Italicorum
+Q842794,Socialist Republic of Romania,Republica Socialistă România|RS România|SR Romania|Socialist Republic of Rumania|SR Rumania|Ceauşescu Romania|Ceauşescu Rumania|RS Romania
+Q849623,Oyo Empire,
+Q856843,United Arab States,
+Q860407,Kahlur State,Bilaspur State
+Q862522,Mossi Kingdoms,
+Q867227,Âu Lạc,
+Q878717,Bit Adini,
+Q889912,Tooro Kingdom,Kingdom of Toro|Kingdom of Tooro|Toro Kingdom
+Q889970,Jorvik,Scandinavian York|Kingdom of York|Viking York
+Q918204,Rajpipla State,Kingdom of Rajpipla
+Q920527,Britonia,
+Q933592,Duchy of Massa and Carrara,
+Q940123,Rustamid dynasty,Rustamid State|Rostemid Emirate|Rustamid Emirate
+Q940785,Sabaeans,Sabæans
+Q940821,People's Democratic Republic of Ethiopia,
+Q941881,Netherlands New Guinea,Nederlands-Nieuw-Guinea|Dutch New Guinea
+Q950644,Carpatho-Ukraine,
+Q953068,South-West Africa,
+Q954585,Kingdom of Brycheiniog,Brycheiniog
+Q956451,Kingdom of Dyfed,Dyfed
+Q965174,Coalition Provisional Authority,
+Q967246,Ngoyo,
+Q970799,Wattasid dynasty,
+Q975405,Sultanate of Rum,Seljuq Sultanate|Rûm sultanate|Rum sultanate|Rum|Sultanate of Rûm
+Q1047069,Kizzuwatna,
+Q1048340,Kingdom of Albania,Albania
+Q1048918,Kingdom of the Suebi,Kingdom of Gallæcia|Suebic Kingdom of Galicia
+Q1099144,Republic of Lakotah,
+Q1108659,Republic of Benin,
+Q1138904,Kingdom of Afghanistan,Afghan Kingdom|Afghanistan
+Q1149098,Dai,
+Q1154406,Ashikaga shogunate,Ashikaga bakufu|Muromachi shogunate|Muromachi bakufu|Ashikaga Shogunate
+Q1155700,Rattanakosin Kingdom,Empire of Thailand (1782–1932)|Siamese Empire
+Q1192936,Kingdom of Burundi,Royaume du Burundi
+Q1193853,Mthwakazi,Ndebele people
+Q1206012,German Reich,German Realm|Deutsches Reich|German Empire|Imperial Germany|Germany
+Q1232988,Italian Eritrea,Colonia eritrea|Erythrea
+Q1235737,County of Aragon,Aragon
+Q1252744,Jind State,
+Q1259200,Third Portuguese Republic,
+Q1278242,Eastern States Union,
+Q1280122,Principality of Capua,
+Q1290932,Contship of Heiligenberg,
+Q1322424,Maakhir,
+Q1332305,Lavo Kingdom,
+Q1353404,Principality of Kastrioti,
+Q1361989,First Philippine Republic,Philippine Republic|Malolos Republic
+Q1395011,Chalukya dynasty,Chalukyas|Chalukya Kingdom|Chalukya
+Q1400154,Federated Malay States,
+Q1406298,Serbian Empire,
+Q1411349,County of Armagnac,
+Q1411800,Austrian Swabia,
+Q1419681,Crimean People's Republic,Crimea|Crimean
+Q1425000,County of Amiens,
+Q1435740,Fogny,
+Q1436243,Makhnovshchina,Makhnovshchyna|Anarchist Ukraine|Makhnovia|Makhnovtchina
+Q1468426,Ennarea,
+Q1483480,Principality of Sedan,
+Q1520008,Duchy of Neopatria,
+Q1535245,Sri Ksetra Kingdom,
+Q1541699,County of Empúries,County of Empuries
+Q1541723,County of Lippe,Grafschaft Lippe
+Q1541812,County of Troyes,
+Q1562357,Republic of Central Albania,
+Q1588594,Panna State,Panna
+Q1591062,Haushabi,
+Q1604981,Ratlam State,
+Q1614435,Lordship of Rostock,
+Q1615411,Duchy of Castro,
+Q1618896,Rus' Khaganate,Rus Khaganate|Khaganate of Rus|Khaganate of Rus'
+Q1623936,Kingdom of Garo,Bosha
+Q1645483,Parthia,
+Q1679711,Modellstaat,
+Q1683106,Jaora State,
+Q1683696,Diarra,Kingdom of Diarra
+Q1683756,Jasdan State,
+Q1761355,Kuban-Black Sea Soviet Republic,
+Q1761381,Giudicato of Logudoro,
+Q1796202,Kingdom of Granada,
+Q1796223,Kingdom of Lunda,
+Q1796239,Kingdom of Seville,
+Q1800206,Niani Empire,
+Q1843786,Anhalt-Bernburg-Schaumburg-Hoym,
+Q1852345,Trucial States,Trucial Coast
+Q1964552,Nandgaon State,
+Q1989935,Provisional Government of Albania,Gobierno provisional albanés
+Q1991540,Duchy of Courland and Semigallia,
+Q2010024,Second Czechoslovak Republic,Česko-Slovenská republika
+Q2039165,Stad en Lande,
+Q2043564,Shamkhalate of Tarki,
+Q2077648,Sultanate of Cirebon,
+Q2078249,Britannic Empire,Romano-British Empire
+Q2086556,Kakatiya dynasty,Kakatiya
+Q2088141,Caucasian Imamate,
+Q2096678,Candar dynasty,House of Candar|Principality of Candar|Isfendiyar dynasty|Principality of Isfendiyar|Beylik of Candar|Beylik of Isfendiyar|Beylik of Sinop|Candar|Isfendiyar|Candaroğulları|Isfendiyaroğulları
+Q2096935,Kingdom of Sedang,Sedang
+Q2121839,Alawi,
+Q2191428,Taifa of Jérica,
+Q2300296,Latvian Socialist Soviet Republic,Latvian SSR|LSSR|Soviet Latvia|Latvijas Padomju Sociālistiskā Republika|Латвийская Советская Социалистическая Республика|LPSR|ЛССР|Latvijas PSR
+Q2300884,Sonbai,
+Q2324047,County of Apulia,
+Q2381337,Ukrainian People's Republic of Soviets,
+Q2382674,State of the Republic of Indonesia,Republic of Indonesia (1949–50)
+Q2398434,Taifa of Murviedro and Sagunto,
+Q2413855,Juliana Republic,
+Q2450154,Avar Khanate,Avar Khanate
+Q2454585,Third Czechoslovak Republic,
+Q2456191,Kingdom of Seisyllwg,Seisyllwg
+Q2460357,Chincha people,
+Q2463081,Taifa of Constantina and Hornachuelos,
+Q2502117,Urua,
+Q2509414,Tambralinga,Tambralinga kingdom|Danliumei
+Q2523837,Brandenburg colonial empire,
+Q2524715,Taifa of Ronda,
+Q2564694,Powys Fadog,
+Q2573715,Duchy of Sorrento,
+Q2603305,Federation of Ethiopia and Eritrea,
+Q2622868,Bagratid Armenia,Bagratid Kingdom of Armenia
+Q2639675,Republic of Swellendam,
+Q2650123,Tan,
+Q2668584,Taifa of Carmona,
+Q2673403,Huaxia,Zhonghua|Zhong Hua|Zhong zhou|Zhong yuan|Zhong tu|Hua Xia nation
+Q2719360,Duchy of Luxembourg,County of Luxembourg
+Q2795682,Rwenzururu Kingdom,Rwenzururu polity|Rwenzururu
+Q2919545,Principality of Svaneti,
+Q2958284,Taifa of Menorca,
+Q2975232,Republic of Independent Guyana,
+Q2980922,Columbia District,
+Q2988343,Portuguese Malacca,Malaca Portuguesa|Melaka Portugis
+Q2991433,County of Sobrarbe,Kingdom of Sobrarbe
+Q3015833,Sultanate of Dawaro,
+Q3032694,Taifa of Purchena,
+Q3040803,Duchy of Anjou,
+Q3048062,Orange River Sovereignty,
+Q3133774,Wahidi Haban,
+Q3185305,Kingdom of Israel,The United Kingdom|United Monarchy|United Kingdom of Israel
+Q3241025,Limbdi State,
+Q3321115,Monoemugi,Monoemvgi
+Q3347092,Varendra,
+Q3359147,Videha,Vedic Kingdom
+Q3443999,Subeihi,
+Q3446243,Kingdom of Beni Abbas,
+Q3456382,Republic of South Africa (1961—1994),
+Q3456487,Sudanese Republic,
+Q3503555,Palembang Sultanate,
+Q3560494,Eastern Xia,
+Q3588911,Emirate of Sijilmassa,Sijilmassa|Sijilmasa
+Q3591852,Free State of Antioquia,
+Q3765271,Utkala Kingdom,
+Q3818611,Usfurids,
+Q3932080,Kingdom of Sardinia and Corsica,
+Q3932084,Kingdom of Tambapanni,
+Q3933221,Repubblica Astese,
+Q4068252,Tsebelda,
+Q4124689,Free City of Riga,Riga
+Q4155480,Dasarna Kingdom,
+Q4186402,Western Confederacy,United Indian Nations
+Q4210248,Kalmyk Khanate,Kalmykia|Calmuckia|Great Kalmykia
+Q4224859,Principality of Trinidad,
+Q4285171,Gornyy Uzel Matcha,
+Q4333992,Olonets Government of Southern Karelia,Provisional Government of Olonets|Olonets Government|Provisional Caretaker Government of Olonets|Olonets Caretaker Government
+Q4347782,Skewbald Horde,
+Q4348096,Pekat,
+Q4363240,Principality of Pir,
+Q4428846,Seongsangaya,
+Q4442012,Stepanskoe Principality,Stepansky
+Q4496560,Hatti,Hittite Empire|Hittite empire
+Q4529862,Principality of Èdesskoe,Principality of Edesskoe
+Q4848487,Bailundu,
+Q4969562,British Bencoolen,
+Q5062192,Centralist Republic of Mexico,Mexica
+Q5154037,Commune of Rome,
+Q5274236,Didouyu,
+Q5378982,Enišasi,
+Q5440850,Federation of Nigeria,
+Q5782830,Muisca Confederation,
+Q6410251,Kimpurusha Kingdom,
+Q6412664,Realm of Stefan Dragutin,
+Q6412684,Kingdom of the Canary Islands,
+Q6429495,Konkana Kingdom,
+Q6737189,Maitraka dynasty,Mer|Mithira|Maitraka
+Q6831903,Daewiguk,Taewiguk
+Q6958282,Naga Kingdom,
+Q6967073,Nasikya Kingdom,
+Q6994316,Nepa Kingdom,
+Q7233551,Union of Burma (1948–1962),
+Q7245108,Mount Lebanon Emirate,
+Q7380487,Kingdom of Pontus,Pontic Empire
+Q7559152,Somali Republic,
+Q7636794,Sultanate of Dara,
+Q7842409,Trinidad and Tobago,
+Q7903544,Uukwanyama,Reino Cuanhama
+Q7937982,Viye,Bihe
+Q8146595,Upingtonia,
+Q9713085,Lordship of Gibelet,
+Q10747080,Champanagara,
+Q10800791,Revival Lê dynasty,Later Lê Dynasty warlord period
+Q10884385,Dai,
+Q10908451,Nanhai Kingdom,
+Q10914393,Neo-Assyrian Empire,
+Q10931099,Sai,Sai kingdom|Sai state
+Q11299497,Kingdom of Klungkung,
+Q11497452,Touma country,Toma
+Q11935621,Marquisate of Millesimo,
+Q12035643,kingdom of Maroboduus,
+Q12251626,Yathrib,
+Q12582633,Gammunguk,
+Q12739306,Comrat Republic,
+Q12760238,Tsardom of Tarnovo,Tarnovo Tsardom
+Q13414776,Western Chu,Xi Chu
+Q13426199,Republic of China,Republic of China 1912–1949|Republic of China before 1949|ROC 1912–1949|China 1912–1949|ROC
+Q15714699,Lordship of Valencia,
+Q15902493,Shadow Government of China,
+Q15921577,Second Chui Volost,Altın köl Urangkay|The Second Chui Volost|Altan Nuur Urianghai
+Q16034105,County of Corbeil,
+Q16125570,al-Jund province,Al-Jund|Iqleem al-Jund|Janad Region
+Q16624774,Kingdom of Nicoya,Nicoya
+Q16692637,Russian republic,
+Q16835712,Duchy of Estonia,Swedish Estonia
+Q16836300,Principality of Farghana,
+Q16850784,Kingdom of Jolof,
+Q17059107,Western Wei,Xiwei
+Q17311418,Guler State,Guler
+Q18608788,Ghurid Empire,Ghōr
+Q18750170,Yawnghwe,
+Q19855565,Dazhong Kingdom,
+Q20008225,County of Borgonovo,
+Q20102312,Crown of Majorca,
+Q20646544,Principality of Bardak,
+Q22338414,Kingdom Saal,Saal
+Q24897370,Chahamanas of Shakambhari,
+Q24933875,Count of San Secondo,
+Q25202872,Bushi Kingdom,
+Q25459978,Kingdom of Bolaang Mongondow,
+Q26726727,Insana,
+Q27907706,Shule Kingdom,
+Q28525144,Kingdom of Colchis,
+Q30890672,Kingdom of Sicily,
+Q31351948,United States Military Government of the Philippine Islands,
+Q42378126,Kingdom of Setul Mambang Segara,
+Q48779892,Kingdom of Naples,Napoleonic Kingdom of Naples|Kingdom of Naples (Napoleonic epoch)|Kingdom of Naples and Sicily
+Q55229963,Kingdom of Fazughli,
+Q58053082,Emirate of Liptako,
+Q58482373,lordship of Caymont,
+Q60043695,Kingdom of Talamanca,
+Q61355432,Gordonia,
+Q65161564,Canton of Ahenguareme,
+Q65161577,Canton of Tagaragre,
+Q68253870,State of Honduras,Honduras State
+Q68257039,State of Nicaragua,Nicaragua State
+Q85774522,Jeypore Estate,
+Q85804030,Sultanate of Tarim,
+Q85861952,Duchy of Bojano,
+Q85882491,Kōka ikki,
+Q86835744,Kingdom of Ormond,
+Q90886999,Tribal Duchy of Bavaria,
+Q95408244,Republic of Haiti (1820–1849),
+Q96051590,Republic „Otto Luoghi“,
+Q96380347,Harla kingdom,
+Q96385995,Kingdom of Mankera,
+Q96755166,County of Meaux,
+Q104192511,Taifa of Valencia (second period),
+Q104383185,Rhodes,
+Q104834466,Thracian kingdom (Roman vassal state),
+Q108240443,Hubat,
+Q108865226,State of Greater Lebanon,Большой Ливан
+Q109283524,Kingdom of Lalitpur,Lalitpur|Lalitpur Kingdom|Lalitpura|Kingdom of Lalitpura|Patan|Patan Kingdom|Kingdom of Patan|Baddan
+Q109599840,Socialist Republic of Germany,
+Q110133597,County of Vianden,
+Q111016259,Sheikhsar State,Shekhsar State
+Q111696073,Islamic Emirate of Kurdistan,
+Q112062660,Portuguese Cochin,Portuguese Kochin
+Q113223255,Kingdom of Malayu,Malayu Kingdom
+Q116795888,Teotihuacan civilization,Teotihuacan culture|people of Teotihuacan
+Q117247989,Steelpushing,
+Q118279244,Ngwane kingdom,
+Q121428365,Medieval Bosnian state,State of medieval Bosnia
+Q121856128,Emirate of al-Zajjaj,
+Q124535978,Ashkenaz,
+Q126210539,Liugu,
+Q127424576,Kingdom of Notsé,
+Q129744749,Ladwa State,
+Q132690253,Second Iraqi Republic,
+Q30,United States,United States of America|US|USA|U.S.|U.S.A.|the States|the United States of America|US of America|the US|the U.S.|the US of A|U.S. of America|the US of America|the USA|the U.S.A.|the U.S. of A|US of A|the U.S. of America|U. S.|U. S. A.|the United States|Merica|Murica|America|United States of North America
+Q38,Italy,Italia|Italian Republic|IT|ITA|Republic of Italy|Repubblica Italiana|🇮🇹
+Q43,Turkey,TR|TUR|Türkiye|Turkiye|Republic of Türkiye|Republic of Turkey
+Q213,Czech Republic,CZE|CZ|Czechia|CZR
+Q235,Monaco,Principality of Monaco|mc|MON|Fort-Hercule|Principality and Diocese of Monaco|Principauté de Monaco|Mùnegu|Prinçipatu de Mùnegu|Principato di Monaco|Principatu de Mu̍negu
+Q242,Belize,bz
+Q252,Indonesia,Republic of Indonesia|id|ID|INA|IDN
+Q258,South Africa,Republic of South Africa|RSA|SA|za|zaf|R.S.A.
+Q262,Algeria,People's Democratic Republic of Algeria|dz|ALG|Dzayer|Djazaïr
+Q664,New Zealand,NZ|NZL|Dominion of New Zealand|Aotearoa|nz|Aotearoa New Zealand|New Zeeland|Zeelandia Nova|Nova Zelandia|Zelandia Nova
+Q668,India,Republic of India|Bharat|Bharatvarsh|Hindustan|IN|IND|Bharata|Hindoostan|Indostan|Bharat Ganarajya
+Q672,Tuvalu,Ellice Islands|tv|TUV
+Q695,Palau,Republic of Palau|Belau|Pelew|pw|Republic of Belau|Pelew islands|Peeloo|Pellew
+Q702,Federated States of Micronesia,"Micronesia|FSM|fm|Fed. Sts. Micronesia|Fed. Sts. of Micronesia|Federated States of Micronesia, FSM"
+Q710,Kiribati,Republic of Kiribati|ki|KIR
+Q717,Venezuela,Bolivarian Republic of Venezuela|BR Venezuela
+Q929,Central African Republic,Central Africa|CAR|cf|🇨🇫|CAF
+Q948,Tunisia,Republic of Tunisia|Tunisian Republic|tn|TUN
+Q1006,Guinea,Guinea-Conakry|Republic of Guinea|gn|GUI
+Q1007,Guinea-Bissau,Republic of Guinea-Bissau|gw|GBS
+Q1027,Mauritius,Republic of Mauritius|Maurice|Moris|MU|MRI
+Q1036,Uganda,Republic of Uganda|ug|UGA|UG|The Republic of Uganda|Ugandah
+Q2277,Roman Empire,Imperium Romanum|Romanum imperium|imperium romanum
+Q5743,Ebla,Tell Mardikh
+Q8733,Qing dynasty,Empire of the Great Qing|Great Qing|Qing Empire|Qing China|Manchu China|Ch'ing Empire|Ch'ing China|Great Qing state|Ta Tsing Empire|Tai Ching Ti Kuo|Manchu Tartar dynasty|Tartar Chinese Empire|Chinese-Tartar empire|Tartar-Manchu dynasty|Ta-tsing dynasty|Tai-tsing dynasty|Tsing dynasty|Great Tsing dynasty|Great Pure dynasty|Manchu empire|Manchu dynasty|Great Ching dynasty|Great Qing Empire|Ch'ing dynasty
+Q11774,Gupta Empire,Golden age of india|Gupta dynasty
+Q12548,Holy Roman Empire,First Reich|Reich|HRE|Roman-German Empire|Old Empire
+Q15864,United Kingdom of the Netherlands,
+Q17167,Roman Republic,res publica|Rome
+Q20135,Grand Duchy of Hesse,Hesse-Darmstadt|Großherzogtum Hessen|Hesse|Grand Duchy of Hesse and by Rhine|Hesse and by Rhine
+Q28278,Provisional Government of the Republic of Korea,PGRK|Korean Provisional Government|KPGR
+Q28370,Goguryeo,Goryeo|Koryo
+Q31747,Irish Free State,Saorstát Éireann
+Q34266,Russian Empire,Tsarist Russia|Imperial Russia|Russia|Empire of Russia|Moscovy|Moscovy or Russia|Russia or Moscovy|Rossia|Rusia
+Q37024,Serbia and Montenegro,Serbia-Montenegro
+Q40362,Sahrawi Arab Democratic Republic,SADR|🇪🇭|Saharawi Arab Democratic Republic
+Q41137,Assyrian Empire,Early Period|Assyria
+Q55522,Nanzan,
+Q61292,Far Eastern Republic,FER
+Q62623,Kalmar Union,Union of Kalmaris
+Q62943,Maurya empire,
+Q68682,Bukharan People's Soviet Republic,
+Q69808,Vichy France,Vichy government
+Q69829,French Fourth Republic,
+Q71084,First French Empire,Greater French Empire|Napoleonic Empire|French Empire|Napoleonic France|French First Empire
+Q75903,Turkestan Autonomous Soviet Socialist Republic,TASSR
+Q80702,Spanish Empire,Imperio español|Monarquía universal Española
+Q83572,Sikh Empire,Sikh Khalsa Raj|Sarkar-i‐Khalsa
+Q107299,Kingdom of Northumbria,Norþanhymbra|Northumbria
+Q121932,People's Republic of Bulgaria,Narodna republika Balgariya|PR Bulgaria|Communist Bulgaria|Socialist Bulgaria|PRB
+Q138251,Asturian Peasants' and Workers' Republic,
+Q139319,Russian Republic,Rossiyskaya respublika|Republic of Russia
+Q145749,Kingdom of Nri,Nri Kingdom|Nri polity
+Q146328,Commonwealth of the Philippines,Philippine Commonwealth|Mancomunidad Filipina
+Q146720,Mandatory Iraq,British Mandate of Mesopotamia
+Q146871,First Saudi State,1st Saudi State|First State of Saudi|Emirate of Diriyah
+Q146880,State of Syria,
+Q148499,Margraviate of Brandenburg,the House of Brandenburg
+Q151536,Novgorod Republic,Great Novgorod
+Q153665,German South-West Africa,Deutsch-Südwestafrika|DSWA
+Q157535,People's Republic of Zanzibar,PR Zanzibar|People's Republic of Zanzibar and Pemba
+Q158835,Prince-Bishopric of Liège,Prince-Bishopric of Liege|Principality of Liège|Principality of Liege
+Q160307,Fatimid Caliphate,Fatimid empire|Fatimid dynasty
+Q170468,United Arab Republic,UAR
+Q170770,Grand Principality of Moscow,Principality of Moscow|Muscovy|Muscovite Russia
+Q180573,Republic of Vietnam,RVN|South Vietnam
+Q184536,Mali Empire,Manden Kurufaba|Manden|Nyeni|Empire of Mali
+Q188553,Batavian Republic,Batavian Commonwealth|French occupation of the Netherlands|French occupation of the Dutch Republic
+Q199389,Principality of Iberia,Principate of Iberia
+Q199688,Almohad Caliphate,Almohads|Almohad Empire|Almohades
+Q201705,Khmer Empire,Khmer
+Q202775,Qu'aiti Sultanate,Qu'aiti Sultanate of Shihr and Mukalla|Qu'aiti
+Q205466,Göktürks,Ashina Türks|Celestial Turks|Kok Turks|Gökturks|Sky Turks
+Q205708,Taifa of Granada,
+Q206279,Waalo,
+Q206696,Helvetic Republic,Helvetia
+Q207272,Second Polish Republic,II Rzeczpospolita
+Q210198,Erivan Khanate,Khanate of Erivan|Khanate of Yerevan
+Q212439,Cossack Hetmanate,Zaporozhian Host
+Q217230,Empire of Brazil,Império do Brasil|Brazilian Empire|Imperio do Brasil|Imperio do Brazil
+Q229411,Delhi Sultanate,Sultanate of Delhi
+Q252323,Taifa of Dénia,Taifa of Denia
+Q265824,Second Hellenic Republic,Hellenic Republic|Greece|2nd Hellenic Republic
+Q273025,Gallic Empire,
+Q276841,Taifa of Badajoz,
+Q313175,Saxe-Lauenburg,Herzogtum Sachsen-Lauenburg|Lauenburg
+Q324470,Qara Qoyunlu,Kara Koyunlu|Kara Koyunlu state|Qaraqoyunlu|Black sheep Turkomans
+Q325493,Kingdom of Abkhazia,Kingdom of the Abkhazes|Egris-Abkhazia Kingdom|Abasgia
+Q330756,Transcaucasian Democratic Federative Republic,TDFR|ZDFR
+Q330988,Democratic Kampuchea,
+Q371334,Second Mexican Empire,Segundo Imperio Mexicano|Mexican Empire
+Q373988,Beylik of Teke,
+Q382593,New Netherland,Nieuw-Nederland|Nieuw Nederland
+Q404774,Sultanate of Lahej,
+Q428634,Lordship of Negroponte,
+Q435583,Old Swiss Confederacy,Swiss Confederation|Switzerland
+Q463289,Cispadane Republic,La Repubblica Cispadana
+Q466581,Hoysala Empire,Hoysala
+Q467864,People's Socialist Republic of Albania,Republika Popullore Socialiste e Shqipërisë|PR Albania|People's Republic of Albania|Democratic Government of Albania|PSR Albania|Communist Albania|Socialist Albania|Albanian People's Republic|Hoxha's Albania
+Q468814,Dahomey,Kingdom of Dahomey
+Q481492,Rhenish Republic,
+Q481766,Amurru kingdom,Amurru
+Q487829,Chagatai Khanate,Chagatai Ulus|Chagatai Horde
+Q494625,Usan,Usan-guk
+Q519718,Taungoo dynasty,Toungoo dynasty
+Q533558,Kingdom of Croatia-Slavonia,Croatia-Slavonia|Croatia and Slavonia
+Q544630,Republic of Maryland,Independent State of Maryland|Maryland in Africa|Maryland-in-Africa|Maryland in Liberia
+Q545205,Transcaucasian Socialist Federative Soviet Republic,Transcaucasian SFSR|TSFSR
+Q556263,Brunswick-Lüneburg,Duchy of Brunswick-Lüneburg|Duchy of Brunswick and Lüneburg|Brunswick–Lüneburg|Duchy of Brunswick–Lüneburg
+Q600524,Sokoto Caliphate,Al Khilafa al Bilad As-Sudan|Daular Khalifar Sakkawato|Al Khilafa Al Bilad As-Sudan|Fulani Empire|Sokoto
+Q612359,Kingdom of Lithuania,
+Q633573,Kingdom of Rheged,Rheged
+Q657448,County of Conflent,
+Q659312,Ligurian Republic,Repubblica Ligure
+Q665248,Freistaat Schwenten,
+Q671899,Duchy of Teschen,Duchy of Těšín|Duchy of Cieszyn
+Q676811,Taifa of Valencia,
+Q684430,Rauracian Republic,
+Q686965,Anhalt-Bernburg,Principality of Anhalt-Bernburg
+Q694494,Duchy of Zator,
+Q696908,Kingdom of Poland,Kingdom of Poland (1917–1918)|Regency Kingdom of Poland
+Q697084,Duchy of Oldenburg,Herzogtum Oldenburg|Oldenburg
+Q699964,Archduchy of Austria,
+Q703340,Wiman Joseon,
+Q704300,Free City of Frankfurt,
+Q704358,State of Burma,
+Q708865,Reformed Government of the Republic of China,
+Q713393,Okjeo,
+Q713397,Dongye,
+Q718763,South Seas Mandate,South Pacific Mandate
+Q736481,Republic of Zakopane,Rzeczpospolita Zakopiańska
+Q751372,Maflahi,
+Q752431,New Hebrides,New Hebrides Condominium
+Q756895,Kediri,
+Q760893,Jolof Empire,Wolof Empire|Wollof Empire|Djolof Empire|Dyolof Empire|Jolof polity
+Q770776,Dutch Gold Coast,Gold Coast
+Q787204,High Roman Empire,Early Roman Empire|High Empire
+Q794210,Aztec Triple Alliance,Aztec Empire
+Q797422,Republic of Upper Volta,Upper Volta
+Q797527,British Togoland,
+Q799040,Bahdinan,Badinan|Badînan|Behdînan|Behdinan
+Q806963,Banswara State,
+Q809955,Bashahr State,Bashahr
+Q814959,Beiyang Government,Peiyang Government|First Republic of China (1912-1928)
+Q831048,Nassau-Hadamar,
+Q832888,county of Nordgau,Nordgau|Nordgau (Alsace)|Nortgowe|Nortgovia|Nortgau|Comitatus Nortgawe|Comitatus Nortgowe
+Q838261,Federal Republic of Yugoslavia,FR Yugoslavia|FRY|Yugoslavia|Serbia
+Q842390,Tuʻi Tonga Empire,Tongan Empire
+Q848383,Duchy of Rome,
+Q854850,Bharatpur State,Jat State of Bharatpur|Kingdom of Bharatpur
+Q855058,Bhor State,
+Q866716,Jalayirid Sultanate,Jalayirids
+Q877155,Chera dynasty,Cheras|Chera
+Q877619,French Consulate,
+Q877875,Palmyrene Empire,
+Q887803,Bruneian Sultanate,Empire of Brunei|Sultanate of Brunei|Negara Brunei|Bruneian Empire
+Q888574,Pagan kingdom,First Burmese Empire
+Q889030,Kingdom of Manipur,Manipur|Kangleipak Kingdom|Kangleipak State
+Q896856,Prince-Bishopric of Konstanz,Prince-Bishopric of Constance|Prince-Bishopric Konstanz
+Q907234,French protectorate in Morocco,Protectorat français
+Q917553,Patiala State,
+Q932487,Miraj Senior,
+Q965346,Tripolitanian Republic,
+Q973433,Dungarpur State,
+Q992220,Etrurian Republic,Republic of Etruria
+Q1069959,Kingdom of Imereti,Imereti
+Q1072362,Provisional Revolutionary Government of the Republic of South Vietnam,PRG
+Q1099731,Oghuz Yabgu State,
+Q1108445,Kievan Rus',Rus|Kyivska Rus'|Kyivan Rus|Kyivan Rus'|Kyivan Rusʼ|Kyivan Rusʹ|Kyivan state|Kievan Rus
+Q1150706,Kalinga,
+Q1178974,Xi dynasty,
+Q1183407,Taifa of Algeciras,
+Q1183649,Deccan sultanates,
+Q1188046,Yan,Great Yan|An-Shi
+Q1190905,Duchy of Pannonian Croatia,Principality of Pannonian Croatia
+Q1192437,State of East Sumatra,East Sumatra
+Q1194765,Kamarupa,
+Q1196201,Tuyuhun,‘A-zha|Tuihun|Tuhun
+Q1235720,Republic of Lucca,
+Q1269234,Stellaland,
+Q1317991,Mạc dynasty,
+Q1322181,Government of Meiji Japan,Meiji government|Meiji Japan government
+Q1332370,Ellipi,
+Q1357404,Chiang Hung,Keng Hung|Chiang Rung|Mueang Ho Kham Chiang Rung|Kingdom of Chiang Hung|Kingdom of Jinghong|Kingdom of Sipsong Panna|Kingdom of Sibsongbanna
+Q1375154,Benares State,Kashi-Benares|Kingdom of Kashi
+Q1376303,Malla,
+Q1395320,Duchy of Siewierz,
+Q1407718,Confederate Ireland,
+Q1408641,Sultanate of Gowa,Kingdom of Gowa|Gowa-Tallo|Sultanate of Goa|Kingdom of Goa|Sultanate of Gowa-Tallo|Makassar Kingdom
+Q1466831,Marion,
+Q1479726,Federation of Malaya,Malaya
+Q1483430,Principality of Kyiv,Duchy of Kyiv|Kyiv principality
+Q1508143,Ukrainian State,Hetmanate|Hetman state|Hetman government|Hetmanshchyna
+Q1515009,Duchy of Greater Poland,
+Q1553143,Alwar State,
+Q1555101,Western Guo,
+Q1582792,Mira,
+Q1614427,Montpellier seigneury,
+Q1615455,Duchy of Mirandola,
+Q1615766,Hessen-Philippsthal-Barchfeld,
+Q1627613,Republic of Ancona,Repubblica di Ancona
+Q1627675,Pyu city-states,
+Q1656775,Kingdom of Lithuania,
+Q1656908,Idrisid Emirate of Asir,
+Q1660566,Sultanate of Banjar,Sultanate of Banjarmasin|Kingdom of Banjar|Banjar Sultanate|Kingdom of Kayu Tangi
+Q1721466,Kapitaï and Koba,
+Q1740542,Quba Khanate,
+Q1775277,Dominion of India,India|Union of India
+Q1779823,Alash Autonomy,Kazakhstan|Alash Orda
+Q1784316,Koriya,
+Q1790223,Mimana,Imna
+Q1806491,Transylvania Colony,"Transylvania, Kentucky"
+Q1842362,Crimean Socialist Soviet Republic,
+Q1897800,Wahidi Balhaf,
+Q1929769,Land of Nod,
+Q1951726,Mudhol State,
+Q1967878,Land of Uz,
+Q1977088,Sealand,
+Q2006756,First Empire of Haiti,Premier Empire d'Haïti
+Q2029317,Samtskhe atabegate,Samtskhe-Saatabago|Atabegate of Samtskhe|Principality of Samtskhe
+Q2029522,Ternate Sultanate,Sultanate of Ternate
+Q2037576,Republic of San Marco,Repubblica di San Marco|Venetian Revolution of 1848|Repùblega Vèneta
+Q2039087,Chandelas of Jejakabhukti,
+Q2067184,Bulgarian Empire,
+Q2096441,Subartu,
+Q2138849,Free City of Landau,
+Q2139081,Kiang,
+Q2145348,Republic of Graaff-Reinet,
+Q2145397,Goshen,Goshen (South Africa)|State of Goshen
+Q2145402,South Peru,South Peruvian State|South Peruvian Republic|Republic of South Peru|Southern Peru
+Q2166619,Mong Mao,
+Q2265843,Sefwi,
+Q2267498,Xích Quỷ,Sitkui|Văn Lang
+Q2290502,Sitamau State,
+Q2294218,Burid dynasty,Burids
+Q2300246,Kingdom of Fez,
+Q2327139,Taifa of Guadix and Baza,
+Q2347668,Libyan Arab Republic,
+Q2360973,Duchy of Carniola,
+Q2368688,Republic of Cabinda,
+Q2387381,Tmutarakan Rus,Principality of Tmutarakan
+Q2390604,Taifa of Arcos,
+Q2428714,Sena dynasty,
+Q2458078,Cokossi,
+Q2460755,Kingdom of Sweden,Sweden in the Middle Ages|medieval Sweden|Medieval Sweden|Sweden (800–1521) history
+Q2478615,Taifa of Jerez,
+Q2485209,Emirate of Beihan,
+Q2501055,Beylik of Dilmaç,
+Q2528503,Sarmatia,
+Q2534729,Tournaisis,
+Q2548416,Wankaner State,
+Q2607292,Eastern Turkic Khaganate,
+Q2626105,Kingdom of Sophene,
+Q2643575,Kingdom of Italy,
+Q2662180,Qocho,Kara-Khoja Kingdom|Idiqut
+Q2666791,Taifa of Morón,Taifa of Moron
+Q2685298,Romanian People's Republic,Republica Populară Romînă|RPR|PR Romania|People's Republic of Romania|People's Republic of Rumania|PR Rumania|Romanian PR|Romania PR
+Q2805491,Lochlann,
+Q2830724,Beylik of Alaiye,Alaiye
+Q2886278,Low Roman Empire,Lower Roman Empire|Low Empire
+Q2969231,Liuqiu,Lewchew
+Q2980623,Kingdom of Bosnia,Bosnian Kingdom
+Q2989469,Makran,
+Q2989491,Kharan State,
+Q3045696,Regency of Algiers,Ottoman Algeria|Kingdom of Algiers
+Q3079884,Fuladu,Fulladu
+Q3087763,Republic of Egypt,Egyptian First Republic|Egyptian Republic (1953–1958)
+Q3177663,Pakualaman,
+Q3192661,Kangra-Lambagraon,
+Q3281269,North Sea Empire,Anglo-Scandinavian Empire
+Q3324546,Sovereign Council of Asturias and León,Sovereign Council of Asturias and Leon
+Q3436066,Qutaibi,
+Q3446156,Buellt,
+Q3446211,Paser Sultanate,
+Q3456469,Republic of Liège,République liégeoise|Republic of Liege|Republique liegeoise
+Q3456472,Republic of Metz,Messin Republic
+Q3477825,Lordship of Carpi,Signoria di Carpi|Signoria dei Pio
+Q3559284,Free Cities of Menton and Roquebrune,
+Q3566568,Wassoulou,
+Q3574793,Kingdom of Tazeroualt,
+Q3623202,District of Branković,
+Q3656404,Despotate of Angelokastron and Lepanto,
+Q3755547,Kingdom of Italy,Regnum italicum|Kingdom of Italy (476–493)|Kingdom of Odoacer
+Q3765117,Eastern Chalukyas,Chalukyas of Vengi
+Q3771895,Glastening,
+Q3773496,Kingdom of Gibraltar,
+Q3847034,Margraviate of Istria,
+Q3916378,Guiyi Circuit,Guiyi Army|Xihan Dunhuang Kingdom|Xihan Jinshan Kingdom|Dunhuang Kingdom of Western Han|Golden Mountain Kingdom of Western Han
+Q3921984,Principality of Pavia,
+Q3932032,Kamata Kingdom,
+Q3986684,Chach,Shash
+Q4130471,Vyatka Republic,
+Q4146687,State Meeting in Ufa,
+Q4147012,State of Buryat-Mongolia,
+Q4167201,Dosso Kingdom,Sultanate of Dosso
+Q4199254,Sultanate Taranchinsky,Kulzhinsky Sultanate
+Q4204052,Islamic Revolutionary State of Afghanistan,
+Q4272336,Surparaka Kingdom,
+Q4272627,Kasmira Kingdom,
+Q4338046,Beylik of Osman,
+Q4397920,Russia Eastern Outskirts,
+Q4406420,Confederation of Madya-as,Madja-as|Confederation of Madja-as|Madya-as
+Q4426901,Sogaya,
+Q4453007,Tashkent Khanate,
+Q4522518,Principality of Shaki,
+Q4778463,Anziku Kingdom,Teke Kingdom|Tio Kingdom|Tyo Kingdom
+Q4854092,Brunswijk-Celle,
+Q5622720,Commonwealth realm of Guyana,Guyana
+Q5788450,Restored Republic,
+Q5794608,Huastec civilization,Huaxtec|Wastek|Huastec
+Q5941965,Huna Kingdom,
+Q5949183,Gizilbunda,
+Q6124144,Jaipur State,Jaipur (Princely State)|Jeypore|Kingdom of Amber|Kingdom of Dhoondar
+Q6127700,Dangchang Kingdom,
+Q6412538,Kingdom of Araba,
+Q6412602,Kingdom of Igara,
+Q6412613,Kingdom of Kano,
+Q6412645,Kingdom of Raigama,Raigama
+Q6553448,State of Buenos Aires,Estado de Buenos Ayres
+Q6663923,Locach,Lochac|Locat
+Q6666168,Tĩnh Hải quân,
+Q6728459,Madra Kingdom,
+Q7130792,Pandya Kingdom,
+Q7251405,Protectorate of San Martín,Perú|Regime of the Free Departments of Peru|Protectorado de Peru
+Q7260839,Purang-Guge Kingdom,
+Q7522239,Sindhu Kingdom,
+Q7603765,State of Malta,
+Q7636790,Sultanate of Bambao,
+Q7636795,Sultanate of Dahlak,
+Q7636800,Sultanate of Showa,
+Q7675292,Tagmadert,Tagmad(d)art
+Q8575586,Umayyad Caliphate,Umayyad Empire|Caliphate of Damascus
+Q10555255,Najie,Nagarahara
+Q10749897,Ancient Hawaii,
+Q10869627,Northeast Supreme Administrative Council,
+Q10872458,Northwest Chinese Soviet Federation,
+Q10922467,Tsongkha,
+Q10955123,South Chahar Autonomous Government,
+Q11089317,North Shanxi Autonomous Government,North Shansi Autonomous Government|Jinbei Autonomous Government
+Q11175560,Gaochang Kingdom (Qu clan),
+Q11750526,"Duchy of Courland, Semigallia and Pilten",
+Q11750543,Duchy of Kuyavia,
+Q11917803,Al-Dhubi,
+Q11929997,Kushi,
+Q12132241,Naiman state,
+Q12163800,Ukrainian State,
+Q12229205,Uyunid Emirate,Uyunid kingdom
+Q12491027,Bali Kingdom,Balinese Kingdom
+Q12584196,Goriguk,
+Q12817455,County of Nassau,
+Q12836180,European Hun Empire,Western Hun Empire
+Q12865680,Principality of Kakheti,
+Q13093931,Janggala,
+Q14552167,Porbandar State,
+Q14618893,Classical Roman Empire,the Roman Empire from 27 BCE to 395 AD history|Roman Empire from 27 BCE to 395 AD history|history of the Roman Empire from 27 BCE to 395 AD|united Roman Empire|unsplit Roman Empire|Greater Roman Empire|Full Roman Empire|Complete Roman Empire|Classic Roman Empire
+Q14759030,Commonwealth realm of Mauritius,Mauritius
+Q15604942,Duchy of Montferrat,
+Q15881233,Republic Valais,
+Q15900712,Li Guangchang,
+Q15928939,Eighteen Gyalrong kingdoms,Eighteen Gyalrong chiefdoms|Eighteen Gyalrong principalities
+Q15953263,Turpan Khanate,
+Q16056854,Kingdom of Hungary,Hungary
+Q16178052,Iseoguk,
+Q16183455,East Okjeo,Dongokjeo
+Q16187820,Golbeolguk,
+Q16271387,Sultanate of Singora,
+Q16595757,Genoese Republic,
+Q16673775,Kingdom of Kampuchea,
+Q16674373,République du Djéguéme,
+Q16674377,Federal Islamic Republic of the Comoros,Federal and Islamic Republic of the Comoros
+Q16685842,State of the Comoros,Comorian State
+Q16880258,Kingdom of Lingtsang,
+Q17025342,Chiefdom of Tsanlha,Chiefdom of Xiao Jinchuan|Chiefdom of Minor Jinchuan
+Q17061544,Hengshan,
+Q17061755,Bahrain and its Dependencies,Bahrain history|Bahrain and its Dependencies|al-Baḥrayn wa Tawābi‘hu|State of Bahrain and its dependencies
+Q17176539,County of Aversa,
+Q18164260,Radhanpur State,
+Q18450904,Hesse-Hanau,
+Q18590086,County of Loano,
+Q19915237,People's Republic of Albania,
+Q20088823,Kingdom of Arshakuni,
+Q21027413,County of Piedmont,
+Q21704200,Kingdom of Parisos,
+Q21849591,Diggers Republic,Republic of Griqualand West|Digger's Republic|Klipdrift Republic
+Q22237691,Kingdom Popo',
+Q22667352,Sak Tz'i',
+Q25400571,Emirate of Aleppo,
+Q25459957,Kingdom of Banggai,
+Q25482793,Naning,
+Q28406119,Free Republic of the Congo,"Congo-Stanleyville,"
+Q28478026,Ptolemaic Kingdom of Cyprus,
+Q28501433,Free State of Costa Rica,
+Q28517256,Peruvian Republic,Peruvian Republic of the North|North Peru|Peru
+Q28846511,Kingdom of Denmark,
+Q30745609,Nigerien Sixth Republic,
+Q30899490,Miguel Iglesias government,Regenerator Government of the Peruvian Republic|Regenerator Government|Peruvian Republic|Government of Miguel Iglesias
+Q38251605,People's State of Bavaria,
+Q39501433,State of Venezuela,
+Q58942549,landgraviate of Lower Alsace,Lower Alsace
+Q63149558,Afsharid Iran,Afsharid State|Empire of Afsharids|Afsharid Persia|Afsharid Empire
+Q64576860,Lordship of Bologna,Signoria of Bologna
+Q68819968,Bactria,
+Q94995143,State of Upper Peru,Upper Peru|United Provinces of Upper Peru
+Q97352455,Chien-kun,
+Q97704156,Republic of Haiti,South Haiti
+Q97924757,Free City of Colmar,
+Q97946582,Free City of Munster,
+Q99930377,Republic of Zoutpansberg,
+Q104192518,Taifa of Valencia (third period),
+Q108865218,Lebanese Republic under French mandate,mandatory Lebanese Republic
+Q109875188,Kingdom of Trokyap,Trokyap|Chiefdom of Trokyap
+Q110362913,Chacha Empire,
+Q111805383,Qarmatian state of Bahrayn,Qarmatian state|Carmathian state|Qarmatian Republic
+Q111822288,Second Bani Khalid Emirate,
+Q111967268,Islamic government of Laristan,Islamic state of Laristan|Islamic nation|Laristan nation
+Q111971793,Rulers of Lar,Rulers of Laristan
+Q115576895,Free imperial city of Ravensburg,
+Q116301411,universe creation,creating a universe|creating universes
+Q118115576,Ita Kingdom,Sylhet
+Q118192190,Chiefdom of Shenbian,
+Q121594882,Nanmirimidongguk,
+Q125675829,Emirate of Kars,
+Q132042348,Kaan kingdom,Kaanu'l dynasty|Kaan dynasty|Kan kingdom|Snake kingdom
+Q27,Ireland,Éire|Hibernia|Southern Ireland|Irish Republic|Republic of Ireland
+Q115,Ethiopia,Federal Democratic Republic of Ethiopia|et|ETH
+Q145,United Kingdom,UK|United Kingdom of Great Britain and Northern Ireland|U.K.|U. K.|U K|G.B.|G. B.|G B|Great Britain|G.B.R.|G B R|Britain|Great Britain and Northern Ireland|The United Kingdom of Great Britain and Northern Ireland|The UK
+Q189,Iceland,Republic of Iceland|ISL
+Q212,Ukraine,UA|UKR|Ukrainia|Ukr.|Ukraina|Ukraïna
+Q221,North Macedonia,Republic of North Macedonia|MKD|FYROM|FYR Macedonia|Former Yugoslav Republic of Macedonia|NM|Republic of Macedonia|Macedonia
+Q222,Albania,Republic of Albania|Republika e Shqipërisë|Shqipërisë|ALB|People's Socialist Republic of Albania|People's Republic of Albania|Republika Popullore Socialiste e Shqiperise|Republika Popullore e Shqiperise|AL
+Q229,Cyprus,Greek Cypriot State|Republic of Cyprus|Greek Administration of Southern Cyprus|CY|CYP
+Q574,Timor-Leste,Democratic Republic of Timor-Leste|East Timor|Timor Leste
+Q691,Papua New Guinea,Independent State of Papua New Guinea|PNG|pg
+Q697,Nauru,Republic of Nauru|Pleasant Island|Naoero|nr
+Q712,Fiji,Republic of Fiji|fj|FIJ|Republic of the Fiji Islands|Viti|Fijī|Matanitu Tugalala o Viti|Fijī Gaṇarājya
+Q734,Guyana,Co-operative Republic of Guyana|gy|Republic of Guyana|GUY
+Q736,Ecuador,Republic of Ecuador|Republic of the Equator|The Ecuadorian State
+Q739,Colombia,🇨🇴|Republic of Colombia|COL|CO|ISO 3166-1:CO|The Republic of Colombia|Colombiá
+Q750,Bolivia,bo|Plurinational State of Bolivia|bol|Republic of Bolivia|BOL|Bolivia (Plurinational State of)
+Q781,Antigua and Barbuda,ag|🇦🇬|ANT|ATG|A&B
+Q783,Honduras,hn|Republic of Honduras|Honduran Republic|HON|HN|HND
+Q805,Yemen,Republic of Yemen|ye|Rep. Yemen|YEM|YE
+Q843,Pakistan,Islamic Republic of Pakistan|Republic of Pakistan|pk|PAK
+Q874,Turkmenistan,Turkmenia|tm|TKM
+Q889,Afghanistan,Affghanistan|Afghania|Affghanisthan|Affghaunistan|Afghanisthan|Afghaunistan|Afghaunistaun
+Q928,Philippines,PH|ph|Republic of the Philippines|The Philippines|Philippine Islands|PHL|PHI|RP
+Q1032,Niger,Republic of Niger|Republic Niger|ne|The Niger|Republic of the Niger
+Q1033,Nigeria,Federal Republic of Nigeria|NG|NGA|NGR|Naija|FRN
+Q1037,Rwanda,Republic of Rwanda|rw|RW
+Q1039,São Tomé and Príncipe,Democratic Republic of São Tomé and Príncipe|São Tomé og Príncipe|Sao Tome and Principe|st|STP|Sao Tome & Principe
+Q2184,Russian Soviet Federative Socialist Republic,Soviet Russian Republic|Russian Socialist Federative Soviet Republic|Russian SFSR|Soviet Russia|RSFSR|Russian Soviet Federal Socialist Republic|Russian Soviet Federated Socialist Republic|Russian Socialist Federated Soviet Republic|R.S.F.S.R.|the Russian SFSR|Communist Russia|Russian S.F.S.R.
+Q7313,Yuan dynasty,Great Yuan Empire|Empire of the Great Khan|Great Yuan Great Mongol State|Great Yuan|Yüan|Yuan|Yuan Empire|Yuan imperial dynasty
+Q9903,Ming dynasty,Empire of the Great Ming|Ming China|Ming Empire|Ming imperium|Ming-era|Ming era|Ming period|Great Ming
+Q12557,Mongol Empire,Mongolian Empire|Great Mongol Nation
+Q26472,Dali Kingdom,Kingdom of Dali|Dablit Guaif|Dali State
+Q26576,Hephthalites,White Huns|Ephthalite Empire|Hephthalite Empire
+Q28179,Joseon,Choson|Chosun|Yi Joseon|Lee Joseon|Joseonguk|Joseon dynasty|Choson dynasty|Yi dynasty|Korea|Corea|Coree|Joseon Korea|Choson Korea|Chosun Korea|Joseon Corea|Choson Corea|Chosun Corea|Kingdom of Korea|Kingdom of Corea
+Q28405,Gojoseon,Joseon|Chosŏn|Chaoxian
+Q28456,Silla,Seora|Seorabeol|Sara|Saro|Gyerim|Shilla|Silla (Kingdom)
+Q30573,Lokot Autonomy,Lokot Republic
+Q33296,Mughal Empire,Mogul Empire|Mughal India|Moghul Empire|Mogul India|Moghul India|Mogol Empire|Mogol India|Moghol Empire|Moghol India|Moghal Empire|Moghal India|Mongol Empire in India|Hindostan|Hindustan|Dominion of Hindustan|Land of Hind|Sultanate of al-Hind|Hind
+Q39473,Transylvania,Siebenbürgen
+Q41304,Weimar Republic,German Reich|Weimar Germany|Germany|German Republic|Republic of Germany|German People's State
+Q41642,Phoenicia,Canaan
+Q55521,Chūzan,
+Q58202,July Monarchy,Kingdom of France|Monarchie de Juillet
+Q58326,French Second Republic,Second Republic|Second Republic of France
+Q62389,Icelandic Commonwealth,Þjóðveldið Ísland|Icelandic Free State|Free State of Iceland
+Q62589,Union between Sweden and Norway,Svensk-norska unionen|Den svensk-norske union|Sweden-Norway
+Q62651,Denmark–Norway,Denmark-Norway
+Q71747,Duchy of Brittany,Dugelezh Breizh|Duché de Bretagne|Bretagne|Brittany
+Q81931,Confederate States of America,CSA|C.S.A.|C.S.|CS|the rebellious States|the Southern Confederacy|the seceding States|the States in rebellion|the Confederacy|the Confederate States of America|Confederacy|the Confederate States
+Q116080,Polish Underground State,Polish Secret State
+Q117020,Free Imperial City of Nuremberg,Imperial City of Nuremberg
+Q130229,Georgian Soviet Socialist Republic,Georgian SSR|Georgian S.S.R.|Soviet Georgia
+Q139708,French Mandate for Syria and the Lebanon,
+Q139948,Khanate of Kalat,Kalat Khanate|Qalat Khanate|Kalat (princely state)
+Q150981,North German Confederation,Norddeutscher Bund
+Q152115,Duchy of Warsaw,Grand Duchy of Warsaw
+Q152855,Kingdom of Tungning,Tywan|Kingdom of Taiwan|Koxinga dynasty|Zheng dynasty|Zheng clan Kingdom|Yanping Kingdom|Kingdom of Tang-lêng|Kingdom of Tang-lîng|Kingdom of Tangling|Ian-peng Kingdom|Kingdom of Tywan
+Q153015,Kingdom of Saxony,Saxony
+Q153529,Duchy of Milan,
+Q154816,Kingdom of the Iberians,Principality of Iberia|Kingdom of Iberia|Kingdom of Tao-Klarjeti|Tao-Klarjeti
+Q156020,State of the Teutonic Order,State of the German Order
+Q162192,Riograndense Republic,Piratini Republic
+Q165154,Kingdom of Sardinia,Piedmont-Sardinia|Kingdom of Sardinia-Piedmont|Kingdom of Sardinia (1324–1861)|Kingdom of Piedmont-Sardinia
+Q168811,Kazakh Soviet Socialist Republic,Kazakh S.S.R|Soviet Kazakhstan|Kazakh SSR
+Q171203,Benin Empire,Benin Kingdom|Benin polity|Kingdom of Benin|Benin
+Q175379,Empire of China,Chinese Empire
+Q175934,Pratapgarh State,
+Q177819,Old Kingdom of Egypt,
+Q187035,Principality of Albania,
+Q187461,Kingdom of Hereti,
+Q188586,Kingdom of Sicily,Kingdom of Trinacria
+Q188712,Empire of Japan,Japanese Empire|Imperial Japan|Great Empire of Japan|Great Japanese Empire|Japan
+Q189545,Zengid dynasty,Zangid dynasty|Zangids
+Q189988,Central African Empire,Empire centrafricain
+Q190025,Federal Republic of Central America,United States of Central America|United Provinces of Central America|Federation of Central America|Federated States of Central America|Republic of Central America
+Q192262,Autonomous Province of Western Bosnia,
+Q200686,French Fifth Republic,France|Fifth French Republic|Fifth Republic|5th Republic|5th French Republic|French 5th Republic|French Republic
+Q201038,Roman Kingdom,Rome of Kings|Roman monarchy
+Q203493,Kingdom of Romania,Regatul României|Romanian Kingdom|Rumanian Kingdom|Kingdom of Rumania
+Q216173,Free City of Danzig,
+Q223936,Kingdom of Italy,Regno d'Italia|Royaume d’Italie|Napoleonic Kingdom of Italy|Italian Kingdom|Italy
+Q225890,Kingdom of Strathclyde,Strathclyde|Ystrad Clud|Kingdom of Alt Clut|Kingdom of Al Clud|Strath-Clota|Northern Cumbria|Alt Clut|Alclud
+Q230791,Kingdom of Scotland,Scotland|The Kingdom of Scotland
+Q233263,Second Republic of South Korea,
+Q234197,Srivijaya,Sriwijaya|Siwichai|Srey Vichey|Shih-li-fo-shih|San-fo-ch'i
+Q252580,Duchy of Modena and Reggio,
+Q266657,Labin Republic,
+Q267484,Taifa of Málaga,Taifa of Malaga
+Q268970,Republic of German-Austria,Republik Deutsch-Österreich|German-Austria
+Q309272,Mauretania,Mauritania|Maurusia
+Q319881,Republic of Formosa,Democratic State of Taiwan|Formosan Republic|Taiwan Republic|Republic of Taiwan
+Q326304,Moab,Moabite
+Q328818,Kingdom of Kent,Kingdom of the Kentish|Kent
+Q332005,Principality of Achaea,Principality of Achaia
+Q369587,Kingdom of Kakongo,Kakongo
+Q374521,Bahmani Sultanate,Bahamani Sultanate
+Q394105,Agisymba,
+Q400998,Ahmadnagar Sultanate,
+Q420759,Second Bulgarian Empire,
+Q454436,Palatinate-Sulzbach,
+Q467627,Durrani Empire,Sadozai Kingdom|the last Afghan empire
+Q477900,Parsua,Parsumah
+Q491106,Khanate of Khwarazm,Khiva|Khanate of Khiva
+Q491559,First Republic of South Korea,Syngman Rhee government|Syngman Rhee administration
+Q530670,Kingdom of Burgundy,Burgundy
+Q536476,Empire Peul,Tukolor Empire|Umarian State|Tukolor polity
+Q550374,South African Republic,ZAR|Transvaal Republic|Zuid-Afrikaansche Republiek|The Transvaal|Republic of Transvaal
+Q552033,Bavaria-Munich,
+Q552328,Mannaeans,Mannaen Kingdom
+Q561204,Duchy of Jawor,
+Q568471,Duchy of Żagań,Duchy of Sagan
+Q568638,Duchy of Silesia,
+Q600473,Nakoku,Na no Kuni
+Q635394,Massina Empire,
+Q646374,French India,
+Q652275,County of Cerdanya,Cerdanya
+Q655092,Cisrhenian Republic,
+Q671362,Principality of Turov and Pinsk,
+Q680530,Principality of Terebovlia,
+Q689837,Spanish Sahara,Sáhara Español
+Q692946,Gorizia and Gradisca,Princely County of Gorizia and Gradisca
+Q695448,Lajtabánság,Lajtabansag
+Q697837,Mengjiang,Mongol Border Land|Mengjiang United Autonomous Government|Mongukuo|Mengguguo|Mengkukuo
+Q706488,Kingdom of Middag,
+Q707128,Jeong-an kingdom,
+Q715257,Later Silla,Unified Silla
+Q717451,Beylik of Lâdik,Beylik of Ladik
+Q719183,Arewa,Areóua
+Q736727,Republic of Siena,
+Q738264,State of Los Altos,Los Altos State
+Q762943,County of Holland,Graafschap Holland
+Q764697,Taifa of Orihuela,
+Q777147,Albanian Kingdom,Albania|Kingdom of Albania
+Q786080,Kombo,Combo|Coomba|Kingdom of Kombo
+Q796651,Azcapotzalco,
+Q797579,Baban,بابان
+Q799797,Bafut Subdivision,
+Q807288,Baraundha State,
+Q810557,Bastar State,
+Q824047,Personal union of Poland and Saxony,
+Q828443,Senegambia Confederation,
+Q829356,Kingdom of Makuria,Makuria|Kingdom of Dongola
+Q830084,Brunswick-Wolfenbüttel,Principality of Brunswick-Wolfenbüttel
+Q837326,Principality of Nitra,
+Q842091,Duchy of Normandy,
+Q854917,Bhavnagar State,
+Q859966,Bikaner State,
+Q862518,Geledi Sultanate,Saldanadda Geledi|Sultanate of the Geledi
+Q862532,Ajuuraan state,Ajuran Sultanate|Ajuuraan Sultanate|Ajuran
+Q870517,Odrysian kingdom,
+Q872301,Serbian Empire of Jovan Nenad,
+Q872644,Rugiland,
+Q874283,Latin League,
+Q878276,Later Lê dynasty,Kingdom of Annam|Đại Việt|Le dynasty
+Q878319,Serbian Despotate,
+Q886986,Kingdom of Lindsey,Linnuis|Lindesege|Lindsey
+Q892292,Bone Sultanate,Bone|Sultanate of Bone|Kingdom of Boni
+Q894995,Baudh State,
+Q897179,Bavarian Nordgau,March of the Nordgau
+Q901974,Free City of Danzig,Republic of Danzig
+Q925899,Shaib,
+Q929693,New Fatherland,Patria Nueva
+Q932393,Raigarh State,
+Q976099,Malayan Union,
+Q986881,Kingdom of Butua,Butwa|Kingdom of Butwa|Butua
+Q1030288,Duchy of Krosno,
+Q1032808,Canasapura,
+Q1033421,Hammudid dynasty,
+Q1044536,Spain under the Restoration,Restoration|Bourbon Restoration|Second Bourbon Restoration|Kingdom of Spain|Spain|Restoration (Spain)
+Q1045322,Kingdom of Nanzhao,Nanzhao|Nanchao
+Q1054184,Khmer Republic,
+Q1057118,Kingdom of Chenla,Isanapura Kingdom
+Q1061057,Aceh Sultanate,
+Q1062422,Konbaung dynasty,Alaungphara Dynasty|Third Myanmar Empire|Konbaung Empire|Third Burmese Empire
+Q1068171,Tarḫuntašša,Tarkhuntassa|Tarhuntassa
+Q1068408,Kuru Kingdom,
+Q1077630,Septinsular Republic,Republic of the Seven United Islands
+Q1078062,Principality of Taranto,
+Q1147441,British North Borneo,Colony of North Borneo|State of British North Borneo|British Territories in Borneo|NBO|British Borneo Territories
+Q1149142,Yuwen,
+Q1152126,People's Republic of the Congo,République populaire du Congo|Republique populaire du Congo
+Q1157519,Daiaeni,
+Q1165594,Dar Sila,
+Q1166166,Pagania,
+Q1172593,Dathina,
+Q1172600,Datia State,
+Q1191125,Moghulistan,Moghul Khanate|Eastern Chagatai Khanate|Mogulistan|Xinjiang
+Q1193806,Ancient Kingdom of Shu,Shu Kingdom|Shu (kingdom)|former kingdom of Shu|Ancient Shu Kingdom|Kingdom of Shu|Ancient Shu
+Q1233672,County of Barcelona,
+Q1247020,Liburnia,
+Q1251175,Dotawo,
+Q1254667,Beylik of Erzincan,
+Q1255614,Indo-Parthian kingdom,
+Q1257607,"United Nations Transitional Administration for Eastern Slavonia, Baranja and Western Sirmium",
+Q1261743,Samthar State,
+Q1269910,Republic of Madawaska,
+Q1277557,Democratic Federal Yugoslavia,DF Yugoslavia|DFY|Yugoslavia
+Q1291229,Hua,
+Q1311704,Zachlumia,
+Q1311805,Travunia,
+Q1322662,Principality of Chernigov,Chernihiv principality
+Q1322953,Kingdom of Sanwi,Sanwi Kingdom|Sannvin Kingdom|Sanvi Kingdom
+Q1335260,Emirate of Afghanistan,
+Q1337764,Daura Emirate,
+Q1343485,North Ingria,Kirjasalon tasavalta
+Q1375997,Deccan States Agency,United Deccan States
+Q1395929,Fante Confederacy,Fante Confederation
+Q1396700,Faridkot State,
+Q1398212,Valais Republic,
+Q1461024,Kingdom of Yamma,Janjero|Yamma
+Q1472873,Kingdom of Baguirmi,Sultanate of Bagirmi|Sultanate of Baghermi|Bagirmi polity|Baghirmi Sultanate|Barma Sultanate|Bagirmi Sultanate|Baguirmi Sultanate|Bagirmi
+Q1483643,Nakhon Si Thammarat Kingdom,
+Q1501306,Vakataka empire,
+Q1518576,Provisional National Government of the Southwestern Caucasus,
+Q1533541,Gobir,
+Q1537016,Kanem Empire,
+Q1540575,Gozo,In-Nazzjon Għawdxija|La Nazione Gozitana|The Gozitan Nation|Gozitania
+Q1541353,Sirmoor State,
+Q1557627,State of Franklin,State of Frankland|Free Republic of Franklin|Lost State of Franklin
+Q1586289,Ngoenyang,
+Q1607154,Savanur State,
+Q1629505,Kingdom of Bamum,
+Q1632126,Turdetania,
+Q1644002,Gyaaman,Abron polity|Bondoukou Kingdom|Bonduku Kingdom|Abron Kingdom|Brong Kingdom|Gyaman State|Gyaman
+Q1681450,Jamkhandi State,
+Q1688822,Jhabua State,
+Q1716449,Kingdom of Whydah,Whydah polity|Huedah Kingdom|Juda Kingdom|Ouidah Kingdom|Whydah Kingdom
+Q1720882,Cutch State,Princely State of Cutch|Kingdom of Kutch|Kutch State
+Q1740529,Derbent Khanate,Derbend Khanate
+Q1760473,Principality of Abkhazia,
+Q1771831,Kruševo Republic,
+Q1778255,Sarangarh State,
+Q1778868,Kingdom of Gumma,
+Q1794352,Electorate of Trier,Archdiocese of Trier
+Q1812976,Emirate of Trarza,Trarza|Trarza polity
+Q1878022,Emirate of Bari,
+Q1917014,County of Sicily,County of Sicily and Calabria
+Q1931074,Sarbadars,
+Q1949159,Black Sea Soviet Republic,
+Q1968554,Abazinia,
+Q1968654,Beylik of Saruhan,Sarukhanid dynasty
+Q1975782,Principality of Arches and Charleville,
+Q1991460,Ulaid,Ulster|Ulaidh
+Q2022659,Kolky Republic,
+Q2022804,Socialist Republic of Chile,
+Q2030015,Sultanate of Deli,
+Q2037817,County of Girona,
+Q2042616,Chalkidian League,Chalcidian League|Olynthian League
+Q2056970,Patna State,
+Q2067309,Republic of Afghanistan,Republic of Afghanistan (1978–1992)
+Q2074363,Shupria,
+Q2077765,Taifa of Santa Maria do Algarve,
+Q2081763,Taifa of Saltés and Huelva,Taifa of Saltes and Huelva
+Q2114397,Yogyakarta Sultanate,
+Q2153653,Taifa of Segorbe,
+Q2227570,Duchy of Württemberg,Württemberg
+Q2250546,Taifa of Tavira,
+Q2252973,Duchy of Florence,
+Q2261321,Beylik of Adana,Emirate of Ramadan|Ramadanid principality
+Q2273304,Moravian Serbia,
+Q2287085,Kuban Soviet Republic,
+Q2297073,Giudicato of Cagliari,
+Q2308237,Ahom Kingdom,Kingdom of Ahom
+Q2314963,Kingdom of Cusco,Kingdom of Cuzco
+Q2330940,Provisional Military Dictatorship of Mughan,
+Q2346056,Kingdom of Livonia,
+Q2366229,Malla,Malla dynasty
+Q2368545,Surguja State,
+Q2390716,Kingdom of Pajang,
+Q2396442,Kingdom of Galicia and Lodomeria,Galicia|Galicia and Lodomeria
+Q2442581,Dutch Loango-Angola,
+Q2475921,Bogd Khanate of Mongolia,Bogd Khanate|Outer Mongolia|Great Mongolian State
+Q2481399,Osrūshana,Osrushana|Osrušana|Oshrusana|Ushrusana|Ustrushana|Sudujshana|Western Cao|Istarawshan
+Q2553863,White Horde,
+Q2580032,Taifa of Almería,Taifa of Almeria
+Q2591393,Jiaozhi,
+Q2594899,Woolli,Wooli|Wuli|Wooly
+Q2618121,Principality of Samos,
+Q2620565,Taifa of Lisbon,
+Q2625228,League Federal,League of the Free Peoples Union of the Free Peoples Union of the Free Peoples Union Confederation of Free Peoples Confederation Union de Pu
+Q2670751,Margraviate of Moravia,March of Moravia
+Q2671329,Taifa of Calatayud,
+Q2704093,Military dictatorship of Chile,Pinochet regime
+Q2771763,Vakhtapur,
+Q2817348,Bima Sultanate,Sultanate of Bima
+Q2967804,Château-Regnault,
+Q2988765,Sultanate of Siak Sri Indrapura,
+Q3053276,Byzantine Empire under the Palaiologos dynasty,
+Q3090194,Khasso,Xaaso|Xaaso Kingdom|Khasso Kingdom|Xasso Kingdom|Xasso|Xasso polity|Khasso polity|Xaaso polity
+Q3113481,Principality of Transylvania,Grand Principality of Transylvania
+Q3177676,Pakuan Pajajaran,
+Q3194420,Kaysites,
+Q3267672,Republic of Entre Ríos,Republic of Entre Rios
+Q3332217,Gorkha Kingdom,Gorkhā|Kingdom of Gorkha
+Q3338842,State of Maranhão and Piauí,
+Q3339389,State of Grão-Pará and Rio Negro,
+Q3446147,Royaume d'Yvetot,
+Q3446210,Kingdom of Pamplona,Pamplona
+Q3480281,Sheikhdom of Kuwait,
+Q3482103,Shilluk Kingdom,Chollo Kingdom|Sudan Kingdom
+Q3502470,Cara culture,
+Q3591854,Free and Independent State of Cundinamarca,
+Q3607864,Caucasian Albania (Sasanian province),Ardhan|Arran|Albania
+Q3675486,Mukriyan,
+Q3845403,March of Milan,
+Q3845763,Margravate of Mantua,Marquisate of Mantua
+Q3867365,Muraddash,
+Q3968612,Italian United Provinces,
+Q4075906,Baku Commune,Baku Soviet|Baku Soviet Commune
+Q4147015,Principality of Philaretos Brachamios,
+Q4167965,Ancient Thracia,Thanki/Thakiotes
+Q4189498,Zvenyhorod Principality,
+Q4208754,Kaitag Utsmiate,
+Q4224853,The Glinsky Principality,
+Q4412594,Republic of Uhtua,
+Q4495225,Hamath,Khamat
+Q4495832,Harikela Kingdom,Kingdom of Harikela
+Q4765854,Shan States,British Shan States
+Q5124792,Civula,Quibula
+Q5171759,Corniculum,
+Q5177890,County of Luxembourg,
+Q5326812,Early history of Kedah,Kingdom of Kedah Darul Aman|Malaya
+Q5404684,Federation of the Seven Communities,Sette Comuni
+Q5483255,Republic of Quito,papy ya yeganos vivo en la colonia taptio municipio san pedro tlaquepaque lauro 91
+Q5675285,Kazembe,Kazembe kingdom|Kazembe polity
+Q5694183,taifa of Algeciras and Ronda,
+Q5767641,Ilha de Vera Cruz,
+Q5864743,Republic of Haiti (1859–1957),
+Q6412624,Kingdom of Mangalai,
+Q6412652,Kingdom of Semien,
+Q6412669,Kingdom of Tunisia,
+Q6412672,Kingdom of Uí Failghe,Kingdom of Ui Failghe|Uí Fháilghe|Uí Failghe
+Q6414031,Kinnara Kingdom,
+Q6415938,Emirate of Dhala,
+Q6468406,Lachin Kurdish Republic,Kurdish Republic of Lachin|Republic of Lachin|Kurdish Republic of Laçin
+Q6488087,Lapai Emirate,
+Q6500954,Zaire,Republic of Zaire
+Q6563843,Nizari Ismaili state,Alamut state|Nizari state|Ismaili state|Isma'ili state|Nizari Isma'ili state|Order of the Assassins|Nizaris of the Alamut period|Ismailis of the Alamut period|Alamut period|Nizari state of Persia and Syria
+Q6728457,Madra,Mada|Madraka
+Q6729587,Magadha Kingdom,
+Q6773257,Eastern Karakhanids Khanate,
+Q6799844,Mbwila,
+Q7126720,Palanpur State,
+Q7245103,Principality of Gjirokastër,
+Q7245121,Principality of Valona,
+Q7362320,Peureulak,Peureulak Sultanate
+Q7443295,Second Federal Republic of Mexico,Federal Republic of Mexico
+Q7524320,Sinhala Kingdom,
+Q7784940,Third Republic of Madagascar,
+Q7893618,United Tribes of New Zealand,Te Whakaminenga o Nga Rangatiratanga o Nga Hapu o Nu Tireni|Te Wakaminenga o Nga Rangatiratanga o Nga Hapu o Nu Tireni
+Q8018212,Dangun Joseon,
+Q8890160,Kingdom of Poland,Realm of Poland
+Q9063401,United Provinces of Central America,Federated States of Central America
+Q9391434,United Kingdom of Poland,
+Q10567053,Hongzhou,Hóng zhōu
+Q10748344,Provisional Central Government of Vietnam,
+Q10936610,Szechwan Military Government,Shu Military Government|Sichuan Military Government|Ta Han Szechuan Military Government
+Q10957559,Principality of Moldavia,Moldo-Wallachia|Moldavia|Moldova|Principality of Moldova
+Q11179744,Black tooth country,
+Q11180184,Qi (Huang Chao),
+Q11344632,Sultanate of the Maldives,Sultanate of Maldive Islands|Sultanate of Maldives
+Q11352710,Ikikoku,Iki-koku|Iki
+Q11681694,Republic of Spanish Haiti,República del Haití Español
+Q11938670,Niatiaga,
+Q11944481,Raghogarh State,Raghogarh|Khichiwara
+Q12060881,Chinese Empire,Imperial China|Empire of China
+Q12490507,Rashidun Caliphate,
+Q12491400,Pelalawan Sultanate,
+Q12584242,Gobiriguk,Kobiriguk|Jeombiriguk|Chŏmbiriguk
+Q13375062,Wahidi Azzan,
+Q13474305,Francoist Spain,Nationalist Spain|Spanish State
+Q13496558,Prince-Bishopric of Brixen,Prince-Bishopric of Bressanone|Diocese of Brixen|Bishopric of Brixen
+Q13638247,Fugger,
+Q14164803,Prince-Bishopric of Fulda,
+Q14516987,Principality of Anhalt (1562–1606),
+Q15075493,Grand Duchy of Rusʹ,
+Q15102440,"Kingdom of Serbs, Croats and Slovenes","Kingdom SCS|Kingdom of Serbs, Croatians and Slovenes"
+Q15214542,Dangs,
+Q15890801,Signoria of Milan,
+Q15898486,Yong,Yong kingdom|Yong state
+Q16163029,Sabeolguk,Saryangbeolguk|Sabul
+Q16171705,Chopalguk,
+Q16187700,Kingdom of Muna,
+Q16295095,Tuwana,
+Q16601665,Principality of Masserano,
+Q16829979,Domnonée,
+Q16858170,Zabarima,
+Q16881283,Sultanate of Muscat,
+Q16958904,Kingdom of the Morea,Realm of the Morea|Regno di Morea
+Q17022251,Sultanate of Kano,
+Q17042434,Solimana,
+Q17053216,Principality of Ushrusana,
+Q17076645,Gauḍa Kingdom,Gāuṛ Rājya|Shashankas|Kingdom of Gauḍa
+Q18285930,German Empire of 1848/1849,
+Q19336869,County of Blois,
+Q19568935,Kingdom of Belgin,Sultanate of Baqulin
+Q19568938,Kingdom of Tankish,
+Q19692623,Northern tribal confederation,
+Q19746028,Mempawah Kingdom,
+Q19805959,Golconda Sultanate,Golkunda Sultanate|Golkonda Sultanate|Golconda|Golkunda|Golkonda|Golcona Kingdom|Golkunda Kingdom|Golkonda Kingdom|Sultanate of Golconda|Sultanate of Golkunda|Sultanate of Golkonda
+Q19872858,Earldom of Ulster,
+Q19955992,Dauphiné of Viennois,
+Q20427320,Soppeng Sultanate,
+Q20536461,Vardan Khudahs,
+Q20732380,Empire of Harsha,
+Q21076431,Gwiriko,
+Q21523635,Kingdom of Ce,
+Q21816219,Trust Territory of Nauru,Trusteeship of Nauru|Nauru Trust Territory
+Q22684779,Omani Empire,
+Q23039102,First Toungoo Empire,First Taungoo Dynasty|Second Burmese Empire|Toungoo Empire|Taungoo Empire|First Toungoo Dynasty|First Taungoo Empire|Manipur Empire
+Q25423982,Sultanate of Grande Comore,
+Q25487207,Principality of Syunik,
+Q25591771,Chola empire,
+Q25669688,Lhagyari dynasty,
+Q28597313,Palatinate of Rhine,
+Q28669042,Principality of Qandahar,
+Q29954627,"Commonwealth of England, Scotland and Ireland",
+Q30694541,Zichia,
+Q42346134,Catalan State (1873),
+Q46465122,Islamic states,
+Q48724193,Pahang Kingdom,
+Q48742118,Fascist Italy,Kingdom of Italy under Fascism
+Q48758020,State of the Prince Primate,State of the Kurerzkanzler|Prince-Primate State
+Q48775206,Kingdom of Wala,
+Q50680346,Canton of Aceró,Canton of Acero
+Q54818777,Imperial Abbey of Wissembourg,Prince-Provostry of Wissembourg|Provostry of Wissembourg|Abbey of Wissembourg
+Q54863204,crown of Galicia,
+Q55698395,Charklik,Charkliq|Kingdom of Charklik
+Q55979574,Duchy of Thouars,Duchy and peerage of Thouars
+Q60023785,United Republic of Cameroon,
+Q60849901,Bukhara Socialist Soviet Republic,
+Q63021609,Kingdom of Navarre beyond the Pyrenees,Lower Navarre|Ultrapuertos|kingdom of Lower Navarre|kingdom of Navarre|kingdom of Navarre beyond the Pyrenees|Kingdom of Lower Navarre
+Q63158027,Qajar Iran,Qajar Empire|Sublime State of Persia|Guarded Domains of Persia|Qajar Persia|Iran|Persia
+Q85795812,Ramgarhia Misl,
+Q95895695,Free Imperial City of Strasbourg,Imperial City of Strassburg
+Q97446618,Spanish Equatorial Guinea,
+Q97516320,Tarascan,Tarascan culture
+Q99469759,Hamdanid emirate of Aleppo,
+Q104880990,Varman dynasty of Kannauj,
+Q105633777,British Protectorate of Qatar,
+Q106568094,Kingdom of Harar,Harari kingdoms
+Q108868568,Syrian Republic under French mandate,
+Q108868572,independent First Syrian Republic,
+Q109853245,Duchy of Gravina,
+Q110933660,Zubayrid Caliphate,
+Q112660052,British India,India|British rule in India|India - British
+Q113100727,Matsya Kingdom,
+Q115166787,Reman,
+Q115776867,Free imperial city of Hamburg,
+Q116694949,Seigneury de Brousses,
+Q116847047,Peruvian Republic,Peruvian Republic (1837)
+Q118198568,Chiefdom of Gyalkha,
+Q121559689,Gosunsiguk,
+Q121597354,Saigiguk,
+Q124153644,Chinland,Chinram
+Q125132562,Kingdom of Georgia,
+Q126726574,Kingdom of Martabam-hongsawatoi,
+Q127610143,Sultanate of Cal Miskaad,
+Q131686238,Caboloan,Caboloan|Kaboloan|Luyag na Kaboloan
+Q114,Kenya,Republic of Kenya|KE|KEN|ke
+Q159,Russia,RU|ru|RUS|Russian Federation|RF|Federation of Russia|ISO 3166-1:RU
+Q211,Latvia,lv|LVA|Leţmо̄ Vabāmо̄|Leţmо̄|Republic of Latvia|Latvian Republic|Latvija|LAT|Latveja|Latvijas Republika|Latvejas Republika
+Q214,Slovakia,Slovak Republic|SVK|SK
+Q224,Croatia,Republic of Croatia|HR|HRV|CRO|RH
+Q236,Montenegro,me|MNE|Crna Gora
+Q241,Cuba,Republic of Cuba|cu|CUB
+Q265,Uzbekistan,Republic of Uzbekistan
+Q334,Singapore,Republic of Singapore|SG|sg|Singapore City|SGP|Lion City|Garden City|SIN|S'pore
+Q347,Liechtenstein,LI|Principality of Liechtenstein|FL|li|LIE
+Q408,Australia,Commonwealth of Australia|Straya|Aussieland|Oz|Stralia|New Holland|New Hollandia|Nova Hollandia|Down Under|Stria|The Commonwealth of Australia|AU|AUS
+Q769,Grenada,gd|GRN
+Q774,Guatemala,gt|Republic of Guatemala|GUA
+Q786,Dominican Republic,República Dominicana|🇩🇴|RD|DR|Republica Dominicana|Dominicana|DO|DomRep
+Q796,Iraq,Republic of Iraq|iq|IRQ
+Q813,Kyrgyzstan,Kyrgyz Republic|kg|KGZ
+Q822,Lebanon,LBN|Lebanese Republic|lb|Republic of Lebanon|Lubnan|ISO 3166-1:LB|State of Lebanon
+Q854,Sri Lanka,"Democratic Socialist Republic of Sri Lanka|Ceylon|Taprobane|Serendib|Ceylan|lk|Lanka, Sri|sri|lke|ce|Srilanka|SRI|سرنديب|سيلان"
+Q881,Vietnam,Socialist Republic of Vietnam|VN|VIE|Việt Nam|SRV|VNM|Viet Nam
+Q921,Brunei,"bn|BRN|Nation of Brunei, the Abode of Peace|Negara Brunei Darussalam|BRU|Brunei Darussalam"
+Q945,Togo,Togolese Republic|tg|TOG
+Q953,Zambia,Republic of Zambia|zm|ZAM|Zed
+Q963,Botswana,bw|Republic of Botswana|Lefatshe la Botswana|BOT
+Q1005,The Gambia,Islamic Republic of the Gambia|Republic of the Gambia|GAM|GM|🇬🇲|Gambia
+Q1011,Cape Verde,Republic of Cape Verde|Cabo Verde|CV|CPV|cv|🇨🇻|Republic of Cabo Verde|Cape Verde Islands
+Q1041,Senegal,Republic of Senegal|sn|SN|SEN
+Q4712,Duchy of Burgundy,
+Q5705,Catalonia,Catalunya|Cataluña|Catalonha|Autonomous Community of Catalonia|Community of Catalonia|Comunitat Autònoma de Catalunya|Cat.|ES-CT
+Q5780,Meroë,Meroe|meroë
+Q7209,Han dynasty,Han Empire|Han|Han China|the Han|Hane|Han Dynasty
+Q15581,Principality of Catalonia,Catalonia|Principality|Principality and Counties
+Q21203,Aruba,Island of Aruba|Country of Aruba|aw|🇦🇼|ARU
+Q25279,Curaçao,Island Territory of Curaçao|Curacau|Curaçoa|Curaςao|Kòrsou|Curocao|ISO 3166-1:CW|CUW|Curazao|Curacao|Country of Curaçao|CW
+Q26988,Cook Islands,ck|Hervey Islands|COK|🇨🇰|Cook Group
+Q27306,Kingdom of Prussia,Prussia
+Q28322,Balhae,Jin|Bohai|Parhae|Palhae|Haedongsongguk
+Q28567,Maya civilization,Mayans|Mayan civilization|Maya
+Q29520,China,Cathay|Chunghwa|Zhongguo|Chung-kuo|Zhonghua|Chung-hua|Sinae|Flowery Kingdom|Celestial Kingdom|Chinese Empire|Eastern Asiatic Empire|Middle Kingdom|Central Kingdom|Tianxia|All under Heaven|Katay|Khitai
+Q31454,Kingdom of Libya,
+Q31723,Kingdom of Mauretania,
+Q33946,Czechoslovakia,Czecho-Slovakia|cs|TCH|Československo|ČSFR|Federation of Czechoslovakia|People's Republic of Czechoslovakia|CSFR
+Q34020,Niue,Niuē|nu
+Q36704,Yugoslavia,yu|Jugoslavija
+Q42834,Western Roman Empire,Roman Empire
+Q43287,German Empire,Deutsches Kaiserreich|German Reich|Imperial Germany|Second Reich
+Q46370,West Francia,Kingdom of the West Franks
+Q48685,Kingdom of Judah,Kingdom of Judah|Kingdom of Judea|Southern Kingdom|Judah
+Q49910,Colony of Aden,Aden Colony
+Q55523,Hokuzan,
+Q61385,Galician Soviet Socialist Republic,
+Q61427,Donetsk-Krivoy Rog Soviet Republic,
+Q62519,Finnish Democratic Republic,
+Q62567,Kingdom of Iceland,
+Q70802,French Third Republic,La Troisième République|La IIIe République|La Troisieme Republique|La IIIe Republique|Third Republic of France|French Republic|Third French Republic
+Q83546,Grand Principality of Vladimir,Vladimir-Suzdal|Principality of Vladimir-Suzdal|Grand Duchy of Vladimir|Vladimir-Suzdalian Rus'
+Q124943,Kingdom of Egypt,Egyptian Kingdom
+Q130654,Dutch Empire,Dutch colonial empire|Dutch colonies|Colonies of the Netherlands|Colonies of Holland
+Q136884,Lazica,
+Q139377,Kingdom of Aksum,Kingdom of Axum|Aksumite Empire|Aksum|Axum
+Q146246,Francia,Frankia|Frankland|Kingdom of the Franks|Frankish Kingdom|Regnum Francorum
+Q146885,Second Syrian Republic,
+Q150058,Kingdom of Thiruvithamkoor,Kingdom of Travancore|Travancore|Thiruvithamkoor Maharajyam
+Q154195,Kingdom of Bavaria,Bavaria|Königreich Baiern|Kinereich Baiern|Königreich Bayern|Kinereich Bayern
+Q154853,Diauehi,Kingdom of Diaokhi|Diaokhi
+Q155019,Duchy of Lorraine,
+Q156506,Serbian-Hungarian Baranya-Baja Republic,
+Q157727,Ifat Sultanate,
+Q158445,Grand Duchy of Mecklenburg-Schwerin,Mecklenburg-Schwerin|Duchy of Mecklenburg-Schwerin
+Q159631,Kingdom of Württemberg,Württemberg
+Q161215,Grand Duchy of Mecklenburg-Strelitz,Mecklenburg-Strelitz Duchy|Mecklenburg-Strelitz
+Q161885,Kingdom of Great Britain,United Kingdom of Great Britain|UKGB|UK|GB|Great Britain
+Q170180,Margraviate of Meissen,
+Q171740,Caliphate of Córdoba,Caliphate of Cordoba|Califato de Córdova|Western Caliphate|Caliphate of Qurṭubah|Umayyad Caliphate of Qurṭubah|Umayyad Caliphate of Córdoba|Umayyad state in al-Andalus|Umayyad state of al-Andalus|Khilāfat Qurṭuba
+Q174306,Republic of Genoa,Genoan Republic
+Q179293,Kingdom of Castile,Castile
+Q181254,Empire of Nicaea,
+Q190636,Centrocaspian Dictatorship,Centro-Caspian Dictatorship|Central-Caspian Dictatorship
+Q199442,Kingdom of Aragon,Aragon
+Q199841,Democratic Yemen,People's Democratic Republic of Yemen|Yemen (Aden)|Southern Yemen|People's Republic of Southern Yemen|South Yemen
+Q200969,Chaldea,Chaldeans
+Q202687,Songhai Empire,Songhay Empire
+Q204920,Crown of Aragon,Casal d'Aragó|Aragon
+Q205662,Tokugawa shogunate,Shogunate of Japan|Japan|Edo Japan|Tokugawa Shogunate
+Q208404,Kingdom of Armenia,
+Q208475,Edom,Idumaea|Kingdom of Edom|Idumæa
+Q212056,Mongolian People's Republic,Bügd Nairamdakh Mongol Ard Uls|PR Mongolia|People's Republic of Mongolia|Communist Mongolia|Socialist Mongolia
+Q217196,Crown of Castile,Castile
+Q219060,Palestine,Palestinian National Authority|Palestinian Authority|PS|State of Palestine
+Q220167,Republic of Lydenburg,
+Q223793,Kingdom of Etruria,
+Q235030,Principality of Antioch,
+Q244165,Republic of Artsakh,Nagorno-Karabakh Republic|NKR|Artsakh Republic
+Q246690,Namri,
+Q249578,Ghaznavid Empire,Ghaznavids|Ghaznavid Sultanate
+Q250515,Eastern Ganga dynasty,
+Q255931,Haripuñjaya,Haribhuñjaya|Hariphunchai|Haripunjaya
+Q260437,Atropatene,Media Atropatene
+Q267584,Yemen Arab Republic,North Yemen
+Q303421,Kingdom of Galicia,
+Q325725,Duchy of Wroclaw,Duchy of Breslau|duchy of Wrocław
+Q337767,Wilusa,
+Q389004,Wallachia,Țara Românească|Valachia|Walachia
+Q402145,Mataram Sultanate,Sultanate of Mataram|Mataram|Islamic Mataram Kingdom
+Q402580,Mataram kingdom,Mataram|ancient Mataram|kingdom of Mataram
+Q412980,Ajmer-Merwara,
+Q426025,Duchy of Savoy,Savoy
+Q431731,Tanganyika,Republic of Tanganyika
+Q444912,Romanian Old Kingdom,Vechiul Regat|Old Romanian Kingdom
+Q468902,Middle Francia,
+Q473557,Land van Ravenstein,
+Q473748,Buganda,
+Q487687,Third Republic of South Korea,
+Q494354,Kara-Khanid Khanate,Karakhanids|Qarakhanids|Ilek Khanids
+Q509572,Cooch Behar,Koch Bihar
+Q514423,Parthenopean Republic,Naples Republic|Neapolitan Republic
+Q518101,First Republic of Austria,Republik Österreich|First Austrian Republic|Republic of Austria|Erste österreichische Republik
+Q528546,First Hellenic Republic,Hellenic State|Provisional Administration of Greece
+Q541199,Republic of Reuss,
+Q546266,County of Champagne,
+Q557392,Eastern Kingdom of Women,matriarchal society
+Q567986,Fortriu,
+Q568523,Nobatia,Nobadia
+Q569202,Principality of Aschaffenburg,
+Q571775,Bavaria-Ingolstadt,
+Q580188,Kingdom of Yemen,Al-Mamlakah Al-Mutawakkilīyah|Mutawakkilite Kingdom of Yemen|North Yemen
+Q581741,Chimor,Kingdom of Chimor|Chimú Empire
+Q582861,Marinid dynasty,marines|Merinides dynasty|Beni Marin dynasty|Marinid Sultanate
+Q583057,Eretnids,
+Q596092,Kingdom of Zimbabwe,
+Q599590,Hayasa-Azzi,Hayasa
+Q599613,County of Namur,
+Q600093,Habsburg Spain,Monarchy of Spain|Spain under the Habsburgs|The Spanish Habsburgs|Spanish Habsburg
+Q623151,Empire of Thessalonica,
+Q624638,Arachosia,
+Q631210,Nogai Horde,
+Q638064,Shirvan,Chirvan
+Q639073,South Kasai,État minier du Sud-Kasaï.
+Q649202,Duchy of Urbino,
+Q652560,West Indies Federation,The Federation of the West Indies
+Q654342,Federation of Rhodesia and Nyasaland,
+Q661980,Duchy of Opole,
+Q671658,Republic of Yucatán,Republic of Yucatan
+Q693562,Duchy of Saxe-Wittenberg,Sachsen-Wittenberg
+Q700102,Hohenlohe-Langenburg,
+Q702327,Duchy of Oświęcim,
+Q703195,Later Balhae,
+Q706454,Netherlands in World War II,involvement of the Netherlands in World War II
+Q707767,Prince-Bishopric of Utrecht,Episcopal principality of Utrecht|Bishopric of Utrecht
+Q717112,Beylik of Aydın,Aydınids|Aydınoğlu|Beylik of Aydin
+Q717703,Dongbuyeo,Eastern Buyeo
+Q723587,Third Dynasty of Ur,Ur III|Neo-Sumerian Empire
+Q734867,Banten Sultanate,Sultanate of Banten
+Q738144,United Provinces of the Río de la Plata,United Provinces of South America|Provincias Unidas del Río de la Plata|Provincias Unidas de Sudamérica|United Provinces of the Rio de la Plata|Provincias Unidas del Rio de la Plata|Provincias Unidas de Sudamerica
+Q756617,Kingdom of Denmark,Realm of Denmark|Danish Realm|Denmark|Danmarks Rige|Danmarkar Ríki|Danmarkip Naalagaaffik|Kongeriget Danmark|Kongsríki Danmarkar|Kunngeqarfik Danmarki
+Q756854,Kosala,Uttara Kosala
+Q769782,Kingdom of Powys,Powys|Teyrnas Powys
+Q772861,Margraviate of Antwerp,Mark of Antwerp
+Q775550,Adamawa Emirate,Adamawa polity|Adamaua Emirate|Foumbina Emirate|Old Adamawa Emirate|Adamawa
+Q777981,Duchy of the Archipelago,Duchy of Naxos|Duchy of the Aegean
+Q783684,Provisional Government of the French Republic,
+Q791787,Aussa Sultanate,
+Q797214,French Togoland,Le Togo français
+Q807069,Baoni State,
+Q807748,Barbaricum,
+Q815731,Principality of Bulgaria,Knyazhestvo Balgariya|Bulgarian Principality
+Q831218,Uyghur Khaganate,Uyghur Empire|Uighur Khaganate|Toquz Oghuz Country|Huíhú|Huihu|Huíhé|Huihe|Jiu Xing|Nine Clans|Toquz Tughluq
+Q844250,Lordship of Ireland,
+Q853348,Czechoslovak Socialist Republic,Czechoslovak SR|Československá socialistická republika|Československá republika|Czechoslovak Republic|Communist Czechoslovakia|SR Czechoslovakia|Socialist Republic of Czechoslovakia
+Q862404,Sultanate of Hobyo,
+Q863279,Sukhothai Kingdom,Kingdom of Sukhothai
+Q867782,Kingdom of Phnum,Nokor Phnum
+Q871792,Ottoman Greece,Tourkokratia
+Q874561,Later Liao,Hou Liao
+Q877670,Muzaffarids of Iran,
+Q889884,Kingdom of Rwanda,Ubwami bw'u Rwanda|Royaume du Rwanda
+Q889897,Bunyoro,Unyoro
+Q905131,Kingdom of Breifne,
+Q909606,Goryeong Gaya,
+Q918500,Bantva Manavadar State,
+Q933333,County of Lerín,
+Q941887,Beylik of Karasi,Principality of Karasi
+Q964024,Moldavian Democratic Republic,
+Q973988,Kingdom of Matamba,Matamba Kingdom|Matamba polity|Matamba
+Q986822,Rozwi Empire,Changamire Empire|Rozvi Empire|Rozvi polity
+Q999297,Maihar State,
+Q1021610,Dedan,Dadan|Dedanite Kingdom
+Q1028133,Autonomous Albanian Republic of Korçë,Autonomous Albanian Republic of Korce|Republic of Korce|Korce Republic|Korçë
+Q1034173,Tây Sơn dynasty,Tây Sơn|Annam|Đại Việt
+Q1061488,United States of Colombia,
+Q1062748,Shakya,
+Q1064825,Livonian confederation,
+Q1106857,State of Somaliland,Somaliland
+Q1117051,Kingdom of Illyria,
+Q1179410,Piaroa,Uwottuja|De'aruhua|De'aruwa|Huo̧ttö̧ja̧
+Q1195649,Duan tribe,
+Q1196298,Chouchi Kingdom,Qiu Chi
+Q1207561,Dhar State,
+Q1209822,Kingdom of Kakheti,
+Q1240096,Hyderabad State,Hyderabad Kingdom|Hyderabad|The Nizam's Dominions
+Q1249230,County of Castilla,
+Q1295806,Lower Yafa,
+Q1307407,Tiwanaku Empire,Tiahuanaco|Tiwanaku
+Q1317579,Kedah Sultanate,
+Q1333032,Elmet,
+Q1358851,Zhangzhung,Xiangxiong|Shangshung|Zhang Zhung|Xangxung
+Q1406277,Viscounts of Béarn,Viscounts of Bearn
+Q1415585,Islamic State of Afghanistan,Dawlat-i Islāmī-yi Afghānistan|Da Afghanistan Islami Dowlat
+Q1462877,Kingdom of Kaffa,
+Q1463691,Anconine Republic,
+Q1470101,Kingdom of Hungary,Hungarian Kingdom
+Q1472105,Kingdom of Haiti,Ini an Ayiti|Royaume d'Haïti
+Q1474791,Sultanate of Darfur,
+Q1476723,Sachin State,Sachin
+Q1479952,Kadamba dynasty,
+Q1486262,Zamua,
+Q1489916,Isuwa,
+Q1493766,Gao Empire,
+Q1542741,Palmares,Quilombos dos Palmares|Angola Janga|Quilombo de Palmares|República dos Palmares
+Q1545942,Nawanagar State,
+Q1589163,Kingdom of Kotte,
+Q1591030,Hausa Kingdoms,Hausa states|Hausaland|Hausa Bakwai
+Q1636212,Karabakh Khanate,Qarabagh Khanate
+Q1658023,Ijebu Kingdom,Jebu|Jebusites|'Jeb'u'sale'|Ijebu-|Jebus-salem|The Jebu|Geebu
+Q1661321,Kingdom of Niumi,Barra Kingdom|Niumi
+Q1757296,Soli,
+Q1759249,Real Audiencia de Quito,Royal Audiencia of Quito|Real Audiencia of Quito
+Q1768252,Kingdom of Luba,Luba Empire
+Q1778994,Kuban People's Republic,
+Q1785592,Kourion,Curium
+Q1798703,Sonepur State,
+Q1806438,Las Bela State,
+Q1824836,Lihyan,
+Q1852814,Provisional Government of Western Thrace,
+Q1900716,Margraviate Hachberg-Sausenberg,Hachberg-Sausenberg
+Q1967443,Zuyev Republic,
+Q2014166,Oddiyana,
+Q2022162,Kingdom of Pergamon,Pergamenian kingdom
+Q2028318,Gurian Republic,
+Q2037501,Republic of Ploiești,
+Q2047076,Yenisei Kyrgyz Khaganate,
+Q2048712,Taifa of Rueda,
+Q2067314,County of Bigorre,
+Q2078820,Odesa Soviet Republic,
+Q2195101,Principality of Guria,გურიის სამთავრო
+Q2196956,Kingdom of Norway,Norwegian Empire|Norway
+Q2208280,People's Republic of Angola,
+Q2235609,Taifa of Huesca,
+Q2247225,Tarumanagara,Taruma Kingdom|Taruma
+Q2288441,Kingdom of Candia,Realm of Candia|Duchy of Candia|Venetocracy
+Q2308761,National Government of the Republic of China,Republic of China (1928-1949)|Nationalist Government|National Government of China|Nationalist government
+Q2308885,Lemko Republic,
+Q2320075,Langkasuka,
+Q2326511,Respublica Bernensis,
+Q2369784,Interwar Latvia,
+Q2376315,British rule in Myanmar,British Myanmar|British Burma|British occupation of Myanmar
+Q2390694,Lordship of Rappoltstein,
+Q2424187,Kingdom of Rarotonga,
+Q2437292,Nueva Galicia,
+Q2468597,Turkish Republic of Aras,Araxi Republic|Republic of Araks
+Q2500952,Ava Kingdom,Kingdom of Ava
+Q2506068,Azadistan,
+Q2576045,Little Tartary,Crimean Khanate|Tartaria Minor|Tartary Minor|Lesser Tartary|Minor Tartary
+Q2577303,Kingdom of Sardinia,
+Q2578706,Kingdom of Ceredigion,Ceredigion
+Q2594661,Kingdom of Gwent,
+Q2597352,Kingdom of Norway,Norwegian Kingdom|Norway
+Q2602572,Afrighids,
+Q2643374,Taifa of Santarém,Taifa of Santarem
+Q2665520,Lordship of Prilep,
+Q2703679,Crimean Regional Government,Crimea
+Q2751106,Duchy of Mecklenburg-Strelitz,
+Q2935756,Canada East,
+Q3136869,Kingdom of Dambadeniya,
+Q3175929,Mirdasid dynasty,
+Q3302610,Restored Hanthawaddy Kingdom,Restored Kingdom of Hanthawaddy Pegu
+Q3348640,Italian Ethiopia,
+Q3350794,Pundravardhana,
+Q3399982,Kingdom of Spain,Spain|Bourbon Spain
+Q3446126,Ay kingdom,
+Q3446152,Kingdom of Bora Bora,
+Q3446229,Kingdom of Sukadana,
+Q3446232,Tanjungpura Kingdom,
+Q3446263,Namandirou,
+Q3446273,Emirate of Tlemcen,
+Q3456410,Republic of Mulhouse,Free City of Mulhouse
+Q3486796,Republic of the Sudan,Republic of the Sudan (1956–1969)
+Q3509510,Second Nigerian Republic,
+Q3530610,Thanjavur Maratha kingdom,
+Q3568009,Kings of the Isle of Wight,Wihtwara
+Q3651039,Duchy of Racha,
+Q3688464,County of Novellara and Bagnolo,
+Q3708255,Seljuk dynasty,Saljuqids|Saljuqid dynasty|Seljuks
+Q3765100,Vishnukundina,
+Q3780537,Gaza Empire,Gazaland
+Q3932086,Kingdom of Trinacria,
+Q3960415,Signoria di Correggio,
+Q4086877,Muhammad in Medina,Muhammad di Madinah
+Q4105363,Wahidi,
+Q4182327,White movement in Transbaikal,
+Q4274522,Tyrconnell,Tirconaill|Tirconnell
+Q4337218,Kingdom of Orungu,
+Q4401247,Maynila,Kingdom of Maynila|Kotā Salūdong|Kingdom of Luzon|Bayan ng Maynila|Balen ning Maynila|Lǚsòngguó|Lusung|Luçon|Lusong
+Q4449685,Beylik of Tacettin,
+Q4503615,Tsebelda culture,
+Q4783941,Aram Rehob,
+Q4987234,Bulawayo,
+Q5060314,Pala,
+Q5124786,Civitas Schinesghe,
+Q5159852,Confederate States of Lanao,Lanao Sultanate|Confederation of sultanates in Lanao
+Q5269336,Dharmasraya,
+Q5327935,East Breifne,
+Q5330471,"Eastern Slavonia, Baranja and Western Syrmia",
+Q5343710,Kingdom of Italy,Regnum Italicum|Italian Kingdom|Regno d'Italia|Italy
+Q5519387,Galuh Kingdom,
+Q5581085,Gomanta Kingdom,
+Q5848651,United States of Venezuela,Venezuela
+Q5866728,Democratic Republic of Sudan,
+Q5947557,Taifa of Ceuta (1061-1084),
+Q6123742,Second Republic,
+Q6404540,Qutlugh-Khanids,
+Q6412603,Kingdom of Iha,
+Q6414862,Kirata Kingdom,
+Q6500483,Nguyen dynasty,Nguyễn Dynasty|Empire of Annam
+Q6673921,Lotharingia,
+Q6734111,Mahisha Kingdom,
+Q6741448,Commonwealth realm of Malawi,Malawi
+Q6830639,Dachanghe,
+Q6831333,Dayining,
+Q7054713,North Caucasian Huns,
+Q7242857,Pridnestrovian Moldavian Soviet Socialist Republic,Pridnestrovian Moldavian SSR|Transnistria
+Q7365405,Kole,Cole
+Q7735661,Commonwealth realm of the Gambia,The Gambia
+Q10841128,Đại Ngu,
+Q11029653,Nabataean kingdom,
+Q11285099,United States occupation of the Ryukyu Islands,
+Q11410904,Ancient Izumo,
+Q11704201,Taifa of Arjona,
+Q11950939,Tasik,Kota Pinang|Pinangawan|Pinang Awan
+Q12389905,Galicia in the Visigothic Kingdom,Visigothic Galicia|Galicia in the Visigothic monarchy|Province of Galicia in the Visigothic Kingdom of Toledo
+Q12491034,Kahuripan,
+Q12491063,Kerajaan Tulang Bawang,
+Q12554660,Muyun,
+Q12583396,Geonmaguk,Kŏnmaguk
+Q12617434,Jujomaguk,Jolmaguk
+Q12660335,Kashi,Kingdom of Kashi
+Q12844379,Kazakh sultanate,
+Q13110985,Karappuram,
+Q13563256,Dalmatia,
+Q13639109,Jarwanid dynasty,
+Q14631244,Duchy Saxony-Gotha,
+Q582781,Independent Albania,Republic of Albania|Albanian Republic|Albania
+Q15241296,Union of Burma,
+Q15695801,Marquisate of Oristano,
+Q15939286,Khotan Emirate,
+Q16084290,Illyrian kingdom,Kingdom of Illyria
+Q16164005,Uhyumotakguk,
+Q16472864,Soyo kingdom,
+Q16678116,Moskovskoye gosudarstvo,
+Q16822366,Banu Kathir,
+Q17015016,Prince-Bishopric of Verdun,Prince-Bishopric Verdun|Bishopric of Verdun|diocese of Verdun
+Q17034723,Jiaodong Kingdom,
+Q17050280,Kingdom of Kibi,
+Q17062152,Takasankoku,Kōzankoku
+Q17319155,Kingdom of Mewar,Mewar State|Udaipur State
+Q18111824,Dhrol State,
+Q18234383,Safavid Iran,Safavid Empire|Safavid Persia
+Q18658144,Togha Temürids,Taghaytimurids
+Q19892830,Kingdom of Coorg,
+Q19937663,Republic of Vinica,
+Q20009975,Marquisate of Zibello,
+Q20973653,Kingdom of Munster,Munster
+Q21075369,Abarsal,
+Q21088788,Catholic Monarchy,
+Q22123420,Shujukoku,
+Q22343505,Kingdom K'antu,
+Q22569992,Kingdom Tzu',
+Q25424205,Sultanate of Mohéli,Sultanate of Moheli|Sultanate of Mwali|Kingdom of Mohéli|Kingdom of Mwali
+Q27982794,Kingdom of Cyrene,
+Q29075570,All-Palestine Protectorate,
+Q30744169,Federal Republic of Cameroon,
+Q48723590,Kingdom of Limmu-Ennarea,
+Q54006599,Syrian Republic,
+Q56089236,Kingdom of Western Georgia,
+Q57497425,county of Lantarón,
+Q58399542,Oiniwar Dynasty,Oinwar dynasty|Oinvar|Oinwara
+Q65161555,Canton of Adeyahamen,
+Q65162298,Canton of Aridane,
+Q65296884,Nangnangguk,Choessi Nangnangguk
+Q76821846,Medina community,
+Q85774520,Kingdom of Capsus,
+Q85775800,Lands of the Bohemian Crown (1348–1526),
+Q95950649,duchy of Alsace,county of Alsace
+Q95982472,Kingdom of Cilicia (ancient),Kingdom of Cilicia
+Q96404668,Emirate of Qatar,Arabian Emirate of Qatar
+Q102460360,Counani Free State,
+Q105336399,Luwiya,
+Q106391158,Kurdish state,
+Q107388196,Ancient Moirang,Antique Moirang|Archaic Moirang|Ancient Moilang|Antique Moilang|Archaic Moilang|Keke Moilang|Kege Moirang
+Q108730136,Kingdom of Barue,
+Q110654992,Khandesh Sultanate,
+Q117089833,Republic of Seychelles,
+Q117248060,Rioting,
+Q117287283,Shima,
+Q117496752,Iga ikki,
+Q118196523,Chiefdom of Gotod,
+Q118198285,Chiefdom of Ogshi,
+Q118593754,Rembau,
+Q118904172,Zeila,
+Q120060873,Emirate of Ayash,
+Q124536190,Havilah,
+Q127607963,Duchy of Leucas,
+Q127797738,Kingdom of Kannauj,
+Q131545583,Margraviate of Baden,
+Q131839713,Kingdom of Patones,
+Q33,Finland,Republic of Finland|Finnia|Land of Thousand Lakes|fi|Suomi|Suomen tasavalta|Republiken Finland|🇫🇮|FIN
+Q55,Netherlands,Holland|the Netherlands|NL|NED|Nederland|nl|🇳🇱
+Q217,Moldova,Republic of Moldova|Moldavia|Republica Moldova|MDA|MD
+Q218,Romania,Roumania|Rumania|România|ro|ROU
+Q228,Andorra,Principality of Andorra|Principality of the Valleys of Andorra|AND|AD
+Q244,Barbados,BB|bb|🇧🇧|BAR|Barbadoes
+Q327,Brittany,
+Q403,Serbia,Republic of Serbia|Republika Srbija|Srbija|SRB|RS
+Q414,Argentina,Argentine Republic|Republic of Argentina|Republica Argentina
+Q419,Peru,pe|Republic of Peru|República del Perú|Republica del Peru|per
+Q424,Cambodia,Kingdom of Cambodia|kh|Kampuchea|Camboya|Campuchia|Kamboja|Kambodzha|KHM
+Q683,Samoa,Western Samoa|Independent State of Samoa|ws|SAM
+Q685,Solomon Islands,sb|SOL
+Q757,Saint Vincent and the Grenadines,vc|St. Vincent and the Grenadines|St Vincent and the Grenadines|Saint Vincent|St. Vincent|St Vincent|vct
+Q763,Saint Kitts and Nevis,Saint Christopher and Nevis|Federation of Saint Kitts and Nevis|kn|St. Kitts and Nevis|St Kitts and Nevis|St. Kitts & Nevis|Kitts & Nevis|kna|SKN
+Q826,Maldives,mv|Republic of Maldives|MDV
+Q917,Bhutan,Kingdom of Bhutan|bt|BHU
+Q977,Djibouti,Republic of Djibouti|Jabuuti|Gabuuti|Jībūtī|dj
+Q1009,Cameroon,CMR|CAM|CM|Republic of Cameroon
+Q1014,Liberia,Republic of Liberia|lr|LBR|Liber
+Q1025,Mauritania,Islamic Republic of Mauritania|Muritanya|Agawej|Gànnaar|Murutaane|Moritani|mr|Gannaar|MTN|Mauretania
+Q1029,Mozambique,Moçambique|República de Moçambique|MZ|MOZ|mz|Republic of Mozambique
+Q1045,Somalia,Federal Republic of Somalia
+Q5324,Gurjara-Pratihara,
+Q5684,Babylon,
+Q12536,Abbasid Caliphate,Abbasid Empire|Abbasid period|Abbasids|Abbasides
+Q16410,Hungarian People's Republic,Magyar Népköztársaság|PR Hungary|Socialist Hungary|Hungary|Communist Hungary
+Q16957,German Democratic Republic,GDR|DDR|Deutsche Demokratische Republik|Communist Germany|East Germany
+Q23681,Northern Cyprus,Turkish Cyprus|Turkish Cypriot state|Turkish Cypriot constituent state|NCY|Turkish Republic of North Cyprus|TRNC|The Turkish Republic of Northern Cyprus|Turkish Federative State of North Cyprus|Turkish occupied Cyprus|Republic of Northern Cyprus|North Cyprus|Turkish Republic of Cyprus|North Cyprus Turkish Republic
+Q27260,Samma dynasty,
+Q28307,Mustang,Kingdom of Lo|Mustang kingdom|Mustang (kingdom)
+Q30623,Manchukuo,Manzhouguo|Manshu-koku|Manchu state|State of Manchuria|Empire of Manchuria|Empire of Great Manchuria|Great Manchuria
+Q34762,Principality of Bayreuth,
+Q42199,Principality of Ansbach,Margraviate of Brandenburg-Ansbach
+Q44826,Tarshish,
+Q61291,Khorezm People's Soviet Republic,
+Q65362,"SAO Eastern Slavonia, Baranja and Western Syrmia",
+Q76048,Congo Free State,État indépendant du Congo|Etat independant du Congo|Independent State of Congo|Independent State of the Congo
+Q76236,Lithuanian–Byelorussian Soviet Socialist Republic,LBSSR|Litbel|Socialist Soviet Republic of Lithuania and Belorussia|Socialist Soviet Republic of Lithuania and Byelorussia
+Q93180,Seleucid Empire,Seleucids
+Q129286,British Raj,"Indian Empire|Crown rule in India|Direct rule in India|India|British India|British Indian Empire|the Raj|Hindustan|Hindoostan|Indian Raj|Raj India|India, British"
+Q129569,Poher,
+Q130802,Alawite State,
+Q139315,Dʿmt,D mt|Daʿamat|Dmt
+Q140359,First Czechoslovak Republic,Československá republika
+Q144395,Zainabad,
+Q146740,Jabal Druze State,
+Q146862,Second Saudi State,Emirate of Nejd
+Q152420,Duchy of Guelders,
+Q153080,East Francia,Kingdom of the East Franks
+Q153091,Duchy of Prussia,Ducal Prussia
+Q153943,Kingdom of Westphalia,Westphalian Kingdom
+Q155361,Rouran Khaganate,Juan-juan|Geougen|Jeu-jen|Jou-jan|Jwen-jwen
+Q156199,Electorate of Saxony,Upper Saxony|Saxony
+Q156418,Kingdom of Hawaiʻi,Hawaiian Kingdom|Kingdom of Hawaii|Kingdom of Hawai'i|Hawaii|Hawaiʻi
+Q157013,Hohenzollern-Sigmaringen,Principality of Hohenzollern-Sigmaringen
+Q160440,Crimean Khanate,Little Tartaria|Khanate of the Crimea|Crimea|Kuban Tartary
+Q163268,Principality of Tver,
+Q167360,First Portuguese Republic,Primeira República Portuguesa|Primeira Republica Portuguesa
+Q167639,Vijayanagara Empire,Vijayanagar Empire|Kingdom of Bisnegar|Karnata Kingdom|Vijayangara
+Q170072,Dutch Republic,Republic of the Seven United Netherlands|Republic of the United Netherlands|Republic of the Seven United Provinces|United Provinces|Federated Dutch Provinces|Dutch Federation|United Provinces of the Netherlands|Netherlands (1581–1795)|Republic of the Netherlands|Republiek der Zeven Verenigde Nederlanden
+Q171150,Kingdom of Hungary,Hungary|Transleithania
+Q175211,Kingdom of Germany,Regnum Teutonicum|Königreich Deutschland
+Q178085,Principality of Zeta,Zeta
+Q178665,Mitanni,Mittani|Hanigalbat|Naharin
+Q180568,New Kingdom of Egypt,Egyptian Empire
+Q185682,French Indochina,Indochinese Union|Indochinese Federation
+Q188836,Xiongnu,Great Hun Empire|Xunnu
+Q193619,Union of South Africa,Dominion of South Africa|USA|South Africa under Apartheid
+Q199383,Kingdom of Ossory,Kingdom of Osraige|Kingdom of Osraighe|Kingdom of Osraí
+Q200262,Kingdom of Navarre,Kingdom of Pamplona
+Q207521,Ethiopian Empire,Kingdom of Abyssinia|Abyssinia|Abisinia|Abissinia|Abyssinian Empire|Empire of Abyssinia
+Q209327,Kuba Kingdom,Kuba kingdom
+Q214102,Union,the North|the Union|Union (American Civil War)|Union (United States)|Northern states
+Q216786,Champa,Campā|Champā|Kingdom of Champā|Champā Empire|Campā Civilization
+Q238445,Emirate of Granada,Nasrid Kingdom of Granada|Kingdom of Granada|Granada|Sultanate of Granada
+Q240123,Indo-Scythians,Indo-Scythian Kingdom|Indo‐Sakas|Indoscythæ
+Q241748,Kingdom of Serbia,Kraljevina Srbija|Serbian Kingdom|Serb Kingdom|Servia
+Q248572,Sultanate of Maguindanao,Maguindanao Sultanate
+Q249428,Grand Duchy of Berg,
+Q252268,county of Sundgau,Sundgau
+Q267256,Dian kingdom,
+Q269109,Principality of Ryazan,
+Q282428,Mamluk Sultanate,
+Q283330,county of Buren,
+Q288200,Provisional Government of Mexico,Supremo Poder Ejecutivo
+Q317078,Pskov Republic,
+Q318987,Prince-Bishopric of Eichstätt,Bishopric of Eichstätt
+Q319531,Azuchi-Momoyama period,Azuchi–Momoyama period|Momoyama period
+Q320930,Cao Wei,Wei|Ngai
+Q329618,German colonial empire,
+Q334714,Duchy of Athens,
+Q338248,Kingdom of Luang Phrabang,
+Q386496,Kingdom of Montenegro,Kraljevina Crna Gora|Montenegrin Kingdom|Montenegro|Crna Gora|Principality of Montenegro|Principality
+Q484578,Uzbek Soviet Socialist Republic,Uzbek S.S.R.|Uzbek SSR|Soviet Uzbekistan
+Q488521,Fourth Republic of South Korea,
+Q502009,State of Maranhão,
+Q523380,Republic of Central Lithuania,Litwa Środkowa
+Q542168,Pate Island,Pate sultanate
+Q544636,County of Verdun,
+Q558603,Panchala,
+Q564809,Republic of Acre,República de Acre|República do Acre|Independent State of Acre|Estado Independente do Acre|Republica de Acre|Republica do Acre
+Q568473,Burgraviate of Nuremberg,
+Q570740,Duchy of Legnica,Duchy of Liegnitz|Duchy of Lehnice
+Q575247,Pattin,Unqi
+Q584435,Patani Kingdom,
+Q589251,County of Montbéliard,County of Montbeliard
+Q590743,Burundi,
+Q605930,Taifa of Tortosa,
+Q616915,Duchy of Poland (1138–1227),
+Q616992,Governorate of Montenegro,Kingdom of Montenegro
+Q617078,People's Republic of Mozambique,
+Q622855,Ifriqiya,
+Q627449,Hotak dynasty,Hotaki Empire
+Q649310,Idar State Prince of shrinivash ( kingofshrinivash),"shrinivash Vanzara|Idar is a town in Sabarkantha district, Gujarat, India. It is known for the manufacture of handmade wooden toys, tiles, its temples and various beautiful architectural monuments on its hills, and its historical background. Idar is at the southern end"
+Q650370,Margraviate of Baden-Durlach,
+Q675127,Palatinate-Neuburg,
+Q684030,Principality of Serbia,Kneževina Srbija|Serb Principality|Serbian Principality
+Q684501,Duchy of Głogów,
+Q697787,Duchy of Limburg,
+Q699871,Taebong,Majin|Hugoguryeo|Later Goguryeo|Goryeo
+Q701983,Palatinate-Zweibrücken,County Palatine of Zweibrücken
+Q705240,House of Hohenlohe,Hohenlohe
+Q736217,County of Molise,
+Q739722,Wahidi Bir Ali,
+Q748846,Dilmun,
+Q758709,Audhali,Audhali Sultanate
+Q770281,Syro–Hittite states,Neo-Hittite states
+Q771193,Kingdom of Brittany,
+Q784963,Anglo-Saxon England,
+Q798431,Republic of Dahomey,Dahomey
+Q810432,Basoda State,
+Q827040,Nanyue,Nam Việt|Triệu dynasty
+Q828665,Ikhshidid dynasty,Ikhshidids|Ikhshidids Dynasty
+Q832554,Argentine Confederation,Confederación Argentina|Confederacion Argentina
+Q844910,Pandya dynasty,Pandyan dynasty|Pandyas of Madurai
+Q845909,Scythia,
+Q846670,Danishmends,
+Q854468,Kingdom of Mutapa,Mwene a Mutapa|Wene we Mutapa;|Monomotapa|Mutapa Empire
+Q862478,Kaabu,Gabu|Ngabou|N’Gabu'
+Q878726,Bit-Zamani,
+Q889374,Warsangali Sultanate,Saldanadda Warsangeli|Warsengali Sultanate
+Q903061,Cochinchina Autonomous Republic,
+Q913828,Republic of Prekmurje,
+Q918837,Tianwan,Great Song
+Q921067,Taifa of Murcia,
+Q922317,Morvi State,
+Q929357,Nabha State,
+Q958477,Republic of Utrecht,
+Q1002606,Buhaya,
+Q1028095,Cambay State,
+Q1057542,Republic of Hawaii,Hawaii Republic
+Q1067513,Injuids,incu evi|incular
+Q1071439,Merina Kingdom,Kingdom of Imerina|Merina|Kingdom of Madagascar|Imerina
+Q1071493,Chhatarpur State,
+Q1081620,Siam,
+Q1125793,Mangyül Gungthang,
+Q1135255,Chinese Soviet Republic,CSR|Soviet Republic of China|Jiangxi Soviet|China Soviet Republic|Chung-hua Su-wei-ai kung ho kuo|Chūka Sobieto Kyōwakoku
+Q1152508,Duchy of Brescia,
+Q1155101,Jin,
+Q1157054,Daegaya,
+Q1164500,Kingdom of Murcia,
+Q1186434,Muang Phuan,
+Q1186858,Empire of Great Fulo,Empire of Great Fula|Denanke Kingdom|Denianke Kingdom|Fulo Empire
+Q1207641,Dhenkanal State,
+Q1237976,Palanpur Agency,
+Q1241847,Judicate of Arborea,Kingdom of Arborea|Regno di Arborea|Giudicato of Arborea
+Q1254491,Zobah,Aram-Zobah
+Q1264808,Beylik of Dulkadir,
+Q1275158,Elymais,
+Q1277895,Türgesh,Turgesh
+Q1314592,Laqe,Land of Laqe
+Q1319681,Qi,
+Q1329944,Chedi Kingdom,
+Q1329990,Lapathus,Lapethos
+Q1330149,Surasena,
+Q1351979,Stavropol Soviet Republic,
+Q1362278,United States of Stellaland,
+Q1365493,Republic of Pisa,
+Q1378584,Byeonhan confederacy,Byeonhan
+Q1389743,Kotoko kingdom,
+Q1414395,Republic of South Maluku,
+Q1415128,Republic of Afghanistan,
+Q1433867,Kazakh Khanate,Kazakh Horde|Qazaq Khanate
+Q1444485,Empire of Kitara,Kitara|Kittara|Kitwara|Bunyoro-Kitara|Bunyoro Kitara|Chwezi Empire|Bachwezi dynasty|Kitaara|Bachwezi empire|Bachwezi kingdom
+Q1448131,Italian protectorate of Albania,Albania|Kingdom of Albania|Mbretëria Shqiptare|Italian occupation of Albania|Axis occupation of Albania|German occupation of Albania|Italian Occupation of the Kingdom of Albania
+Q1471373,Saloum,
+Q1517772,Protectorate of South Arabia,
+Q1587244,Kong Empire,
+Q1609953,Lordship of Beirut,
+Q1678784,Jaisalmer State,
+Q1688151,Kingdom of Thomond,Thomond
+Q1703449,Shaki Khanate,
+Q1728782,Kapurthala State,
+Q1743884,Kition,Citium
+Q1745385,United States of Matsya,
+Q1751495,Slovak Socialist Republic,Slovak SR|Slovenská socialistická republika|Slovenska socialisticka republika
+Q1763996,Văn Lang,
+Q1791839,Akwamu,Akuambo|Kingdom of Akwamu|Akwamu Kingdom
+Q1792004,Kumme,
+Q1796198,Kingdom of Córdoba,Kingdom of Cordoba
+Q1796221,Mandara Kingdom,Wandala|Wandala kingdom|Mandara Sultanate|Mandara polity
+Q1923401,Dzungar Khanate,Zunghar Khanate|Kingdom of the Eleuths|Eleutharia|Realm of the Eleuths|Eleuth Kingdom|Jungar Khanate|Dzungaria|Zungaria|Jungaria|Sungaria
+Q1949848,Angoche Sultanate,Sultanate of Angoche
+Q1965597,Anuradhapura Kingdom,
+Q1998866,Czech and Slovak Federal Republic,Česká a Slovenská Federativní Republika|Česká a Slovenská Federatívna Republika|Czech and Slovak FR
+Q2001966,Company rule in India,Company Raj|Ruling Company|British India|East India Company India|India under the British rule|India under the British East India Company|India under company rule|The Raj|Indian Raj|Raj India
+Q2014442,Republic of the Río Grande,Republic of the Rio Grande
+Q2017684,French protectorate of Tunisia,Protectorat français de Tunisie|Tunis|Tunisia
+Q2027229,Second Philippine Republic,Republic of the Philippines|Japanese-sponsored Philippine Republic|Repúbliká ng Pilipinas|Republika ng Pilipinas
+Q2060657,Singhasari,Hindu-Budhist Kingdom in Java
+Q2060937,Taifa of Albarracín,Taifa of Albarracin
+Q2086608,Western Satraps,Western Kshatrapas
+Q2111229,Kingdom of Chalcis,
+Q2121220,Quiché' Kingdom of Q'umarkaj,Q'umarkaj|Utatlan
+Q2121850,Aqrabi,
+Q2147037,Rewa Kantha Agency,
+Q2166417,Taifa of Lérida,taifa of Larida
+Q2264816,Dogfeiling,
+Q2276431,Shahpura State,
+Q2280660,Marquisate of Finale,
+Q2293827,Terek Soviet Republic,
+Q2327097,Imperial City of Windsheim,
+Q2328476,Taifa of Segura,
+Q2342822,West Pakistan,Pakistan
+Q2361927,Duchy of Masovia,
+Q2365048,Adal Sultanate,
+Q2410637,Beylik of Hamid,Hamid Dynasty|Hamidids
+Q2415003,Kingdom of Serbia,
+Q2429397,Ancient Carthage,Carthage|Carthaginian Empire|Carthaginian Republic|Αρχαία Καρχηδόνα|Empire of Carthage|Carthaginian civilization|Carthaginian civilisation
+Q2436604,Taifa of Mértola,Taifa of Mertola
+Q2465074,Ban de la Roche,
+Q2510537,Komancza Republic,
+Q2526023,Colony of Jamaica,Jamaica and Dependencies|Jamaica|Jamaica Colony
+Q2526751,Dál nAraidi,Dal nAraidi
+Q2548724,Taifa of Jaén,Taifa of Jaen
+Q2554365,Wehali,
+Q2620668,Kingdom of Viguera,
+Q2627602,Mukhrani,
+Q2634240,Asahan Sultanate,
+Q2723760,Giudicato of Gallura,
+Q2741089,Greater Republic of Central America,
+Q2991084,county of Anjou,County of Anjou
+Q3013827,Hellenic State,
+Q3041595,First Republic of Iraq,Iraqi Republic (1958–1968)
+Q3106846,Wajo Kingdom,
+Q3315525,Taifa of Majorca,Taifa of Mallorca
+Q3321385,Yeke Kingdom,Garanganze|Garenganze kingdom
+Q3343887,Normannia,
+Q3355522,Hospitaller Malta,Malta under the Order of Saint John history|Knights' Period|Monastic State of the Order of Malta|Order of Saint John of Malta
+Q3446188,Le Royaume de L'Anse-Saint-Jean,Kingdom of L'Anse-Saint-Jean
+Q3446205,Myinsaing Kingdom,
+Q3462133,Duchy of Saxe-Coburg and Gotha,Saxe-Coburg-Gotha
+Q3479157,Serendip,
+Q3496573,Republic of Zamboanga,
+Q3503559,Sultanate of Serdang,
+Q3511905,First Nigerian Republic,
+Q3532158,Venad,Kingdom of Quilon
+Q3535371,Pudukkottai State,
+Q3775345,Beylik of Çubukoğulları,
+Q4060371,Alabama in the American Civil War,Alabama in the Civil War|Confederate Alabama
+Q4064872,Anarta Kingdom,
+Q4080196,Bashkiria,Bashkurdistan|Bashkortostan|Lesser Bashkiria|Autonomous Bashkiria
+Q4118614,Sultanate of Tidore,
+Q4202331,Kingdom of Chiangmai,
+Q4224856,Armenian Principality of Cilicia,
+Q4325153,Republic of the Novorossiysk,
+Q4332415,Four Oirats,Alliance of the Four Oirat Tribes|Oirat Confederation|Eleuths|Oirads|Four Oirat|Eluts|Elut Mongols|Oirat Mongols|Oirats
+Q4401176,Ma-i,
+Q4453003,Tashkent State,
+Q4498927,Khoy Khanate,
+Q4527461,Shukuup Empire,Shukuup (Empire)|Kingdom of Shukuup
+Q4527647,Shuliavka Republic,
+Q4773399,Taw yağı,Viryal
+Q4777816,Anupa Kingdom,
+Q4822699,Hilakku,
+Q4827705,Avanti,Kingdom of Avanti
+Q5555325,Dominion of Ghana,Ghana|Commonwealth realm of Ghana
+Q5692614,Kingdom of Najera,Naher's Caralery|Nahera
+Q5860739,Kingdom of Alvheim,
+Q5936490,Bukbuyeo,
+Q6037274,Mosquitia,Mosquito Coast|Mosquito Territory|Mosquito Shore|Kingdom of Mosquitia
+Q6374014,Kasanze Kingdom,
+Q6406219,Kikata Kingdom,
+Q6427080,Kolathunadu,
+Q6669561,Chen Han,Dahan
+Q6675294,Janganguk,
+Q6733951,Mahi people,
+Q6821029,Song,
+Q6833437,Datianxing,
+Q7213544,Duchy of Opava-Ratiboř,
+Q7418448,Eldiguzid state,Eldeniz state
+Q7515161,Siljik,Siljikgokguk
+Q7636797,Sultanate of Harar,
+Q7636798,Sultanate of Jarin,
+Q7877575,Commonwealth realm of Uganda,Uganda
+Q8050352,Yauri Emirate,
+Q9643578,Kara Del,Kumul|Qara Del
+Q10289365,Gaetulia,
+Q10841085,Đại Cồ Việt,Vietnam
+Q10872373,Army and Navy Marshal stronghold of the Republic of China,
+Q10888424,Wakoku,Woguo
+Q11026135,Principality of Salm,
+Q11040572,Baltic State,Baltic Duchy|Baltischer Staat
+Q11240305,Kartosuro,
+Q11730773,Khorezm Socialist Soviet Republic,Khorezm Republic|KSSR|Khorezm SSR|KPSSR|Khorezm People's Socialist Soviet Republic
+Q11876909,State of Brazil,Brazil|Portuguese Brazil|Colonial Brazil
+Q11907143,ʻThr,
+Q11916620,Kingdom of Dardania,Dardanian Kingdom|Dardania (Illyrian)
+Q11919179,Taifa Tudela,
+Q12448145,Maukhari,
+Q12590812,Dabeolguk,Tabŏlguk
+Q12599093,North Okjeo,Bugokjeo|Chiguru
+Q12816977,Kanker State,
+Q13035917,Republic of Kliprivier,
+Q14957246,Hunza State,
+Q16171516,Chosandobiriguk,
+Q16178404,Giri Sunanate,Giri Kingdom
+Q16187935,Barony of Castalla,
+Q16249924,history of the Republic of Egypt,the Republic of Egypt history|Republic of Egypt history|Parliamentary Republic of Egypt
+Q16261647,Bijiguk,
+Q16514067,Odessa People's Republic,
+Q16685194,Pachan kingdom,Pa’chan|Kingdom of Pachan
+Q16838406,Gangpur State,
+Q16924982,Predynastic Zhou,Proto-Zhou
+Q17025489,Kingdom of Chakla,
+Q17030701,Kingdom of Tlemcen,Tlemcen polity
+Q17166174,Mbunda Kingdom,
+Q18085321,Republic of Pirates,
+Q18126839,Kingdom of Pong,
+Q18417182,County of Tassarolo,
+Q19545518,Lordship of Ferrara,
+Q20108771,Republic of Alexandria,
+Q20437507,Median Kingdom,
+Q20477316,Khanate of Tyumen,
+Q20820118,South Yemen,
+Q21003537,Kingdom of Zaachila,
+Q21843649,Khanate of Nishapur,Qara Bayat Amirdom
+Q23366230,Republic of Geneva,République de Genève|Geneva|Genève
+Q25395037,Kingdom of Hungary,
+Q25432445,Alawite Territory,Территория алавитов
+Q26236153,Bidiga,
+Q28163856,Duchy of Surabaya,
+Q28195245,Milyas,
+Q28455836,old Pahang kingdom,
+Q30592233,Pahang Sultanate,
+Q48728257,Kingdom of Besut Darul Iman,
+Q51089496,Nassau-Sonnenberg,
+Q55599391,Kingdom of Sardinia,
+Q55659450,Socialist Soviet Republic of Georgia,
+Q56314483,Kyrgyz Khanate,
+Q60035114,Chiefdom of Chuchen,Chiefdom of Da Jinchuan|Chiefdom of Greater Jinchuan|Chiefdom of Major Jinchuan
+Q60770428,Provisional People's Committee of North Korea,
+Q63135869,Ayyubid Sultanate,
+Q65037374,Tahirid Empire,
+Q65050489,Sheikhdom of al-Hawra,
+Q65079691,Western Togoland,
+Q65166389,State of Ecuador,
+Q67200271,Democratic Republic of Mohéli,Democratic Republic of Mwali
+Q81893195,Kingdom of Rohilkhand,
+Q86668769,Second Pisan Republic,
+Q96028967,Emirate of Nejd and Hasa,Emirate of Nejd and Hasa (1913)
+Q97446628,British Ghana,
+Q98400506,Venetian Empire,
+Q104881167,Wej province,
+Q107307414,captalat de Buch,
+Q107366006,Togo-Bè Kingdom,
+Q107669407,Rustamid kingdom,
+Q110051642,Ife Empire,
+Q110409568,Betsimisaraka Kingdom,
+Q113614156,Despotate of Lovech,
+Q114415093,Democratic Republic of East Timor,
+Q118197861,Chiefdom of Trateng,
+Q118592557,Spain during the transition to democracy,
+Q118897532,Mora,
+Q124697701,Republic of Zacatecas,
+Q125422413,Persia,
+Q126362486,Kerajaan Patipi,
+Q129300661,Kulpahar,State of Kulpahar
+Q129619467,First Republic of Seychelles,
+Q133105557,Yaka Kingdom,
+Q17,Japan,State of Japan|Land of the Rising Sun|Nihon|Nippon|JP|Nippon-koku|Nihon-koku|JPN|jp|JAP|Jap|JA|Ja|Iapan|Iapon|Land of Rising Sun
+Q20,Norway,Kingdom of Norway
+Q21,England,"ENG|England, United Kingdom|England, UK"
+Q34,Sweden,Kingdom of Sweden|se|SWE|Sverige|Konungariket Sverige|Swedish Kingdom
+Q35,Denmark,DK|Danmark|DNK|DEK|dk|🇩🇰|DEN|TAN|Denmark proper|metropolitan Denmark
+Q37,Lithuania,LTU|LT|Republic of Lithuania|Lietuva|Lietuvos Respublika
+Q41,Greece,Hellenic Republic|Hellas|gr|el|Greek Republic|GRE|Ellada
+Q77,Uruguay,uy|URU|Oriental Republic of Uruguay|Eastern Republic of Uruguay
+Q191,Estonia,Republic of Estonia|Estland|Eesti|ee|EST|Eesti Vabariik
+Q215,Slovenia,Slovenija|Republika Slovenija|si|svn|slo|Republic of Slovenia|SLO
+Q237,Vatican City,Vatican City State|Papal State|Vatican|va|The Vatican|vat|Status Civitatis Vaticanae|Stato della Città del Vaticano|Città del Vaticano|Civitas Vaticana|State of Vatican City
+Q238,San Marino,sm|Most Serene Republic of San Marino|SMR
+Q399,Armenia,Hayastan|Republic of Armenia|ARM|AM|Hayastani Hanrapetut’yun
+Q678,Tonga,to|Kingdom of Tonga|TGA|Friendly Islands|Tonga Islands
+Q754,Trinidad and Tobago,Republic of Trinidad and Tobago|tt|TTO|TRI|Trinidad & Tobago
+Q760,Saint Lucia,lc|St. Lucia|St Lucia|Iyonola|Hewanorra|lca
+Q792,El Salvador,sv|Republic of El Salvador|ESA|Salvador|🇸🇻
+Q804,Panama,Republic of Panama|pa
+Q810,Jordan,Hashemite Kingdom of Jordan|JO|JOR|jo|Kingdom of Jordan|Yarden|Giordania|ISO 3166-1:JO|HKJ|State of Jordan
+Q811,Nicaragua,ni|Republic of Nicaragua|NIC|NI|NCA
+Q817,Kuwait,State of Kuwait|kw|KUW
+Q836,Myanmar,Burma|Republic of the Union of Myanmar|Union of Burma|MM|BUR|MYA
+Q837,Nepal,Federal Democratic Republic of Nepal|Nipal|Nekbal|Nehpal|Palpou|Naipala|Naipála|Pa-lo-pou|Pa-le-pou|Pa-eul-pou|Paï-pou|Pai-pou|Balpo|Balbo|Bal-bo|Bal-po'i yul|Bal-yul|Naipál|Necbal|Nei-pal|Népaal|Nepall|Nepaul|Ne-pel|Nercerri|Niepal|Ni-po-lo|Ni-po-louo|Palpa|Balpo-yul|Nekpal|Nepál|Népál
+Q842,Oman,om|Sultanate of Oman|سلطنت عمان|omn|Uman
+Q851,Saudi Arabia,KSA|Kingdom of Saudi Arabia|sa|Arabia|Saudia|Saudi|Saudi Kingdom of Arabia|Saudi Arab Kingdom|Saudi Arabian Kingdom
+Q902,Bangladesh,People's Republic of Bangladesh|bd|BAN|Bangla Desh|Land of Bengal|Country of Bengal
+Q924,Tanzania,"United Republic of Tanzania|tz|United Republic of Tanganyika and Zanzibar|tza|Tanzania, United Republic of"
+Q954,Zimbabwe,Republic of Zimbabwe|Southern Rhodesia|Rhodesia|Zimbabwe Rhodesia|ZIM
+Q962,Benin,Dahomey|🇧🇯|BEN|Republic of Benin|BJ
+Q967,Burundi,Republic of Burundi|bi|Republika y'Uburundi|Gouvernement du Burundi
+Q970,Comoros,Juzur al-Qumur|Juzur al-Qamar|Union of the Comoros|Udzima wa Komori|Union des Comores|al-Ittiḥād al-Qumurī|km|Massiwa ya komori|ouvoimoja wakomori|COM|the Comoros
+Q974,Democratic Republic of the Congo,DRC|DR Congo|Congo-Kinshasa|Zaire|Congo|Democratic Republic of Congo|cd|Dem. Republic of the Congo|Dem. Republic of Congo|Dem. Rep. Congo|🇨🇩|Congo (Kinshasa)|COD|D.R.C.
+Q983,Equatorial Guinea,Republic of Equatorial Guinea|gq|GEQ
+Q1000,Gabon,Gabonese Republic|République Gabonaise|ga|🇬🇦|Republique Gabonaise|GAB
+Q1008,Ivory Coast,Republic of Côte d'Ivoire|ci|Cote d'Ivoire|Republic of Cote d'Ivoire|Côte-d'Ivoire|Cote d'lvoire|Côte d’Ivoire|Cote Ivoire|Republic of Ivory Coast|Cote-d'Ivoire|Republic of the Ivory Coast|The Ivory Coast|CIV|Côte d'Ivoire
+Q1013,Lesotho,Kingdom of Lesotho|ls|LES|The Mountain Kingdom
+Q1016,Libya,State of Libya|ly|LBA
+Q1246,Kosovo,Republic of Kosovo|XK|KOS|XKX|KV|🇽🇰|Kosova|RKS
+Q4948,Republic of Venice,The Most Serene Republic of Venice|The Republic of Venice|Repulic of Venice|Venezia Republic|Venetian Republic|Venetian Empire|Republic of Venezia|Most Serene Republic of Venice|Republic Venice|The Serenissima|Venice Republic|Serenissima Repubblica di Venezia|Duchy of Venetia|Republic of Saint Mark|Republic of St. Mark|Venice|Serenìsima Repùblega de Venèsia
+Q15180,Soviet Union,USSR|U.S.S.R.|Soviets|U.S.S.R|the Union of Soviet Socialist Republics|the Soviet Union|Union of Soviet Socialist Republics|The Soviets|CCCP|SU|URS|The USSR
+Q17557,California Republic,Republic of California
+Q22880,Electoral Palatinate,County Palatine of Lotharingia|Bavarian Palatinate|Electorate of Palatinate|Pfalzgrafschaft bei Rhein|Kurpfalz|Electorate the Palatinate|Palatinate of the rhein|County Palatine of the Rhine|Palatine Electorate|Rhenish County Palatine|Electorate Palatinate|Kurfürstentum von der Pfalz|Palatinate of the Rhine|Electorate of the Palatine|County Palatinate of the Rhine|Electorate of the Palatinate
+Q23148,Cornwall,Kernow
+Q26273,Sint Maarten,St. Maarten|Saint Martin (Dutch part)|St Martin|SX|NL-SX|Saint Martin|Sint Maarten (Dutch part)|sxm|Sint Martin
+Q27842,Kingdom of Singapura,
+Q28057,Tamna,
+Q31929,Carolingian Empire,
+Q33061,Taifa of Sarakusta,Taifa kingdom of Zaragoza|Taifa kingdom of Saraqusta
+Q33242,Lower Burgundy,
+Q34754,Somaliland,Republic of Somaliland
+Q38872,Prussia,Preussen|Prussia (Germany)
+Q42585,Kingdom of Bohemia,Königreich Böhmen|Regnum Bohemiae|Bohemia|České království
+Q44642,Federation of Arab Republics,
+Q70972,Kingdom of France,Kingdom of France and Navarre|França e Navarra|French kingdom
+Q71092,Second French Empire,"Second Empire, 1852-1870|Second Empire|1852-1870"
+Q79965,Golden Horde,Great Horde|Ulug Ulus|Kipchak Khanate|Ulus of Jochi
+Q83286,Socialist Federal Republic of Yugoslavia,SFR Yugoslavia|SFRY|Yugoslavia
+Q83618,Maratha Empire,Maratha Confederacy|Maratha
+Q102679,Kingdom of Numidia,
+Q105313,Kingdom of Wessex,Kingdom of the West Saxons|Wessex
+Q110888,Kingdom of Essex,kingdom of the East Saxons|Essex
+Q131964,Austrian Empire,Austria|Kaiserthum Österreich
+Q133356,Ukrainian Soviet Socialist Republic,Ukrainian SSR|Soviet Ukraine|Ukrainian S.S.R|Communist Ukraine|Ukraine
+Q140446,Zagwe dynasty,Zagwe Kingdom|Zagwe polity
+Q143309,county of Louvain,
+Q143737,Gurgum,
+Q146761,Hatay State,Republic of Hatay
+Q149846,County palatine of Cephalonia and Zakynthos,
+Q149861,Dithmarschen,
+Q152750,Protectorate of Bohemia and Moravia,Bohemia and Moravia
+Q153136,Habsburg monarchy,Habsburg Empire|Monarchia Austriaca
+Q153660,Italian Social Republic,Republic of Salò|Republic of Salo|Italy (Fascist Republic: 1943-1945)
+Q154401,Slovak Republic,First Slovak Republic|Slovak State|Slowakischer Staat|Slowakische Republik|Slovenský štát|Slovenská republika|Slovenska republika
+Q154667,Kingdom of Georgia,Georgian Empire|Georgia
+Q164092,Duchy of Saxony,Saxony
+Q165269,East Frisia,Ostfriesland|East Friesland|East Frisia proper
+Q173065,Kingdom of Naples,Regno di Napoli
+Q178897,Latin Empire,ルーマニア帝国|ラテン帝国コンスタンティノープル
+Q179876,Kingdom of England,England
+Q180393,Kingdom of the Two Sicilies,Two Sicilies|Kingdom of Two Sicilies|Sicilies|Kingdom of Sicily
+Q183150,Colchis,Egrisi|Egrisi Kingdom|Kingdom of Colchis|Kingdom of Egrisi|Kolchis|Kolkhida|Kolxida|Kolxeti
+Q186096,Tsardom of Russia,Tsardom of Rus|Tsardom of Muscovy
+Q186320,Grand Duchy of Baden,Großherzogtum Baden|Baden|the Grand-Duchy of Baden
+Q190513,Khanate of Sibir,Siberian Khanate
+Q191324,Middle Kingdom of Egypt,
+Q191369,Ugarit,Ras Shamra
+Q193152,Great Moravia,Great Moravian Empire
+Q195972,Kingdom of Kartli,
+Q200896,Slovak Soviet Republic,
+Q207330,Lagash,Shirpurla|Lagaš|Al-Hiba|Tell al-Hiba|Lagac
+Q209065,Kingdom of Greece,
+Q210163,Astrakhan Khanate,
+Q211274,Polish People's Republic,Polska Rzeczpospolita Ludowa|Communist Poland|People's Republic of Poland|PRL
+Q215530,Kingdom of Ireland,Ireland
+Q216632,Mali Federation,Fédération du Mali|Federation du Mali
+Q232806,County of Edessa,
+Q238809,Kingdom of Spain (1820-1823),Kingdom of Spain|Spain|Trienio Liberal
+Q241790,Kush,Kingdom of Kush
+Q266923,Kingdom of Mysore,Mysore State|Princely State of Mysore|State of Mysore|Mysore
+Q273874,Buyid dynasty,Buyids|Al-e Buya|Al-i Buya|Buyid Empire|Buyyids
+Q276951,Taifa of Seville,
+Q303836,Republic of Tarnobrzeg,
+Q322062,Duchy of Jülich-Berg,
+Q327179,Erfurt Union,German Union
+Q330533,Seventeen Provinces,
+Q335070,Alba Longa,Albalonga
+Q370372,Emirate of Cyrenaica,
+Q385084,Great Perm,Perm|Permia
+Q389688,Achaemenid Empire,First Persian Empire|Persian Empire|Persia|Achaemenid Persian Empire|Persian Achaemenid Empire|Achaemenid Persia
+Q450736,Alzi,
+Q463845,Landgraviate of Hesse-Rotenburg,
+Q466803,Kurumba Pallava dynasty,
+Q482705,Fifth Republic of South Korea,South Korean Fifth Republic|Chun Doo-hwan government|Chun Doo-hwan administration
+Q484195,Timurid Empire,Timurid empire|Gurkani
+Q503623,Gold Coast Colony,Gold Coast|Ghana
+Q504759,Chu,Jing|Jingchu|Chuguo|Chu Guo|Ch'u-kuo|Chu-kuo|Ch'u|Ch'u Kuo|Chu Kuo|State of Chu|State of Ch'u|Kingdom of Chu|Kingdom of Ch'u|Jingguo|Jing Guo|Ching-kuo|Ching Kuo|King|State of King|Kingdom of King|State of Jing|Kingdom of Jing|Jing Kingdom
+Q506008,Kingdom of Deira,Deira
+Q541455,Anglo-Egyptian occupation of Sudan,Anglo-Egyptian Sudan
+Q549817,Principality of Murom,
+Q568712,Wassoulou Empire,Mandinka Empire|Samori's Empire|Samory's Empire
+Q569871,Free People's State of Württemberg,
+Q573072,Neapolitan Republic,Royal Republic of Naples
+Q588672,Hammadid dynasty,
+Q605292,Kindah Kingdom,Kindah Arabia|Kinda
+Q617219,English overseas possession,English overseas possessions|English colonial empire
+Q620765,Lydia,Kingdom of Lydia
+Q625380,Eastern Hungarian Kingdom,John Zápolya's Hungarian Kingdom
+Q637238,Electorate of Baden,
+Q640998,Senior juz,Senior jüz|Senior zhuz|Uly zhuz|Uly júz
+Q651377,Shunga Empire,Sunga Empire
+Q669317,Bidar Sultanate,
+Q673837,Landgraviate of Hesse-Marburg,Hesse-Marburg
+Q680997,Principality of Lower Pannonia,
+Q695322,Landgraviate of Hesse,
+Q696241,Khanate of Kokand,Khoqand|Kokand|Khanate of Khoqand
+Q696640,Duchy of Pomerania,
+Q701914,Territory of the Military Commander in Serbia,Military administration in Serbia (1941-1944)
+Q705044,People's Committee of North Korea,Provisional People's Committee of North Korea
+Q705598,Wituland,Witu|Vitu|Witu Protectorate|Swahililand
+Q727710,Tabal,
+Q729481,Transpadane Republic,Repubblica Transpadana
+Q752662,Hafsid dynasty,Hafsids|Hafsid Sultanate of Tunis
+Q766411,South African Republic,
+Q766501,Duchy of Mantua,
+Q800236,Bahawalpur State,Bahawalpur|State of Bahawalpur
+Q806019,Bamra State,Bamanda State
+Q816814,Kingdom of Gwynedd,Gwynedd
+Q826021,Kenmu Restoration,Kemmu Restoration
+Q835619,Principality of the Briançonese,
+Q836169,Qasim Khanate,
+Q836676,Kingdom of Majorca,Majorca
+Q836680,Duchy of Nassau,
+Q841364,Ayutthaya Kingdom,
+Q843394,Tagalog Republic,
+Q844295,Yamatai,Yamatai-koku|Yamataikoku
+Q854415,Kingdom of the Lombards,Regnum Langobardorum|Lombard Kingdom
+Q856691,Rashtrakuta dynasty,
+Q862467,Kingdom of Sine,Sine Kingdom|Siine Empire|Siine Kingdom|Sine polity
+Q862701,People's Republic of Benin,
+Q868942,Republic of Kuwait,
+Q871091,British Malaya,Malaya British
+Q878309,Ly dynasty,Lý dynasty|Later Lý dynasty
+Q892061,Bonai State,
+Q912052,Wei,Liang
+Q914031,Tonk State,
+Q914898,Kingdom of Khotan,Yutian|Hotan|Hetian
+Q922190,Shanshan,
+Q953432,Couto Misto,
+Q954891,Free State of Waldeck-Pyrmont,Free State of Waldeck
+Q1028848,French Cameroons,Cameroun
+Q1029062,Martyazo,
+Q1044668,Republic of Rose Island,Esperanta Respubliko de la Insulo de la Rozoj|Esperantist Republic of Rose Island|Rose Island Republic
+Q1052040,Cayor,
+Q1057551,Loulan Kingdom,Kroraina
+Q1063498,United States of the Ionian Islands,
+Q1115291,Thonburi Kingdom,
+Q1133431,Artuqids,Artukids|Ortokids|Ortoqids|Artuklular|Artuqid State|Artquids
+Q1136188,Saadi dynasty,Sa'di dynasty
+Q1137403,Yue,
+Q1139807,County of Portugal,Portugalia
+Q1141215,Granadine Confederation,Confederación Granadina|Confederacion Granadina
+Q1147897,Wey,Wei|State of Wey|State of Wei|Ouey
+Q1155818,Anga Kingdom,
+Q1232887,County of Savoy,
+Q1247159,Messenia,
+Q1250673,Jenilu,
+Q1257454,Paddan Aram,
+Q1290149,Federal People's Republic of Yugoslavia,FPR Yugoslavia|FPRY|Yugoslavia
+Q1292987,Maravi,Maravi Kingdom|Maravi Empire|Maravi Confederacy|Maravi Historical Region
+Q1311219,Jaffna kingdom,Kingdom of Jaffna
+Q1320058,French Protectorate of Laos,
+Q1327602,Wei,
+Q1331184,Vatsa,
+Q1352878,Duchy of Livonia,
+Q1390749,Sultanate of Rafai,
+Q1392452,Gilzan,kingdom of Gilzan
+Q1404297,Shinar,
+Q1477220,Somali Democratic Republic,
+Q1477754,Gonja people,
+Q1502813,Sultanate of Agadez,Sultanate of Aïr
+Q1511207,Matabele kingdom,
+Q1514510,County of Urgell,Urgell|Urgel
+Q1541779,County of Osona,
+Q1541813,County of Roussillon,
+Q1557298,Soran Emirate,
+Q1588434,Thanjavur Nayak kingdom,
+Q1606043,Siberian Republic,
+Q1617123,Utpala dynasty,
+Q1638408,Rinpungpa,rin spungs pa
+Q1661685,Indo-Sassanids,
+Q1708400,Duchy of Płock,
+Q1740533,Baku Khanate,
+Q1771706,Alania,
+Q1785349,Kota State,
+Q1916643,Medja,
+Q1965778,Sarir,
+Q1991742,Kingdom of Alba,
+Q2006542,Dominion of Pakistan,Pakistan
+Q2030487,Airgíalla,Airgialla
+Q2080326,Land Chenla,Lùzhēnlà|Wèndān|Pólòu
+Q2097045,Yelang,
+Q2109946,Principality of Galilee,
+Q2162698,Duchy of Bohemia,Czech Principality|Czech Duchy|Principality of Bohemia
+Q2183293,Duchy of Belz,
+Q2249661,United Provinces of New Granada,
+Q2253783,Kingdom of Glywysing,Glywysing
+Q2285679,Taifa of Córdoba,Taifa of Cordoba
+Q2295939,Duchy of Gascony,Duchy of Wasconia|Duchy of Vasconia
+Q2331954,Despotate of Arta,
+Q2337275,Kingdom of Rajarata,
+Q2340665,Basutoland,
+Q2341105,Great Horde,
+Q2342282,Oman proper,Imamate of Oman
+Q2353476,Strandzha Commune,Strandzha Republic
+Q2354842,Community of Municipalities of Northern Dalmatia and Lika,
+Q2370784,Shun dynasty,
+Q2572901,Kalabhra,Kalabhras dynasty|Kalabhra dynasty
+Q2579852,Taurida Soviet Socialist Republic,
+Q2598512,Xue,
+Q2638486,Kingdom of Cambodia,Royaume du Cambodge
+Q2640598,Kabardia,
+Q2641492,Triveneto,Tre Venèsie
+Q2665398,Matsya,
+Q2670639,Powys Wenwynwyn,
+Q2684394,Taifa of Baeza,
+Q2872689,Turkestan Autonomy,
+Q2899771,Principality of Hungary,Duchy of Hungary|Grand Principality of Hungary|Gyula/Kende of the Hungarians
+Q2981019,Ostikanate of Arminiya,Arminiya
+Q3028514,Kingdom of Tahiti,
+Q3111454,Tran dynasty,Trần dynasty|Đại Việt
+Q3177715,Pagaruyung Kingdom,
+Q3181749,Arab Caliphate,Arab Empire|Islamic Caliphate
+Q3233989,Lanfang Republic,Lanfang
+Q3236650,Tulu Nadu,Tulunad
+Q3326429,Mount Lebanon Mutasarrifate,
+Q3327860,Gaelic Ireland,
+Q3393334,Signoria of Florence,
+Q3403551,Principality of Halych,Principality of Galicia|Halych principality|Galicia principality
+Q3446223,Sagaing Kingdom,Kingdom of Sagaing
+Q3456432,République des Sept-Dizains,Republique des Sept-Dizains
+Q3532146,Early Cholas,
+Q3571951,Royal Lordship of Molina,Lordship of Molina
+Q3572054,Lordship of Albarracin,
+Q3572492,Kingdom of Sobrarbe,
+Q3591817,Emirate of Abdelkader,
+Q3627069,Banate of Bosnia,Bosnian Banate
+Q3687948,County of Asti,
+Q3688102,Como County,
+Q3708094,Seljuk Empire,Great Seljuk Empire|Saljuqid Empire|Seljukid Empire|Saljuq Empire|Seljuk Sultanate
+Q3738649,Dual monarchy of England and France,
+Q3744563,Adzele,Adsele
+Q3762571,Kingdom of Bithynia,Bithynia
+Q3845765,Marquisate of Zuccarello,
+Q3877418,Ibelin,
+Q3892131,Free Province of Guayaquil,República del Guayaquil|Provincia del Guayas|País Libre de Guayaquil
+Q3960417,Signoria di Carrara,Lordship of Carrara
+Q3963975,Akkalkot State,
+Q4083686,Sultanate of Bengal,Bangalah|Bengal Sultanate
+Q4114520,Military Council,
+Q4121369,Sharifate of Mecca,Emirate of Mecca
+Q4184652,Transcaspian Government,
+Q4216316,Karusha Kingdom,
+Q4226527,Principality of Kozelsk,
+Q4250299,Autonomous Turkish Cypriot Administration,
+Q4304392,Russian State,Moscow Ulus|Moscovian State
+Q16,Canada,CAN|CA|Dominion of Canada|ISO 3166-1:CA
+Q4401026,Kingdom of Namayan,"Sapa, Santa Ana"
+Q4412473,Regional Government of Northwest Russia,
+Q4430531,Soi︠u︡z obʺedinennykh gort︠s︡ev Gorskai︠a︡ Respublika,
+Q4667453,Abhira Kingdom,Abhira|Ahir Kingdom
+Q4802751,Arzen,
+Q4899887,Beylik of Tanrıbermiş,
+Q4902206,Bhurshut,Bhurishrestha|Kingdom of Bhurishrestha
+Q4903979,Bida Emirate,
+Q4919413,Post-Angkor Cambodia,Khmer Empire's decline
+Q4985038,Vettathunad,
+Q5185064,House of Zhu,House of Chu
+Q5305952,Dravida Kingdom,
+Q5311376,Duchy of Opole and Racibórz,Duchy of Opole and Raciborz
+Q5362837,Emirate of Jabal Shammar,Emirate of Ha’il|Rashidi Emirate
+Q5369469,Dumakru,Tumangnu|Doumolou|Damolu|Tumangnu-guk|Dumangnu
+Q5919137,Empire of Theodoric the Great,Visigothic interregnum|intermediate ostrogodo
+Q6056625,Kingdom of Pacaca,
+Q6201794,Jin,晉國
+Q6392538,Kenya (1963–1964),Kenya|Commonwealth realm of Kenya
+Q6393363,Kerala Kingdom,
+Q6400806,Khasa,Khas people
+Q6498248,Lauhitya Kingdom,
+Q6648074,Chu,
+Q6744020,Mallabhum,"Bishnupur kingdom, Mallabhoom, Mallabani, Mallabhūm"
+Q7244759,Lakzes,
+Q7308003,Regency Council,
+Q7314427,Republic of Baja California,
+Q7362066,Roman Libya,
+Q7636792,Sultanate of Bazin,
+Q7638035,Sumpa,
+Q7703611,Duchy of Aquitaine,
+Q9301958,Rada Narodowa Księstwa Cieszyńskiego,
+Q10259881,Yuli,
+Q10791211,Kingdom of Mrauk U,Arakanese Kingdom of Mrohaung|Kingdom of Arakan|Arakan Kingdom|Kingdom of Rakhine|Rakhine Kingdom|Northern Kingdom
+Q10827839,Taira administration,Heike administration
+Q10878917,Jiujiang,
+Q10921634,Khoshut Khanate,
+Q10935638,Tai Republic,
+Q10975458,Maramureș,Marmaroshchyna|Máramaros|Maramorshchyna
+Q10988528,Second East Turkestan Republic,East Turkestan
+Q11061992,Government of the Republic of China in Guangzhou,the Republic of China in Guangzhou government|Republic of China in Guangzhou government
+Q11076605,National Protection Junta,
+Q11097973,Li Shu,
+Q11177699,Czechoslovak Federative Republic,
+Q11266977,Epirus,
+Q11569258,Yan,
+Q11571391,Kununokuni,Gounu|Gounuguo|Kunu no Kuni|Kunukoku|Kunu-koku|Kunanokuni|Kuna no Kuni|Kunakoku|Kuna-koku
+Q11621245,Mongol United Autonomous Government,
+Q11750128,Kingdom of Poland,
+Q11909245,Bezaume,
+Q11910203,Al-Busi,
+Q11934225,Lugasi,
+Q11936115,Masmughans of Damavand,
+Q11938308,Nabhani dynasty,
+Q11955494,Yengan,
+Q12054859,Slovak People's Republic,
+Q12491035,Kalinyamat Sultanate,
+Q12582684,Gamhaeguk,
+Q12582685,Gamhaebiri,
+Q12595272,Morobiriguk,
+Q12607240,Yeomnoguk,
+Q12608943,Uyuguk,
+Q12610676,Eumjeupbeolguk,Ŭmjŭppŏlguk
+Q12642600,Middle Assyrian Empire,
+Q12678800,Zamfara,
+Q13072974,Socialist Republic of the Union of Burma,Union of Burma|Socialist Burma|BSPP Period
+Q13107370,Principality of Serbia,Serbia|Principality of Serbia (early medieval)
+Q13125117,Unyasa,Nyasaland Protectorate
+Q13131807,Kingdom of Morgannwg,Kingdom of Glamorgan
+Q13534654,Taifa of Toledo,
+Q14803080,Jimara,
+Q15104874,Ailech,
+Q16000109,Herodian Kingdom of Judea,Kingdom of Israel|Kingdom of Judea|Kingdom of Judaea|Kingdom of the Jews
+Q16175766,Yeoraebiriguk,Yŏraebiriguk
+Q16550783,Duchy of Anhalt,Anhalt
+Q16635043,Principality of Vyshgorod,
+Q16656928,Kazan kingdom,
+Q16674374,Marquis of Veere and Flushing,
+Q16701789,Starodub Principality,
+Q16824250,West Breifne,
+Q16933165,Duchy of Sandomierz,
+Q16953965,British Military Administration,
+Q17040704,Gouding,
+Q17068375,Ramannadesa,Ramaññadesa|Monland
+Q17355516,Kingdom of Voss,
+Q17523945,Toltec Empire,
+Q17526620,Shirvanshahs' State,
+Q17540123,Erfurt state,
+Q18433853,First Republic of Pińczów,
+Q18648857,Landi State,
+Q19929935,Commonwealth realm of Tanganyika,
+Q20009900,Duchy of Bari,
+Q20022345,Western Huetar Kingdom,
+Q21409375,North-Eastern Rus',North-Eastern Russia|Principality of Vladimir|Vladimir Principality
+Q22936401,Pangasinan (historical polity),Pangasinan|Fengjiashilan|Pangkasilan|馮嘉施蘭|冯嘉施兰
+Q25536394,Grand Duchy of Lithuania 1812,
+Q28109312,Pushyabhuti dynasty,Bais dynasty|Vardhana dynasty|Pushyabhūti dynasty|Puspabhūti dynasty
+Q28136352,Cebrenia,
+Q39072948,Confederation of Sedang,
+Q42345047,Catalan Republic,
+Q43132080,Kerman Seljuk Sultanate,
+Q48769061,Sultanate of Zanzibar,Kingdom of Zanzibar|Zanzibar
+Q54810282,Free City of Rosheim,
+Q56376885,Bani Khalid Emirate,
+Q65161581,Canton of Tenagua,
+Q65162302,Canton of Tamanca,Canton of Guehebey
+Q85816686,Yemeni Zaidi State,Qāsimī dynasty
+Q86613415,Sultanate of Morocco,
+Q86667177,Republic of Sassari,
+Q91394308,Emirate of Algiers,
+Q96456912,Free City of Sélestat,
+Q96622157,Lechang,
+Q97059002,Java and Madura,
+Q97200371,Chikushikoku,
+Q97453140,Kingdom of Luang Phrabang,
+Q97940738,Free City of Haguenau,
+Q97940882,Free City of Seltz,
+Q97943978,Free City of Wissembourg,
+Q98605707,People's Revolutionary Republic of Guinea,
+Q99469761,Mirdasid emirate of Aleppo,
+Q104863335,Duchy of Poland,Civitas Schinesghe|early Piast monarchy
+Q105633625,Emirate of Bahrain (1783–1971),
+Q106369135,Ancient Kangleipak,Antique Kangleipak|Antique Manipur|Ancient Manipur|Kangleipak|Early Kangleipak|Early Manipur|Old Kangleipak|Old Manipur|Archaic Manipur|Archaic Kangleipak
+Q106881694,Burmese kingdoms,
+Q107723325,Empire of Charles V,
+Q109534069,Kingdom of Wolaita,
+Q112072630,Beja Kingdoms,
+Q112963228,Kingdom of Palembang,Palembang Kingdom
+Q114178255,Kingdom of the Angles,
+Q114288047,Annam,
+Q114327408,Luhansk People's Republic,Lugansk People's Republic
+Q118197757,Chiefdom of Bawam,
+Q118198487,Chiefdom of Dzonggag,
+Q118198596,Chiefdom of Lungu,
+Q120088504,Meliau Kingdom,
+Q121593119,Gunmiguk,
+Q121788766,Banu Masala,
+Q122381094,Free State of Chukotka,
+Q123027565,Kashmir Sultanate,
+Q123378592,Federation of Earth,FoE|World Federation
+Q123592443,Independent State of Raqqa,State of Hajim bin Muhaid
+Q124986380,First Sikh State,Sikh Rule|Sikh State|Sikh Kingdom
+Q129854572,Jushi Kingdom,
+Q130567672,Bīt-Purutaš,
+Q131429368,Alawi Sultanate,
+Q25,Wales,WAL|WLS|Cymru|Cambria
+Q26,Northern Ireland,NIR|UKN|North Ireland|N. Ireland|NI|The North|Tuaisceart Éireann|The Six Counties
+Q28,Hungary,hu|HUN|Magyarország
+Q29,Spain,Kingdom of Spain
+Q36,Poland,Republic of Poland
+Q39,Switzerland,Swiss Confederation|Swiss|Confoederatio Helvetica
+Q96,Mexico,MX|mx|United Mexican States|Mexican United States|Mexican Republic|MEX|US of M|MXN
+Q142,France,French Republic|FR|FRA
+Q184,Belarus,🇧🇾|White Russia|White Ruthenia|Republic of Belarus|by|Byeloruss|BLR|Bielorussia|Belorussia|Byelorussia|Respublika Belarus'|Respublika Bielaruś|Bielaruś
+Q225,Bosnia and Herzegovina,Bosnia-Herzegovina|Bosnia|BiH|Bosnia & Herzegovina|B&H|🇧🇦|BIH|ba|Bosnia and Hercegovina
+Q227,Azerbaijan,AZE|Republic of Azerbaijan|az|Azərbaycan|Azərbaycan Respublikası
+Q232,Kazakhstan,Republic of Kazakhstan|kz|Qazaqstan|KAZ|Republic of Qazaqstan
+Q657,Chad,Republic of Chad|td|🇹🇩|CHA|GUM
+Q709,Marshall Islands,Republic of the Marshall Islands|mh|MHL
+Q766,Jamaica,JA|Commonwealth of Jamaica|JM|JAM
+Q778,The Bahamas,Commonwealth of The Bahamas|Commonwealth of the Bahamas|bs|Bahama Islands|Bahamas|BAH
+Q784,Dominica,Commonwealth of Dominica|The Commonwealth of Dominica|dm|DOM|DMA|Wai‘tu kubuli|Wai'tu kubuli|Island of Dominica|🇩🇲
+Q800,Costa Rica,Republic of Costa Rica|🇨🇷|cr|CRI|CRC
+Q858,Syria,sy|Syrian Arab Republic|SYR|ISO 3166-1:SY|Surya
+Q865,Taiwan,"ROC|Taiwan ROC|TW|Nanasian|The ROC|Republic of China (Taiwan)|Taivang|Chunghwa Minkuo|TPE|TWN|Taywan|Formosa|Taivangʉ|Nationalist China|China, Republic|Chunghwa Minkwo|Chinese Taipei|Free China|Republic of China|Taioan|Thoi-van"
+Q1020,Malawi,Republic of Malawi|mw|MAW
+Q1042,Seychelles,Republic of Seychelles|sc|SYC|SEY
+Q2895,Byelorussian Soviet Socialist Republic,Byelorussian SSR|Byelorussian S.S.R.|Soviet Byelorussia|Belorussian S.S.R.|Belorussian SSR|Belorussian Soviet Socialist Republic|Soviet Belorussia|Communist Belarus|BSSR|Soviet Belarus|White Russian Soviet Socialist Republic|Беларуская Савецкая Сацыялістычная Рэспубліка|Bielaruskaja Savieckaja Sacyjalistyčnaja Respublika|Белорусская Советская Социалистическая Республика|Byelorusskaya Sovyetskaya Sotsialisticheskaya Respublika|Белорусская ССР|Belorusskaya SSR|Belarusian Soviet Socialist Republic|Belarusian SSR
+Q11768,Ancient Egypt,"Ta-Kemet|Ta-Meri|Ta-Ui|Egypt, Ancient"
+Q19083,Kingdom of Iberia,Iberia
+Q26996,Kidarites,
+Q28513,Austria-Hungary,Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Austro-Hungary|Austro-Hungarian Monarchy|Monarchy of Austria-Hungary|The Kingdoms and Lands Represented in the Imperial Council and the Lands of the Holy Hungarian Crown of St. Stephen
+Q29999,Kingdom of the Netherlands,Netherlands|the Netherlands|Nederlanden|NL
+Q47588,Basque Country,Basqueland|Basque Provinces|Basque nation
+Q49326,Majapahit,Majapahit Empire|Majapahit empire
+Q58296,French First Republic,First Republic|First French Republic|French Republic
+Q68678,Socialist Soviet Republic of Byelorussia,SSRB
+Q72785,Cretan State,
+Q75613,Almoravid dynasty,Almoravids|Almoravid Empire|Almoravides|Almoravid Emirate
+Q83444,Kingdom of Corsica,
+Q83536,Anglo-Corsican Kingdom,Kingdom of Corsica
+Q87791,Frisian Kingdom,
+Q111471,Dál Riata,Dalriada|Dalriata|Dal Riata|Dalriads|Dál Riada
+Q119695,New Castile Governorate,
+Q126936,Visigothic Kingdom,Regnum Gothorum|Kingdom of the Goths
+Q130280,Estonian Soviet Socialist Republic,Estonian SSR|Estonian S.S.R|Estonian ssr|Soviet Estonia
+Q131337,Azerbaijan Soviet Socialist Republic,Azerbaijan SSR|Azerbaijani SSR|Soviet Azerbaijan|Azerbaidzhan Soviet Socialist Republic|Azerbaidzhan SSR|Azerbaidzhani SSR|Soviet Azerbaidzhan|Azerbaydzhanskaya Sovetskaya Sotsialisticheskaya Respublika
+Q146597,Zand dynasty,
+Q146872,State of Aleppo,
+Q147909,Kingdom of Bulgaria,Bulgarian Kingdom|Tsarstvo Balgariya
+Q149832,Kingdom of Kurdistan,
+Q163329,Canaan,Canaanites
+Q165040,Duchy of Parma and Piacenza,Duchy of Parma|Ducato di Parma
+Q172640,North Vietnam,Democratic Republic of Vietnam|DRV|Vietnam (North)|DR Vietnam
+Q176466,Rewa State,Rewah State|Rewa|Rewah|Riwa|Riwa State
+Q178084,Ilkhanate,Il-khanate|Ilkhanid Empire|Hülegü Ulus
+Q179023,French colonial empire,
+Q187684,Despotate of Epirus,Despotate of Epiros
+Q187979,Early Dynastic Period of Egypt,Archaic Period|Early Dynastic Period
+Q188161,Dutch East Indies,Netherlands East Indies|Dutch Indies|Nederlands-Indië|Netherlands Indies|Insulinde
+Q191077,Kingdom of Yugoslavia,Yugoslavia
+Q191484,Old Great Bulgaria,Great Bulgaria
+Q207162,Bourbon Restoration in France,Kingdom of France|France
+Q207600,Aghlabids,Aghlabid dynasty|Aghlabid|Aghlabid Emirate|Emirate of Aghlabid
+Q213638,Kingdom of Cyprus,
+Q218023,Orange Free State,Oranje-Vrijstaat|Oranje-Vrystaat
+Q220594,Nabataeans,Nabatene
+Q221357,Dutch Brazil,New Holland|Nederlands-Brazilië|Nieuw-Holland
+Q230407,Kingdom of Israel,Northern Kingdom|Kingdom of Samaria|Northern Kingdom of Israel
+Q231392,Kingdom of Asturias,
+Q242115,Five Dynasties and Ten Kingdoms period,
+Q243652,Hungarian Soviet Republic,Republic of Councils in Hungary|Soviet Republic of Hungary|Magyarországi Tanácsköztársaság
+Q283680,Carchemish,
+Q285658,First Mexican Empire,Primer Imperio Mexicano|Fist Mexican Empire
+Q310650,Schaumburg-Lippe,Principality of Schaumburg-Lippe
+Q313136,Kingdom of Dumnonia,Dumnonia|Damnonia|Domnonia
+Q332137,Kingdom of Commagene,Commagene
+Q372292,Kussara,
+Q373189,Bithynia,
+Q377350,Iberian Union,
+Q391980,Free Territory of Trieste,
+Q426488,March of Turin,Marquisate of Turin|Arduinic March|Marquisate of Susa|March of Susa
+Q427941,Islamic Emirate of Afghanistan,
+Q430309,Đại Việt,Great Viet|Dai Viet|Vietnamese state
+Q436994,Kingdom of Dublin,
+Q473353,Ammon,
+Q488880,Greco-Bactrian Kingdom,Bactria|Bactrian Kingdom|Hellenistic Bactria|Hellenistic Bactrian Kingdom
+Q491790,Kerman Seljuk Sultanate,
+Q497777,First Spanish Republic,
+Q500965,Kingdom of Gera,
+Q514271,Republic of Heinzenland,
+Q523435,United States of Indonesia,United Republic of Indonesia
+Q537503,Principality of Piombino,
+Q560771,Margraviate of Baden-Baden,
+Q568452,Restoration in Switzerland,
+Q572222,County of Horne,
+Q580447,Duchy of Styria,Styria
+Q600018,Kingdom of Hungary,Horthy era|Horthy system|Regency Hungary
+Q602391,Helvetie Republic,
+Q606974,Duchy of Brzeg,
+Q617218,Yamhad,
+Q618399,Republic of the Congo (Léopoldville),Democratic Republic of the Congo|Congo-Léopoldville|Congo-Leopoldville
+Q624887,Neo-Babylonian Empire,New Babylonian Empire|Chaldean Empire
+Q640010,Great Ardra,Grand Ardra|Allada|Ardres|Hardre|Ardrah|Arda|Arada|Arrada
+Q649262,Arzawa,
+Q655621,Principality of Transylvania,
+Q662653,British Somaliland,Somaliland
+Q668294,Kamerun,Cameroon
+Q680472,Principality of Volhynia,Volodymyr-Volynskyi principality|Volyn principality
+Q686971,Lands of the Bohemian Crown,Czech Crown Lands|Lands of the Crown of Saint Wenceslaus|Bohemian Crown
+Q691037,Busoga,
+Q694858,Free State Bottleneck,
+Q696242,Wang Jingwei regime,Reorganized National Government of China|Wang Jingwei government
+Q698089,Grand Duchy of Würzburg,
+Q706553,County of Nice,Niçard Country
+Q707917,East Hebei Autonomous Government,East Ji Autonomous Government|East Hebei Autonomous Anti-Communist Government
+Q730163,Autonomous Republic of Northern Epirus,Northern Epirus Republic|Republic of Northern Epirus|AABH
+Q733799,Kingdom of the Hwicce,Hwicce
+Q736839,Kamakura shogunate,Kamakura bakufu|Kamakura Japan|Minamoto shogunate|Hojo shogunate
+Q746443,Golden Ambrosian Republic,Repubblica Ambrosiana|Aurea Repubblica Ambrosiana
+Q748595,Qataban,
+Q748876,Kotokolia,
+Q752265,Seha River Land,
+Q761370,Aro Confederacy,
+Q781705,Mughan Soviet Republic,
+Q796583,Kingdom of Kongo,Kongo dya Ntotila|Wene wa Kongo|Reino do Congo
+Q809652,Barwani State,
+Q815524,Belgian colonial empire,
+Q821546,Bit Bahiani,
+Q823862,Quwê,Quwe|Que|Kue|Qeve|Kuê|Keveh|Coa|Adanawa
+Q824489,Estado Novo,New State
+Q825902,Polish–Lithuanian union,Polish-Lithuanian Union
+Q832459,Republic of Mirdita,Mirdita Republic
+Q834486,Federation of South Arabia,
+Q836688,ancient Chinese state,Feudatory|ancient Chinese kingdom|Chinese dynasty
+Q837136,Kingdom of Deheubarth,Deheubarth
+Q837187,Hamdanid dynasty,
+Q837855,Qi,Kingdom of Qi|State of Qi|Tsi|Ch'i|Chi|Qiguo|Ch'i-kuo|Chi-kuo
+Q846025,Mahajanapada,mahājanapada|16 mahajanapadas (great states)|sixteen mahajanapadas (great states)
+Q870055,Kingdom of Laos,
+Q899706,Peru–Bolivian Confederation,Confederación Perú-Boliviana|Confederacion Peru-Boliviana|Peru–Bolivia|Peru-BoliviaNO
+Q903779,"United Kingdom of Portugal, and of Brazil, and the Algarves",
+Q904346,Kingdom of Desmond,Desmond
+Q904766,Heungyo,Heung-yo kingdom|Heungyoguk
+Q909650,Ara Gaya,
+Q924833,Kaarta,Ka'arta
+Q926295,Italian Empire,Italian colonial empire|Italian colonialism
+Q927154,Tsardom of Vidin,Vidin Tsardom
+Q932370,Changbhakar,
+Q956729,Counts of Berga,viscounts of Berga
+Q958291,United Principalities of Moldavia and Wallachia,United Principalities|Romanian United Principalities|Romania
+Q1028835,British Cameroons,Ambazonia
+Q1046443,Republic of Užice,
+Q1054409,March of Ancona,
+Q1061582,Chan Santa Cruz,
+Q1062415,Kingdom of Champasak,Bassac
+Q1079109,Calchfynydd,
+Q1088024,Meirionnydd,
+Q1096374,Banu Ilyas,
+Q1100893,Domain of the Dejanović noble family,
+Q1106424,Darawiish,Dawlāt ad-Darāwīsh|Darwiish State|Dervish kingdom of Diiriye Guure|Dervish Kingdom|Darawiish kingdom|Darawiish kingdom of Diiriye Guure|Daraawiish kingdom of Diiriye Guure|Dervish sultanate|Darawiish sultanate of Diiriye Guure|Boqortooyada Daraawiish
+Q1108112,Khalitu,Halitu
+Q1111926,Taqali,Tegali
+Q1122980,Comtat Venaissin,
+Q1131500,Free State of Icaria,Free State of Ikaria
+Q1132786,Ouaddai Empire,Wadai Empire|Wadai Sultanate|Ouaddai Sultanate|Wadai Kingdom|Ouaddai Kingdom
+Q1139762,Kanem-Bornu Empire,Kanem Bornu Empire|KanemBornu Empire|Kanem–Bornu Empire
+Q1146786,Señorío of Cuzcatlán,
+Q1147823,Gahadavala,Gahadvala
+Q1150344,Johor Sultanate,Sultanate of Johor-Riau
+Q1188459,Yarkent Khanate,Kashgaria|Yarkand Khanate|Khanate of Yarkent|Khanate of Yarkand
+Q1193554,Guge,
+Q1232141,Emirate of Jelgooji,
+Q1252942,Duklja,Diokletija|Doclea
+Q1268307,Dvaravati kingdom,Thawarawadi
+Q1291919,Yan,
+Q1297894,County of Ribagorza,
+Q1315339,Lohara Dynasty,Khasha Lohara
+Q1324889,Beylik of Germiyan,
+Q1330881,Hamazi,
+Q1365851,Minaeans,
+Q1400780,Sailana State,
+Q1408764,Circassia,
+Q1415162,Garðaríki,Garðaveldi|Gardariki|Gardarike
+Q1435466,Limerick Soviet,
+Q1457519,Udaipur State,
+Q1479630,Kingdom of Loango,Loango Empire|Loango Kingdom|Loango polity
+Q1483403,Principality of Dukagjini,
+Q1519074,Lands of Denmark,
+Q1530762,Kingdom of Kandy,
+Q1535236,Kalahandi State,
+Q1557792,Gwalior State,Gwalior
+Q1642472,Tondo (historical polity),Tundo|Tundun|Tundok|Tung-lio|Ancient Tondo|Bayan of Tondo|Old Tondo|Tondo (historical settlement)|Kingdom of Tondo|Tondo
+Q1649871,Kingdom of Poland,
+Q1651832,Thaton Kingdom,Thuwunnabumi|Suvannabhumi|Sadhuim|Sudhammapura
+Q1658411,Raj of Sarawak,Sarawak
+Q1688526,Yettishar,Kashgaria|Kashgar Khanate
+Q1709337,Emirate of Nekor,Kingdom of Nekor|إمارة بني صالح|إمارة نكور|Imārat Banī Ṣāliḥ
+Q1747689,Ancient Rome,Roman antiquity|Roman civilization|Roman culture|ancient Roman civilization|ancient Roman culture
+Q1759078,Kingdom of Jimma,
+Q1760729,Alashiya,Alasiya
+Q1776972,Ramdurg State,
+Q1865132,Aden Protectorate,
+Q1877562,Mark Marmoutier,
+Q1885093,Mahra Sultanate,
+Q1886032,Vạn Xuân,Wanchuang
+Q1900717,Margraviate of Brandenburg-Küstrin,Brandenburg-Küstrin
+Q1936158,Minyue,
+Q1948254,Mormaer of Moray,
+Q1986139,Parthian Empire,Arsacid dynasty of Parthia|Arsacid Empire
+Q1994382,North Caucasian Emirate,
+Q1998401,North Yemen,Nordjemen
+Q2028730,Orda Horde,Orda Khanate
+Q2089004,Esgaroth,Bourg-du-Lac|Lacville|Lake-town|Esgaroth upon the Long Lake
+Q2090473,Khazar Khaganate,Khazaria
+Q2118309,Poonch,
+Q2122499,Surakarta Sunanate,Sunanate of Surakarta
+Q2145318,The Republic of Whangamōmona,
+Q2150951,State of Haiti,Leta an Ayiti|État d'Haïti
+Q2208978,Alamannia,merovingian duchy of Alamannia|frankish duchy of Alamannia|duchy of Alamannia|Alemannia
+Q2214985,Northern Liao,
+Q2221701,Sangli State,
+Q2264840,Dunoding,
+Q2287491,Qedarite,Kedar
+Q2305208,Russian Socialist Federative Soviet Republic,RFSR|RSFSR|Soviet Russia|Russian FSR|Russian SFSR|Russian Soviet Republic|Soviet Republic of Russia|Russian Federative Republic|Russian Federative Soviet Republic|Russian Soviet Federative Socialist Republic
+Q2320005,Ptolemaic Kingdom,Hellenistic Egypt|Lagid Kingdom|Lagid Egypt|Ptolemaic Egypt|Ptolemaic Empire|Kingdom of the Ptolemies
+Q2393278,Republic of Cospaia,
+Q2431480,Tibetan Empire,Great Tibet|bod chen po|བོད་ཆེན་པོ|Bod
+Q2458532,Terra Mariana,
+Q2499883,Ura,"Ura, Anatolia"
+Q2504040,Gagauz Republic,Republic of Gagauzia|Gagauzia|Gagauz Autonomous Soviet Socialist Republic|Gagauz ASSR|Gagauz Soviet Socialist Republic|Gagauz SSR
+Q2507497,National Legionary State,
+Q2522604,Taifa of Tejada,
+Q2576305,Duchy of Croatia,Principality of Dalmatian Croatia
+Q2578028,Sikh Confederacy,
+Q2593459,Provisional Government of Hawaii,
+Q2605410,Tarascan State,Purépecha Empire
+Q2616953,Quisling regime,
+Q2625496,State of East Indonesia,
+Q2638136,Kazikumukh Shamkhalate,
+Q2657134,Kingdom of Albania,Regnum Albaniae|Albanian Kingdom|Albania
+Q2670139,Porhoët,
+Q2670895,Taifa of Alpuente,
+Q2778131,Dizak,Melikdom of Dizak
+Q2784785,Kingdom of the Gepids,
+Q2976571,County of Drenthe,
+Q2979717,Second Empire of Haiti,Anpi an Ayiti|Empire d'Haïti
+Q2988069,Pan Pan,Panpan
+Q2991474,County of Württemberg,
+Q2992636,Central American Confederation,
+Q2994258,Regional Defence Council of Aragon,
+Q3092690,feudal Japan,Japanese feudalism|feudalism in Japan|medieval Japan
+Q3136850,Kingdom of Sitawaka,
+Q3167772,Kingdom of Polonnaruwa,
+Q3253408,Principality of Karachev,
+Q3324486,Prince-Bishopric of Montenegro,
+Q3446214,Kingdom of Poland (1320-1386),
+Q3446277,Wang Doré,
+Q3503548,Sultanate of Bulungan,Berau Sultanate
+Q3556993,Viscounty of Léon,Viscounty of Leon
+Q3624335,Duchy of Austria,
+Q3652371,Avasgia,Abasgia
+Q3715875,Duchy of Sabbioneta,
+Q3813189,Kasa kingdom,
+Q3827580,Banu Khazrun,
+Q3845404,March of Fermo,
+Q3937987,Riviera di San Giulio,
+Q3960459,Kingdom of Sikkim,Sikkim|Sikkim Kingdom|Dremoshong|Drenjong
+Q3979194,Syrakousai,Ancient history of Syracuse
+Q4056388,Autonomous Government of Inner Mongolia,
+Q4116181,Jabrids,
+Q79,Egypt,Republic of Egypt|eg|EGY|Arab Republic of Egypt|Arab Rep. Egypt|Rep. Egypt
+Q4147013,Tulunid emirate,
+Q4148098,Norwegian Jarldom of Orkney,
+Q4154364,Sultanate of Damagaram,Sultanate of Zinder|Sultanate of Damagarim
+Q4208290,Kazikumukh Khanate,Ханское хано Газикумух
+Q4212235,Kangar union,
+Q4296376,Misiminia,
+Q4318679,Principality of Suzdal—Nizhny Novgorod,
+Q4393602,Republic of the North Solomons,
+Q4398229,Russian State,
+Q4401190,Rutul Federation,
+Q4401303,Butuan (historical polity),Rajahnate of Butuan|Gingharian hong Butuan|Gingharian sa Butuan|Púduānguó|Puduanguo|蒲端國
+Q4445623,Duchy of Suzdal,Principality of Suzdal
+Q4517333,Da Chu,Chu|Great Chu
+Q4671762,Kingdom of Leinster,Leinster
+Q4690373,Afshar Beylik,
+Q4833446,Second Turkic Khaganate,
+Q5102103,Reddy dynasty,Reddy Kingdom|Potla Reddy Kingdom|Gondesi Reddy Kingdom
+Q5228183,Kingdom of Vaspurakan,
+Q5311360,Duchy of Inowrocław,
+Q5311378,Duchy of Perugia,
+Q5372551,Emirate of Harar,
+Q5479650,"Franceville, New Hebrides",
+Q5520664,Gandhara Kingdom,
+Q5653520,Hara Huna Kingdom,
+Q5748082,Canton of Tedote,
+Q5775982,history of Ecuador (1830–1860),Ecuador (1830–1860) history
+Q6207845,Jodhpur State,Kingdom of Marwar|Marwar Kingdom|Mandore kingdom|Jodhpur
+Q6358817,Kammanu,
+Q6382548,Kedatuan,Kadatuan|Kedaton
+Q6385364,Kekeya Kingdom,
+Q6412616,Kingdom of Koya,
+Q6412632,Kingdom of Ndulu,
+Q6430319,Kontagora Emirate,
+Q6750512,Mankessim Kingdom,
+Q6851943,Military-Political System of Samos,
+Q6873539,Mirimidongguk,Mirimidong
+Q6987126,Negara Daha,
+Q7185566,Philistia,Philistine
+Q7314513,Republic of South Carolina,
+Q7636799,Sultanate of Qata,
+Q7650054,Chutiya Kingdom,Sutiya Kingdom|Chutia Kingdom|Sutia Kingdom
+Q7882199,Burgundian State,
+Q8067629,Zazzau,Zaria Emirate
+Q8842943,Estado Libre del Istmo,The Free State of the Isthmus
+Q8842993,United States of Central America,
+Q10715354,Neo-Inca State,Neo-Inca state of Vilcabamba
+Q10920088,Zhou dynasty (1678–1681),Great Zhou Dynasty|Wu Zhou
+Q10997467,Kotawaringin,
+Q11060334,Changshan,
+Q11088223,Ming Zheng,
+Q11237141,Heling,Kalingga|Kaling|Ho-ling
+Q11301088,Jibin,
+Q11519632,Matsurokoku,
+Q11578892,Shule Kingdom,
+Q11608382,Oda regime,
+Q11710624,I Rzeczpospolita,
+Q11909456,Bit Agusi,Yahan
+Q11913591,Champaner,
+Q11980573,Khasa Kingdom,Khas Empire|Khas Desh|Khas Rajya|Khas country
+Q12183911,Syrian Federation,
+Q12406731,Old Hittite Kingdom,Old Hittite period
+Q12491044,Negara Dipa,
+Q12491054,Kingdom of Siang,
+Q12491059,Kingdom of Sumedang Larang,Sumedang Larang
+Q12491396,Sultanate of Buton,
+Q12491399,Kutai (Sultanate),
+Q12597397,Balloguk,
+Q12793818,Kobarid Republic,
+Q13411328,Moscovia,Muscovy
+Q13423693,Realm of Simeon Uroš,
+Q13576027,Prome Kingdom,
+Q13590051,Kingdom of the Burgundians,First Kingdom of Burgundy|Burgundian Kingdoms
+Q13816636,Principality Isenburg,
+Q14624218,Western Chalukya Empire,
+Q14920623,Commonwealth realm of Sierra Leone,Sierra Leone
+Q15243157,Luwu,Luwuq|Wareq
+Q15535871,Uzbek Khanate,Abulkhair Khanate
+Q15895314,Zhai,Zhai kingdom|Zhai state
+Q16086793,Revolutionary Serbia,
+Q16176509,Galsabuyeo,Galsa Buyeo|Galsa-guk|Hesi Fuyu
+Q16188096,Kingdom of Larantuka,
+Q17030053,Han (208BC-200BC),Han kingdom|Han state
+Q17080982,Palistin,Palastin|Walistin|Walastin
+Q17765809,Third Hellenic Republic,
+Q18129046,Oudh State,
+Q19831559,Oldenburg,
+Q19901436,Suriname,
+Q19985067,Principality of Oneglia,Lordship of Oneglia
+Q20395973,Emirate of Adrar,
+Q20739561,Yancai,
+Q20978063,Kingdom of New Spain,
+Q21005050,Kingdom of Morgannwg,Morgannwg
+Q21530380,Dar Qimr,
+Q21590889,Dar al Kuti,Dar al-Kuri
+Q21662997,Herat (1793-1863),Emirate of Herat|Herat Emirate
+Q24863078,United States administered Bonin Islands,
+Q24939253,Mongyang State,Mong Yang|Mohnyin|Möngyang
+Q25842407,Michuholguk,
+Q28051704,Sena kingdom,
+Q28419349,Bakhatgarh,
+Q29654286,Kingdom of Cappadocia,Cappadocia
+Q30253177,Imperial Court of Japan,
+Q30747910,Islamic Republic of Afghanistan,
+Q30890129,Endery khanate,
+Q39082339,Saffarid State,State of Saffarids|Saffarid Empire
+Q48698054,Montsoreau,Seigneurie of Montsoreau
+Q50825947,Daju kingdom,
+Q55630375,Pratapgarh Kingdom,medieval kingdom of Sylhet|medieval kingdom of Assam|Sylhet|Assam
+Q56376888,Kingdom of the Aurès,
+Q56389709,Poso,Kerajaan Poso|Poso Kingdom|Kingdom of Poso
+Q60775599,Tippu Tip's state,Sultanate of Utetera
+Q62070228,Emirate of Homs,Emirate of Hims
+Q65162306,Canton of Tihuya,
+Q92621935,Free State of Jones,
+Q97060007,Solomon Islands and Bismarck Archipelago,
+Q97206908,Sultanate of Buayan,Buayan Sultanate
+Q98085401,Kingdom of Mapungubwe,
+Q100987768,Independent Hawaii,
+Q102133106,Kingdom of Nafana,
+Q104192614,taifa of Lorca,
+Q104869251,Beda Sultanate,Baydha' Sultanate
+Q106395492,Lordship of Padua,
+Q106396892,Lordship of Forlì,
+Q109252949,Duchy of Mecklenburg,
+Q111650663,Minanga,
+Q112980583,Gandhāra,
+Q113156078,Sonargaon Sultanate,
+Q116282506,Republic of Trinidad and Tobago,
+Q118189559,Chiefdom of Jotse,
+Q118197512,Chiefdom of Guthang,
+Q118197641,Chiefdom of Geshitsa,
+Q118198541,Chiefdom of Somang,
+Q118906545,Chagga states,
+Q120262349,The Kingdom of Gordyene,
+Q124003554,Medo-persia,
+Q124589592,Spanish protectorate in Cambodia,
+Q124841467,Cuautitlan Kingdom,Cuauhtitlan Kingdom|Kingdom of Cuautitlan|Cuautitlan
+Q127429171,Republic of Vercors,
+Q130251145,Ror Empire,Ror Empire|Ror India
+Q130261957,Kingdom of Calicut,
+Q131404661,Ba'athist Syria,Syrian Arab Republic|Ba'thist Syria|Baathist Syria|🇸🇾|Syria|Syria (1963–2024)
+Q22,Scotland,"Alba|Scotland, United Kingdom|SCT|Caledonia|Scot|SC|UK-SC|UK-SCT"
+Q32,Luxembourg,Luxemburg|Grand Duchy of Luxembourg|LU|LUX
+Q40,Austria,Republic of Austria|Österreich|Republik Österreich
+Q117,Ghana,Republic of Ghana|gh|GHA
+Q219,Bulgaria,BGR|BUL|Republic of Bulgaria|bg
+Q230,Georgia,Republic of Georgia|GEO|Georgia (country)
+Q423,North Korea,PRK|kp|Democratic People's Republic of Korea|DPRK|N. Korea|DPR Korea
+Q711,Mongolia,Mongol State|State of Mongolia
+Q730,Suriname,Surinam|Republic of Suriname|Republic of Surinam|Dutch Guiana|sr|SUR|Surrinam
+Q733,Paraguay,Republic of Paraguay|py|Heart of South America|pry
+Q790,Haiti,Republic of Haiti|ht|Hayti|HT|Haitian Republic|Ayiti|HAI
+Q794,Iran,IRN|Persia|Islamic Republic of Iran|ir|Islamic Rep. Iran|IRI
+Q833,Malaysia,my|Federation of Malaysia|Malaysia Federation|MAS|MYS
+Q846,Qatar,qa|State of Qatar|qat
+Q884,South Korea,Republic of Korea|ROK|kr|Rep. Korea|S. Korea|Korea Republic|🇰🇷|KOR|Hanguk|Daehan Minguk|Daehanminguk|SK|Korea (South)|Choson|Silla
+Q958,South Sudan,Republic of South Sudan|Southern Sudan|ss|SSD
+Q965,Burkina Faso,bf|Republic of Upper Volta (-1984)|Republic of Burkina Faso
+Q971,Republic of the Congo,Congo-Brazzaville|Congo Republic|République du Congo|Republic of Congo|cg|Rep. Congo|🇨🇬|Republique du Congo|Congo (Brazzaville)|CGO|Congo
+Q986,Eritrea,State of Eritrea|Ertrā|Iritriyā|er|ERI|IRI
+Q1019,Madagascar,mg|Republic of Madagascar|MAD|Malagaskar|Malagascar|MDG
+Q1028,Morocco,Kingdom of Morocco|Marocco|ⵎⵓⵔⴰⴽⵓⵛ|al-Maġrib|Lmaġrib|Maroc|ma|MAR
+Q1030,Namibia,Republic of Namibia|na|NAM
+Q1050,Eswatini,Kingdom of Eswatini|sz|SWZ|Umbuso weSwatini|eSwatini|Swaziland|Kingdom of Swaziland
+Q5790,Seuna Dynasty,Yadavas of Devagiri|Yadavs of Devagiri
+Q8950,Second Republic of Venezuela,
+Q10463,Captaincy General of Venezuela,Capitanía General de Venezuela|Capitania General de Venezuela
+Q25979,Kushan Empire,Guishuang|Kuṣāṇa Empire|Kushana Empire
+Q28084,Gaya confederacy,Garak|Gara|Guya|Imna|Kaya
+Q28208,Goryeo,Koryŏ|Goryeoguk
+Q28233,Korean Empire,Taehan Cheguk|Daikan Teikoku
+Q28411,Avar Khaganate,Χαγανάτο των Αβάρων|Avar Kingdom
+Q30609,Independent Macedonia,
+Q33235,Upper Burgundy,
+Q37102,Republic of the Rif,Tribal Confederal Republic of the Rif
+Q46652,Malacca sultanate,Sultanate of Malacca
+Q47261,Duchy of Bavaria,Bayern
+Q49683,Grand Duchy of Lithuania,Litva|GDL|Lithuania|Lithuanian Empire|Medieval Lithuanian state|Lietuva|Lithuanian Republic
+Q69323,French constitutional monarchy,Kingdom of France
+Q80211,Lithuanian Soviet Socialist Republic,Lithuanian Soviet Socialist Republic (1918–1919)
+Q83821,Bijapur Sultanate,Sultanate of Bijapur
+Q105098,Austrasia,
+Q106577,Neustria,Neustrasia
+Q121869,Nupe,
+Q128904,Elam,Elamites|Susiana
+Q129799,Bukey Horde,
+Q132856,Armenian Soviet Socialist Republic,Armenian SSR
+Q139670,First Republic of Armenia,Armenia
+Q142417,Kingdom of Valencia,Regne de València|Reino de Valencia|Regnum Valentiae|Regne de Valencia
+Q146562,State of Damascus,
+Q146600,Arab Kingdom of Syria,Kingdom of Syria|Kingdom of Arab Syria|Syrian Arab Kingdom
+Q148540,Republic of Florence,Repubblica Fiorentina|Florentine Republic|Repubblica di Firenze
+Q149427,Samo's Empire,
+Q150056,Kingdom of Cochin,
+Q150061,Republic of Ararat,
+Q151148,Chola dynasty,Chola kingdom|Chola empire
+Q153128,Independent State of Croatia,NDH|Nezavisna Država Hrvatska
+Q157734,Muscat and Oman,Sultanate of Oman and Muscat|Oman
+Q161036,Free State of Prussia,Freistaat Preußen|Republic of Prussia
+Q164079,Kingdom of Hanover,Königreich Hannover|Hanover|Hannover
+Q170174,Papal States,Papal State|Church State|State of the Church|Stato della Chiesa|Status Ecclesiae|Ecclesiastical States|Church States|States of the Church
+Q170390,County of Oldenburg,
+Q171348,Crown of the Kingdom of Poland,Kingdom of Poland|Poland
+Q172579,Kingdom of Italy,Regno d’Italia|Italy|IT
+Q174193,United Kingdom of Great Britain and Ireland,United Kingdom|UK|UKGBI|Great Britain and Ireland
+Q177076,Caucasian Albania,Aghwank|Aluank|Arran
+Q178038,Second Spanish Republic,Spain
+Q180235,Wadhwan State,
+Q182279,Fadhli Sultanate,
+Q185068,Urartu,Kingdom of Urartu
+Q186537,Khanate of Qazan,
+Q197913,Zhongshan,
+Q200464,Portuguese Empire,Portuguese Overseas|Portuguese Colonial Empire|Imperio Portugues
+Q205718,Zirid Dynasty,Zirid Kingdom|Zirid polity|Zirids|Zirides|Zīrids|Zirid family
+Q208169,Republic of Ragusa,Republic of Dubrovnik
+Q209857,Kingdom of Lombardy–Venetia,Lombardo-Venetian Kingdom|Regno Lombardo-Veneto|Lombardo-Veneto|Königreich Lombardo–Venetien
+Q211092,Socialist Republic of Slovenia,SR Slovenia|PR Slovenia|People's Republic of Slovenia|Socialistična republika Slovenija|SR Slovenija
+Q212278,Kingdom of Holland,
+Q213353,Cisalpine Republic,
+Q215643,Indo-Greek Kingdom,Indo-Greeks|Graeco-Indian Kingdom
+Q216068,Sheba,Saba|Saba'
+Q234009,Magadha,Magadha kingdom
+Q237234,Osroene,Kingdom of Osroene|Kingdom of Edessa
+Q243610,Ukrainian People's Republic,Ukraine
+Q245160,Democratic Republic of Georgia,
+Q253094,Kingdom of Hungary,Royal Hungary (1526–1699)
+Q256961,Electorate of Bavaria,Bavaria
+Q272033,County of Tripoli,
+Q282350,Land of Punt,Pwenet|Pwene|Ta netjer
+Q282475,Kingdom of Kartli-Kakheti,ქართლ-კახეთის სამეფო|Kingdom of Kartli and Kakheti|Kartli-Kakheti
+Q283627,Margraviate of Austria,March of Austria|Marcha orientalis|Ostarrîchi
+Q284667,Electorate of Mainz,Mainz
+Q294652,House of Ögedei,Ogedeids|Ogedeid|Ögedite|House of Ogedei|Ögedeids|Ögedeid
+Q300746,Aachener Reich,
+Q310293,Saar Protectorate,Saarprotektorat|Saarland protectorate|Protectorate de Sarre|Protectorate de la Sarre|Sarre (Protectorate)
+Q320530,lordship of Lichtenberg,
+Q321371,Bosporan Kingdom,Cimmerian Bosphorus|Kingdom of the Cimmerian Bosporus|Βασιλεία τοῦ Κιμμερικοῦ Βοσπόρου (Ancient Greek)
+Q332337,League of Corinth,
+Q335088,Armenian Kingdom of Cilicia,Little Armenia
+Q355857,Switzerland as a federal state,federalism in Switzerland
+Q357201,Burgundy,
+Q368986,Republic of Mississippi,
+Q373650,Sur Empire,
+Q425405,Kingdom of Khana,Kingdom of Hana|Hana Kingdom|Hana|Khana|Khana Kingdom|Hana Ancient Kingdom|Ancient Kingdom of Hana|Khana Ancient Kingdom|Ancient Kingdom of Khana
+Q431575,Idrisid dynasty,
+Q454941,Amarasi,
+Q459188,Kingdom of the Isles,Kingdom of Mann and the Isles
+Q466433,Karkota dynasty,Karkoṭa Empire|Karkota Kingdom
+Q483421,Meluhha,
+Q501754,Carantania,
+Q507346,Baté Empire,Bate Empire
+Q507796,Gujarat Sultanate,
+Q514557,Vest Recklinghausen,
+Q517333,Principality of Polotsk,
+Q529605,Electorate of Hesse,Hesse-Kassel|Hesse-Cassel
+Q532048,Sandur State,
+Q534894,Duchy of Oleśnica,
+Q547241,Hen Ogledd,The Old North
+Q552241,Ahhiyawa,Akhkhiyawa
+Q555994,Aq Qoyunlu,Akkoyunlu|White Sheep Turkomans|Agh Qoyunlu|Aqqoyunlu|Ak Koyunlu
+Q577668,Khanate of Bukhara,Bukhara|Buchara|Bukhara Khanate|Bochara|Bouchara|Boucharia|Chatagai
+Q577867,Kingdom of Poland,
+Q583038,Ostrogothic Kingdom,
+Q605199,Vajji,Vrijji|Vajjika League|Vajjika Confederacy|Vrijika Sangha|Vajjika Sangha
+Q616965,State of Grão-Pará and Maranhão,
+Q623751,Kingdom of Bernicia,Bernicia
+Q625649,Aram-Damascus,Kingdom of Damascus
+Q638522,Ardalan,
+Q644979,Blue Horde,
+Q648046,United Duchies of Jülich-Cleves-Berg,
+Q657946,Kolhapur State,Kolhâpur
+Q661340,Duchy of Salzburg,Salzburg
+Q669241,League of Lezhë,
+Q676184,Kingdom of Sussex,Sussex
+Q682001,Duchy of Bytom,
+Q697781,Principality of Stavelot-Malmedy,Imperial Abbey of Stavelot-Malmedy|Stavelot-Malmedy
+Q698239,Later Baekje,Hubaekje|Later Paekche
+Q700117,Duchy of Racibórz,Duchy of Ratiboř
+Q701273,Jinhan confederacy,Jinhan
+Q701969,Principality of Regensburg,
+Q704278,Mahan confederacy,Mahan
+Q733897,Old Babylonian Empire,First Babylonian Empire
+Q747314,Bechuanaland Protectorate,Bechuana-land
+Q761103,Dendi Kingdom,Kingdom of Dendi
+Q774783,Sovereign Principality of the United Netherlands,Soeverein Vorstendom der Verenigde Nederlanden|Principauté Souveraine des Pays-Bas Unis|Principaute Souveraine des Pays-Bas Unis|Netherlands
+Q777779,Kingdom of Awsan,Awsan
+Q779011,Principality of Montenegro,Knjaževina Crna Gora|Montenegrin Principality|Montenegro
+Q781935,Principality of Benevento,
+Q806435,Bang Assu,Bang Assou|Bangassu
+Q807068,Baol,Kingdom of Baol|Bawol
+Q816709,Tuvan People's Republic,Tyva Arat Respublik|People's Republic of Tuva|PR Tuva|Communist Tuva|Socialist Tuva|Tannu Tuva|Tannu-Tuva
+Q838416,International Association of the Congo,Association internationale du Congo|International Congo Society
+Q853477,Lan Xang,Lan Xang Hom Khao|Ānācak Lānsāng|Lānsānghomkhāo
+Q858841,Kingdom of Croatia,Croatia|Croatian Kingdom
+Q861784,Sultanate of Mogadishu,
+Q865584,Princedom of Albania,
+Q868222,County of Coimbra,
+Q874954,Principality of Theodoro,The Principality of Theodoro|Gothia|Theodoroi|Lordship of the city of Theodoro and the Maritime Region|Principality of Theodoro-Mangup
+Q885304,Margraviate of Baden-Hachberg,Baden-Hachberg
+Q892272,Bundu,Bondu
+Q894030,Bornu Empire,Borno Empire|Bornu
+Q933413,Jath State,
+Q940741,Second Hungarian Republic,Hungarian Republic
+Q949268,Nanda Empire,
+Q950101,Hutsul Republic,
+Q956357,Kingdom of Hejaz,
+Q976913,Narsinghgarh State,
+Q999381,Jefferson Territory,
+Q1027122,Pengwern,
+Q1028614,Eastern Liao,Dong Liao
+Q1029847,Natalia Republic,
+Q1053874,Central India Agency,
+Q1059707,Lanna,Lan Na|Lanna Kingdom|Lannathai|Yonarattha|Yonkarattha|Kingdom of the Yuon|Bingarattha|Kingdom of the Mae Ping|Pa-pai-si-fu|Pa pai si fu
+Q1060520,Chamba State,Chamba
+Q1062546,Later Jin (1616-1636),
+Q1062946,Characene,
+Q1078602,Kingdom of Nepal,Kingdom of Gorkha|Gorkha Empire|Nepal
+Q1089675,Chobanids,
+Q1109279,First Mexican Republic,Primera República Federal|baja california sur estados Unidos Mexicanos|United Mexican States|Primera Republica Federal
+Q1141632,Kingdom of Vientiane,
+Q1142179,Orange River Colony,
+Q1147373,Dongdan Kingdom,
+Q1179260,Dayuan,
+Q1194906,Assaka,Kingdom of Assaka
+Q1207105,Dewas State,
+Q1247508,Romain-Gaul domain of Soissons,
+Q1274468,Republic of Bosnia and Herzegovina,
+Q1296908,Kathiri Sultanate,
+Q1328546,Kucha,Kuqa|Qiuzi|Qiuci|Chiu-tzu|Chiutzu|Kiu-che|Kiuche|Kuei-tzu|Kueitzu|Guizi|Kvcha
+Q1337828,Emirate of Tbilisi,Emirs of Tbilisi
+Q1337854,emirate of Córdoba,emirate of Cordoba|Кingdom of Cordoba
+Q1345964,Gododdin,Kingdom of the Gododdin
+Q1367119,Upper Yafa,Alta Yafa|Sultanate of Upper Yafa
+Q1368026,Lingnan,
+Q1376731,Licchavi,
+Q1392840,Rurik's state,Rurik's state
+Q1423581,Italian Regency of Carnaro,
+Q1446192,Kampili,Kampili kingdom|Basnaga kingdom
+Q1454024,Free City of Mainz,
+Q1469100,Beylik of Karaman,Karamanids
+Q1469742,Sunda Kingdom,
+Q1483495,Principality of Smolensk,Grand Principality of Smolensk
+Q1483510,Principality of Wales,Tywysogaeth Cymru
+Q1493843,Klein Vrystaat,
+Q1541613,County of Astarac,
+Q1541642,County of Besalú,County of Besalu
+Q1541787,County of Pallars,
+Q1550130,Kingdom of Artsakh,
+Q1572529,Hanthawaddy Kingdom,Pegu Kindom|Pegu Kingdom|Hanthawaddy Pegu|Pegu|Bago|Martaban Kingdom|Ramaññadesa|Ramannadesa|Ramanya Kingdom|Hanthawadi
+Q1617495,Kingdom of Jaén,Kingdom of Jaen
+Q1633698,Hubushkia,
+Q1639475,Mountainous Republic of the Northern Caucasus,
+Q1641428,Upper Aulaqi Sheikhdom,
+Q1683780,Jashpur State,
+Q1740536,Ganja khanate,
+Q1756546,Kingdom of Nejd and Hejaz,Kingdom of Hejaz and Sultanate of Nejd
+Q1760404,Uqaylid dynasty,
+Q1789596,Croatia in personal union with Hungary,Hırvatistan Krallığı
+Q1792017,Kummuh,
+Q1796232,Kingdom of Ndongo,
+Q1923781,Albanian Republic,Republic of Albania|Albania|Republika Shqiptare
+Q1926064,Republic of Mountainous Armenia,
+Q1949209,Taifa of Lorca,
+Q1951905,Muhammadgarh State,Muhammadgarh
+Q1963593,Nagod State,
+Q1994569,Taifa of Silves,
+Q2004491,Nuhašše,
+Q2051582,All-Palestine Government,
+Q2072263,Personal union of Great Britain and Hanover,
+Q2076823,Principality of Bidache,
+Q2128542,Rairakhol State,
+Q2128715,Rajgarh State,
+Q2128743,Rajkot State,
+Q2232777,Taifa of Molina,
+Q2268597,United Provinces of Central Italy,
+Q2272880,Takrur,
+Q2338948,County of Manresa,
+Q2400993,Teispids,
+Q2412900,Republic of Salé,Republic of Bouregreg
+Q2414171,First Brazilian Republic,Old Republic|República Velha|Republic of the United States of Brazil|República dos Estados Unidos do Brasil|Republica Velha|Republica dos Estados Unidos do Brasil
+Q2444884,Tibet,Kingdom of Tibet
+Q2460753,Turira,
+Q2477776,Kimek Khanate,Kimak Khaganate|Kimek Khaganate|Kimak Khanate|Kimek|Kimak|Kimäk|Kimäk Khaganate|Kimäk Khanate|Yamak|Yamāk|Yamaks|Yamāks|Yemek|Yemeks|Yemäk|Yemäks
+Q2478280,Ormus,Hormoz|Hormuz|Kingdom of Ormus
+Q2552742,Northland State,Northland State of Somalia
+Q2568325,Kuninda kingdom,
+Q2603851,Kingdom of Serbia,
+Q2608489,Aztec Empire,Triple Alliance|Mexica Empire
+Q2621587,Khatumo State,SSC Khatumo
+Q2624304,Charkhari State,
+Q2658252,Yamato Kinship,Yamato Court|Yamato Imperial Court|Yamato Regime|Yamato Government
+Q2658454,Monarchies of Malaysia,
+Q2668600,Taifa of Niebla,
+Q2670092,Dominion of Ceylon,Ceylon
+Q2712121,Irish Republic,Republic of Connacht|Republic of Connaught
+Q2750894,Imperial city of Regensburg,
+Q2863018,Zakarid Armenia,Principality of Armenia|Somkhiti|Georgian Armenia
+Q2902588,Damot,
+Q2907860,Principality of Mingrelia,სამეგრელოს (ოდიშის) სამთავრო
+Q2940142,Kingdom of Toledo,Visigothic Kingdom of Toledo|Gothic Hispania|Kingdom of Hispania|Regnum Hispaniae|Regnum gothorum|Regnum Spaniae
+Q3049250,Eguafo,Eguafo Kingdom
+Q3107156,Kilwa Sultanate,
+Q3108185,Ba'athist Iraq,Republic of Iraq|Saddam's Iraq|Baathist Iraq|Iraq under Saddam Hussein
+Q3112053,Melayu,Melayu empire|Malayu kingdom|Malayu empire|Malay kingdom|Malay empire|Kingdom of Melayu|Melayu kingdom|Melayu Kingdom
+Q3196064,Danube Bulgar Khanate,
+Q3242360,Licchavi,
+Q3284315,Pasai,Sultanate of Samudera Pasai|Samudera Pasai Sultanate
+Q3307686,Visigothic Kingdom of Tolosa,
+Q3446159,Cornouaille,Cornwall
+Q3446167,Kingdom of Derge,Derge|Dege
+Q3446213,Pinya Kingdom,
+Q3446298,Mon kingdoms,
+Q3456373,Republic of Brescia,
+Q3456423,Republic of Volterra,
+Q3456447,Democratic Republic of Madagascar,DR Madagascar
+Q3486676,Taiping Heavenly Kingdom,Heavenly Kingdom of Great Peace|Kingdom of Heavenly Peace|Heavenly Kingdom of Taiping|Taiping Kingdom|Taiping Celestial Kingdom|Heavenly Kingdom of Peace|Taiping|Taipings|Taiping Tianguo|T'ai-p'ing T'ien-kuo|Taïping Insurrection|Taïping|Taïpings|Taïping Kingdom
+Q3503437,Ming Xia,
+Q3610549,Kingdom of Ruhuna,
+Q3653113,Kingdom of Syunik,
+Q3688344,County of Lodrone,
+Q3715864,Duchy of Bergamo,
+Q3715872,Duchy of Piacenza,
+Q3818153,Banu Ukhaidhir,بنو الأخيضر
+Q3919363,Principality of Lahojsk,
+Q3933247,Republic of Noli,
+Q3933252,Republic of Siena at Montalcino,
+Q4110986,viscountcy of Osona,
+Q4127081,Provisional Ferghana government,
+Q4202348,Yin,
+Q4215328,Karluk yabghu,
+Q4311709,Nagpur kingdom,
+Q4397927,Russian Democratic Federative Republic,
+Q4401071,Rajahnate of Cebu,
+Q4416710,SAO Western Slavonia,
+Q4420038,Singapore in Federation of Malaysia,
+Q4461035,Akkadian Empire,Accad|Akkadians|Akkadian Period
+Q4470663,Ukrainian National Government,
+Q4689103,Transitional Islamic State of Afghanistan,Afghan Transitional Administration
+Q4783395,Xianbei state,Xianbei confederation|Sianbi
+Q4807407,Asmaka Kingdom,
+Q4843701,Great Socialist People's Libyan Arab Jamahiriya,Libyan Arab Jamahiriya|Socialist People's Libyan Arab Jamahiriya|Green Libya|Gaddafi's Libya
+Q4899891,Beylik of Tunis,
+Q5043998,Carneola,
+Q5095124,Chi Tu,
+Q5196167,Cushan,
+Q5291089,Dominion of Fiji,
+Q5748085,Canton of Tigalate,
+Q5754768,House of Castilla,
+Q5870215,Third Republic of the Philippines,Third Philippine Republic
+Q6372836,Karnata Kingdom,
+Q6389173,Kengcheng,
+Q6398782,Shin'ōkoku,
+Q6412614,Kingdom of Kapisi,
+Q6412670,Kingdom of Ugu,
+Q6680233,Lordship of Chios,
+Q6753657,Maona of Chios and Phocaea,
+Q7216494,First Kingdom of Kakheti,Kingdom of Kakheti-Hereti
+Q7273754,Zheltuga Republic,
+Q7416493,Kingdom of Reman,
+Q7636789,Sultanate of Bale,
+Q7636791,Sultanate of Arbabni,
+Q8008721,Huan Chu,
+Q8050331,Yaudheya,
+Q8272919,Interwar Lithuania,
+Q8842946,Oriental State of Uruguay,
+Q9383959,Chalmadana,Calmadana
+Q10295972,Hunnic Empire,Empire of Attila|Hun Empire|Attila's Empire
+Q10327586,Chaozhou,Cháo zhōu
+Q10379866,Kingdom of Powo,Gaanam Gyäbo|Powo king|Bomê king
+Q10416611,Vandal Kingdom,Kingdom of the Vandals and Alans
+Q10565487,Chen princedom,
+Q10885162,Ito,
+Q10913560,Ancient Shu civilization,
+Q10935472,Dacheng,
+Q11057724,Shah Mir dynasty,
+Q11178782,Czechoslovak Republic,ČSR
+Q11361710,Fumikoku,
+Q11458165,Tsukaikoku,
+Q11634225,Toyotomi government,Toyotomi administration|Toyotomi regime|Hashiba administration
+Q11750538,Duchy of Czersk,
+Q11909242,Beylik of Sinop,
+Q12031755,Kingdom of Dazhou,Great Zhou
+Q12150341,Samanid Empire,
+Q12167518,Kholodny Yar Republic,
+Q12183875,Sharifian Empire,Morocco
+Q12406729,Israeli Military Governorate,
+Q12491026,Haru,Aru|Haru Kingdom|Aru Kingdom
+Q12491039,Kingdom of Kubu,Sultanate of Kubu|Sultanate of Greater Kubu|Kingdom of Greater Kubu
+Q12584384,Gojamidongguk,
+Q12599242,Bulsabunsaguk,
+Q12605505,Angnoguk,
+Q12714608,fascism in Romania,Kingdom of Romania under Fascism|Fascist Romania
+Q13099593,Soso Empire,Soso|Kaniaga|The horse land
+Q13134747,Batavian Commonwealth,
+Q13478501,Russian Soviet Republic,
+Q13534153,Athens,Kingdom of Athens
+Q14905932,Republic of Cuba,Neocolonial Republic|Cuba
+Q15238138,Kingdom of Spain,Spain
+Q15824804,Kénédougou Kingdom,Kenedugu polity|Kenedougou Empire|Kenedugu Kingdom|Kenedougou Kingdom|Kenedugu Empire
+Q15907695,Shan State Republic,
+Q15956918,Qunduz Khanate,Qonduz Khanate|Kunduz Khanate
+Q16167036,Mokjiguk,
+Q16171455,Mioyamaguk,
+Q16718949,Scythia Minor (Crimea),Scythia Minor
+Q16824911,Bukhar Khudahs,Bukharkhudats|Bukharkhudahs|Bukharkhudas
+Q16826607,State of Bahrain,
+Q17034965,Linjiang,
+Q17355515,Kingdom of Telemark,
+Q17748736,Second Portuguese Republic,
+Q18415401,Sultanate of Tuggurt,Argelia
+Q18524206,Kingdom of Tallo,
+Q18634909,Worker's Socialist Respublic of Amur,
+Q19276517,Kingdom of Persia,Kingdom of Persis
+Q19568936,Kingdom of Nagash,
+Q19727607,Jambu Lipo Kingdom,Kerajaan Jambu Lipo|Kingdom of Jambu Lipo
+Q19837669,Principality of Salm,
+Q19840305,Kongsi federation,kongsi democracies|kongsi republics
+Q20103241,County of Ripoll,
+Q20512270,Etiuni,
+Q20716241,Ten Kingdoms,
+Q20949725,Principality of Sperlinga,Principato di Sperlinga|Principauté de Sperlinga|Emirate of Sperlinga|Isb.rl.nkah
+Q21050766,Alchon Huns,
+Q21076534,Republic of Zululand,
+Q21077045,landgraviate of Upper Alsace,
+Q21235906,Duke of Camerino,
+Q21644397,Simsir,
+Q21694591,Takasago,Takasagun
+Q23022146,Kingdom of Tonga,
+Q23541302,Kaluga Soviet Republic,
+Q23668714,Yatenga Kingdom,Kingdom of Yatenga
+Q25413868,Bolivian State,Bolivia (Peru–Bolivian Confederation)|Bolivian Republic
+Q26234049,Calvinist Republic of Brussels,
+Q26234937,First Syrian Republic,
+Q28058158,Madurai Nayak Kingdom,
+Q28499348,Hafsids of Béjaïa,Hafsids of Bejaïa|Hafsids of Bejaia
+Q28516740,Sultanate of Pelalawan,
+Q31073145,Emirat de Gazni,
+Q31298677,Nakhichevan Soviet Socialist Republic,Nakhichevan SSR
+Q35583423,Emirate of  Almathami,
+Q42346215,Catalan State,
+Q47499498,Pre-Colonial Basutoland,
+Q54805326,lordship of Échéry,
+Q54810258,Free City of Obernai,
+Q55609338,Democratic People's Republic of Angola,
+Q56282578,Uryankhay Republic,
+Q56704734,Parada Kingdom,
+Q56885910,Emirate of Diriyah,Emirate of al-Diriyah|‘Imāra ad-Dir‘iyya|Sheikhdom of Diriyah
+Q60614780,Kingdom of the Heruli,
+Q60838139,Republic of Massa,
+Q61950933,Kingdom of Dalmatia,First Kingdom of Dalmatia
+Q63134381,Khwarazmian Empire,Khwarezmian Empire|Khorezmian Empire|Chorasmian Empire|Empire of the Khwarazmshahs|Khwarazm
+Q65051443,Sheikhdom of al-ʽIrqa,
+Q65161573,Canton of Tagalgen,Canton of Tegalgen
+Q65161585,Canton of Tijarafe,Canton of Hiscaguan
+Q68257522,State of Guatemala,Guatemala State
+Q84731185,Kolonkalan,Kolonkan
+Q85800761,Sheikdom of Upper Asir,
+Q90303093,Russian peripheral countries,
+Q90579326,Socialist Soviet Republic Of Armenia,
+Q91329095,Kingdom of Burgundy,
+Q91914004,Republic of Upper Peru,Upper Peruvian Republic
+Q96337601,Cultura Tarija,
+Q97178418,Kingdom of Artaxoa,Kingdom of Artajona
+Q97940833,Free City of Kaysersberg,Imperial City of Kaysersberg
+Q97941965,Free City of Turckheim,
+Q104476046,Sultanate of Bacan,
+Q104827876,Kingdom of Ouarsenis,
+Q107258515,Pahlavi Iran,Imperial state of Iran|Imperial Iran
+Q107368497,Đại Nam,
+Q107422155,early medieval England,Anglo-Saxon England|The Dark Ages
+Q109043530,Kingdom of Hogbonou,
+Q109236308,Thakuri dynasty,
+Q110104845,People's State of Vietnam,Peopledom of Vietnam
+Q110491318,Northern Liao,
+Q112920438,Kingdom of Macrones and Heniochi,Machelonia|Makhelonia|Kingdom of Machelones and Heniochi
+Q115825950,Fourth Philippine Republic,
+Q118196936,Chiefdom of Muchi,
+Q118198408,Chiefdom of Tsenpa,
+Q118271737,Chiefdom of Gomai Damkala,Chiefdom of Gamai
+Q118780154,Emirate of Sicily,history of Muslim Sicily
+Q123135826,al-Muammar,
+Q125659289,Bolango Sultanate,
+Q131433113,Qutux Llyung Topa,
+Q132452177,Shambaa Kingdom,
+Q133271698,Dukududu,"Dukududu, South Africa"
