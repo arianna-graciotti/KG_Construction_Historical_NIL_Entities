@@ -25,7 +25,7 @@ KG_Construction_Historical_NIL_Entities/
 ```
 
 ## Overview
-Pipeline for linking historical entity mentions to Wikidata, handling NIL (Not In List) entities.
+Pipeline for linking historical entity mentions to Wikidata, handling NIL (not in Wikidata) entities.
 
 ## Pipeline
 
@@ -66,7 +66,7 @@ python Evaluation/scripts/evaluate_all_properties.py --property FamilyName
 - **NIL Handling**: Manages entities absent from Wikidata
 - **Multi-Model**: Tests 6 LLMs (GPT-4o, LLAMA, Gemma, Phi-3, Mixtral, Qwen)
 - **Multi-Retriever**: BM25, Contriever, GTR, BGE, Instructor
-- **Robust Evaluation**: Separate NIL/QID evaluation, year-based DoB matching
+- **Robust Evaluation**: Separate NIL/QID evaluation, year-based DoB matching, multi-class occupation evaluation
 
 ## Requirements
 - Python 3.8+
