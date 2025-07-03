@@ -36,8 +36,8 @@ Prepares historical documents for entity extraction.
 ### 2. Question Answering
 Casts property's extraction as a Question Answering task in two settings:
 
-- **RAG (Retrieval-Augmented Generation):**
-- **Zero-Shot:**
+- **RAG (Retrieval-Augmented Generation)**
+- **Zero-Shot**
 
 
 Properties extracted (selected through **Propert Clustering**): FamilyName, GivenName, DoB, CoC, Occupation, SexGender
