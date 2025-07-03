@@ -26,7 +26,7 @@ class CountryConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "/home/arianna/NIL_Grounding_Eval/scripts/wikidata_extraction/lookup_tables/extracted_country_of_citizenship.csv"
+        return "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_country_of_citizenship.csv"
     
     @property
     def instance_qids(self) -> List[str]:
@@ -67,7 +67,7 @@ class FamilyNameConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "/home/arianna/NIL_Grounding_Eval/scripts/wikidata_extraction/lookup_tables/extracted_family_names.csv"
+        return "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_family_names.csv"
     
     @property
     def instance_qids(self) -> List[str]:
@@ -112,7 +112,7 @@ class GivenNameConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "/home/arianna/NIL_Grounding_Eval/scripts/wikidata_extraction/lookup_tables/extracted_given_names.csv"
+        return "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_given_names.csv"
     
     @property
     def instance_qids(self) -> List[str]:
@@ -158,7 +158,7 @@ class OccupationConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "/home/arianna/NIL_Grounding_Eval/scripts/wikidata_extraction/lookup_tables/extracted_occupations.csv"
+        return "/https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_occupations.csv"
     
     @property
     def instance_qids(self) -> List[str]:
@@ -206,7 +206,7 @@ class SexGenderConfig(EntityConfig):
     @property
     def csv_file_path(self) -> str:
         # Use the actual path to the extracted gender lookup_tables
-        return "/home/arianna/NIL_Grounding_Eval/scripts/wikidata_extraction/lookup_tables/extracted_gender.csv"
+        return "/home/arianna/PycharmProjects/KG_Construction_Historical_NIL_Entities/ObjectLinking/lookup_tables/extracted_gender.csv"
     
     @property
     def instance_qids(self) -> List[str]:

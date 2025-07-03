@@ -58,9 +58,9 @@ DATE_FORMATS = [
     r'(\d{4})\/\d{1,2}\/\d{1,2}',              # Slash date: 1728/05/11
     r'\b(1\d{3}|20\d{2}|21\d{2})\b'            # Year only: 1728, 2023, 2100
 ]
-DEFAULT_INPUT_DIR = "/home/arianna/NIL_Grounding_Eval/scripts/linking/output"
-DEFAULT_OUTPUT_DIR = "/home/arianna/NIL_Grounding_Eval/scripts/evaluation"
-DEFAULT_REPORT_DIR = "/home/arianna/NIL_Grounding_Eval/scripts/evaluation/reports"
+DEFAULT_INPUT_DIR = #
+DEFAULT_OUTPUT_DIR = #
+DEFAULT_REPORT_DIR = #
 
 # Model mappings to standardize names (optimized for LaTeX tables)
 MODEL_MAPPINGS = {
@@ -868,9 +868,9 @@ def main():
     # Add voting algorithm directories if requested
     if args.include_voting:
         voting_dirs = [
-            "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/adaptive_threshold_voting",
-            "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/boyer_moore_voting",
-            "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/flexible_boyer_moore_voting"
+            "",
+            "",
+            ""
         ]
         args.folders.extend(voting_dirs)
         logger.info(f"Including voting algorithm directories: {voting_dirs}")

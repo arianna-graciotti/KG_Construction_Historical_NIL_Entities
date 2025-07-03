@@ -26,36 +26,36 @@ ENTITY_TASKS = [
     {
         "entity_type": "country", 
         "folders": [
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/RAG/CoC",
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/ZS/CoC"
+            "",
+            ""
         ]
     },
     {
         "entity_type": "occupation", 
         "folders": [
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/RAG/occupation",
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/ZS/occupation"
+            "",
+            ""
         ]
     },
     {
         "entity_type": "sex_gender", 
         "folders": [
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/RAG/sexGender",
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/ZS/sexGender"
+            "",
+            ""
         ]
     },
     {
         "entity_type": "family_name", 
         "folders": [
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/RAG/FamilyName",
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/ZS/FamilyName"
+            "",
+            ""
         ]
     },
     {
         "entity_type": "given_name", 
         "folders": [
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/RAG/GivenName",
-            "/home/arianna/NIL_Grounding_Eval/lookup_tables/archive_080525/ZS/GivenName"
+            "",
+            ""
         ]
     }
 ]

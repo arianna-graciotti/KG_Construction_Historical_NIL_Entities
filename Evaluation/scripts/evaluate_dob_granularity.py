@@ -40,19 +40,19 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants
-DEFAULT_INPUT_DIR = "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/DoB"
+DEFAULT_INPUT_DIR = ""
 
 # Voting algorithm directories (enhanced to include Boyer-Moore per-model)
 VOTING_DIRS = [
-    "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/adaptive_threshold_voting/DoB",
-    "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/boyer_moore_voting/DoB",
-    "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/boyer_moore_voting_per_model/DoB",
-    "/home/arianna/NIL_Grounding_Eval/scripts/linking/output/flexible_boyer_moore_voting/DoB"
+    "",
+    "",
+    "",
+    ""
 ]
 
 # Define property-specific folders within granular_analyses
 PROPERTY_NAME = "DoB"
-GRANULAR_BASE_DIR = "/home/arianna/NIL_Grounding_Eval/scripts/evaluation/granular_analyses"
+GRANULAR_BASE_DIR = ""
 DEFAULT_OUTPUT_DIR = f"{GRANULAR_BASE_DIR}/{PROPERTY_NAME}"
 
 # RAG directories

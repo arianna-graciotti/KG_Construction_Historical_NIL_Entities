@@ -570,7 +570,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__
     )
-    parser.add_argument("--input", default="/media/arianna/Volume/latest-all.json.gz",
+    parser.add_argument("--input", default="latest-all.json.gz",
                       help="Path to Wikidata JSON dump (compressed with gzip)")
     parser.add_argument("--output", default="lookup_tables/extracted_entities.csv",
                       help="Path to output CSV file")

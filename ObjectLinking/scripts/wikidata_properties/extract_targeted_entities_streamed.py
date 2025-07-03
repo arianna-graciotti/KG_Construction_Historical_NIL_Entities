@@ -206,7 +206,7 @@ def main():
     """Main function to parse arguments and run processing."""
     parser = argparse.ArgumentParser(
         description="Extract entities from Wikidata dump based on P31 values using streaming")
-    parser.add_argument("--input", default="/media/arianna/Volume/latest-all.json.gz",
+    parser.add_argument("--input", default="latest-all.json.gz",
                       help="Path to Wikidata JSON dump (compressed with gzip)")
     parser.add_argument("--output", default="extracted_entities_streamed.csv",
                       help="Path to output CSV file")

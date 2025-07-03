@@ -6,8 +6,8 @@ from tqdm import tqdm
 from nltk.tokenize import blankline_tokenize
 
 # ---------------- CONFIGURATION ----------------
-INPUT_FOLDER = "/home/arianna/PycharmProjects/MHERCL_OIE/data/periodicals_mini_corpus"  # Change to your folder path.
-OUTPUT_PICKLE = "/home/arianna/PycharmProjects/MHERCL_OIE/data/periodicals_mini_corpus/corpus_paragraphs.pkl"
+INPUT_FOLDER = #periodicals full text can be shared on demand.
+OUTPUT_PICKLE = ""
 
 # When in test mode, process only the smallest TEST_FILES_COUNT files (by file size)
 TEST_MODE = False
@@ -76,16 +76,3 @@ if __name__ == '__main__':
     with open(OUTPUT_PICKLE, "wb") as pf:
         pickle.dump(corpus_dict, pf)
     print(f"Corpus saved to pickle file: {OUTPUT_PICKLE}")
-
-
-import pickle
-
-with open("/home/arianna/PycharmProjects/MHERCL_OIE/data/periodicals_mini_corpus/corpus_paragraphs.pkl", "rb") as f:
-    corpus = pickle.load(f)
-
-# Print the loaded dictionary (optionally pretty-print a summary)
-print("Loaded corpus:")
-for fname, paragraphs in corpus.items():
-    print(f"\nFilename: {fname}")
-    for sent_num, sentence in paragraphs.items():
-        print(f"  Sentence {sent_num}: {sentence[:80]}{'...' if len(sentence) > 80 else ''}")

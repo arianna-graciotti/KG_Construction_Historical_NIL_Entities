@@ -1340,7 +1340,7 @@ def main():
         voting_dirs = []
         include_voting = not args.exclude_voting  # Include by default, exclude only if flag is set
         if include_voting:
-            voting_base = "/home/arianna/NIL_Grounding_Eval/scripts/linking/output"
+            voting_base = ""
             voting_dirs = [
                 os.path.join(voting_base, "adaptive_threshold_voting", "occupation", entity_type.lower()),
                 os.path.join(voting_base, "boyer_moore_voting", "occupation", entity_type.lower()),

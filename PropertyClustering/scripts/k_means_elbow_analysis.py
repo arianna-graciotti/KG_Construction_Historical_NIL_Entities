@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
 
-X = pd.read_csv("/data/properties/human/1_datasets/human_properties_with_labels_no_p31.csv")
+X = pd.read_csv("https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/fa6df2abf63c9ac565b13af839da93ffe8a93969/PropertyClustering/data/human_properties_with_labels_with_datatypes_with_cardinality.csv")
 data = X[["count", ]]
 
 

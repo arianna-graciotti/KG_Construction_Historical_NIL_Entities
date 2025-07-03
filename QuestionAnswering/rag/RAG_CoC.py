@@ -37,8 +37,8 @@ logger = init_logging()
 # ---------------- CONFIG SECTION ----------------
 CONFIG = {
     "INPUT_CSVS": [
-        #"/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_Country_of_Cizitenship/questions/QA_CoC_QID.csv",
-        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_Country_of_Cizitenship/questions/QA_CoC_NIL.csv"
+        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_Country_of_Cizitenship/questions/QA_CoC_QID.csv",
+        "/home/arianna/PycharmProjects/KG_Construction_Historical_NIL_Entities/QuestionAnswering/questions/QA_CoC_NIL.csv"
     ],
     "PICKLE_FILE": "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/periodicals_mini_corpus/corpus_paragraphs.pkl",
     "TOP_K": 3,

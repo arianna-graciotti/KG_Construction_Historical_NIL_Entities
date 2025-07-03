@@ -226,7 +226,7 @@ def process_wikidata_dump(input_file, output_file, checkpoint_file,
 def main():
     """Main function to parse arguments and run processing."""
     parser = argparse.ArgumentParser(description="Extract given names from Wikidata dump based on P31 values")
-    parser.add_argument("--input", default="/media/arianna/Volume/latest-all.json.gz",
+    parser.add_argument("--input", default="latest-all.json.gz",
                       help="Path to Wikidata JSON dump (compressed with gzip)")
     parser.add_argument("--output", default="lookup_tables/extracted_given_names.csv",
                       help="Path to output CSV file")
