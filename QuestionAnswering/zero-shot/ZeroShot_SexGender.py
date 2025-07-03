@@ -16,7 +16,7 @@ def init_logging():
         logging.root.removeHandler(handler)
     fmt = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
     ch = logging.StreamHandler()
-    fh = logging.FileHandler("/lookup_tables/QA_sexGender/ZS_answers/logs/general_log.log", mode="w")
+    fh = logging.FileHandler("", mode="w")
     ch.setFormatter(fmt); fh.setFormatter(fmt)
     log = logging.getLogger(); log.setLevel(logging.INFO)
     log.addHandler(ch); log.addHandler(fh)
@@ -28,8 +28,8 @@ logger = init_logging()
 # ---------------- CONFIG SECTION ----------------
 CONFIG = {
     "INPUT_CSVS": [
-        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_sexGender/questions/QA_Gender_QID.csv",
-        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_sexGender/questions/QA_Gender_nil.csv"
+        "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/291a694d0b0a58119113abf2af9430ac1c5f310b/QuestionAnswering/questions/QA_Gender_QID.csv",
+        "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/291a694d0b0a58119113abf2af9430ac1c5f310b/QuestionAnswering/questions/QA_Gender_nil.csv"
     ],
     # pool of LLMs to test:
     "LLM_MODELS": [

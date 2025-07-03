@@ -17,7 +17,7 @@ def init_logging():
     fmt = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
     ch = logging.StreamHandler()
     # Create _FamilyName logs directory if it doesn't exist
-    log_dir = "/home/arianna/PycharmProjects/NIL_Grounding/data/QA_FamilyName/ZS_answers/logs"
+    log_dir = ""
     os.makedirs(log_dir, exist_ok=True)
     fh = logging.FileHandler(f"{log_dir}/general_log.log", mode="w")
     ch.setFormatter(fmt); fh.setFormatter(fmt)
@@ -31,8 +31,8 @@ logger = init_logging()
 # ---------------- CONFIG SECTION ----------------
 CONFIG = {
     "INPUT_CSVS": [
-        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_FamilyName/questions/QA_FamilyName_QID.csv",
-        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_FamilyName/questions/QA_FamilyName_NIL.csv"
+        "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/291a694d0b0a58119113abf2af9430ac1c5f310b/QuestionAnswering/questions/QA_FamilyName_QID.csv",
+        "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/291a694d0b0a58119113abf2af9430ac1c5f310b/QuestionAnswering/questions/QA_FamilyName_NIL.csv"
     ],
     # pool of LLMs to test:
     "LLM_MODELS": [
@@ -50,8 +50,8 @@ CONFIG = {
 
 today_str = datetime.today().strftime('%Y%m%d')
 # Create ZS_answers directory if it doesn't exist
-os.makedirs("/home/arianna/PycharmProjects/NIL_Grounding/data/QA_FamilyName/ZS_answers", exist_ok=True)
-OUTPUT_DIR = f"/home/arianna/PycharmProjects/NIL_Grounding/data/QA_FamilyName/ZS_answers/ZS_{today_str}"
+os.makedirs("", exist_ok=True)
+OUTPUT_DIR = f""
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 logger.info(f"Output directory: {OUTPUT_DIR}")
 

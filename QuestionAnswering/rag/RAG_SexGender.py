@@ -37,10 +37,10 @@ logger = init_logging()
 # ---------------- CONFIG SECTION ----------------
 CONFIG = {
     "INPUT_CSVS": [
-        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_sexGender/questions/QA_Gender_QID.csv",
-        "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/QA_sexGender/questions/QA_Gender_nil.csv"
+        "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/291a694d0b0a58119113abf2af9430ac1c5f310b/QuestionAnswering/questions/QA_Gender_QID.csv",
+        "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/291a694d0b0a58119113abf2af9430ac1c5f310b/QuestionAnswering/questions/QA_Gender_nil.csv"
     ],
-    "PICKLE_FILE": "/home/arianna/PycharmProjects/NIL_Grounding/lookup_tables/periodicals_mini_corpus/corpus_paragraphs.pkl",
+    "PICKLE_FILE": "",
     "TOP_K": 3,
     "LLM_MODEL": "meta-llama/llama-3.3-70b-instruct",  # This will be set inside the loop below.
     "LLM_MAX_TOKENS": 256,
@@ -66,7 +66,7 @@ ALL_RETRIEVER_TYPES = [
 today_str = datetime.today().strftime('%Y%m%d')
 
 # Directory for output CSVs.
-OUTPUT_DIR = f"/home/arianna/PycharmProjects/NIL_Grounding/data/QA_sexGender/answers/{today_str}_OpenRouter"
+OUTPUT_DIR = f""
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 logger.info(f"Output directory created (if not existing): {OUTPUT_DIR}")
 
@@ -203,7 +203,7 @@ class VectorRetriever(BaseRetriever):
         device = "cpu" if CONFIG.get("USE_CPU_FOR_EMBEDDING", False) else "cuda"
         self.model = SentenceTransformer(model_name, device=device)
         self.model.eval()
-        encoding_dir = "/home/arianna/PycharmProjects/NIL_Grounding/data/periodicals_mini_corpus/embeddings"
+        encoding_dir = ""
         os.makedirs(encoding_dir, exist_ok=True)
         encoding_file = os.path.join(encoding_dir, f"corpus_encoding_{model_name.replace('/', '_')}.pkl")
         self.doc_embeddings = load_or_encode_embeddings(
@@ -237,7 +237,7 @@ class OfficialContrieverRetriever(BaseRetriever):
         self.tokenizer = AutoTokenizer.from_pretrained("facebook/contriever")
         self.model = AutoModel.from_pretrained("facebook/contriever")
         self.model.eval()
-        encoding_dir = "/home/arianna/PycharmProjects/NIL_Grounding/data/periodicals_mini_corpus/embeddings"
+        encoding_dir = ""
         os.makedirs(encoding_dir, exist_ok=True)
         encoding_file = os.path.join(encoding_dir, "corpus_encoding_contriever.pkl")
         self.doc_embeddings = load_or_encode_contriever_embeddings(
