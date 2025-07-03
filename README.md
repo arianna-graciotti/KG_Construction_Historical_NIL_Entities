@@ -25,45 +25,31 @@ KG_Construction_Historical_NIL_Entities/
 ```
 
 ## Overview
-Pipeline for linking historical entity mentions to Wikidata, handling NIL (not in Wikidata) entities.
+Pipeline that uses retrieval-augmented generative AI to extract structured knowledge about NIL entities from historical documents and creates Wikidata-compliant KGs.
 
 ## Pipeline
 
 ### 1. Document Preprocessing
-```bash
-python DocumentPreprocessing/scripts/corpus_prep_paragraphs.py
-```
+
 Prepares historical documents for entity extraction.
 
-### 2. Property Extraction
-Extract entity properties using either approach:
+### 2. Question Answering
+Casts property's extraction as a Question Answering task in two settings:
 
-**RAG (Retrieval-Augmented Generation):**
-```bash
-python QuestionAnswering/scripts/knowledge\ extraction/rag/RAG_FamilyName.py
-```
+- **RAG (Retrieval-Augmented Generation):**
+- **Zero-Shot:**
 
-**Zero-Shot:**
-```bash
-python QuestionAnswering/scripts/knowledge\ extraction/zero-shot/ZeroShot_FamilyName.py
-```
 
-Properties extracted: FamilyName, GivenName, DoB, CoC, Occupation, SexGender
+Properties extracted (selected through **Propert Clustering**): FamilyName, GivenName, DoB, CoC, Occupation, SexGender
 
-### 3. Entity Linking
-Link extracted properties to Wikidata QIDs:
-```bash
-python ObjectLinking/scripts/linking/entity_linker.py --entity-type family_name --folders path/to/results
-```
+### 3. Object Linking
+Link extracted properties to Wikidata QIDs.
 
 ### 4. Evaluation
-Calculate precision, recall, F1:
-```bash
-python Evaluation/scripts/evaluate_all_properties.py --property FamilyName
-```
+Calculate precision, recall, F1 of the properties extracted against the gold standard KGs (in **Datasets**)
 
 ## Key Features
-- **NIL Handling**: Manages entities absent from Wikidata
+- **NIL entities KG construction**: Builds KGs for entities absent from Wikidata (NIL) leveraging information extracted from specialised corpora
 - **Multi-Model**: Tests 6 LLMs (GPT-4o, LLAMA, Gemma, Phi-3, Mixtral, Qwen)
 - **Multi-Retriever**: BM25, Contriever, GTR, BGE, Instructor
 - **Robust Evaluation**: Separate NIL/QID evaluation, year-based DoB matching, multi-class occupation evaluation
@@ -78,9 +64,10 @@ python Evaluation/scripts/evaluate_all_properties.py --property FamilyName
 
 ## Quick Start
 1. Prepare corpus: `DocumentPreprocessing/scripts/`
-2. Extract properties: `QuestionAnswering/scripts/`
-3. Link entities: `ObjectLinking/scripts/linking/`
-4. Evaluate: `Evaluation/scripts/`
+2. Select properties: `DocumentPreprocessing/scripts/`
+3. Extract properties: `QuestionAnswering/scripts/`
+4. Link entities: `ObjectLinking/scripts/linking/`
+5. Evaluate: `Evaluation/scripts/`
 
 ## Output
 - Extracted properties: `QuestionAnswering/data/`
