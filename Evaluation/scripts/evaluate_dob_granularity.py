@@ -30,6 +30,7 @@ from pathlib import Path
 from collections import defaultdict
 from typing import List, Dict, Tuple, Any, Optional, Set, Union
 from datetime import datetime
+from tqdm import tqdm
 
 # Setup logging
 logging.basicConfig(
@@ -40,32 +41,29 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants
-DEFAULT_INPUT_DIR = ""
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_EVAL_DIR = os.path.dirname(_SCRIPT_DIR)              # Evaluation/
+DEFAULT_INPUT_DIR = os.path.join(_EVAL_DIR, "data")
 
 # Voting algorithm directories (enhanced to include Boyer-Moore per-model)
-VOTING_DIRS = [
-    "",
-    "",
-    "",
-    ""
-]
+VOTING_DIRS = []  # populated at runtime if voting dirs exist
 
 # Define property-specific folders within granular_analyses
 PROPERTY_NAME = "DoB"
-GRANULAR_BASE_DIR = ""
-DEFAULT_OUTPUT_DIR = f"{GRANULAR_BASE_DIR}/{PROPERTY_NAME}"
+GRANULAR_BASE_DIR = os.path.join(_SCRIPT_DIR, "granular_analyses")
+DEFAULT_OUTPUT_DIR = os.path.join(GRANULAR_BASE_DIR, PROPERTY_NAME)
 
 # RAG directories
-DEFAULT_RAG_NIL_DIR = f"{DEFAULT_OUTPUT_DIR}/RAG/nil"
-DEFAULT_RAG_QID_DIR = f"{DEFAULT_OUTPUT_DIR}/RAG/qid"
+DEFAULT_RAG_NIL_DIR = os.path.join(DEFAULT_OUTPUT_DIR, "RAG", "nil")
+DEFAULT_RAG_QID_DIR = os.path.join(DEFAULT_OUTPUT_DIR, "RAG", "qid")
 
 # ZS directories
-DEFAULT_ZS_NIL_DIR = f"{DEFAULT_OUTPUT_DIR}/ZS/nil"
-DEFAULT_ZS_QID_DIR = f"{DEFAULT_OUTPUT_DIR}/ZS/qid"
+DEFAULT_ZS_NIL_DIR = os.path.join(DEFAULT_OUTPUT_DIR, "ZS", "nil")
+DEFAULT_ZS_QID_DIR = os.path.join(DEFAULT_OUTPUT_DIR, "ZS", "qid")
 
 # Report and table directories
-DEFAULT_REPORT_DIR = f"{GRANULAR_BASE_DIR}/{PROPERTY_NAME}/reports"
-DEFAULT_LATEX_DIR = f"{GRANULAR_BASE_DIR}/{PROPERTY_NAME}/latex_tables"
+DEFAULT_REPORT_DIR = os.path.join(GRANULAR_BASE_DIR, PROPERTY_NAME, "reports")
+DEFAULT_LATEX_DIR = os.path.join(_EVAL_DIR, "tables")
 
 # Create directories if they don't exist
 os.makedirs(DEFAULT_OUTPUT_DIR, exist_ok=True)
@@ -1128,6 +1126,162 @@ def generate_latex_table(report_path, entity_type):
     return "\n".join(latex)
 
 
+def generate_evaluation_dob_latex(qid_report_path, nil_report_path, output_path):
+    """
+    Generate the combined evaluation_DOB.tex file with both QID and NIL tables.
+
+    Produces two table* environments in a single file, matching the format used
+    in the paper: F1/P/R column order, bold model names, normalsize font, and
+    a fixed model ordering (Boyer-M, Mixtral, Phi-3, Gemma, Llama, Qwen, GPT-4o).
+
+    Args:
+        qid_report_path: Path to the combined_granular_report_qid.csv
+        nil_report_path: Path to the combined_granular_report_nil.csv
+        output_path: Path to write the output .tex file
+    """
+    # Fixed model ordering for the paper tables
+    MODEL_ORDER = ['Boyer-M', 'Mixtral', 'Phi-3', 'Gemma', 'LLAMA', 'Qwen', 'GPT-4o']
+    # Display names (LLAMA -> Llama in the paper)
+    MODEL_DISPLAY = {
+        'Boyer-M': 'Boyer-M', 'Mixtral': 'Mixtral', 'Phi-3': 'Phi-3',
+        'Gemma': 'Gemma', 'LLAMA': 'Llama', 'Qwen': 'Qwen', 'GPT-4o': 'GPT-4o',
+    }
+    # Retriever ordering within each model group
+    RETR_ORDER = ['Boyer-M', '-', 'BGE', 'BM25', 'Inst', 'Contr', 'GTR-X', 'GTR-L']
+
+    granularities = ['Exact', 'Year', 'Decade', 'Century']
+
+    def _build_single_table(report_path, entity_type):
+        """Build one table* block for the given entity type."""
+        df = pd.read_csv(report_path)
+        df = df[df['Model'].str.lower() != 'unknown']
+
+        # Determine which granularity columns are present
+        present = [g for g in granularities if f"{g}_PRECISION" in df.columns]
+
+        # Compute column-wise maxima for bold formatting
+        max_vals = {}
+        for g in present:
+            for metric in ['F1', 'PRECISION', 'RECALL']:
+                col = f"{g}_{metric}"
+                if col in df.columns:
+                    max_vals[col] = round(df[col].max(), 2)
+
+        def _fmt(val, col):
+            if pd.isna(val) or val is None:
+                return '--'
+            s = f"{float(val):.2f}"
+            if round(val, 2) == max_vals.get(col, float('-inf')):
+                s = f"\\textbf{{{s}}}"
+            return s
+
+        # Sort retrievers for a given model's rows
+        def _sort_key(retr):
+            try:
+                return RETR_ORDER.index(retr)
+            except ValueError:
+                return 999
+
+        lines = []
+
+        # Table preamble
+        lines.append("\\begin{table*}")
+        lines.append("    \\centering")
+
+        if entity_type.upper() == "QID":
+            lines.append("    \\caption{DoB performance metrics at different granularity levels "
+                         "for entity linking on known entities (QID). We evaluate "
+                         "Mixtral-8\\texttimes{}7B, Phi-3-Medium, Gemma-2-27B-IT, "
+                         "Llama-3.3-70B, Qwen-2.5-72B, and GPT-4o-mini.}")
+        else:
+            lines.append("    \\caption{DoB performance metrics at different granularity levels "
+                         "for NIL identification (entities not in the knowledge base). We evaluate "
+                         "Mixtral-8\\texttimes{}7B, Phi-3-Medium, Gemma-2-27B-IT, "
+                         "Llama-3.3-70B, Qwen-2.5-72B, and GPT-4o-mini.}")
+
+        lines.append("    \\normalsize")
+        lines.append("")
+
+        # Column spec with custom spacing
+        col_group = "@{\\hspace{4pt}}c@{\\hspace{2pt}}c@{\\hspace{2pt}}c@{\\hspace{12pt}}"
+        col_spec = ("l@{\\hspace{8pt}}l@{\\hspace{4pt}}"
+                    + col_group * len(present))
+        lines.append(f"    \\begin{{tabular}}{{{col_spec}}}")
+        lines.append("    \\toprule")
+
+        # Header row 1: granularity names
+        hdr_parts = ["Model", "Retr."]
+        for g in present:
+            hdr_parts.append(f"\\multicolumn{{3}}{{c}}{{\\textbf{{{g}}}}}")
+        lines.append("    " + " & ".join(hdr_parts) + " \\\\")
+
+        # Header row 2: metric names
+        hdr2_parts = ["", ""]
+        for _ in present:
+            hdr2_parts.extend(["\\textbf{F1}", "\\textbf{P}", "\\textbf{R}"])
+        lines.append("    " + " & ".join(hdr2_parts) + " \\\\")
+        lines.append("    \\midrule")
+
+        # Build rows model by model
+        for model_idx, model_key in enumerate(MODEL_ORDER):
+            model_rows = df[df['Model'] == model_key]
+            if model_rows.empty:
+                continue
+
+            display_name = MODEL_DISPLAY.get(model_key, model_key)
+
+            # Sort retrievers
+            sorted_rows = model_rows.copy()
+            sorted_rows['_order'] = sorted_rows['Retriever'].apply(_sort_key)
+            sorted_rows = sorted_rows.sort_values('_order')
+
+            n_rows = len(sorted_rows)
+            for j, (_, row) in enumerate(sorted_rows.iterrows()):
+                retr = row['Retriever']
+                if j == 0:
+                    prefix = f"        \\multirow{{{n_rows}}}{{*}}{{\\textbf{{{display_name}}}}}"
+                    row_start = f"{prefix} & {retr}"
+                else:
+                    row_start = f"         & {retr}"
+
+                vals = []
+                for g in present:
+                    # Column order: F1, P, R
+                    f1_col = f"{g}_F1"
+                    p_col = f"{g}_PRECISION"
+                    r_col = f"{g}_RECALL"
+                    vals.append(_fmt(row.get(f1_col), f1_col))
+                    vals.append(_fmt(row.get(p_col), p_col))
+                    vals.append(_fmt(row.get(r_col), r_col))
+
+                lines.append(f"{row_start} & " + " & ".join(vals) + " \\\\")
+
+            # Separator between model groups
+            if model_idx < len(MODEL_ORDER) - 1:
+                # Only add midrule if this model had rows
+                lines.append("        \\midrule")
+
+        lines.append("    \\bottomrule")
+        lines.append("    \\end{tabular}")
+        lines.append(f"    \\label{{tab:dob_{entity_type.lower()}_granularity}}")
+        lines.append("\\end{table*}")
+
+        return "\n".join(lines)
+
+    # Build both tables
+    qid_table = _build_single_table(qid_report_path, "QID")
+    nil_table = _build_single_table(nil_report_path, "NIL")
+
+    combined = qid_table + "\n\n\n" + nil_table + "\n"
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w') as f:
+        f.write(combined)
+
+    logger.info(f"Generated combined evaluation DoB LaTeX: {output_path}")
+    return combined
+
+
 def main():
     """Main function to run the enhanced granular DoB evaluation scripts."""
     parser = argparse.ArgumentParser(description="Evaluate DoB property linking at different granularity levels with enhanced reporting.")
@@ -1201,13 +1355,8 @@ def main():
         
         return 0
     
-    # Override output and report directories to use property-specific paths
-    args.output = DEFAULT_OUTPUT_DIR
-    args.report_output = DEFAULT_REPORT_DIR
-    args.latex_output = DEFAULT_LATEX_DIR
-    
-    # Log the output paths
-    logger.info(f"Using property-specific output paths:")
+    # Log the output paths (defaults already set by argparse)
+    logger.info(f"Using output paths:")
     logger.info(f"  - Output directory: {args.output}")
     logger.info(f"  - Report directory: {args.report_output}")
     logger.info(f"  - LaTeX directory: {args.latex_output}")
@@ -1247,17 +1396,9 @@ def main():
     
     # Evaluate each file
     results = []
-    for i, file in enumerate(files):
-        logger.info(f"Evaluating file {i+1}/{len(files)}: {file}...")
+    for file in tqdm(files, desc="Evaluating DoB files", unit="file"):
         result = evaluate_file_granular(file, args.output, args.verbose)
         results.append(result)
-
-        # Print entity type stats every 10 files
-        if (i+1) % 10 == 0:
-            entity_types = {r.entity_type: 0 for r in results}
-            for r in results:
-                entity_types[r.entity_type] += 1
-            logger.info(f"Entity types processed so far: {entity_types}")
 
     # Check if there are any QID results before generating reports
     qid_results = [r for r in results if r.entity_type.upper() == "QID"]
@@ -1309,6 +1450,15 @@ def main():
                 report_path = os.path.join(args.report_output, f"table_report_{entity_type}_{granularity}_{metric}.csv")
                 if os.path.exists(report_path):
                     logger.info(f"  - {os.path.basename(report_path)}")
+
+    # Generate combined evaluation_DOB.tex (both QID and NIL in one file)
+    qid_combined = os.path.join(args.report_output, "combined_granular_report_qid.csv")
+    nil_combined = os.path.join(args.report_output, "combined_granular_report_nil.csv")
+    if os.path.exists(qid_combined) and os.path.exists(nil_combined):
+        eval_dob_path = os.path.join(args.latex_output, "evaluation_DOB.tex")
+        generate_evaluation_dob_latex(qid_combined, nil_combined, eval_dob_path)
+    else:
+        logger.warning("Cannot generate evaluation_DOB.tex - missing combined reports")
 
     logger.info("Enhanced DoB granular evaluation complete.")
     return 0

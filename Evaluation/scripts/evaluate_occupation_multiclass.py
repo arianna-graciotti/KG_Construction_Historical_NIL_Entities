@@ -19,6 +19,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 import argparse
+from tqdm import tqdm
 
 # Constants
 METRICS = ['precision', 'recall', 'f1']
@@ -26,6 +27,7 @@ ENTITY_TYPES = ['NIL', 'QID']
 APPROACH_TYPES = ['RAG', 'ZS', 'unknown']
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(os.path.dirname(SCRIPT_DIR))
+DATA_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "data")
 
 # Model and retriever name mappings for standardized display
 MODEL_MAPPINGS = {
@@ -102,7 +104,7 @@ PROPERTY_NAME = "occupation"
 OUTPUT_BASE_DIR = os.path.join(SCRIPT_DIR, "granular_analyses", PROPERTY_NAME)
 PROCESSED_DIR = os.path.join(OUTPUT_BASE_DIR, "processed")
 REPORTS_DIR = os.path.join(OUTPUT_BASE_DIR, "reports")
-LATEX_DIR = os.path.join(OUTPUT_BASE_DIR, "latex_tables")
+LATEX_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "tables")
 PLOTS_DIR = os.path.join(OUTPUT_BASE_DIR, "plots")
 
 # Entity type specific directories for RAG
@@ -735,7 +737,14 @@ def calculate_statistics(df: pd.DataFrame, force_zs: bool = False, entity_type: 
                 if not algorithm_exists:
                     print(f"Looking for algorithm files for {algorithm}")
                     # Find matching files (improved pattern matching)
-                    matching_files = [f for f in unknown_files if algorithm.lower() in os.path.basename(f).lower()]
+                    # Filter by both algorithm name AND entity type to prevent cross-contamination
+                    matching_files = [f for f in unknown_files
+                                      if algorithm.lower() in os.path.basename(f).lower()
+                                      and f"_{entity_type.upper()}_" in os.path.basename(f)]
+                    # Fallback: if no entity-type-specific files found, try without entity type filter
+                    if not matching_files:
+                        matching_files = [f for f in unknown_files if algorithm.lower() in os.path.basename(f).lower()]
+                        print(f"  No entity-type-specific files found, using all matching files")
                     print(f"Found {len(matching_files)} matching files for {algorithm}")
                     
                     # Process files if any found
@@ -834,8 +843,12 @@ def calculate_statistics(df: pd.DataFrame, force_zs: bool = False, entity_type: 
                         for algorithm in algorithms:
                             display_name = RETRIEVER_MAPPINGS.get(algorithm, algorithm)
                             if not ((stats_df['llm'] == 'Majority Voting') & (stats_df['retriever'] == display_name)).any():
-                                # Find matching files
-                                matching_files = [f for f in backup_files if algorithm.lower() in os.path.basename(f).lower()]
+                                # Find matching files - filter by entity type to prevent cross-contamination
+                                matching_files = [f for f in backup_files
+                                                  if algorithm.lower() in os.path.basename(f).lower()
+                                                  and f"_{entity_type.upper()}_" in os.path.basename(f)]
+                                if not matching_files:
+                                    matching_files = [f for f in backup_files if algorithm.lower() in os.path.basename(f).lower()]
                                 if matching_files:
                                     print(f"Found {len(matching_files)} backup files for {algorithm}")
                                     # Process the first matching file
@@ -911,7 +924,8 @@ def calculate_statistics(df: pd.DataFrame, force_zs: bool = False, entity_type: 
     non_majority_df = non_majority_df.sort_values(['llm', 'retriever'])
     
     # Sort majority entries by retriever (to ensure consistent ordering)
-    majority_df = majority_df.sort_values(['retriever'])
+    if not majority_df.empty:
+        majority_df = majority_df.sort_values(['retriever'])
     
     # Combine with majority entries first
     stats_df = pd.concat([majority_df, non_majority_df], ignore_index=True)
@@ -990,14 +1004,12 @@ def generate_latex_table(stats_df: pd.DataFrame, entity_type: str):
     zero_shot_retrievers = ['zero-shot', 'zs', 'zero_shot', 'none']
     
     # Find maximum values for each column (mean, median, stddev) for each metric
+    # Round to 2 decimal places so bolding is consistent with displayed values
     max_values = {}
     for metric in METRICS:
-        # Find max for mean
-        max_values[f'{metric}_mean'] = stats_df[f'{metric}_mean'].max()
-        # Find max for median
-        max_values[f'{metric}_median'] = stats_df[f'{metric}_median'].max()
-        # Find max for standard deviation
-        max_values[f'{metric}_std'] = stats_df[f'{metric}_std'].max()
+        max_values[f'{metric}_mean'] = round(stats_df[f'{metric}_mean'].max(), 2)
+        max_values[f'{metric}_median'] = round(stats_df[f'{metric}_median'].max(), 2)
+        max_values[f'{metric}_std'] = round(stats_df[f'{metric}_std'].max(), 2)
     
     # Process each model group
     for i, model_name in enumerate(model_names):
@@ -1071,29 +1083,31 @@ def generate_latex_table(stats_df: pd.DataFrame, entity_type: str):
                 mean_formatted = f"{mean_val:.2f}"
                 if pd.isna(mean_val):
                     mean_formatted = "--"
-                elif abs(mean_val - max_values[f'{metric_group}_mean']) < 0.001:
+                elif round(mean_val, 2) == max_values[f'{metric_group}_mean']:
                     mean_formatted = f"\\textbf{{{mean_formatted}}}"
-                
+
                 # Format Median value with bold if it's the maximum
                 median_formatted = f"{median_val:.2f}"
                 if pd.isna(median_val):
                     median_formatted = "--"
-                elif abs(median_val - max_values[f'{metric_group}_median']) < 0.001 and median_val > 0:
+                elif round(median_val, 2) == max_values[f'{metric_group}_median']:
                     median_formatted = f"\\textbf{{{median_formatted}}}"
-                
-                # Format StdDev value (no bold for standard deviation)
+
+                # Format StdDev value with bold if it's the maximum
                 std_formatted = f"{std_val:.2f}"
                 if pd.isna(std_val):
                     std_formatted = "--"
-                
+                elif round(std_val, 2) == max_values[f'{metric_group}_std']:
+                    std_formatted = f"\\textbf{{{std_formatted}}}"
+
                 # Add formatted values to the row
                 values.append(mean_formatted)
                 values.append(median_formatted)
                 values.append(std_formatted)
-            
+
             # Add the row to the table
             model_rows_latex.append(f"{row_start} & " + " & ".join(values) + " \\\\")
-        
+
         # Process non-zero-shot rows AFTER zero-shot rows (no midrule between them)
         if not non_zs_rows.empty:
             for _, row in non_zs_rows.iterrows():
@@ -1121,29 +1135,31 @@ def generate_latex_table(stats_df: pd.DataFrame, entity_type: str):
                     mean_formatted = f"{mean_val:.2f}"
                     if pd.isna(mean_val):
                         mean_formatted = "--"
-                    elif abs(mean_val - max_values[f'{metric_group}_mean']) < 0.001:
+                    elif round(mean_val, 2) == max_values[f'{metric_group}_mean']:
                         mean_formatted = f"\\textbf{{{mean_formatted}}}"
-                    
+
                     # Format Median value with bold if it's the maximum
                     median_formatted = f"{median_val:.2f}"
                     if pd.isna(median_val):
                         median_formatted = "--"
-                    elif abs(median_val - max_values[f'{metric_group}_median']) < 0.001 and median_val > 0:
+                    elif round(median_val, 2) == max_values[f'{metric_group}_median']:
                         median_formatted = f"\\textbf{{{median_formatted}}}"
-                    
-                    # Format StdDev value (no bold for standard deviation)
+
+                    # Format StdDev value with bold if it's the maximum
                     std_formatted = f"{std_val:.2f}"
                     if pd.isna(std_val):
                         std_formatted = "--"
-                    
+                    elif round(std_val, 2) == max_values[f'{metric_group}_std']:
+                        std_formatted = f"\\textbf{{{std_formatted}}}"
+
                     # Add formatted values to the row
                     values.append(mean_formatted)
                     values.append(median_formatted)
                     values.append(std_formatted)
-                
+
                 # Add the row to the table
                 model_rows_latex.append(f"{row_start} & " + " & ".join(values) + " \\\\")
-        
+
         # Add all rows for this model to the latex content
         latex_content.extend(model_rows_latex)
         
@@ -1185,10 +1201,147 @@ def generate_latex_table(stats_df: pd.DataFrame, entity_type: str):
     print(f"Generated LaTeX table: {output_file}")
     return latex_string
 
+def generate_evaluation_occupation_latex(all_stats, output_path):
+    """
+    Generate the combined evaluation_occupation.tex with both QID and NIL tables.
+
+    Produces two table* environments in a single file, matching the format used
+    in the paper: F1(M/Med/SD), Precision(M/Med/SD), Recall(M/Med/SD) column
+    order, bold model names, small font, and a fixed model ordering.
+
+    Args:
+        all_stats: dict mapping entity_type ('QID'/'NIL') to its stats DataFrame
+        output_path: Path to write the output .tex file
+    """
+    # Fixed model ordering for the paper tables
+    MODEL_ORDER = ['Majority Voting', 'Mixtral', 'Phi-3', 'Gemma', 'LLAMA', 'Qwen', 'GPT-4o']
+    # Retriever ordering within each model group
+    # Note: 'Boyer-Moore' is the name after renaming in main() (line 1754)
+    RETR_ORDER = ['Boyer-Moore', '-', 'BGE', 'BM25', 'Inst', 'Contr', 'GTR-X', 'GTR-L']
+
+    def _retr_sort_key(retr):
+        try:
+            return RETR_ORDER.index(retr)
+        except ValueError:
+            return 999
+
+    def _build_single_table(stats_df, entity_type):
+        """Build one table* block for the given entity type."""
+        df = stats_df.copy()
+
+        # Normalize model and retriever names
+        df['normalized_model'] = df['llm'].apply(normalize_model_name)
+        df['formatted_retriever'] = df['retriever'].apply(format_retriever_name)
+
+        # Deduplicate
+        df = df.drop_duplicates(subset=['normalized_model', 'formatted_retriever'], keep='first')
+
+        # Filter out unwanted algorithms
+        df = df[~df['formatted_retriever'].isin(['Adaptive', 'Flexible-B'])]
+
+        # Compute column-wise maxima for bold formatting
+        # Round to 2 decimal places so bolding is consistent with displayed values
+        max_vals = {}
+        for metric in ['precision', 'recall', 'f1']:
+            for stat in ['mean', 'median', 'std']:
+                col = f"{metric}_{stat}"
+                if col in df.columns:
+                    max_vals[col] = round(df[col].max(), 2)
+
+        def _fmt(val, col):
+            if pd.isna(val):
+                return '--'
+            s = f"{val:.2f}"
+            if round(val, 2) == max_vals.get(col, float('-inf')):
+                s = f"\\textbf{{{s}}}"
+            return s
+
+        lines = []
+        lines.append("\\begin{table*}")
+        lines.append("    \\centering")
+
+        if entity_type.upper() == "QID":
+            lines.append("    \\caption{Occupation performance metrics for entity linking on "
+                         "known entities (QID). We evaluate Mixtral-8\\texttimes{}7B, "
+                         "Phi-3-Medium, Gemma-2-27B-IT, Llama-3.3-70B, Qwen-2.5-72B "
+                         "and GPT-4o-mini.}")
+        else:
+            lines.append("    \\caption{Occupation performance metrics for NIL identification "
+                         "(entities not in the knowledge base). We evaluate "
+                         "Mixtral-8\\texttimes{}7B, Phi-3-Medium, Gemma-2-27B-IT, "
+                         "Llama-3.3-70B, Qwen-2.5-72B and GPT-4o-mini.}")
+
+        lines.append("    \\small")
+        lines.append("    \\begin{tabular}"
+                     "{l@{\\hspace{6pt}}l@{\\hspace{6pt}}"
+                     "ccc@{\\hspace{8pt}}ccc@{\\hspace{8pt}}ccc}")
+        lines.append("    \\toprule")
+        lines.append("    Model & Retr. & \\multicolumn{3}{c}{\\textbf{F1}} "
+                     "& \\multicolumn{3}{c}{\\textbf{Precision}} "
+                     "& \\multicolumn{3}{c}{\\textbf{Recall}} \\\\")
+        lines.append("     &  & \\textbf{M} & \\textbf{Med} & \\textbf{SD} "
+                     "& \\textbf{M} & \\textbf{Med} & \\textbf{SD} "
+                     "& \\textbf{M} & \\textbf{Med} & \\textbf{SD} \\\\")
+        lines.append("    \\midrule")
+
+        for model_idx, model_key in enumerate(MODEL_ORDER):
+            model_rows = df[df['normalized_model'] == model_key]
+            if model_rows.empty:
+                continue
+
+            # Sort retrievers
+            model_rows = model_rows.copy()
+            model_rows['_order'] = model_rows['formatted_retriever'].apply(_retr_sort_key)
+            model_rows = model_rows.sort_values('_order')
+
+            n_rows = len(model_rows)
+            for j, (_, row) in enumerate(model_rows.iterrows()):
+                retr = row['formatted_retriever']
+                if j == 0:
+                    prefix = f"        \\multirow{{{n_rows}}}{{*}}{{\\textbf{{{model_key}}}}}"
+                    row_start = f"{prefix} & {retr}"
+                else:
+                    row_start = f"         & {retr}"
+
+                # Column order: F1 (M, Med, SD), Precision (M, Med, SD), Recall (M, Med, SD)
+                vals = []
+                for metric in ['f1', 'precision', 'recall']:
+                    vals.append(_fmt(row[f'{metric}_mean'], f'{metric}_mean'))
+                    vals.append(_fmt(row[f'{metric}_median'], f'{metric}_median'))
+                    vals.append(_fmt(row[f'{metric}_std'], f'{metric}_std'))
+
+                lines.append(f"{row_start} & " + " & ".join(vals) + " \\\\")
+
+            if model_idx < len(MODEL_ORDER) - 1:
+                lines.append("        \\midrule")
+
+        lines.append("    \\bottomrule")
+        lines.append("    \\end{tabular}")
+        lines.append(f"    \\label{{tab:occupation_{entity_type.lower()}_results}}")
+        lines.append("\\end{table*}")
+
+        return "\n".join(lines)
+
+    # Build both tables
+    parts = []
+    for et in ['QID', 'NIL']:
+        if et in all_stats:
+            parts.append(_build_single_table(all_stats[et], et))
+
+    combined = "\n\n\n".join(parts) + "\n"
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(combined)
+
+    print(f"Generated combined evaluation occupation LaTeX: {output_path}")
+    return combined
+
+
 def generate_csv_report(stats_df: pd.DataFrame, entity_type: str):
     """
     Generate a CSV report from the statistics DataFrame.
-    
+
     Args:
         stats_df: DataFrame containing statistics
         entity_type: Entity type (NIL or QID)
@@ -1307,6 +1460,8 @@ def main():
     else:
         print("Not including files from the 'unknown' directory (--exclude-unknown was specified)")
     
+    all_stats = {}  # Collect stats_df per entity type for combined table generation
+
     for entity_type in entity_types:
         # Find all CSV files for the current entity type
         
@@ -1314,26 +1469,26 @@ def main():
         # scripts/evaluation/occupation/{RAG or ZS}/{nil or qid}/*.csv
         
         # Define the most common path pattern first - we know this exists from directory checking
-        occupation_rag_dir = os.path.join(SCRIPT_DIR, 'occupation', 'RAG', entity_type.lower())
-        occupation_zs_dir = os.path.join(SCRIPT_DIR, 'occupation', 'ZS', entity_type.lower())
+        occupation_rag_dir = os.path.join(DATA_DIR, 'occupation', 'RAG', entity_type.lower())
+        occupation_zs_dir = os.path.join(DATA_DIR, 'occupation', 'ZS', entity_type.lower())
         
         # Fallback patterns if the primary ones don't exist
-        rag_dir = os.path.join(SCRIPT_DIR, entity_type.lower(), 'RAG', entity_type.lower())
-        zs_dir = os.path.join(SCRIPT_DIR, entity_type.lower(), 'ZS', entity_type.lower())
-        
+        rag_dir = os.path.join(DATA_DIR, entity_type.lower(), 'RAG', entity_type.lower())
+        zs_dir = os.path.join(DATA_DIR, entity_type.lower(), 'ZS', entity_type.lower())
+
         # Additional ZS directory patterns to check
         zs_dir_patterns = [
-            os.path.join(SCRIPT_DIR, 'occupation', 'ZS', entity_type.lower()),
-            os.path.join(SCRIPT_DIR, 'ZS', entity_type.lower()),
-            os.path.join(SCRIPT_DIR, entity_type.lower(), 'ZS')
+            os.path.join(DATA_DIR, 'occupation', 'ZS', entity_type.lower()),
+            os.path.join(DATA_DIR, 'ZS', entity_type.lower()),
+            os.path.join(DATA_DIR, entity_type.lower(), 'ZS')
         ]
-        
+
         # Additional unknown directory patterns to check
-        unknown_dir = os.path.join(SCRIPT_DIR, entity_type.lower(), 'unknown', entity_type.lower())
+        unknown_dir = os.path.join(DATA_DIR, entity_type.lower(), 'unknown', entity_type.lower())
         unknown_dir_patterns = [
-            os.path.join(SCRIPT_DIR, 'occupation', 'unknown', entity_type.lower()),
-            os.path.join(SCRIPT_DIR, 'unknown', entity_type.lower()),
-            os.path.join(SCRIPT_DIR, entity_type.lower(), 'unknown')
+            os.path.join(DATA_DIR, 'occupation', 'unknown', entity_type.lower()),
+            os.path.join(DATA_DIR, 'unknown', entity_type.lower()),
+            os.path.join(DATA_DIR, entity_type.lower(), 'unknown')
         ]
         
         # Add voting algorithms directories (included by default unless excluded)
@@ -1361,14 +1516,14 @@ def main():
             print(f"  Using standard RAG directory: {rag_dir}")
         else:
             # Default fallback
-            rag_pattern = os.path.join(SCRIPT_DIR, 'occupation', 'RAG', entity_type.lower(), '*.csv')
+            rag_pattern = os.path.join(DATA_DIR, 'occupation', 'RAG', entity_type.lower(), '*.csv')
             print(f"  Falling back to: {rag_pattern}")
             
         # ZS patterns need special handling for consistent discovery
         zs_pattern = None
         
-        # Use absolute known directory first (verified with Bash command)
-        occupation_zs_dir_path = os.path.join(SCRIPT_DIR, 'occupation', 'ZS', entity_type.lower())
+        # Use absolute known directory first
+        occupation_zs_dir_path = os.path.join(DATA_DIR, 'occupation', 'ZS', entity_type.lower())
         if os.path.exists(occupation_zs_dir_path):
             zs_pattern = os.path.join(occupation_zs_dir_path, '*.csv')
             print(f"  Using primary ZS directory: {occupation_zs_dir_path}")
@@ -1387,13 +1542,13 @@ def main():
         if not zs_pattern:
             print(f"  Warning: No ZS directory found for {entity_type}, using fallback pattern")
             # Explicit pattern that matches format from the files we found
-            zs_pattern = os.path.join(SCRIPT_DIR, '**', f"QA_occupation_{entity_type.lower()}_noctx*.csv")
+            zs_pattern = os.path.join(DATA_DIR, '**', f"QA_occupation_{entity_type.lower()}_noctx*.csv")
             
         # Unknown patterns need similar handling
         unknown_pattern = None
         
         # Use absolute known directory first
-        occupation_unknown_dir_path = os.path.join(SCRIPT_DIR, 'occupation', 'unknown', entity_type.lower())
+        occupation_unknown_dir_path = os.path.join(DATA_DIR, 'occupation', 'unknown', entity_type.lower())
         if os.path.exists(occupation_unknown_dir_path):
             unknown_pattern = os.path.join(occupation_unknown_dir_path, '*.csv')
             print(f"  Using primary unknown directory: {occupation_unknown_dir_path}")
@@ -1412,7 +1567,7 @@ def main():
         if not unknown_pattern:
             print(f"  Warning: No unknown directory found for {entity_type}, using fallback pattern")
             # Explicit pattern that matches format from the files we found
-            unknown_pattern = os.path.join(SCRIPT_DIR, '**', f"QA_occupation_{entity_type.lower()}_combined*.csv")
+            unknown_pattern = os.path.join(DATA_DIR, '**', f"QA_occupation_{entity_type.lower()}_combined*.csv")
         
         # Get files - using recursive=True for broader pattern matching
         # Only use recursive mode for patterns that need it
@@ -1461,11 +1616,11 @@ def main():
             # Try several different patterns to find ZS files
             broader_patterns = [
                 # Most specific pattern first
-                os.path.join(SCRIPT_DIR, 'occupation', 'ZS', '**', f'*{entity_type.lower()}*noctx*.csv'),
+                os.path.join(DATA_DIR, 'occupation', 'ZS', '**', f'*{entity_type.lower()}*noctx*.csv'),
                 # Then a more general pattern across all evaluation directories
-                os.path.join(SCRIPT_DIR, '**', f'*{entity_type.lower()}*noctx*.csv'),
+                os.path.join(DATA_DIR, '**', f'*{entity_type.lower()}*noctx*.csv'),
                 # Even more general if needed
-                os.path.join(SCRIPT_DIR, '**', f'*noctx*{entity_type.lower()}*.csv')
+                os.path.join(DATA_DIR, '**', f'*noctx*{entity_type.lower()}*.csv')
             ]
             
             for pattern in broader_patterns:
@@ -1557,10 +1712,10 @@ def main():
             continue
         
         print(f"Processing {len(csv_files)} files for entity type: {entity_type}")
-        
+
         # Process each file and collect dataframes
         dataframes = []
-        for file_path in csv_files:
+        for file_path in tqdm(csv_files, desc=f"Processing {entity_type} files", unit="file"):
             df = process_file(file_path)
             if not df.empty:
                 dataframes.append(df)
@@ -1607,9 +1762,13 @@ def main():
             # Filter to only existing files
             unknown_files = [f for f in unknown_files if os.path.exists(f)]
             
-            # Also add any additional files matching pattern
-            unknown_files += glob.glob(os.path.join(OUTPUT_BASE_DIR, 'unknown', entity_type.lower(), '*.csv'))
-            unknown_files += glob.glob(os.path.join(OUTPUT_BASE_DIR, 'unknown', entity_type.lower(), '*_granular.csv'))
+            # Also add any additional files matching pattern - filter by entity type
+            all_unknown_csvs = glob.glob(os.path.join(OUTPUT_BASE_DIR, 'unknown', entity_type.lower(), '*.csv'))
+            all_unknown_csvs += glob.glob(os.path.join(OUTPUT_BASE_DIR, 'unknown', entity_type.lower(), '*_granular.csv'))
+            # Only include files that match the current entity type to prevent cross-contamination
+            for f in all_unknown_csvs:
+                if f"_{entity_type.upper()}_" in os.path.basename(f) and f not in unknown_files:
+                    unknown_files.append(f)
             unknown_dfs = []
             for file in unknown_files:
                 if os.path.basename(file) != 'combined_test' and '_test_' not in file and 'test_' not in file:
@@ -1677,6 +1836,16 @@ def main():
         generate_csv_report(stats_df, entity_type)
         generate_latex_table(stats_df, entity_type)
         plot_metrics_heatmap(stats_df, entity_type)
+
+        # Store for combined table generation
+        all_stats[entity_type.upper()] = stats_df.copy()
+
+    # Generate combined evaluation_occupation.tex (both QID and NIL in one file)
+    if len(all_stats) >= 2:
+        eval_occ_path = os.path.join(LATEX_DIR, "evaluation_occupation.tex")
+        generate_evaluation_occupation_latex(all_stats, eval_occ_path)
+    elif len(all_stats) == 1:
+        print("Only one entity type processed - skipping combined evaluation_occupation.tex")
 
 if __name__ == "__main__":
     main()

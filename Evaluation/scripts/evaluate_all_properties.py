@@ -37,6 +37,7 @@ from pathlib import Path
 from collections import defaultdict
 from typing import List, Dict, Tuple, Any, Optional, Set
 from datetime import datetime
+from tqdm import tqdm
 
 # Setup logging
 logging.basicConfig(
@@ -58,9 +59,11 @@ DATE_FORMATS = [
     r'(\d{4})\/\d{1,2}\/\d{1,2}',              # Slash date: 1728/05/11
     r'\b(1\d{3}|20\d{2}|21\d{2})\b'            # Year only: 1728, 2023, 2100
 ]
-DEFAULT_INPUT_DIR = #
-DEFAULT_OUTPUT_DIR = #
-DEFAULT_REPORT_DIR = #
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_EVAL_DIR = os.path.dirname(_SCRIPT_DIR)
+DEFAULT_INPUT_DIR = os.path.join(_EVAL_DIR, "data")
+DEFAULT_OUTPUT_DIR = os.path.join(_EVAL_DIR, "data")
+DEFAULT_REPORT_DIR = os.path.join(_SCRIPT_DIR, "reports")
 
 # Model mappings to standardize names (optimized for LaTeX tables)
 MODEL_MAPPINGS = {
@@ -116,6 +119,20 @@ RETRIEVER_ORDERING = {
     'gtr-large': 6,
 }
 
+# Canonical property column order for LaTeX tables (using PROPERTY_DISPLAY short names)
+PROPERTY_ORDER = ['CoC', 'DoB', 'FName', 'GName', 'Occ', 'Gender']
+# Header labels shown in the LaTeX table for each property column
+PROPERTY_HEADERS = {
+    'CoC': 'CoC', 'DoB': 'DoB', 'FName': 'FamilyName',
+    'GName': 'GivenName', 'Occ': 'occupation', 'Gender': 'sexGender',
+}
+# Model display order in LaTeX tables (normalized name → display name)
+LATEX_MODEL_ORDER = ['Boyer-M', 'Mixtral', 'Phi-3', 'Gemma', 'LLAMA', 'Qwen', 'GPT-4o']
+LATEX_MODEL_DISPLAY = {
+    'Boyer-M': 'Boyer-m', 'Mixtral': 'Mixtral', 'Phi-3': 'Phi-3',
+    'Gemma': 'Gemma', 'LLAMA': 'Llama', 'Qwen': 'Qwen', 'GPT-4o': 'Gpt-4o',
+}
+
 def extract_year(date_str: str) -> Optional[int]:
     """
     Extract the year component from a date string in various formats.
@@ -154,6 +171,55 @@ def extract_year(date_str: str) -> Optional[int]:
             pass
             
     return None
+
+def _parse_value_set(
+    raw: str,
+    is_dob: bool,
+    verbose: bool,
+    log: logging.Logger,
+    label: str,
+) -> set:
+    """Parse a cell value into a set of individual QIDs (or years for DoB).
+
+    Handles multiple separators (;  ,  |) and treats empty / NaN-like
+    tokens as the empty set.  The literal ``"NIL"`` is treated as empty
+    (same as NaN).
+
+    For DoB cells the returned set contains ``int`` years; for everything
+    else it contains the original string tokens (case-sensitive).
+    """
+    # Tokens that always mean "empty" (NIL included — same as NaN)
+    _empty = {"", "nan", "none", "null", "na", "n/a", "nil"}
+
+    if not raw:
+        return set()
+
+    low = raw.strip().lower()
+    if low in _empty:
+        return set()
+
+    # Split on common separators
+    tokens = re.split(r"[;,|]+", raw)
+
+    result: set = set()
+    for tok in tokens:
+        tok = tok.strip()
+        tok_low = tok.lower()
+        if not tok or tok_low in _empty:
+            continue
+
+        if is_dob:
+            year = extract_year(tok)
+            if year is not None:
+                result.add(year)
+            elif verbose:
+                log.debug(f"  {label}: could not extract year from '{tok}'")
+        else:
+            # QID or literal value — keep as-is (case-sensitive)
+            result.add(tok)
+
+    return result
+
 
 class EvaluationResult:
     """Class to store evaluation results for a single file."""
@@ -372,13 +438,12 @@ def evaluate_file(file_path: str, out_dir: str, verbose: bool = False) -> Evalua
         # Read the CSV file
         df = pd.read_csv(file_path, delimiter=',', low_memory=False)
 
-        # Add evaluation columns if they don't exist
-        if 'TP' not in df.columns:
-            df['TP'] = 0
-        if 'FP' not in df.columns:
-            df['FP'] = 0
-        if 'FN' not in df.columns:
-            df['FN'] = 0
+        # Always reset evaluation columns to 0 (clears stale values from
+        # previous evaluations or from relink changing linked_qid in-place).
+        df['TP'] = 0
+        df['FP'] = 0
+        df['FN'] = 0
+        df['TN'] = 0
 
         # Determine entity type using a hybrid approach that favors filename but considers content
         
@@ -435,214 +500,69 @@ def evaluate_file(file_path: str, out_dir: str, verbose: bool = False) -> Evalua
             logger.error(f"Required columns not found in {file_path}")
             return result
         
-        # Perform the evaluation
+        # Perform binary evaluation (each row gets 0 or 1 for TP/FP/FN/TN).
+        #
+        # Gold and predicted values are parsed into sets.  Then:
+        #   TP = 1  if gold & pred share at least one value
+        #   FP = 1  if pred is non-empty and shares nothing with gold
+        #   FN = 1  if gold is non-empty and shares nothing with pred
+        #   TN = 1  if both sets are empty (correct abstention)
+        # A single common value is enough for TP; when TP=1, FP and FN
+        # stay 0 regardless of extra/missing values.
+        #
+        # For DoB the sets contain extracted years instead of QIDs.
         tp = 0
         fp = 0
         fn = 0
         tn = 0
 
-        # Add TN tracking if not exists
-        if 'TN' not in df.columns:
-            df['TN'] = 0
+        is_dob = result.property_type == 'DoB'
+
+        # Pre-initialise DoB debug columns as object (string) dtype to avoid
+        # FutureWarning when writing str values into a float64 column.
+        if is_dob:
+            df['gold_years'] = ''
+            df['linked_years'] = ''
 
         for i, row in df.iterrows():
             linked_qid = str(row[linked_qid_col]) if pd.notna(row[linked_qid_col]) else ""
             gold_qid = str(row[gold_qid_col]) if pd.notna(row[gold_qid_col]) else ""
 
-            # Different handling based on file type (NIL vs QID files)
-            if result.entity_type.upper() == "NIL":
-                # Case for NIL files:
+            # ---- skip unannotated rows in NIL files ----
+            # In NIL files, NaN in qid_gold_true means no annotation → skip.
+            # "NIL" is still treated as empty (same as NaN for evaluation).
+            # In QID files, every row is evaluated (NaN gold = empty).
+            if result.entity_type.upper() == "NIL" and not gold_qid:
+                continue
 
-                # If gold_qid is NIL
-                if gold_qid.upper() == "NIL":
-                    # If linked_qid is NIL or empty -> True Negative
-                    if not linked_qid or linked_qid.upper() == "NIL":
-                        tn += 1
-                        df.at[i, 'TN'] = 1
-                    # If linked_qid is not NIL or empty -> False Positive
-                    else:
-                        fp += 1
-                        df.at[i, 'FP'] = 1
-                # If gold_qid is empty string, skip
-                elif not gold_qid:
-                    continue
-                # If gold_qid has a valid QID (non-NIL, non-empty)
-                else:
-                    # If linked_qid is empty or NIL, count as false negative
-                    if not linked_qid or linked_qid.upper() == "NIL":
-                        fn += 1
-                        df.at[i, 'FN'] = 1
-                    else:
-                        # Process QIDs to find matches
-                        # Normalize gold QIDs
-                        normalized_gold = gold_qid.replace(';', ',').replace('|', ',')
-                        gold_qids = set()
-                        for qid in re.split(r'[,;\s]+', normalized_gold):
-                            qid = qid.strip()
-                            if qid and qid.upper() != 'NIL':
-                                gold_qids.add(qid)
+            # ---- parse gold and predicted into value sets ----
+            # "NIL" and NaN are treated identically (both = empty).
+            gold_set = _parse_value_set(gold_qid, is_dob, verbose, logger, "gold")
+            pred_set = _parse_value_set(linked_qid, is_dob, verbose, logger, "linked")
 
-                        # Normalize linked QIDs
-                        normalized_linked = linked_qid.replace(';', ',').replace('|', ',')
-                        linked_qids = set()
-                        for qid in re.split(r'[,;\s]+', normalized_linked):
-                            qid = qid.strip()
-                            if qid and qid.upper() != 'NIL':
-                                linked_qids.add(qid)
+            # ---- optional DoB debug columns ----
+            if is_dob:
+                df.at[i, 'gold_years'] = ','.join(str(y) for y in gold_set) if gold_set else ''
+                df.at[i, 'linked_years'] = ','.join(str(y) for y in pred_set) if pred_set else ''
 
-                        # Check if there's at least one common QID between gold and linked
-                        common_qids = gold_qids.intersection(linked_qids)
-
-                        # Special handling for DoB (Date of Birth) property
-                        if result.property_type == 'DoB':
-                            # Extract years from both gold and linked QIDs
-                            gold_years = set()
-                            for qid in gold_qids:
-                                year = extract_year(qid)
-                                if year:
-                                    gold_years.add(year)
-                                elif verbose:
-                                    logger.debug(f"Could not extract year from gold_qid: {qid}")
-                                    
-                            linked_years = set()
-                            for qid in linked_qids:
-                                year = extract_year(qid)
-                                if year:
-                                    linked_years.add(year)
-                                elif verbose:
-                                    logger.debug(f"Could not extract year from linked_qid: {qid}")
-                            
-                            # Add extracted years to dataframe for debugging (optional)
-                            df.at[i, 'gold_years'] = ','.join(str(y) for y in gold_years) if gold_years else ''
-                            df.at[i, 'linked_years'] = ','.join(str(y) for y in linked_years) if linked_years else ''
-                            
-                            # Count match if years match, even if full dates don't
-                            if gold_years and linked_years and gold_years.intersection(linked_years):
-                                tp += 1
-                                df.at[i, 'TP'] = 1
-                                # Store the common years for reference
-                                common_years = gold_years.intersection(linked_years)
-                                df.at[i, 'common_years'] = ','.join(str(y) for y in common_years)
-                            else:
-                                # If no year matches, it's a false negative (gold entity wasn't identified correctly)
-                                fn += 1
-                                df.at[i, 'FN'] = 1
-                                df.at[i, 'common_years'] = ''
-                                # Also mark as a false positive if linked_years is not empty (something was linked but wrongly)
-                                if linked_years:
-                                    fp += 1
-                                    df.at[i, 'FP'] = 1
-                                
-                        # Standard exact string matching for other property types
-                        else:
-                            # If there's at least one match, count as true positive
-                            if common_qids:
-                                tp += 1
-                                df.at[i, 'TP'] = 1
-                            # If there are no common QIDs, it's a false negative (gold entity wasn't found)
-                            else:
-                                fn += 1
-                                df.at[i, 'FN'] = 1
-                                # Also mark as false positive if linked_qids is not empty (something was linked incorrectly)
-                                if linked_qids:
-                                    fp += 1
-                                    df.at[i, 'FP'] = 1
-            else:  # For QID files
-                # If gold_qid is empty
-                if not gold_qid:
-                    # If linked_qid is empty as well -> True Negative
-                    if not linked_qid or linked_qid.upper() == "NIL":
-                        tn += 1
-                        df.at[i, 'TN'] = 1
-                    # If linked_qid is not empty -> False Positive
-                    else:
-                        fp += 1
-                        df.at[i, 'FP'] = 1
-                # For QID files, we should not have gold_qid = NIL as per requirements
-                elif gold_qid.upper() == "NIL":
-                    logger.warning(f"Unexpected NIL value in gold column for QID file: {file_path}, row {i}")
-                    continue
-                # If gold_qid has a valid QID
-                else:
-                    # If linked_qid is empty or NIL, count as false negative
-                    if not linked_qid or linked_qid.upper() == "NIL":
-                        fn += 1
-                        df.at[i, 'FN'] = 1
-                    else:
-                        # Process QIDs to find matches
-                        # Normalize gold QIDs
-                        normalized_gold = gold_qid.replace(';', ',').replace('|', ',')
-                        gold_qids = set()
-                        for qid in re.split(r'[,;\s]+', normalized_gold):
-                            qid = qid.strip()
-                            if qid and qid.upper() != 'NIL':
-                                gold_qids.add(qid)
-
-                        # Normalize linked QIDs
-                        normalized_linked = linked_qid.replace(';', ',').replace('|', ',')
-                        linked_qids = set()
-                        for qid in re.split(r'[,;\s]+', normalized_linked):
-                            qid = qid.strip()
-                            if qid and qid.upper() != 'NIL':
-                                linked_qids.add(qid)
-
-                        # Check if there's at least one common QID between gold and linked
-                        common_qids = gold_qids.intersection(linked_qids)
-
-                        # Special handling for DoB (Date of Birth) property
-                        if result.property_type == 'DoB':
-                            # Extract years from both gold and linked QIDs
-                            gold_years = set()
-                            for qid in gold_qids:
-                                year = extract_year(qid)
-                                if year:
-                                    gold_years.add(year)
-                                elif verbose:
-                                    logger.debug(f"Could not extract year from gold_qid: {qid}")
-                                    
-                            linked_years = set()
-                            for qid in linked_qids:
-                                year = extract_year(qid)
-                                if year:
-                                    linked_years.add(year)
-                                elif verbose:
-                                    logger.debug(f"Could not extract year from linked_qid: {qid}")
-                            
-                            # Add extracted years to dataframe for debugging (optional)
-                            df.at[i, 'gold_years'] = ','.join(str(y) for y in gold_years) if gold_years else ''
-                            df.at[i, 'linked_years'] = ','.join(str(y) for y in linked_years) if linked_years else ''
-                            
-                            # Count match if years match, even if full dates don't
-                            if gold_years and linked_years and gold_years.intersection(linked_years):
-                                tp += 1
-                                df.at[i, 'TP'] = 1
-                                # Store the common years for reference
-                                common_years = gold_years.intersection(linked_years)
-                                df.at[i, 'common_years'] = ','.join(str(y) for y in common_years)
-                            else:
-                                # If no year matches, it's a false negative (gold entity wasn't identified correctly)
-                                fn += 1
-                                df.at[i, 'FN'] = 1
-                                df.at[i, 'common_years'] = ''
-                                # Also mark as a false positive if linked_years is not empty (something was linked but wrongly)
-                                if linked_years:
-                                    fp += 1
-                                    df.at[i, 'FP'] = 1
-                                
-                        # Standard exact string matching for other property types
-                        else:
-                            # If there's at least one match, count as true positive
-                            if common_qids:
-                                tp += 1
-                                df.at[i, 'TP'] = 1
-                            # If there are no common QIDs, it's a false negative (gold entity wasn't found)
-                            else:
-                                fn += 1
-                                df.at[i, 'FN'] = 1
-                                # Also mark as false positive if linked_qids is not empty (something was linked incorrectly)
-                                if linked_qids:
-                                    fp += 1
-                                    df.at[i, 'FP'] = 1
+            # ---- binary TP / FP / FN / TN (0 or 1 per row) ----
+            # Any overlap between gold and predicted → TP=1 (no FP/FN).
+            # No overlap with both non-empty → FP=1 AND FN=1.
+            if not gold_set and not pred_set:
+                tn += 1
+                df.at[i, 'TN'] = 1
+            elif gold_set & pred_set:
+                # At least one value in common → correct prediction
+                tp += 1
+                df.at[i, 'TP'] = 1
+            else:
+                # No overlap — mark FP and/or FN
+                if pred_set:
+                    fp += 1
+                    df.at[i, 'FP'] = 1
+                if gold_set:
+                    fn += 1
+                    df.at[i, 'FN'] = 1
 
         # Update the result object
         result.tp = tp
@@ -842,6 +762,191 @@ def generate_table_report(results: List[EvaluationResult], report_dir: str, enti
     return os.path.join(report_dir, f"table_report_{entity_type.lower()}_f1.csv")
 
 
+def generate_latex_table(results: List[EvaluationResult], entity_type: str, output_path: str):
+    """
+    Generate a LaTeX table from evaluation results, matching the format of
+    the existing evaluation_QID_rules.tex / evaluation_NIL_rules.tex tables.
+
+    All numeric values are derived from the EvaluationResult objects computed
+    by evaluate_file().
+    """
+    # Build nested data: model -> retriever -> property_display -> metrics
+    data = defaultdict(lambda: defaultdict(dict))
+
+    for result in results:
+        if result.entity_type.upper() != entity_type.upper():
+            continue
+        model = normalize_model_name(result.model)
+        retriever = result.retriever
+        prop_display = PROPERTY_DISPLAY.get(result.property_type, result.property_type)
+
+        # Keep the entry with the best F1 when there are duplicates
+        existing = data[model][retriever].get(prop_display)
+        if existing is None or result.f1 > existing['f1']:
+            data[model][retriever][prop_display] = {
+                'f1': result.f1,
+                'precision': result.precision,
+                'recall': result.recall,
+            }
+
+    if not data:
+        logger.warning(f"No {entity_type} results to generate LaTeX table")
+        return None
+
+    # Find best value per (property, metric) column for bold formatting
+    # Round to 2 decimal places so bolding is consistent with displayed values
+    best = {}
+    for prop in PROPERTY_ORDER:
+        for metric in ['f1', 'precision', 'recall']:
+            best_val = -1
+            for model_data in data.values():
+                for retr_data in model_data.values():
+                    entry = retr_data.get(prop)
+                    if entry and entry[metric] > best_val:
+                        best_val = entry[metric]
+            best[(prop, metric)] = round(best_val, 2)
+
+    # Build rows grouped by model
+    rows_by_model = {}
+    for model in data:
+        model_rows = []
+        sorted_retrs = sorted(
+            data[model].keys(),
+            key=lambda r: RETRIEVER_ORDERING.get(r, 999),
+        )
+        for retr in sorted_retrs:
+            # Boyer-M voting model shows its retriever as "Combined"
+            if model == 'Boyer-M':
+                retr_display = 'Combined'
+            else:
+                retr_display = format_retriever_name(retr)
+
+            cells = []
+            for prop in PROPERTY_ORDER:
+                entry = data[model][retr].get(prop)
+                if entry:
+                    for metric in ['f1', 'precision', 'recall']:
+                        val = entry[metric]
+                        val_str = f"{val:.2f}"
+                        if round(val, 2) == best[(prop, metric)]:
+                            val_str = f"\\textbf{{{val_str}}}"
+                        cells.append(val_str)
+                else:
+                    cells.extend(['-', '-', '-'])
+            model_rows.append((retr_display, cells))
+        rows_by_model[model] = model_rows
+
+    # Sort models in canonical order
+    def model_sort_key(m):
+        try:
+            return LATEX_MODEL_ORDER.index(m)
+        except ValueError:
+            return 999
+
+    sorted_models = sorted(rows_by_model.keys(), key=model_sort_key)
+
+    # ── Build LaTeX ──────────────────────────────────────────────────────
+    lines = []
+    lines.append(r"\begin{table*}")
+    lines.append(r"    \centering")
+
+    if entity_type.upper() == "QID":
+        lines.append(
+            r"    \caption{Precision (P), recall (R), and F1 for the six core "
+            r"properties on the \textbf{QID-KG}. We evaluate Mixtral-8×7B, "
+            r"Phi-3-Medium, Gemma-2-27B-IT, Llama-3.3-70B, Qwen-2.5-72B, and "
+            r"GPT-4o-mini. Date of birth (DoB) is scored at \emph{year} "
+            r"granularity, while \textit{occupation} is counted correct when "
+            r"at least one predicted occupation QID overlaps with the gold set.}"
+        )
+    else:
+        lines.append(
+            r"    \caption{Precision (P), recall (R), and F1 for the six core "
+            r"properties on the \textbf{NIL-KG}.  We evaluate Mixtral-8×7B, "
+            r"Phi-3-Medium, Gemma-2-27B-IT, Llama-3.3-70B, Qwen-2.5-72B and "
+            r"GPT-4o-mini. Date of birth (DoB) is evaluated at \emph{year} "
+            r"granularity; an \textit{occupation} prediction is treated as "
+            r"correct when it shares at least one occupation QID with the "
+            r"gold labels.}"
+        )
+
+    lines.append(r"    \normalsize")
+    lines.append(r"    % Requires: \usepackage{booktabs}, \usepackage{multirow}, \usepackage{graphicx}, \usepackage{colortbl}")
+    lines.append(r"    % \definecolor{lightgray}{rgb}{0.95,0.95,0.95}")
+    lines.append(r"    \resizebox{\textwidth}{!}{%")
+    lines.append(
+        r"    \begin{tabular}{l@{\hspace{8pt}}l@{\hspace{4pt}}"
+        r"c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{12pt}}"
+        r"@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{12pt}}"
+        r"@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{12pt}}"
+        r"@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{12pt}}"
+        r"@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{12pt}}"
+        r"@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c}"
+    )
+    lines.append(r"    \toprule")
+
+    # Header: property names
+    prop_cols = " & ".join(
+        f"\\multicolumn{{3}}{{c}}{{\\large\\textbf{{{PROPERTY_HEADERS[p]}}}}}"
+        for p in PROPERTY_ORDER
+    )
+    lines.append(f"    Model & Retr. & {prop_cols} \\\\")
+
+    # Sub-header: F1, P, R per property
+    sub_cols = " & ".join(
+        r"\textbf{F1} & \textbf{P} & \textbf{R}" for _ in PROPERTY_ORDER
+    )
+    lines.append(f"     &  & {sub_cols} \\\\")
+    lines.append(r"    \midrule")
+
+    # Data rows
+    first_model = True
+    for model in sorted_models:
+        model_rows = rows_by_model[model]
+        n_rows = len(model_rows)
+        display_name = LATEX_MODEL_DISPLAY.get(model, model)
+
+        if not first_model:
+            lines.append(r"    \midrule")
+        first_model = False
+
+        for j, (retr_display, cells) in enumerate(model_rows):
+            cell_str = " & ".join(cells)
+            if j == 0:
+                lines.append(
+                    f"    \\multirow{{{n_rows}}}{{*}}{{\\textbf{{{display_name}}}}} "
+                    f"& {retr_display} & {cell_str} \\\\"
+                )
+            else:
+                lines.append(f"     & {retr_display} & {cell_str} \\\\")
+
+    lines.append(r"    \bottomrule")
+    lines.append(r"    \end{tabular}")
+    lines.append(r"    }")
+
+    if entity_type.upper() == "QID":
+        lines.append(r"    \label{tab:qid_results}")
+    else:
+        lines.append(r"    \label{tab:nil_results}")
+    lines.append(r"\end{table*}")
+
+    tex = "\n".join(lines) + "\n"
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w') as f:
+        f.write(tex)
+    logger.info(f"Generated LaTeX table: {output_path}")
+    return output_path
+
+
+def cleanup_cascaded_files(data_dir: str) -> int:
+    """Delete cascaded _evaluated_evaluated*.csv files from previous runs."""
+    cascaded = list(Path(data_dir).rglob("*_evaluated_evaluated*.csv"))
+    for f in cascaded:
+        f.unlink()
+    return len(cascaded)
+
+
 def main():
     """Main function to run the evaluation scripts."""
     parser = argparse.ArgumentParser(description="Evaluate property linking results.")
@@ -854,8 +959,13 @@ def main():
     parser.add_argument("--verbose", action="store_true", help="Enable verbose output")
     parser.add_argument("--debug", action="store_true", help="Enable debug output (even more verbose)")
     parser.add_argument("--include-voting", action="store_true", default=True, help="Include voting algorithm results from the /scripts/linking/output directory")
+    parser.add_argument("--tables-output", default=None, help="Output directory for LaTeX tables (default: Evaluation/tables/)")
 
     args = parser.parse_args()
+
+    # Default tables output to Evaluation/tables/ relative to this script
+    if args.tables_output is None:
+        args.tables_output = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tables")
 
     # Set logging level based on verbose/debug flags
     if args.debug:
@@ -868,15 +978,21 @@ def main():
     # Add voting algorithm directories if requested
     if args.include_voting:
         voting_dirs = [
-            "",
-            "",
-            ""
+            # Populated at runtime if voting output directories exist
         ]
-        args.folders.extend(voting_dirs)
-        logger.info(f"Including voting algorithm directories: {voting_dirs}")
+        voting_dirs = [d for d in voting_dirs if d and os.path.isdir(d)]
+        if voting_dirs:
+            args.folders.extend(voting_dirs)
+            logger.info(f"Including voting algorithm directories: {voting_dirs}")
 
-    # Find files to evaluate
-    logger.info("Finding files to evaluate...")
+    # Clean up cascaded files from previous runs
+    deleted = cleanup_cascaded_files(DEFAULT_INPUT_DIR)
+    if deleted:
+        logger.warning(f"Cleaned up {deleted} cascaded files from previous runs")
+
+    # Find files to evaluate — filter out empty/nonexistent folder paths
+    args.folders = [f for f in args.folders if f and os.path.isdir(f)]
+    logger.info(f"Finding files to evaluate in {args.folders}...")
     files = find_files(args.folders, args.include_files, args.skip_files, args.property)
 
     if not files:
@@ -897,17 +1013,9 @@ def main():
 
     # Evaluate each file
     results = []
-    for i, file in enumerate(files):
-        logger.info(f"Evaluating file {i+1}/{len(files)}: {file}...")
+    for file in tqdm(files, desc="Evaluating files", unit="file"):
         result = evaluate_file(file, args.output, args.verbose)
         results.append(result)
-
-        # Print entity type stats every 10 files
-        if (i+1) % 10 == 0:
-            entity_types = {r.entity_type: 0 for r in results}
-            for r in results:
-                entity_types[r.entity_type] += 1
-            logger.info(f"Entity types processed so far: {entity_types}")
 
     # Check if there are any QID results before generating reports
     qid_results = [r for r in results if r.entity_type.upper() == "QID"]
@@ -934,36 +1042,16 @@ def main():
             if os.path.exists(report_path):
                 logger.info(f"  - {os.path.basename(report_path)}")
 
-    # Generate combined reports with all metrics
-    try:
-        from generate_combined_reports import generate_combined_report, generate_latex_table
-        from generate_latex_tables import regenerate_tables
-
-        logger.info("Generating combined reports with F1, P, R metrics...")
-        latex_dir = os.path.join(args.report_output, "../latex_tables")
-        os.makedirs(latex_dir, exist_ok=True)
-
-        for entity_type in ["nil", "qid"]:
-            # Generate combined report
-            combined_path = generate_combined_report(args.report_output, entity_type, args.report_output)
-
-            if combined_path and os.path.exists(combined_path):
-                # Generate LaTeX table from combined report
-                latex_table = generate_latex_table(combined_path, entity_type)
-
-                # Save LaTeX table
-                latex_path = os.path.join(latex_dir, f'{entity_type}_combined_results_table.tex')
-                with open(latex_path, 'w') as f:
-                    f.write(latex_table)
-
-                logger.info(f"Generated LaTeX table for {entity_type}: {latex_path}")
-        
-        # Regenerate all tables to ensure they use the updated retriever ordering
-        logger.info("Regenerating LaTeX tables with Boyer-M first ordering...")
-        regenerate_tables()
-    except Exception as e:
-        logger.warning(f"Failed to generate combined reports: {e}")
-        logger.warning("You can run generate_combined_reports.py manually to create combined reports.")
+    # Generate LaTeX tables directly from computed results
+    logger.info("Generating LaTeX tables...")
+    generate_latex_table(
+        results, "QID",
+        os.path.join(args.tables_output, "evaluation_QID_rules.tex"),
+    )
+    generate_latex_table(
+        results, "NIL",
+        os.path.join(args.tables_output, "evaluation_NIL_rules.tex"),
+    )
 
     logger.info("Evaluation complete.")
     return 0

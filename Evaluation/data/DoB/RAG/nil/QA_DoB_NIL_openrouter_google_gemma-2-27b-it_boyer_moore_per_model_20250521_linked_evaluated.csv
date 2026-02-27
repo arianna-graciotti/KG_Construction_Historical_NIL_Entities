@@ -50,7 +50,7 @@ Person: ""Agnes Robinson""
 Sentence: ""Agnes Robinson, Mrs. Carmichael, and Messrs. Hobart, Peake, C. J. Lenton, and C. Wilson.""
 Question: ""What is the date of birth of Agnes Robinson?""
 
-Answer:",Cannot be determined from the provided information.,NIL,person,NIL,1900-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1900-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Cannot be determined from the provided information.,NIL,person,NIL,1900-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1900-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1900,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Alice Mary Curtis?,,"Beasley, Llewellyn Bagnall, Alice Mary Curtis, nia Sheehan, Johanna Ludovici, Beata Francis.",Alice Mary Curtis,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -89,7 +89,7 @@ Person: ""Angele Cordier""
 Sentence: ""The suceess of our charming comic prima donna, Angele Cordier, in’ a grand réle, has been an incident worthy. of note, and the revival of Auber’s sparkling and effective work,” has brought out our favorite tenore (it was given for his benefit,) Lagraye, an opportunity of displaying his best powers.""
 Question: ""What is the date of birth of Angele Cordier?""
 
-Answer:",,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,4,2,1800-01-01;1815-01-01;1800-01-01;1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,4,2,1800-01-01;1815-01-01;1800-01-01;1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1800,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Annie Albu?,,"Highly commended — Annie Albu, Amy Aylward, Jessie Jones, Agnes Larkcom, and Marian Williams.",Annie Albu,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -128,7 +128,7 @@ Person: ""Annie Butterworth""
 Sentence: ""Annie Butterworth, Hannah Edouard, Marietta Phillips, Marie Duval, Mary Jane Williams.""
 Question: ""What is the date of birth of Annie Butterworth?""
 
-Answer:",,NIL,person,NIL,1968-01-25,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1968-01-25,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1968-01-25,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1968-01-25,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1968,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Antoine Law?,,"Antoine Law rent -Baudron was born at Amiens, i in 117 43.",Antoine Law,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -141,7 +141,7 @@ Person: ""Antoine Law""
 Sentence: ""Antoine Law rent -Baudron was born at Amiens, i in 117 43.""
 Question: ""What is the date of birth of Antoine Law?""
 
-Answer:",1174-03-01T00:00:00Z,NIL,person,1743,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,3,3,1174-03-01;1743-01-01;1174-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",1174-03-01T00:00:00Z,NIL,person,1743,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,3,3,1174-03-01;1743-01-01;1174-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1743,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Arthur Bent?,,"The principal pieces in the programme were Mendelssohn's String Quintet in B flat (Op. 87) and Svendsen’s String Octet in A (Op. 3), the latter being played by Messrs. Arthur Bent, Wallace Sutcliffe, William Ackroyd, Alfred Wall, Alfred Hobday, Percy Kearne, Paul Ludwig; and Tennyson Werge.",Arthur Bent,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -314,7 +314,7 @@ Person: ""C. J. Lenton""
 Sentence: ""Agnes Robinson, Mrs. Carmichael, and Messrs. Hobart, Peake, C. J. Lenton, and C. Wilson.""
 Question: ""What is the date of birth of C. J. Lenton?""
 
-Answer:",Unable to determine.,NIL,person,NIL,1820-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1820-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Unable to determine.,NIL,person,NIL,1820-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1820-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1820,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of C. Morgan?,,"J. and C. Morgan, some of which were re - demanded.",C. Morgan,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -379,7 +379,7 @@ Person: ""C. Wilson""
 Sentence: ""Agnes Robinson, Mrs. Carmichael, and Messrs. Hobart, Peake, C. J. Lenton, and C. Wilson.""
 Question: ""What is the date of birth of C. Wilson?""
 
-Answer:",Cannot be determined.,NIL,person,NIL,1807-01-01;1809-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1807-01-01;1809-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Cannot be determined.,NIL,person,NIL,1807-01-01;1809-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1807-01-01;1809-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1809,1807",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of C. ]. Stevens?,,"The following works have been performed in their entirety during the season: Mendelssohn’s ‘Elijah, ‘Hear my Prayer,” * * Loreley,” 98th Psalm, ‘Ave Maria,” and ‘As the Hart pants,” Spohr’s ‘God, Thou art Great,” Gaul’s Sacred Cantata, ‘The Holy City,” and C. ]. Stevens’s Anthem “Sing, O Heavens,” selections having been also given from “The Messiah,” “Israel in Egypt,” ‘The Seasons,” ‘St. Paul,” “Samson,” and the “Song of Miriam.”",C. ]. Stevens,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -405,7 +405,7 @@ Person: ""Caffiaux""
 Sentence: ""only that the name of the author had been misprinted Caffiat, instead of Caffiaux.""
 Question: ""What is the date of birth of Caffiaux?""
 
-Answer:",0000-00-00T00:00:00Z,NIL,person,1712,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",0000-00-00T00:00:00Z,NIL,person,1712,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1712,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Catl August Weber?,,"A young composer, Catl August Weber, professor of music at the Lyceum, at Rastadt near Baden, is much talked of here.",Catl August Weber,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -431,7 +431,7 @@ Person: ""Chert""
 Sentence: ""then, instead of stepping forw: urd as a reformer, he ought, as a true disciple of honored and to effect nothing but what Gluck and Mozart; Cimarosa and Pacsicllé, Méhul and Boieldieu, Chert ahint and Spontini, Beethoven and= Weber, Spohr.and Weigl, Meyerbeer and Lortzing, also tried to effect, and which they succeeded more or less in doing. metadata={sent_text:then instead of stepping forw: urd as a reformer he ought as a true disciple of honored and to effect nothing but what Gluck and Mozart; Cimarosa and Pacsicllé Méhul and Boieldieu Chert ahint and Spontini Beethoven and: ""Weber Spohr.and Weigl Meyerbeer and Lortzing also tried to effect and which they succeeded more or less in doing.""}""
 Question: ""What is the date of birth of Chert?""
 
-Answer:",I cannot provide an answer. The text does not contain the date of birth of Chert.,NIL,person,NIL,1760-09-08,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1760-09-08,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot provide an answer. The text does not contain the date of birth of Chert.,NIL,person,NIL,1760-09-08,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1760-09-08,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1760,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Child?,,"The productions of Tallis, Birde, Morley, and Farrant, of Gibbons and Child, of Blow and Purcell, of Croft, Greene, Boyce, Nares, and we might add others, are not only excellent qguoad compositions, but equally perfect as forming a part of our religious worship: they never for a moment lose the true devotional character, though their difference from each other, in many respects, is as wide as the several periods at which they were written.",Child,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -561,7 +561,7 @@ Person: ""Cunningham""
 Sentence: ""The work is also graced with several of the elegant songs of Thomas Campbell, and Lord Byron; and it contains the best songs of the olden time, and of Ramsay, Hamilton; Thomson, Smollett, Skinner, Macneill, Hogg, Cunningham, and many others.""
 Question: ""What is the date of birth of Cunningham?""
 
-Answer:",We do not have enough information to determine the date of birth of Cunningham.,NIL,person,NIL,1778-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1778-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",We do not have enough information to determine the date of birth of Cunningham.,NIL,person,NIL,1778-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1778-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1778,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Dario?,,"The tenors de Lucca, Valentini, Dario, and the basses Cirio and Guarino are considered the best.",Dario,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -730,7 +730,7 @@ Person: ""Dupin""
 Sentence: ""After this, we had: Les Néces de Gamache, a comic opera, in three acts, by Mercadante, translated and arranged by Messrs. Sauvage and Dupin, and adapted to the stage by M. Guénée: we suppose it would be unpardonable to omit any of these important particulars, as the authors always show such marked anxiety te bring them befere the world.""
 Question: ""What is the date of birth of Dupin?""
 
-Answer:",,NIL,person,NIL,1774-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1774-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1774-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1774-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1774,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of E. Carper?,,", Bow, E. — E. Carper is prepared to send Specifications for building Organs of very superior materials and workmanship.",E. Carper,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -743,7 +743,7 @@ Person: ""E. Carper""
 Sentence: "", Bow, E. — E. Carper is prepared to send Specifications for building Organs of very superior materials and workmanship.""
 Question: ""What is the date of birth of E. Carper?""
 
-Answer:",I cannot answer this question. There is no information about E. Carper's date of birth in the given text.,NIL,person,NIL,1800-01-01;1830-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1830-01-01;1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot answer this question. There is no information about E. Carper's date of birth in the given text.,NIL,person,NIL,1800-01-01;1830-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1830-01-01;1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1800,1830",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of E. H. Turpin?,,"Baptiste Calkin, Boyton Smith, E. H. Thorne, W. G. Cusins, E. M. Delaborde, E. Silas, John Hullah, E. H. Turpin, Franz Nava, F. E. Gladstone, C. W. Lavington, J. E. Richardson, R. Forsey Brion, and J. Tilleard.",E. H. Turpin,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -912,7 +912,7 @@ Person: ""FREDERICK BaLpwin""
 Sentence: ""A Pastoral Cantata, H written and composed by FREDERICK BaLpwin.""
 Question: ""What is the date of birth of FREDERICK BaLpwin?""
 
-Answer:",1770-01-01T00:00:00Z,NIL,person,NIL,1770-01-01;1967-05-15,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1770-01-01;1967-05-15,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",1770-01-01T00:00:00Z,NIL,person,NIL,1770-01-01;1967-05-15,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1770-01-01;1967-05-15,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1770,1967",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Fanny Boxell?,,"Letters of Commenstion: Misses Louisa A. Turner, Jane Whitaker, Constance Sarper, Annie Bradley, Elizabeth L. Rothwell, Marion ‘Greon, Fanny Boxell.",Fanny Boxell,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -938,7 +938,7 @@ Person: ""Fenzi""
 Sentence: ""When Fenzi is absent, Guida is considered as the best.""
 Question: ""What is the date of birth of Fenzi?""
 
-Answer:",TBD,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",TBD,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1800,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Florence Wydford?,,"The artists engaged were the Misses Agnes Drummond, Josephine Pulham, Marian Haigh, Florence Wydford, and Messrs. Henry Guy, Theodore Distin, E. Stone, and Thurley Beale.",Florence Wydford,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -951,7 +951,7 @@ Person: ""Florence Wydford""
 Sentence: ""The artists engaged were the Misses Agnes Drummond, Josephine Pulham, Marian Haigh, Florence Wydford, and Messrs. Henry Guy, Theodore Distin, E. Stone, and Thurley Beale.""
 Question: ""What is the date of birth of Florence Wydford?""
 
-Answer:",,NIL,person,NIL,1850-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1850-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1850-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1850-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1850,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Forde?,,"From what we know of Mr. Forde’s general abilities, we should think him far more fit for the task than any else one who has undertaken it;",Forde,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1003,7 +1003,7 @@ Person: ""Frederic""
 Sentence: ""At some concerts, at the Feydeau, i in 1794, he executed some concerted symphonies of Devienne’s Sy with M. Huguot, Frederic and Charles Duvernoy.""
 Question: ""What is the date of birth of Frederic?""
 
-Answer:",,NIL,person,NIL,1794-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,3,2,1770-01-01;1794-01-01;1794-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1794-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,3,2,1770-01-01;1794-01-01;1794-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1794,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of G. Eagleton?,,"The solo singers were Mrs. Batchelor, Miss E. Thompson, Messrs. G. Eagleton, Hagan, F. O. Stevens, Wickes, and Master Moorley.",G. Eagleton,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1172,7 +1172,7 @@ Person: ""H. Hagemeyer""
 Sentence: ""on application to H. Hagemeyer, Bandmaster, 12th Regiment, Cork Barracks, Ireland.""
 Question: ""What is the date of birth of H. Hagemeyer?""
 
-Answer:",There is no date of birth information in the provided text.,NIL,person,NIL,1815-01-01;1853-07-23,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1815-01-01;1853-07-23,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",There is no date of birth information in the provided text.,NIL,person,NIL,1815-01-01;1853-07-23,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1815-01-01;1853-07-23,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1853,1815",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of H. R. Eyers?,,"H. R. Eyers, Walter Fitton, S. Kemp, Arthur O’ Leary, Harold Thomas, Brinley Richards, Frederick Westlake, T. Wingham, and the Principal.",H. R. Eyers,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1341,7 +1341,7 @@ Person: ""J. Barnby""
 Sentence: "", Mrs. Mounsey Bartholomew, J. Barnby, H. Smart, G. A. Macfarren, Brinley Richard, H. S. Irons, Charles Salaman, Alberto Randegger, ].""
 Question: ""What is the date of birth of J. Barnby?""
 
-Answer:",1806-06-06T00:00:00Z,NIL,person,1838,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,6,5,1806-06-06;1838-01-01;1838-02-21;1838-09-23;1838-09-22;1838-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",1806-06-06T00:00:00Z,NIL,person,1838,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,6,5,1806-06-06;1838-01-01;1838-02-21;1838-09-23;1838-09-22;1838-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1838,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of J. Barney?,,"Among the gentle‘men now contributing to Concordia, are: —: J. Barney.",J. Barney,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1354,7 +1354,7 @@ Person: ""J. Barney""
 Sentence: ""Among the gentle‘men now contributing to Concordia, are: —: J. Barney.""
 Question: ""What is the date of birth of J. Barney?""
 
-Answer:",I cannot answer that question.,NIL,person,NIL,1876-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot answer that question.,NIL,person,NIL,1876-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1876,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of J. E. Richardson?,,"Baptiste Calkin, Boyton Smith, E. H. Thorne, W. G. Cusins, E. M. Delaborde, E. Silas, John Hullah, E. H. Turpin, Franz Nava, F. E. Gladstone, C. W. Lavington, J. E. Richardson, R. Forsey Brion, and J. Tilleard.",J. E. Richardson,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1380,7 +1380,7 @@ Person: ""J. F. Walmisley""
 Sentence: ""+ The Wild Hyacinth, a Songs composed by J. F. Walmisley....""
 Question: ""What is the date of birth of J. F. Walmisley?""
 
-Answer:",1809-01-01T00:00:00Z,NIL,person,1783,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,4,4,1809-01-01;1788-01-01;1793-01-01;1760-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",1809-01-01T00:00:00Z,NIL,person,1783,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,4,4,1809-01-01;1788-01-01;1793-01-01;1760-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1783,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of J. Isherwood?,,"The vocalists were the Misses C. Novello, Rainforth, and Mrs. Alfred Shaw; Messrs. Braham, Phillips, Bennett, Walton, and J. Isherwood.",J. Isherwood,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1406,7 +1406,7 @@ Person: ""J. L. Peters""
 Sentence: ""ty J. L. Peters, 843, Broadway, New York. ~ - Wednesday, March 2, 1876,""
 Question: ""What is the date of birth of J. L. Peters?""
 
-Answer:",,NIL,person,NIL,1876-03-02,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-03-02,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1876-03-02,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-03-02,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1876,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of J. Teinturier?,,"J. Teinturier, called Tinctoror Tinctoris, according to the custom that then prevailed of latinizing names, was born at Nivelle, a town in Brabant, between -the years 1430 and 1440.",J. Teinturier,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1510,7 +1510,7 @@ Person: ""Jodran""
 Sentence: ""- Jodran,. a distinguished tenor, possesses, like Soretti (who sings at the church of Santa Maria Maggiore), a superb voice.""
 Question: ""What is the date of birth of Jodran?""
 
-Answer:",I cannot provide an answer. The text does not contain the date of birth for Jodran.,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot provide an answer. The text does not contain the date of birth for Jodran.,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1800,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Johanna Ludovici?,,"Beasley, Llewellyn Bagnall, Alice Mary Curtis, nia Sheehan, Johanna Ludovici, Beata Francis.",Johanna Ludovici,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1536,7 +1536,7 @@ Person: ""John Bishop""
 Sentence: ""Translated by John Bishop, and dedicated to the Author's friend, Professor Taylor.""
 Question: ""What is the date of birth of John Bishop?""
 
-Answer:",Unable to determine.,NIL,person,NIL,2017-05-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,2017-05-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Unable to determine.,NIL,person,NIL,2017-05-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,2017-05-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,2017,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of John Dobson?,,"Compiled by John Dobson, and for the most part revised ot rearranged by H. J. Gauntlett, Mus.",John Dobson,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1718,7 +1718,7 @@ Person: ""M. Dellepiane""
 Sentence: ""When Paganini returned from France and England, he was called upon frequently by the young artist, to hear him play and ask his advice; and although at this time the great violinist was grievously indisposed, he neither withheld his playing nor refused his assistance to his young friend. M. Dellepiane, who was first violin at the Theatre Carlo Felice at Genoa, and master of the Conservatoire of the same city, was taken ill;""
 Question: ""What is the date of birth of M. Dellepiane?""
 
-Answer:",I cannot answer that question. The date of birth of M Dellepiane is not mentioned in the text.,NIL,person,NIL,1794-01-01;1801-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1801-01-01;1794-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot answer that question. The date of birth of M Dellepiane is not mentioned in the text.,NIL,person,NIL,1794-01-01;1801-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1801-01-01;1794-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1801,1794",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of M. Eroff?,,"On the 19th September, a concert was given by the pupils of the Conservatorio, in which several pieces of music composed by the pupils were performed: uamely, a terzett by M. Quaranta, a duett by M. Eroff, a quartett by M. Fontana, & c.",M. Eroff,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1900,7 +1900,7 @@ Person: ""Mabel E. Colyer""
 Sentence: ""Perhaps the most interesting piece was Bemberg’s ‘La Ballade du Désespéré” for yoice“and declamation, beautifully rendered by Miss Gertrude Bevan and Miss Ellen M. Bowick, with the accompaniments well played by the Misses Edith Byford, May H. Mukle, and Mabel E. Colyer.""
 Question: ""What is the date of birth of Mabel E. Colyer?""
 
-Answer:",I cannot provide an answer. The provided text does not contain the date of birth of Mabel E. Colyer.,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot provide an answer. The provided text does not contain the date of birth of Mabel E. Colyer.,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1800,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Madame Brooke?,,"The soloists were Mrs. A. J. Sutton (in place of Madame Brooke, absent through illness), Miss Julia Jones, Miss Taylor, Mr. Bywater, and Mr. W. H. Phillips...",Madame Brooke,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1926,7 +1926,7 @@ Person: ""Madame Collier""
 Sentence: ""She also gave a good interpretation of the ‘Hymne au Soleil,” without, however, causing us to forget Madame Collier's fine rendering of this number at the Société de Musique d’Ensemble, and at the Bodiniére""
 Question: ""What is the date of birth of Madame Collier?""
 
-Answer:",,NIL,person,NIL,1876,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1876,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1876,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Madame Maria Durand?,,"Besides the artists already mentioried we are promised Madame Adelina Patti, Madame Sembrich, Madame Maria Durand, Mdlle. De Vere (her first appearance at the Royai Italian Opera), Madame Scalchi, Mdlle. Reggiani, and Mdille. Tremelli; Signor Nicolini, Signor Marconi, M. Soulacroix, Signor Mierzwinski, Signor Cotogni, M. Devoyod, Signor De Reszké, Signor Monti, and Signor Novara.",Madame Maria Durand,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1952,7 +1952,7 @@ Person: ""Madame Marian McKenzie""
 Sentence: ""At Bradford, too, there has. been more than ordinary musical activity. On November 22 the second of the Subscription Concerts took place, a miscellaneous programme of much more than average interest being sustained by Miss Esther Palliser, Madame Marian McKenzie, Messrs. Ben Davies and Douglas Powell, with Herr Rosenthal as pianist and Mr. W. H. Squire as violoncellist.""
 Question: ""What is the date of birth of Madame Marian McKenzie?""
 
-Answer:",I cannot answer this question.,NIL,person,NIL,2000-01-01;2023-10-26,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,2000-01-01;2023-10-26,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot answer this question.,NIL,person,NIL,2000-01-01;2023-10-26,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,2000-01-01;2023-10-26,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"2000,2023",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Madame San Carolo?,,"he programme contained Mendelssohn’s ‘Hear my Prayer,” the solo part of which was effectively sung by Madame San Carolo; Cowen’s ‘Bridal Chorus, ’’ Stewart’s ‘Bells of St. Michael’s Tower,” and Pinsuti’s ‘Good - night, beloved.”",Madame San Carolo,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -1965,7 +1965,7 @@ Person: ""Madame San Carolo""
 Sentence: ""he programme contained Mendelssohn’s ‘Hear my Prayer,” the solo part of which was effectively sung by Madame San Carolo; Cowen’s ‘Bridal Chorus, ’’ Stewart’s ‘Bells of St. Michael’s Tower,” and Pinsuti’s ‘Good - night, beloved.”""
 Question: ""What is the date of birth of Madame San Carolo?""
 
-Answer:",I cannot provide a date of birth for Madame San Carolo as the provided text does not contain that information.,NIL,person,NIL,1788-02-15,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1788-02-15,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot provide a date of birth for Madame San Carolo as the provided text does not contain that information.,NIL,person,NIL,1788-02-15,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1788-02-15,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1788,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Madame ’?,,"La Clemenza di Tito was the first, in which‘a French lady, under the riame of Signora Clarini, took the part of Servilia, and a Madame’ Graziani filled the character ef Annio, both of which were massacred in their hands, and the whole opera necessarily partook in the - ruin.",Madame ’,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -2121,7 +2121,7 @@ Person: ""Mary Jane Williams""
 Sentence: ""Annie Butterworth, Hannah Edouard, Marietta Phillips, Marie Duval, Mary Jane Williams.""
 Question: ""What is the date of birth of Mary Jane Williams?""
 
-Answer:",,NIL,person,NIL,2023-10-27,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,1,2023-10-27;2023-10-27,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,2023-10-27,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,1,2023-10-27;2023-10-27,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,2023,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Master Moorley?,,"The solo singers were Mrs. Batchelor, Miss E. Thompson, Messrs. G. Eagleton, Hagan, F. O. Stevens, Wickes, and Master Moorley.",Master Moorley,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -2186,7 +2186,7 @@ Person: ""Mdille . Tremelli""
 Sentence: ""Besides the artists already mentioried we are promised Madame Adelina Patti, Madame Sembrich, Madame Maria Durand, Mdlle. De Vere (her first appearance at the Royai Italian Opera), Madame Scalchi, Mdlle. Reggiani, and Mdille. Tremelli; Signor Nicolini, Signor Marconi, M. Soulacroix, Signor Mierzwinski, Signor Cotogni, M. Devoyod, Signor De Reszké, Signor Monti, and Signor Novara.""
 Question: ""What is the date of birth of Mdille . Tremelli?""
 
-Answer:",Let me know if there are more sentences to analyze!,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Let me know if there are more sentences to analyze!,NIL,person,NIL,1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1800,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mdlle . Carrozi?,,"Mdlle. Carrozi, a harpist of great ability, whom Mr. Newman has engaged for his orchestra, played her first harp solo at the Queen’s Hall, on the rst ult., and proved herself to be an interesting player",Mdlle . Carrozi,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -2784,7 +2784,7 @@ Person: ""Mr. Banister""
 Sentence: ""They are all tinctured with a certain degree of elegance and expressiveness, particularly these by Mr. Clifton, Mr. Crouch, Mr. Eavestaff, and Mr. Banister.""
 Question: ""What is the date of birth of Mr. Banister?""
 
-Answer:",Unable to determine.,NIL,person,NIL,1815-01-01;2023-10-27,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,2023-10-27;1815-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Unable to determine.,NIL,person,NIL,1815-01-01;2023-10-27,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,2023-10-27;1815-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"2023,1815",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mr. Barraclough?,,"The whole of the performance reflected great credit upon all concerned, and especially upon the organist, Mr. J. Barratt, and the conductor, Mr. Barraclough.",Mr. Barraclough,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -2979,7 +2979,7 @@ Person: ""Mr. F. N. Lohr""
 Sentence: ""This will be the eighth season of this Society, whick is under the conductorship of Mr. F. N. Lohr.""
 Question: ""What is the date of birth of Mr. F. N. Lohr?""
 
-Answer:",,NIL,person,1844,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,1844,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1844,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mr. Ferrari?,,"Several glees were sung in the course of the evening, and the following songs: — * Mary Morrison,” by Mr. Wilson; “Norma,” by Mr. John Parry; “Remembrance,” by Mr. Ferrari (his own composition), and “I'll be true to thee,” by Mr. Manvers.",Mr. Ferrari,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -3109,7 +3109,7 @@ Person: ""Mr. Griffin""
 Sentence: ""Tuts is the first new work by Mr. Griffin that has come under our view since we entered upon our critical office.""
 Question: ""What is the date of birth of Mr. Griffin?""
 
-Answer:",Cannot determine from text.,NIL,person,NIL,1824-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1824-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Cannot determine from text.,NIL,person,NIL,1824-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1824-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1824,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mr. H. W. George?,,"Mr. H. W. George presided at the harmonium, and Mr. J. Lunn conducted.",Mr. H. W. George,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -3239,7 +3239,7 @@ Person: ""Mr. J. M. Preston""
 Sentence: ""another equally good Concert was given by the Gateshead Choral Society, in the Town Hall, Newcastle, on the 17th ult., when Handel's ‘Israel in Egypt”? was performed, under the direction of Mr. J. M. Preston.""
 Question: ""What is the date of birth of Mr. J. M. Preston?""
 
-Answer:",,NIL,person,NIL,1876-03-17,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-03-17,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1876-03-17,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-03-17,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1876,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mr. J. Wylde?,,"Mr. J. Wylde, in a harp fantasia, greatly distinguished him.",Mr. J. Wylde,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -3293,7 +3293,7 @@ Person: ""Mr. Joseph Kaye""
 Sentence: ""At Ann’s Road Church, Heeley, Sterndale Bennett’s ‘May Queen’ formed one of a series of admirable services: and concerts, and Oxford Street Chapel, another suburban centre of musical activity, was the /oca / e of a particularly good all - round performance of ‘The Creation’ under Mr. Joseph Kaye.""
 Question: ""What is the date of birth of Mr. Joseph Kaye?""
 
-Answer:",,NIL,person,NIL,1873;2023-10-27,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1873;2023-10-27,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,NIL,1873;2023-10-27,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1873;2023-10-27,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1873,2023",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mr. Joseph Skeaf?,,", Mr. Joseph Skeaf, the president, occupied the chair, Mr. William Laidlaw and Mr. T. Armstrong vicechairmen.",Mr. Joseph Skeaf,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -3306,7 +3306,7 @@ Person: ""Mr. Joseph Skeaf""
 Sentence: "", Mr. Joseph Skeaf, the president, occupied the chair, Mr. William Laidlaw and Mr. T. Armstrong vicechairmen.""
 Question: ""What is the date of birth of Mr. Joseph Skeaf?""
 
-Answer:",Can't be determined from the text.,NIL,person,NIL,1876-03-17,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-03-17,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Can't be determined from the text.,NIL,person,NIL,1876-03-17,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1876-03-17,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1876,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mr. Joseph Thomas?,,"It will be forwarded, on receipt of a Post - Office order, by the Publisher, 10, Wellington - street, Strand; Mr. Joseph Thomas, 1, Finch - line, Cornhill; M. W. Seguin, 45, Duke - street, St. James’-square, or any Bookseller or News Agent in the United Kingdom.",Mr. Joseph Thomas,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -3554,7 +3554,7 @@ Person: ""Mr. Ralph Horner""
 Sentence: ""A very worthy local organisation, the Amateur Orchestral Society, under the able direction of Mr. Ralph Horner, is Schumann’s “Advent Hymn.” again in full activity, rehearsing for its Concert to take place this month.""
 Question: ""What is the date of birth of Mr. Ralph Horner?""
 
-Answer:",Cannot be determined from the provided text.,NIL,person,1848,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Cannot be determined from the provided text.,NIL,person,1848,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1848,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Mr. S.?,,"The boy was traced to Milan, but Mr. S. was deterred by the expence from prosecuting, and was compelled to sit down under.the loss of the. entire sum.",Mr. S.,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -3970,7 +3970,7 @@ Person: ""N. W. James""
 Sentence: ""A Word or Two on the Flute, by N. W. James. creececess 53 VIII.""
 Question: ""What is the date of birth of N. W. James?""
 
-Answer:",2018-12-21T00:00:00Z,NIL,person,NIL,2018-12-21;2025-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,2018-12-21;2025-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",2018-12-21T00:00:00Z,NIL,person,NIL,2018-12-21;2025-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,2018-12-21;2025-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"2025,2018",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Oakley?,,"Oakley, Esq., of Tavistock Place, and the late James Perry Esq.,. of the Morning Chronicle.",Oakley,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4062,7 +4062,7 @@ Person: ""P. Verini""
 Sentence: ""Bolero for One or Two Voices, composed, with -an Accompani‘ment for the Spanish Guitar, by P. Verini 3.""
 Question: ""What is the date of birth of P. Verini?""
 
-Answer:",I cannot provide a date of birth for P. Verini based on the given information.,NIL,person,NIL,1775-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1775-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot provide a date of birth for P. Verini based on the given information.,NIL,person,NIL,1775-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1775-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1775,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Pacsicllé?,,"then, instead of stepping forw: urd as a reformer, he ought, as a true disciple of honored and to effect nothing but what Gluck and Mozart; Cimarosa and Pacsicllé, Méhul and Boieldieu, Chert ahint and Spontini, Beethoven and= Weber, Spohr.and Weigl, Meyerbeer and Lortzing, also tried to effect, and which they succeeded more or less in doing. metadata={sent_text:then instead of stepping forw: urd as a reformer he ought as a true disciple of honored and to effect nothing but what Gluck and Mozart; Cimarosa and Pacsicllé Méhul and Boieldieu Chert ahint and Spontini Beethoven and: ""Weber Spohr.and Weigl Meyerbeer and Lortzing also tried to effect and which they succeeded more or less in doing.""}",Pacsicllé,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4075,7 +4075,7 @@ Person: ""Pacsicllé""
 Sentence: ""then, instead of stepping forw: urd as a reformer, he ought, as a true disciple of honored and to effect nothing but what Gluck and Mozart; Cimarosa and Pacsicllé, Méhul and Boieldieu, Chert ahint and Spontini, Beethoven and= Weber, Spohr.and Weigl, Meyerbeer and Lortzing, also tried to effect, and which they succeeded more or less in doing. metadata={sent_text:then instead of stepping forw: urd as a reformer he ought as a true disciple of honored and to effect nothing but what Gluck and Mozart; Cimarosa and Pacsicllé Méhul and Boieldieu Chert ahint and Spontini Beethoven and: ""Weber Spohr.and Weigl Meyerbeer and Lortzing also tried to effect and which they succeeded more or less in doing.""}""
 Question: ""What is the date of birth of Pacsicllé?""
 
-Answer:",I cannot provide you with a date of birth for Pacsicllé based on the information given. The provided text only mentions Pacsicllé in the context of being a composer alongside other notable figures but doesn't offer any biographical details like a birthdate.,NIL,person,NIL,1790-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1790-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot provide you with a date of birth for Pacsicllé based on the information given. The provided text only mentions Pacsicllé in the context of being a composer alongside other notable figures but doesn't offer any biographical details like a birthdate.,NIL,person,NIL,1790-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1790-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1790,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Padrr Sabbatini?,,"‘Mz. Pezzella,' the pupil of the Padrr Sabbatini, and the son of the celebrated composer of the same name, guided by the best principles drawn from the sources of literature and art, combines with an immense knowledge of mathematics, profound study in the theory of music.",Padrr Sabbatini,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4231,7 +4231,7 @@ Person: ""Prior""
 Sentence: ""Thornhill drew ail their portraits in pencil, and Prior wrote humorous verses under each.""
 Question: ""What is the date of birth of Prior?""
 
-Answer:",1674-10-28T00:00:00Z,NIL,person,NIL,1674-10-28,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1674-10-28,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",1674-10-28T00:00:00Z,NIL,person,NIL,1674-10-28,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1674-10-28,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1674,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Professor Taylor?,,"Translated by John Bishop, and dedicated to the Author's friend, Professor Taylor.",Professor Taylor,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4324,7 +4324,7 @@ Question: ""What is the date of birth of Retzel Antoine?""
 
 Answer:","```
 1794-00-00T00:00:00Z 
-```",NIL,person,1794,1794,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,7,2,1794;1794;1794;1794-01-01;1794;1794;1794,ZS+RAG,Boyer-Moore-50pct,0.5,True,1,0,0,NIL,0,1794,1794,1794,0.02127659574468085,0.058823529411764705,0.03125
+```",NIL,person,1794,1794,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,7,2,1794;1794;1794;1794-01-01;1794;1794;1794,ZS+RAG,Boyer-Moore-50pct,0.5,True,1,0,0,NIL,0,1794,1794,1794.0,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Rev. Conductor?,,"As grace they sung a “Sanctus,” by Orlando Gibbons, upon which the Rev. Conductor made some interesting remarks, and on the excellence of the older English Church Music, congratulating his auditors on the brighter prospects for solid music, man. arising from the production of convenient and cheap copies sting In Inconsistent contrast to the other Psalms at / of the excellent music which had so long lain dormant in Morning Prayer.",Rev. Conductor,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4376,7 +4376,7 @@ Person: ""Richard Clarke""
 Sentence: ""letter of Richard Clarke to the Worshipful Company of Merchant Taylors, dedicating his work, entitled""
 Question: ""What is the date of birth of Richard Clarke?""
 
-Answer:",1699-07-12T00:00:00Z,NIL,person,1780,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,7,6,1699-07-12;1800-01-01;1700-01-01;1790-01-01;1841-07-06;1822-01-01;1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",1699-07-12T00:00:00Z,NIL,person,1780,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,7,6,1699-07-12;1800-01-01;1700-01-01;1790-01-01;1841-07-06;1822-01-01;1800-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1780,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of S. Glover?,,"3- SEVEN VOCAL DUETS, by Bellini, S. Glover, Macfarren, Donizetti, & c..",S. Glover,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4389,7 +4389,7 @@ Person: ""S. Glover""
 Sentence: ""3- SEVEN VOCAL DUETS, by Bellini, S. Glover, Macfarren, Donizetti, & c..""
 Question: ""What is the date of birth of S. Glover?""
 
-Answer:",,NIL,person,1812,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",,NIL,person,1812,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1812,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of S. Kemp?,,"H. R. Eyers, Walter Fitton, S. Kemp, Arthur O’ Leary, Harold Thomas, Brinley Richards, Frederick Westlake, T. Wingham, and the Principal.",S. Kemp,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4468,7 +4468,7 @@ Person: ""Severn""
 Sentence: ""— though it was excellently well performed by Phillips, Hill, and Severn.""
 Question: ""What is the date of birth of Severn?""
 
-Answer:",2023-11-11T00:00:00Z,NIL,person,NIL,2023-11-11,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,2023-11-11,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",2023-11-11T00:00:00Z,NIL,person,NIL,2023-11-11,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,2023-11-11,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,2023,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Sgatelli?,,"The direction is committed to Sgatelli, the most celebrated of the Roman musici.",Sgatelli,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4507,7 +4507,7 @@ Person: ""Signor De Reszké""
 Sentence: ""Besides the artists already mentioried we are promised Madame Adelina Patti, Madame Sembrich, Madame Maria Durand, Mdlle. De Vere (her first appearance at the Royai Italian Opera), Madame Scalchi, Mdlle. Reggiani, and Mdille. Tremelli; Signor Nicolini, Signor Marconi, M. Soulacroix, Signor Mierzwinski, Signor Cotogni, M. Devoyod, Signor De Reszké, Signor Monti, and Signor Novara.""
 Question: ""What is the date of birth of Signor De Reszké?""
 
-Answer:",0000-00-00T00:00:00Z,NIL,person,NIL,1824-11-15,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1824-11-15,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",0000-00-00T00:00:00Z,NIL,person,NIL,1824-11-15,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1824-11-15,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1824,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Signor Ganpini?,,"Signor Ganpini's concert took place on Monday, in the Hanover - square Rooms.",Signor Ganpini,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4533,7 +4533,7 @@ Person: ""Signor Garcia""
 Sentence: ""* Sento oh Dio” — Madame Ronzi de Begnis, Miss Stephens, Signor Garcia, Signor de Begnis, and Mr. oo Phillips""
 Question: ""What is the date of birth of Signor Garcia?""
 
-Answer:",Cannot be determined.,NIL,person,1775,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",Cannot be determined.,NIL,person,1775,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,0,0,,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1775,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Signor Monti?,,"Besides the artists already mentioried we are promised Madame Adelina Patti, Madame Sembrich, Madame Maria Durand, Mdlle. De Vere (her first appearance at the Royai Italian Opera), Madame Scalchi, Mdlle. Reggiani, and Mdille. Tremelli; Signor Nicolini, Signor Marconi, M. Soulacroix, Signor Mierzwinski, Signor Cotogni, M. Devoyod, Signor De Reszké, Signor Monti, and Signor Novara.",Signor Monti,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4559,7 +4559,7 @@ Person: ""Signor Novara""
 Sentence: ""Besides the artists already mentioried we are promised Madame Adelina Patti, Madame Sembrich, Madame Maria Durand, Mdlle. De Vere (her first appearance at the Royai Italian Opera), Madame Scalchi, Mdlle. Reggiani, and Mdille. Tremelli; Signor Nicolini, Signor Marconi, M. Soulacroix, Signor Mierzwinski, Signor Cotogni, M. Devoyod, Signor De Reszké, Signor Monti, and Signor Novara.""
 Question: ""What is the date of birth of Signor Novara?""
 
-Answer:",I cannot provide a date of birth for Signor Novara.,NIL,person,NIL,1791-09-21;1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1800-01-01;1791-09-21,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I cannot provide a date of birth for Signor Novara.,NIL,person,NIL,1791-09-21;1800-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1800-01-01;1791-09-21,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1800,1791",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Signora Clarini?,,"La Clemenza di Tito was the first, in which‘a French lady, under the riame of Signora Clarini, took the part of Servilia, and a Madame’ Graziani filled the character ef Annio, both of which were massacred in their hands, and the whole opera necessarily partook in the - ruin.",Signora Clarini,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4598,7 +4598,7 @@ Person: ""Sir Sidney""
 Sentence: "", the fugitives got to Havre, where Sir Sidney was put on board an English vessel.""
 Question: ""What is the date of birth of Sir Sidney?""
 
-Answer:",I can't answer this. The provided text gives no information about Sir Sidney's date of birth.,NIL,person,1764,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,3,3,1779-04-19;1779-06-14;1779-06-16,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",I can't answer this. The provided text gives no information about Sir Sidney's date of birth.,NIL,person,1764,,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,3,3,1779-04-19;1779-06-14;1779-06-16,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,0,1,NIL,0,1764,,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Sir W. Jones?,,"Ina letter from Francis Fowke, Esq. to Sir W. Jones,",Sir W. Jones,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4689,7 +4689,7 @@ Person: ""Storge""
 Sentence: ""“Scenes of horror, ’’ where Storge is terrified at the future.""
 Question: ""What is the date of birth of Storge?""
 
-Answer:",magnesium,NIL,person,NIL,1762-04-04;1797-02-02,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1762-04-04;1797-02-02,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",magnesium,NIL,person,NIL,1762-04-04;1797-02-02,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,2,2,1762-04-04;1797-02-02,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,"1762,1797",,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Stretton?,,"The above, an air from Handel’s Berenice sensibly rendered by Stretton, a duet from the Zauberflute by Mrs. Shaw and Mr. Phillips, and a droll kind of aria by Salvator Rosa, to which Mr. Manvers gave a life which in itself it lacks, were the only other features of interest.",Stretton,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4962,7 +4962,7 @@ Person: ""Walton""
 Sentence: ""The vocalists were the Misses C. Novello, Rainforth, and Mrs. Alfred Shaw; Messrs. Braham, Phillips, Bennett, Walton, and J. Isherwood.""
 Question: ""What is the date of birth of Walton?""
 
-Answer:","I cannot provide a specific date of birth for ""Walton"" based on the provided sentence. The sentence only lists Walton's name as part of a group of vocalists, offering no information about their birthdate.",NIL,person,NIL,1788-02-16,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1788-02-16,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:","I cannot provide a specific date of birth for ""Walton"" based on the provided sentence. The sentence only lists Walton's name as part of a group of vocalists, offering no information about their birthdate.",NIL,person,NIL,1788-02-16,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,1,1,1788-02-16,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1788,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Weisse?,,"Weisse, in 1788, was bassoonist of the Chapel Royal of Prussia, at Berlin.",Weisse,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):
@@ -4975,7 +4975,7 @@ Person: ""Weisse""
 Sentence: ""Weisse, in 1788, was bassoonist of the Chapel Royal of Prussia, at Berlin.""
 Question: ""What is the date of birth of Weisse?""
 
-Answer:",1788-01-01T00:00:00Z,NIL,person,NIL,1788-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,5,3,1788-01-01;1968-05-11;1780-01-01;1788-01-01;1788-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,,,0.02127659574468085,0.058823529411764705,0.03125
+Answer:",1788-01-01T00:00:00Z,NIL,person,NIL,1788-01-01,QA_DoB_NIL_noctx_openrouter_google_gemma-2-27b-it_20250424_linked_evaluated.csv,ZS,google_gemma-2-27b-it,,,,,,5,3,1788-01-01;1968-05-11;1780-01-01;1788-01-01;1788-01-01,ZS+RAG,Boyer-Moore-50pct,0.5,True,0,1,0,NIL,0,,1788,,0.02127659574468085,0.058823529411764705,0.03125
 What is the date of birth of Wickes?,,"The solo singers were Mrs. Batchelor, Miss E. Thompson, Messrs. G. Eagleton, Hagan, F. O. Stevens, Wickes, and Master Moorley.",Wickes,"Your task is to determine the date of birth of a given person occurring in a given sentence. Your answer MUST consist solely of a date of birth (e.g., ""1728-05-11T00:00:00Z"") with no extra text. NOTE: The example below is for demonstration purposes only and should not influence your answer.
 
 Example (for demonstration only):

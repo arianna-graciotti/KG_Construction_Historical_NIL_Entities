@@ -14,11 +14,14 @@ import time
 import json
 import sys
 import math
+import string as string_mod
 import pandas as pd
 import logging
 import traceback
 import unicodedata
 import argparse
+from pathlib import Path
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from typing import Dict, List, Tuple, Optional, Set, Any, Callable, Union
 from datetime import datetime
@@ -32,6 +35,32 @@ except ImportError:
     TQDM_AVAILABLE = False
     print("tqdm not available. Install with 'pip install tqdm' for progress bars.")
     print("Continuing without progress bars...")
+
+# ---------------------------------------------------------------------------
+# Relink-mode path constants
+# ---------------------------------------------------------------------------
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
+_EVAL_DATA = _PROJECT_ROOT / "Evaluation" / "data"
+_LOOKUP_DIR = _PROJECT_ROOT / "ObjectLinking" / "lookup_tables"
+
+PROPERTY_TO_LOOKUP: Dict[str, Path] = {
+    "CoC":        _LOOKUP_DIR / "extracted_country_of_citizenship.csv",
+    "FamilyName": _LOOKUP_DIR / "extracted_family_names.csv",
+    "GivenName":  _LOOKUP_DIR / "extracted_given_names.csv",
+    "occupation":  _LOOKUP_DIR / "extracted_occupations.csv",
+    "sexGender":  _LOOKUP_DIR / "extracted_gender.csv",
+}
+
+
+def _is_gold_empty(gold_value) -> bool:
+    """Return True when the gold QID is absent (None, NaN, or empty string)."""
+    if gold_value is None:
+        return True
+    if isinstance(gold_value, float) and math.isnan(gold_value):
+        return True
+    if str(gold_value).strip() == '':
+        return True
+    return False
 
 
 class EntityConfig(ABC):
@@ -161,28 +190,42 @@ class EntityDatabase:
         self.qid_to_label = {}       # QID -> original label
         self.qid_to_aliases = {}     # QID -> list of aliases
         self.loaded = False
-    
+
+    @classmethod
+    def from_csv_path(cls, csv_path) -> "EntityDatabase":
+        """Create an EntityDatabase directly from a CSV path (no EntityConfig needed)."""
+        instance = cls.__new__(cls)
+        instance.config = None
+        instance.csv_file_path = str(csv_path)
+        instance.entities_by_label = {}
+        instance.entities_by_alias = {}
+        instance.qid_to_label = {}
+        instance.qid_to_aliases = {}
+        instance.loaded = False
+        return instance
+
     def load(self):
         """Load the entities from the CSV file"""
-        logging.info(f"Loading {self.config.entity_name} lookup_tables from {self.csv_file_path}")
+        entity_name = self.config.entity_name if self.config else Path(self.csv_file_path).stem
+        logging.info(f"Loading {entity_name} lookup_tables from {self.csv_file_path}")
         
         try:
             # Check if the CSV file exists
             if not os.path.exists(self.csv_file_path):
-                logging.warning(f"{self.config.entity_name} CSV file not found: {self.csv_file_path}")
+                logging.warning(f"{entity_name} CSV file not found: {self.csv_file_path}")
                 logging.info("Will use cache only")
                 self.loaded = True
                 return
-            
+
             df = pd.read_csv(self.csv_file_path)
             total_rows = len(df)
-            
+
             # Display loading progress
             if TQDM_AVAILABLE:
-                iterator = tqdm(df.iterrows(), total=total_rows, desc=f"Loading {self.config.entity_name}")
+                iterator = tqdm(df.iterrows(), total=total_rows, desc=f"Loading {entity_name}")
             else:
                 iterator = df.iterrows()
-                logging.info(f"Loading {total_rows} {self.config.entity_name} entries...")
+                logging.info(f"Loading {total_rows} {entity_name} entries...")
             
             for _, row in iterator:
                 qid = row['QID']
@@ -195,19 +238,23 @@ class EntityDatabase:
                 # Store QID -> label mapping
                 self.qid_to_label[qid] = label
                 
-                # Store label -> QID mapping (case insensitive)
-                self.entities_by_label[label.lower()] = qid
-                
+                # Store label -> QID mapping (case insensitive, first match wins)
+                label_lower = label.lower()
+                if label_lower not in self.entities_by_label:
+                    self.entities_by_label[label_lower] = qid
+
                 # Process aliases if available
                 aliases = []
                 if 'Aliases' in row and not pd.isna(row['Aliases']) and row['Aliases'] != '':
                     # Split aliases by pipe character
                     aliases = row['Aliases'].split('|')
-                    
-                    # Store each alias -> QID mapping (case insensitive)
+
+                    # Store each alias -> QID mapping (case insensitive, first match wins)
                     for alias in aliases:
                         if alias and not pd.isna(alias):
-                            self.entities_by_alias[alias.lower()] = qid
+                            alias_lower = alias.lower()
+                            if alias_lower not in self.entities_by_alias:
+                                self.entities_by_alias[alias_lower] = qid
                 
                 # Store QID -> aliases mapping
                 self.qid_to_aliases[qid] = aliases
@@ -216,11 +263,11 @@ class EntityDatabase:
             logging.info(f"Loaded {len(self.entities_by_label)} labels and {len(self.entities_by_alias)} aliases")
             
         except Exception as e:
-            logging.error(f"Error loading {self.config.entity_name} lookup_tables: {str(e)}")
+            logging.error(f"Error loading {entity_name} lookup_tables: {str(e)}")
             logging.error(traceback.format_exc())
             logging.warning("Will use cache only")
             self.loaded = True
-    
+
     def lookup_by_name(self, name):
         """
         Look up a QID by entity name (label or alias)
@@ -244,6 +291,24 @@ class EntityDatabase:
             return self.entities_by_alias[name]
 
         return None
+
+    def lookup_by_label(self, name):
+        """Look up a QID by label only (no alias fallback)."""
+        if not self.loaded:
+            self.load()
+        if not name:
+            return None
+        name = name.strip().lower()
+        return self.entities_by_label.get(name)
+
+    def lookup_by_alias(self, name):
+        """Look up a QID by alias only (no label fallback)."""
+        if not self.loaded:
+            self.load()
+        if not name:
+            return None
+        name = name.strip().lower()
+        return self.entities_by_alias.get(name)
     
     def get_close_name_matches(self, name, cutoff=0.85):
         """Find close matches for an entity name in the database"""
@@ -608,30 +673,26 @@ class EntityLinker:
             return qid
 
         # Step 2: Look up in the entity database directly - exact matches only
+        # Phase 1: Check labels only (all cleaning variants)
         logging.info(f"Looking up '{original_answer}' in {self.config.entity_name} database")
 
-        # Try exact lookup with original form
-        qid = self.entity_db.lookup_by_name(original_answer)
+        variants = [original_answer, lower_original]
+        if cleaned_answer != original_answer:
+            variants.extend([cleaned_answer, lower_cleaned])
+        if no_punct_answer != cleaned_answer:
+            variants.extend([no_punct_answer, lower_no_punct])
 
-        # If not found, try with lowercase original
-        if not qid and lower_original != original_answer:
-            qid = self.entity_db.lookup_by_name(lower_original)
+        for variant in variants:
+            qid = self.entity_db.lookup_by_label(variant)
+            if qid:
+                break
 
-        # If not found, try with cleaned form (diacritics removed)
-        if not qid and cleaned_answer != original_answer:
-            qid = self.entity_db.lookup_by_name(cleaned_answer)
-
-            # If not found, try with lowercase cleaned
-            if not qid and lower_cleaned != cleaned_answer:
-                qid = self.entity_db.lookup_by_name(lower_cleaned)
-
-        # If not found, try with no punctuation form
-        if not qid and no_punct_answer != cleaned_answer:
-            qid = self.entity_db.lookup_by_name(no_punct_answer)
-
-            # If not found, try with lowercase no punctuation
-            if not qid and lower_no_punct != no_punct_answer:
-                qid = self.entity_db.lookup_by_name(lower_no_punct)
+        # Phase 2: If no label match, check aliases only (all cleaning variants)
+        if not qid:
+            for variant in variants:
+                qid = self.entity_db.lookup_by_alias(variant)
+                if qid:
+                    break
 
         # Step 3: Process results
         if not qid:
@@ -738,19 +799,32 @@ class EntityLinker:
             if 'match' not in df_processed.columns:
                 df_processed['match'] = None
 
-            # Filter for rows with non-empty qid_gold_true
-            mask = ~df_processed['qid_gold_true'].isna() & (df_processed['qid_gold_true'] != '')
+            # Process ALL rows with a non-empty llm_answer (not just those with gold).
+            # Rows with empty gold that get a linked_qid are false positives and
+            # should be penalised by the evaluation, not silently skipped.
 
-            # Skip rows with llm_answer longer than 100 characters
+            # Convert any non-string answers to strings and handle missing values
             try:
-                # Convert any non-string answers to strings and handle missing values
                 df_processed['llm_answer'] = df_processed['llm_answer'].fillna('')
                 df_processed['llm_answer'] = df_processed['llm_answer'].astype(str)
 
+                # Build mask: non-empty llm_answer, not too long
+                mask = df_processed['llm_answer'].str.strip() != ''
                 long_answer_mask = df_processed['llm_answer'].str.len() > 100
                 if any(long_answer_mask):
                     logging.info(f"Skipping {long_answer_mask.sum()} rows with llm_answer longer than 100 characters")
                     mask = mask & ~long_answer_mask
+
+                    # Explicitly clear linked_qid for long-answer rows
+                    df_processed.loc[long_answer_mask, 'linked_qid'] = ''
+
+                    # Rows with long answer AND no gold → true negative (nothing
+                    # to link and we correctly abstained).  Mark match = 1 so they
+                    # are not penalised.  Rows with long answer but valid gold →
+                    # match = 0 (we failed to link).
+                    no_gold = df_processed['qid_gold_true'].isna() | (df_processed['qid_gold_true'].astype(str).str.strip() == '')
+                    df_processed.loc[long_answer_mask & no_gold, 'match'] = 1
+                    df_processed.loc[long_answer_mask & ~no_gold, 'match'] = 0
             except Exception as e:
                 logging.error(f"Error filtering long answers: {str(e)}")
                 logging.error(traceback.format_exc())
@@ -758,7 +832,7 @@ class EntityLinker:
             df_filtered = df_processed[mask]
 
             if df_filtered.empty:
-                logging.warning(f"No rows with non-empty qid_gold_true in {filename}")
+                logging.warning(f"No rows with non-empty llm_answer in {filename}")
                 return df_processed
 
             # Get unique answers to reduce redundant lookups
@@ -879,12 +953,26 @@ class EntityLinker:
                     else:
                         df_processed.at[idx, 'match'] = 0
                 else:
-                    df_processed.at[idx, 'match'] = 0
+                    # No QID found — true negative if gold is also empty
+                    if _is_gold_empty(row['qid_gold_true']):
+                        df_processed.at[idx, 'match'] = 1
+                    else:
+                        df_processed.at[idx, 'match'] = 0
 
             # Add match column for rows that weren't processed above
             match_mask = df_processed['match'].isna()
             if match_mask.any():
-                df_processed.loc[match_mask, 'match'] = (df_processed.loc[match_mask, 'linked_qid'] == df_processed.loc[match_mask, 'qid_gold_true']).astype(int)
+                for idx in df_processed.index[match_mask]:
+                    lq = df_processed.at[idx, 'linked_qid']
+                    gq = df_processed.at[idx, 'qid_gold_true']
+                    lq_empty = _is_gold_empty(lq)
+                    gq_empty = _is_gold_empty(gq)
+                    if lq_empty and gq_empty:
+                        df_processed.at[idx, 'match'] = 1  # true negative
+                    elif not lq_empty and not gq_empty and str(lq) == str(gq):
+                        df_processed.at[idx, 'match'] = 1  # true positive
+                    else:
+                        df_processed.at[idx, 'match'] = 0
 
             # Calculate and log stats for this file
             valid_count = (~df_processed['qid_gold_true'].isna() & (df_processed['qid_gold_true'] != '')).sum()
@@ -929,8 +1017,18 @@ class EntityLinker:
                         if answer in answer_to_qid_map:
                             df_processed.at[idx, 'linked_qid'] = answer_to_qid_map[answer]
 
-                    # Add match column
-                    df_processed['match'] = (df_processed['linked_qid'] == df_processed['qid_gold_true']).astype(int)
+                    # Add match column (true-negative aware)
+                    def _compute_match(row):
+                        lq = row['linked_qid']
+                        gq = row['qid_gold_true']
+                        lq_empty = _is_gold_empty(lq)
+                        gq_empty = _is_gold_empty(gq)
+                        if lq_empty and gq_empty:
+                            return 1  # true negative
+                        if not lq_empty and not gq_empty and str(lq) == str(gq):
+                            return 1  # true positive
+                        return 0
+                    df_processed['match'] = df_processed.apply(_compute_match, axis=1)
 
                     logging.info(f"Created partial results from checkpoint for {filename}")
                     return df_processed
@@ -1423,53 +1521,394 @@ class EntityLinker:
             logging.info("=" * 80)
 
 
+# ===========================================================================
+# Relink helpers — ported from relink_evaluated.py
+# ===========================================================================
+
+def _cleaning_variants(text: str) -> List[str]:
+    """Return cleaning variants: original, lowercase, diacritics-removed, no-punct."""
+    original = text.strip()
+    lower_original = original.lower()
+    normalized = unicodedata.normalize("NFKD", original)
+    cleaned = "".join(c for c in normalized if not unicodedata.combining(c))
+    lower_cleaned = cleaned.lower()
+    no_punct = "".join(c for c in cleaned if c not in string_mod.punctuation).strip()
+    lower_no_punct = no_punct.lower()
+
+    variants = [original, lower_original]
+    if cleaned != original:
+        variants.extend([cleaned, lower_cleaned])
+    if no_punct != cleaned:
+        variants.extend([no_punct, lower_no_punct])
+    return variants
+
+
+def relink_single(db: "EntityDatabase", entity: str) -> Optional[str]:
+    """Link a single entity string to a QID: labels first, then aliases."""
+    if not entity or len(entity) > 2000:
+        return None
+    variants = _cleaning_variants(entity)
+    for v in variants:
+        qid = db.lookup_by_label(v)
+        if qid:
+            return qid
+    for v in variants:
+        qid = db.lookup_by_alias(v)
+        if qid:
+            return qid
+    return None
+
+
+def relink_split_answer(answer: str) -> List[str]:
+    """Split a multi-entity answer on common delimiters."""
+    if not answer:
+        return []
+    if any(sep in answer for sep in [";", ":", ",", "/", "|"]):
+        parts = re.split(r"[;:,/|]+\s*", answer)
+        return [p.strip() for p in parts if p.strip()]
+    return [answer.strip()]
+
+
+def relink_answer(db: "EntityDatabase", answer: str) -> Optional[str]:
+    """Link an LLM answer (possibly multi-entity) to QID(s)."""
+    if not answer or pd.isna(answer):
+        return None
+    answer = str(answer).strip()
+    if answer == "":
+        return None
+    entities = relink_split_answer(answer)
+    if len(entities) > 1:
+        qids = []
+        for ent in entities:
+            qid = relink_single(db, ent)
+            if qid:
+                qids.append(qid)
+        return ";".join(qids) if qids else None
+    return relink_single(db, answer)
+
+
+def detect_property(file_path: str) -> Optional[str]:
+    """Auto-detect property from directory structure."""
+    parts = Path(file_path).parts
+    for prop in PROPERTY_TO_LOOKUP:
+        if prop in parts:
+            return prop
+    return None
+
+
+def detect_entity_type(file_path: str) -> Optional[str]:
+    """Return 'qid' or 'nil' from the directory structure."""
+    parts = Path(file_path).parts
+    for p in parts:
+        if p in ("qid", "nil"):
+            return p
+    return None
+
+
+def _normalise_model(name: str) -> str:
+    """Normalise a model string for matching (dots -> hyphens, lowercase)."""
+    return name.replace(".", "-").lower()
+
+
+def _extract_model_from_bm(filename: str) -> Optional[str]:
+    """Extract model identifier from a Boyer-Moore per-model filename."""
+    m = re.search(r"openrouter_(.+?)_boyer_moore", filename)
+    return m.group(1) if m else None
+
+
+def _extract_model_from_individual(filename: str) -> Optional[str]:
+    """Extract model identifier from an individual (non-BM) filename."""
+    m = re.search(r"openrouter_(.+?)_\d{8}_linked", filename)
+    return m.group(1) if m else None
+
+
+def find_individual_files(bm_path: Path) -> List[Path]:
+    """Find the individual files that feed into a Boyer-Moore voting file.
+
+    For *per_model* files: return all individual files for that model+property+entity_type.
+    For *combined* files: return all individual files for that property+entity_type.
+    """
+    prop = detect_property(str(bm_path))
+    etype = detect_entity_type(str(bm_path))
+    if not prop or not etype:
+        return []
+
+    prop_dir = _EVAL_DATA / prop
+    raw: List[Path] = []
+    for subdir in ("ZS", "RAG"):
+        d = prop_dir / subdir / etype
+        if d.exists():
+            raw.extend(sorted(d.glob("*_linked_evaluated*.csv")))
+    raw = [f for f in raw if "boyer_moore" not in f.name]
+
+    # Deduplicate: keep only shortest name per base stem
+    by_base: Dict[str, Path] = {}
+    for f in raw:
+        base = f.name.split("_linked_evaluated")[0]
+        if base not in by_base or len(f.name) < len(by_base[base].name):
+            by_base[base] = f
+    candidates = sorted(by_base.values())
+
+    if "combined" in bm_path.name:
+        return candidates
+
+    bm_model = _extract_model_from_bm(bm_path.name)
+    if not bm_model:
+        return candidates
+    bm_model_norm = _normalise_model(bm_model)
+
+    matched = []
+    for f in candidates:
+        ind_model = _extract_model_from_individual(f.name)
+        if ind_model and _normalise_model(ind_model) == bm_model_norm:
+            matched.append(f)
+    return matched
+
+
+def revote_boyer_moore(bm_path: Path, individual_files: List[Path],
+                       threshold: float = 0.5) -> bool:
+    """Re-derive linked_qid for a Boyer-Moore file from re-linked individual files.
+
+    For each row (matched by 'span'), collect all linked_qids from the individual
+    files, count QID frequencies, and keep only QIDs meeting the threshold.
+
+    Returns True if the file was updated.
+    """
+    bm = pd.read_csv(bm_path, low_memory=False)
+    if "span" not in bm.columns:
+        logging.warning(f"  No 'span' column in {bm_path.name}, skipping")
+        return False
+
+    span_qids: Dict[str, List[str]] = {}
+    for fpath in individual_files:
+        df = pd.read_csv(fpath, low_memory=False)
+        if "span" not in df.columns or "linked_qid" not in df.columns:
+            continue
+        for _, row in df.iterrows():
+            span = row["span"]
+            lq = str(row.get("linked_qid", "")).strip()
+            if lq and lq != "nan":
+                span_qids.setdefault(span, []).extend(lq.split(";"))
+
+    for idx, row in bm.iterrows():
+        span = row["span"]
+        qids = span_qids.get(span, [])
+        total = len(qids)
+
+        if total == 0:
+            bm.at[idx, "linked_qid"] = None
+            bm.at[idx, "all_qids_voted"] = None
+            bm.at[idx, "vote_count"] = 0
+            bm.at[idx, "unique_qids"] = 0
+            continue
+
+        counts = Counter(qids)
+        passing = [qid for qid, cnt in counts.items() if cnt / total >= threshold]
+        passing.sort(key=lambda q: int(q[1:]) if q.startswith("Q") and q[1:].isdigit() else float("inf"))
+
+        bm.at[idx, "linked_qid"] = ";".join(passing) if passing else None
+        bm.at[idx, "all_qids_voted"] = ";".join(qids)
+        bm.at[idx, "vote_count"] = total
+        bm.at[idx, "unique_qids"] = len(counts)
+
+    bm.to_csv(bm_path, index=False)
+    return True
+
+
+def cleanup_cascaded_files(data_dir: Path) -> int:
+    """Delete cascaded _evaluated_evaluated*.csv files from previous runs."""
+    cascaded = list(data_dir.rglob("*_evaluated_evaluated*.csv"))
+    for f in cascaded:
+        f.unlink()
+    return len(cascaded)
+
+
+def run_relink(eval_data_dir: Optional[Path] = None) -> int:
+    """Re-link all _linked_evaluated.csv files using corrected EntityDatabase.
+
+    Phase 1: re-link regular (non-BM) files.
+    Phase 2: re-vote Boyer-Moore files from re-linked individual files.
+    """
+    eval_data = eval_data_dir or _EVAL_DATA
+
+    logging.info("=" * 60)
+    logging.info("Re-linking evaluated files with corrected EntityDatabase")
+    logging.info("=" * 60)
+
+    # Clean up cascaded files
+    deleted = cleanup_cascaded_files(eval_data)
+    if deleted:
+        logging.info(f"Cleaned up {deleted} cascaded files from previous runs")
+
+    # Load databases via from_csv_path (no EntityConfig needed)
+    databases: Dict[str, EntityDatabase] = {}
+    for prop, csv_path in PROPERTY_TO_LOOKUP.items():
+        if not csv_path.exists():
+            logging.error(f"Lookup table not found: {csv_path}")
+            return 1
+        db = EntityDatabase.from_csv_path(csv_path)
+        db.load()
+        databases[prop] = db
+
+    # Discover files
+    all_files = sorted(eval_data.rglob("*_linked_evaluated.csv"))
+    bm_files = [f for f in all_files if "boyer_moore" in f.name]
+    regular_files = [f for f in all_files if "boyer_moore" not in f.name]
+    logging.info(f"Found {len(all_files)} files: {len(regular_files)} regular, {len(bm_files)} Boyer-Moore")
+
+    # Phase 1
+    relinked_count = 0
+    skipped_count = 0
+
+    file_iter = tqdm(regular_files, desc="Re-linking files", unit="file") if TQDM_AVAILABLE else regular_files
+    for fpath in file_iter:
+        prop = detect_property(str(fpath))
+        if prop == "DoB" or prop is None:
+            skipped_count += 1
+            continue
+
+        db = databases[prop]
+        df = pd.read_csv(fpath, low_memory=False)
+
+        if "llm_answer" not in df.columns:
+            logging.warning(f"  No llm_answer column: {fpath.name}")
+            skipped_count += 1
+            continue
+
+        df["llm_answer"] = df["llm_answer"].fillna("").astype(str)
+        new_linked = []
+        for ans in df["llm_answer"]:
+            if ans.strip() == "":
+                new_linked.append(None)
+            elif len(ans) > 100:
+                new_linked.append(None)
+            else:
+                new_linked.append(relink_answer(db, ans))
+        df["linked_qid"] = new_linked
+
+        # Reset stale evaluation columns — they were computed with the
+        # previous linked_qid and are now invalid.  The evaluation script
+        # will recompute them.
+        for col in ("TP", "FP", "FN", "TN", "match"):
+            if col in df.columns:
+                df[col] = 0
+
+        df.to_csv(fpath, index=False)
+        relinked_count += 1
+
+    logging.info(f"Phase 1 done. Re-linked: {relinked_count}, Skipped: {skipped_count}")
+
+    # Phase 2
+    revoted_count = 0
+    bm_skipped = 0
+
+    bm_iter = tqdm(bm_files, desc="Re-voting BM files", unit="file") if TQDM_AVAILABLE else bm_files
+    for bm_path in bm_iter:
+        prop = detect_property(str(bm_path))
+        if prop == "DoB":
+            bm_skipped += 1
+            continue
+
+        indiv = find_individual_files(bm_path)
+        if not indiv:
+            logging.warning(f"  No individual files found for {bm_path.name}")
+            bm_skipped += 1
+            continue
+
+        if revote_boyer_moore(bm_path, indiv):
+            revoted_count += 1
+        else:
+            bm_skipped += 1
+
+    logging.info("=" * 60)
+    logging.info(f"Done. Re-linked: {relinked_count}, Re-voted: {revoted_count}, "
+                 f"Skipped: {skipped_count + bm_skipped}")
+    logging.info("=" * 60)
+    return 0
+
+
 # Main function to run the scripts from command line
 def main():
-    """Command-line entry point for the unified entity linking tool"""
-    parser = argparse.ArgumentParser(description='Unified Entity Linking Tool')
-    
-    parser.add_argument('--entity-type', type=str, required=True,
-                        choices=['country', 'family_name', 'given_name', 'occupation', 'sex_gender'],
-                        help='The type of entity to link')
-    
-    parser.add_argument('--output-dir', type=str, default=None,
-                        help='Output directory for linked files and reports')
-    
-    parser.add_argument('--folders', type=str, nargs='+', required=True,
-                        help='Folders to process (space separated)')
-    
-    parser.add_argument('--max-workers', type=int, default=2,
-                        help='Maximum number of worker threads')
-    
-    parser.add_argument('--batch-size', type=int, default=10,
-                        help='Batch size for processing')
-    
-    parser.add_argument('--test-mode', action='store_true',
-                        help='Run in test mode with limited files')
-    
-    parser.add_argument('--fuzzy-threshold', type=float, default=0.85,
-                        help='Threshold for fuzzy matching (0.0-1.0)')
-    
-    args = parser.parse_args()
-    
-    # Import entity configs based on the selected entity type
-    from entity_configs import get_entity_config
-    
-    # Get the appropriate config
-    config = get_entity_config(args.entity_type)
-    
-    # Create the entity linker
-    linker = EntityLinker(
-        config=config,
-        output_dir=args.output_dir,
-        max_workers=args.max_workers,
-        batch_size=args.batch_size,
-        fuzzy_match_threshold=args.fuzzy_threshold,
-        test_mode=args.test_mode
+    """Command-line entry point with subcommands: link (original) and relink (new)."""
+    parser = argparse.ArgumentParser(
+        description='Unified Entity Linking Tool',
     )
-    
-    # Run the linking process
-    linker.run(args.folders)
+    subparsers = parser.add_subparsers(dest='command')
+
+    # ---- "link" subcommand (original behaviour) ----------------------------
+    link_parser = subparsers.add_parser('link', help='Link entities in raw CSV files')
+    link_parser.add_argument('--entity-type', type=str, required=True,
+                             choices=['country', 'family_name', 'given_name', 'occupation', 'sex_gender'],
+                             help='The type of entity to link')
+    link_parser.add_argument('--output-dir', type=str, default=None,
+                             help='Output directory for linked files and reports')
+    link_parser.add_argument('--folders', type=str, nargs='+', required=True,
+                             help='Folders to process (space separated)')
+    link_parser.add_argument('--max-workers', type=int, default=2,
+                             help='Maximum number of worker threads')
+    link_parser.add_argument('--batch-size', type=int, default=10,
+                             help='Batch size for processing')
+    link_parser.add_argument('--test-mode', action='store_true',
+                             help='Run in test mode with limited files')
+    link_parser.add_argument('--fuzzy-threshold', type=float, default=0.85,
+                             help='Threshold for fuzzy matching (0.0-1.0)')
+
+    # ---- "relink" subcommand (replaces relink_evaluated.py) ----------------
+    relink_parser = subparsers.add_parser(
+        'relink',
+        help='Re-link all _linked_evaluated.csv files in Evaluation/data/',
+    )
+    relink_parser.add_argument('--eval-data-dir', type=str, default=None,
+                               help='Override default Evaluation/data/ directory')
+
+    # ---- Backward compatibility: no subcommand but --entity-type present ----
+    # Also add top-level arguments so the old CLI still works.
+    parser.add_argument('--entity-type', type=str,
+                        choices=['country', 'family_name', 'given_name', 'occupation', 'sex_gender'],
+                        help='(Legacy) The type of entity to link')
+    parser.add_argument('--output-dir', type=str, default=None,
+                        help='(Legacy) Output directory')
+    parser.add_argument('--folders', type=str, nargs='+',
+                        help='(Legacy) Folders to process')
+    parser.add_argument('--max-workers', type=int, default=2,
+                        help='(Legacy) Maximum worker threads')
+    parser.add_argument('--batch-size', type=int, default=10,
+                        help='(Legacy) Batch size')
+    parser.add_argument('--test-mode', action='store_true',
+                        help='(Legacy) Test mode')
+    parser.add_argument('--fuzzy-threshold', type=float, default=0.85,
+                        help='(Legacy) Fuzzy matching threshold')
+
+    args = parser.parse_args()
+
+    # Determine which mode to run
+    if args.command == 'relink':
+        eval_dir = Path(args.eval_data_dir) if args.eval_data_dir else None
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s [%(levelname)s] %(message)s",
+            datefmt="%H:%M:%S",
+        )
+        sys.exit(run_relink(eval_dir))
+
+    # "link" subcommand or legacy (no subcommand but --entity-type present)
+    entity_type = getattr(args, 'entity_type', None)
+    folders = getattr(args, 'folders', None)
+    if entity_type and folders:
+        from entity_configs import get_entity_config
+        config = get_entity_config(entity_type)
+        linker = EntityLinker(
+            config=config,
+            output_dir=args.output_dir,
+            max_workers=args.max_workers,
+            batch_size=args.batch_size,
+            fuzzy_match_threshold=args.fuzzy_threshold,
+            test_mode=args.test_mode,
+        )
+        linker.run(folders)
+    else:
+        parser.print_help()
+        sys.exit(1)
 
 
 if __name__ == "__main__":

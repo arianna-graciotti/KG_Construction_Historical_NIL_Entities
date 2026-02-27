@@ -12,6 +12,9 @@ import re
 from typing import Dict, List, Optional, Tuple, Any, Type
 from entity_linker import EntityConfig
 
+# Lookup tables directory relative to this file
+_LOOKUP_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "lookup_tables")
+
 
 class CountryConfig(EntityConfig):
     """Configuration for Country of Citizenship entity linking"""
@@ -26,7 +29,7 @@ class CountryConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_country_of_citizenship.csv"
+        return os.path.join(_LOOKUP_DIR, "extracted_country_of_citizenship.csv")
     
     @property
     def instance_qids(self) -> List[str]:
@@ -67,7 +70,7 @@ class FamilyNameConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_family_names.csv"
+        return os.path.join(_LOOKUP_DIR, "extracted_family_names.csv")
     
     @property
     def instance_qids(self) -> List[str]:
@@ -112,7 +115,7 @@ class GivenNameConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_given_names.csv"
+        return os.path.join(_LOOKUP_DIR, "extracted_given_names.csv")
     
     @property
     def instance_qids(self) -> List[str]:
@@ -158,7 +161,7 @@ class OccupationConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        return "/https://github.com/arianna-graciotti/KG_Construction_Historical_NIL_Entities/blob/8ada448e0862a92a037abfea1455dffe44a261d3/ObjectLinking/lookup_tables/extracted_occupations.csv"
+        return os.path.join(_LOOKUP_DIR, "extracted_occupations.csv")
     
     @property
     def instance_qids(self) -> List[str]:
@@ -205,8 +208,7 @@ class SexGenderConfig(EntityConfig):
     
     @property
     def csv_file_path(self) -> str:
-        # Use the actual path to the extracted gender lookup_tables
-        return "/home/arianna/PycharmProjects/KG_Construction_Historical_NIL_Entities/ObjectLinking/lookup_tables/extracted_gender.csv"
+        return os.path.join(_LOOKUP_DIR, "extracted_gender.csv")
     
     @property
     def instance_qids(self) -> List[str]:
