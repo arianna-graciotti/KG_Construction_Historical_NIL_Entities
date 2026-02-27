@@ -1,0 +1,866 @@
+retriever,llm,entity_type,llm_answer,qid_gold_true,linked_qid,sample_precision,sample_recall,sample_f1,TP,FP,FN,approach,approach_display
+contriever,qwen_qwen-2,NIL,composer; violinist; teacher; performer; accompanist; virtuoso,Q36834,Q36834;Q1259917;Q37226;Q713200;Q29448653;Q214970,0.16666666666666666,1.0,0.2857142857142857,1,5,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,"administrative officer; government official; courtier; politician; nobleman;)>=
+
+However, for the sake of the format requested, the appropriate answer would be:
+administrative officer; government official; courtier; politician; nobleman",Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; harmonium player,Q36834,Q639669;Q54844699,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; music educator; composer,Q36834;Q13424456,Q158852;Q16145150;Q36834,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; music educator; music manager; arts contributor,Q36834;Q1259917;Q2675537;Q3153559,Q36834;Q1259917;Q16145150;Q125256399,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music theorist; organist; harpsichordist; ballet-opera composer,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q16031530;Q765778;Q5371902,1.0,0.5714285714285714,0.7272727272727273,4,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,chorister; lay-clerk; singing-man; organist,Q36834;Q765778,Q1076502;Q765778,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; organist; violinist; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q765778;Q1259917;Q5371902;Q16145150,0.5714285714285714,0.5714285714285714,0.5714285714285714,4,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; music educator; musicologist; violinist; choir director; harpsichordist; virtuoso; concertmaster; school teacher,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music educator; conductor; violinist; organist; harpsichordist; choir director; virtuoso; concertmaster; musicologist; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist,Q36834;Q486748;Q765778,Q36834;Q765778,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,adaptor; lyricist,Q49757;Q753110,Q822146,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; arranger,Q36834;Q158852,Q36834;Q1643514,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; theater composer; music theorist; organist; harpsichordist; teacher; music educator,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q16031530;Q765778;Q5371902;Q37226;Q16145150,0.6666666666666666,0.5714285714285714,0.6153846153846153,4,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; teacher,Q36834;Q118865;Q12800682;Q14915627;Q16145150;Q97572814,Q639669;Q37226,0.0,0.0,0.0,0,2,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; teacher,Q36834;Q16145150,Q765778;Q37226,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist,Q36834;Q765778;Q1622272;Q16145150,Q36834;Q765778,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist,Q36834;Q486748;Q765778,Q36834;Q765778,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q37226;Q14915627,0.8,0.4444444444444444,0.5714285714285714,4,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; teacher,Q36834;Q765778;Q14915627;Q16145150;Q21680663,Q36834;Q158852;Q765778;Q37226,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; violinist; teacher; musicologist; choir director; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; organizer; director,Q82955,Q516590;Q1419997;Q705996,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,author; music historian; scholar,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q482980;Q20198542;Q2248623,0.3333333333333333,0.14285714285714285,0.2,1,2,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852,Q36834;Q158852,1.0,1.0,1.0,2,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; teacher; musicologist; violinist; choir director; harpsichordist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,adapter; arranger,Q639669;Q1028181,Q61875042;Q1643514,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q639669,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; violinist; teacher; music theorist; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q1259917;Q37226;Q16031530;Q14915627,0.625,0.5555555555555556,0.5882352941176471,5,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,journalist; editor; publisher,Q1930187,Q1930187;Q1607826;Q2516866,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852;Q14915627;Q16145150;Q18931911;Q19723482,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher; pianist; conductor; music theorist; music critic,Q36834;Q37226;Q177220;Q486748;Q16145150,Q36834;Q37226;Q486748;Q158852;Q16031530;Q1350157,0.5,0.6,0.5454545454545454,3,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q1259917,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher; musicologist,Q36834;Q639669,Q36834;Q37226;Q14915627,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music educator; conductor; pianist; organist; music theorist; librettist,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q16145150;Q158852;Q486748;Q765778;Q16031530;Q8178443,0.5714285714285714,0.8,0.6666666666666666,4,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; librettist; dramatist; writer;,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q49757;Q8178443;Q214917;Q36180,1.0,0.6666666666666666,0.8,4,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; composer; psalmist,Q36180;Q49757;Q333634,Q49757;Q36834,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; librettist; dramatist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q49757;Q8178443;Q214917,1.0,0.5,0.6666666666666666,3,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,historian; writer; musicologist,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q201788;Q36180;Q14915627,0.6666666666666666,0.2857142857142857,0.4,2,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; music theorist; kapellmeister; arranger,Q36834;Q158852;Q1198887,Q36834;Q158852;Q1259917;Q37226;Q16031530;Q215793;Q1643514,0.2857142857142857,0.6666666666666666,0.4,2,5,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer; musician,Q36834,Q36834;Q21680731;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,writer; historian; clergyman,Q201788,Q36180;Q201788,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; royal consort,Q158852;Q177220;Q639669;Q765778;Q1028181,Q36834;Q3273157,0.0,0.0,0.0,0,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,actor; comic talent,Q177220;Q2865819,Q33999,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q16145150;Q14915627,1.0,0.5555555555555556,0.7142857142857143,5,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher; music theorist; conductor; orchestra leader; church musician; librettist influencer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,"Based on the limited context provided, there's no specific information about Sir Thomas Gladstone's occupations that can be confidently listed. Here is the most plausible answer, acknowledging the uncertainty:
+
+;",Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; librettist; playwright; court poet; diplomat; music theorist; teacher; literary critic; historian; essayist; translator; linguist; clergyman; administrator; nobleman; tutor; literary figure; cultural icon; artistic advisor; patron of the arts,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,translator; editor; musician; composer,Q36834;Q482980;Q5697103,Q333634;Q1607826;Q639669;Q36834,0.25,0.3333333333333333,0.28571428571428575,1,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musicologist; choirmaster; organist; conductor; teacher,Q36834;Q1076502;Q1278335,Q36834;Q14915627;Q1076502;Q765778;Q158852;Q37226,0.3333333333333333,0.6666666666666666,0.4444444444444444,2,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; music teacher; impresario; music merchant,Q36834;Q1259917;Q2675537;Q3153559,Q36834;Q1259917;Q2675537;Q3029406,0.75,0.75,0.75,3,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,occupational title; government official; administrator,Q82955,Q8985067;Q358832,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music theorist; music critic; opera director; music educator,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q486748;Q16031530;Q1350157;Q3029406;Q16145150,0.5714285714285714,0.6666666666666666,0.6153846153846153,4,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; principal; examiner,Q36834;Q158852;Q765778;Q16145150,Q36834;Q158852;Q7245049;Q95674799,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; principal; examiner; harmony teacher,Q36834;Q16145150,Q158852;Q7245049;Q95674799,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852;Q177220,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; concertmaster; performer,Q36834;Q1259917,Q639669;Q691031;Q713200,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; arranger,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q486748;Q1643514,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; teacher; conductor; organist; musicologist; music educator; vocalist; pianist; harpsichordist; choir director; violinist; violist; cellist; double bassist; percussionist; flute player; clarinetist; oboist; bassoonist; saxophonist; trumpet player; trombone player; French horn player; tuba player; bagpiper; electronic musician; music publisher; music critic; music journalist; music librarian; music therapist; sound engineer; music producer; music arranger; session musician; music historian; arts administrator; music benefactor; music patron,Q36834;Q158852;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; collector; benefactor; nobleman,Q82955;Q10732476;Q14915627,Q516590;Q3243461;Q4887411;Q16744001,0.0,0.0,0.0,0,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; vocal performer; musician,Q2865819,Q177220;Q639669,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; professor; principal,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q158852;Q19788990;Q7245049,0.6,0.6,0.6,3,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera producer; master of music,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singing; examiner; teacher,Q158852;Q1836630,Q95674799;Q37226,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; teacher; examiner,Q37226;Q39631;Q177220;Q205375;Q1836630;Q2350126;Q2865819,Q177220;Q37226;Q95674799,0.6666666666666666,0.2857142857142857,0.4,2,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; examiner; music teacher,Q36834;Q37226;Q158852;Q16145150,Q177220;Q95674799;Q2675537,0.0,0.0,0.0,0,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,artist; portrait drawer; pencil artist; society member,Q82955;Q483501;Q984276;Q1028181,Q483501,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; professor; principal; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q19788990;Q7245049;Q16145150,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,performer; musician,Q36834,Q713200;Q639669,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; musician,Q36834;Q765778;Q5371902;Q81759238,Q36834;Q765778;Q639669,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,music collector; organist,Q36834;Q14915627;Q16031530,Q765778,0.0,0.0,0.0,0,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; teacher; music director,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q37226;Q1198887,0.5,0.3333333333333333,0.4,3,3,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; piano forte professor,Q36834;Q486748;Q885122,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,Sub-Dean; Chaplain,Q36180,Q11827459;Q208762,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; singer; composer,Q36834;Q177220;Q899758;Q1259917,Q1259917;Q177220;Q36834,1.0,0.75,0.8571428571428571,3,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; violinist; music educator; musicologist,Q36834,Q36834;Q486748;Q158852;Q1259917;Q16145150;Q14915627,0.16666666666666666,1.0,0.2857142857142857,1,5,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852;Q177220;Q486748;Q14915627,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,director of the schools; music educator,Q36834;Q158852;Q1198887;Q14915627;Q16031530,Q16145150,0.0,0.0,0.0,0,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,director; music educator; composer,Q36834;Q177220;Q765778,Q705996;Q16145150;Q36834,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; harpsichordist; violinist; music educator; musicologist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q5371902;Q1259917;Q16145150;Q14915627,0.5714285714285714,0.5714285714285714,0.5714285714285714,4,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer,Q36834;Q765778;Q14915627;Q16145150;Q21680663,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; musicologist; composer; scholar,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q765778;Q14915627;Q36834;Q2248623,0.75,0.42857142857142855,0.5454545454545454,3,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; maestro; opera writer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q486748;Q1259917,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; teacher; virtuoso,Q36834,Q1259917;Q37226;Q214970,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; teacher; concertmaster; music educator,Q36834,Q1259917;Q36834;Q37226;Q691031;Q16145150,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; virtuoso,Q36834;Q691031;Q1259917,Q1259917;Q214970,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,virtuoso; violinist,Q36834;Q1259917,Q214970;Q1259917,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; virtuoso,Q36834;Q1259917,Q1259917;Q214970,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; music teacher; musicologist; music educator,Q36834,Q36834;Q158852;Q214970;Q691031;Q2675537;Q14915627;Q16145150,0.14285714285714285,1.0,0.25,1,6,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music theorist; music critic; teacher,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q486748;Q16031530;Q1350157;Q37226,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,general; revolutionary; military leader; politician; national hero; guerrilla fighter; unifier; statesman,Q36180;Q47064;Q82955;Q178197;Q1397808;Q18814623,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,agent; registrar,Q36834;Q765778;Q16145150,Q109555060;Q2322151,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; singer,Q36834,Q36834;Q177220,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,theatre manager; stage-manager,Q943995,Q1776724;Q64825422,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; harpist; arranger; educator,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q36834;Q3127709;Q1643514;Q974144,0.5,0.3333333333333333,0.4,2,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,clarinetist; musician,Q36834;Q118865,Q118865;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; music theorist; orchestra leader; chamber musician; opera composer; church musician; music director; virtuoso; music critic; musicologist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; conductor; music educator; organist; violinist; harpsichordist; choir director,Q36834;Q158852;Q486748;Q14915627,Q36834;Q214970;Q158852;Q16145150;Q765778;Q1259917;Q5371902;Q1076502,0.25,0.5,0.3333333333333333,2,6,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; teacher; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q37226;Q14915627,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q21680731,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; music educator,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; pianist; conductor; virtuoso; music teacher; musicologist; organist; violinist; choir director; harpsichordist; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera singer,Q36834;Q2865819,Q177220;Q2865819,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; lyricist,Q36180;Q49757;Q609016;Q26237228,Q49757;Q822146,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer; sacred music composer,Q36834;Q765778,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,manager; conductor; music presenter,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q721834;Q158852,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; teacher; arranger,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q37226;Q1643514,0.5,0.2222222222222222,0.30769230769230765,2,2,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,performer; singer; actor,Q639669,Q713200;Q177220;Q33999,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; oratorio conductor,Q36834;Q158852;Q765778;Q81759238,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress; cantatrice,Q2865819,Q177220;Q21169216;Q2936570,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer; musician,Q2643890;Q2865819,Q177220;Q713200;Q639669,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; writer; artist; observer; sketcher; editor; publisher,Q36180;Q49757;Q182436;Q8178443,Q49757;Q36180;Q483501;Q104853163;Q15296811;Q1607826;Q2516866,0.2857142857142857,0.5,0.36363636363636365,2,5,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,founder,Q36180;Q808967;Q20669622,Q4479442,0.0,0.0,0.0,0,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; organist; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q765778;Q5371902;Q16145150,0.5,0.42857142857142855,0.4615384615384615,3,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,Q36834;Q486748,1.0,0.25,0.4,2,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; vocalist; songwriter,Q36834,Q36834;Q2643890;Q753110,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher; conductor; music critic; writer; oratorio composer,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q37226;Q158852;Q1350157;Q36180,0.4,0.2857142857142857,0.3333333333333333,2,3,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,vicechairman; club officer,Q49757,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; violinist; teacher; composer,Q36834,Q639669;Q1259917;Q37226;Q36834,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher,Q36834;Q158852;Q1259917,Q36834;Q37226,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,chapel master; sacred composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; soprano; performer,Q2865819,Q2643890;Q713200,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; singer,Q2865819,Q2643890;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; instrumentalist,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q2643890;Q1278335,0.0,0.0,0.0,0,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; musician,Q36834;Q158852,Q1259917;Q639669,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; pianist; conductor; teacher; musicologist; impresario; virtuoso,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q1259917;Q486748;Q158852;Q37226;Q14915627;Q3029406;Q214970,0.375,0.5,0.42857142857142855,3,5,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; teacher; music theorist; violinist; organist; musicologist; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; poet; conductor; playwright; theorist,Q36180;Q36834;Q49757;Q158852;Q486748;Q1350157;Q3387717;Q8178443;Q11774202;Q18814623;Q18939491,Q36834;Q49757;Q158852;Q214917;Q18931911,0.6,0.2727272727272727,0.37499999999999994,3,2,8,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q639669,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musicologist; conductor; teacher,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q14915627;Q158852;Q37226,0.75,0.6,0.6666666666666665,3,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; music teacher,Q36834,Q1259917;Q2675537,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,maestro; director,Q36834;Q158852;Q1259917,Q705996,0.0,0.0,0.0,0,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; performer,Q177220;Q2865819,Q639669;Q36834;Q713200,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; editor; publisher; musician; church music contributor,Q36834;Q765778,Q36834;Q1607826;Q2516866;Q639669,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet,Q11063;Q36180;Q49757;Q170790;Q4263842,Q49757,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36180;Q753110;Q17505902,Q36834,0.0,0.0,0.0,0,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist; conductor; music teacher,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q1259917;Q158852;Q2675537,0.6,0.5,0.5454545454545454,3,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer; vocalist,Q2865819,Q177220;Q713200;Q2643890,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,"composer; conductor; pianist; teacher; librettist; playwright; impresario; critic; journalist; publisher; editor; translator; arranger; musicologist; historian; collector; archivist; scholar; writer; vocalist; actor; dancer; choreographer; stage designer; set designer; costume designer; lighting designer; sound designer; director; producer; filmmaker; artist; visual artist
+
+However, based on the context given, the most appropriate occupations for Paer would be:
+
+composer; conductor; teacher; critic; journalist",Q36834;Q158852;Q806349;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; conductor; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q765778;Q158852;Q5371902;Q16145150,0.6,0.42857142857142855,0.5,3,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,philosopher; essayist; statesman; scientist; author,Q901;Q16533;Q36180;Q40348;Q82955;Q155647;Q201788;Q4964182,Q4964182;Q11774202;Q372436;Q901;Q482980,0.4,0.25,0.3076923076923077,2,3,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,writer; essayist; journalist; critic,Q36180;Q49757;Q82955;Q214917;Q1607826;Q1930187;Q3589290;Q8178443;Q11774202,Q36180;Q11774202;Q1930187;Q6430706,0.75,0.3333333333333333,0.46153846153846156,3,1,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,philosopher; mathematician; logician; moral philosopher; aesthetics philosopher; rhetoric professor,Q36180;Q170790;Q201788;Q1622272;Q4964182,Q4964182;Q170790;Q14565331,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,scholar; linguist; orientalist; author; cataloguer; librarian; translator; researcher; antiquary; musician; instrumentologist,Q16533;Q36180;Q49757;Q82955;Q333634;Q1731155;Q2374149;Q4773904;Q14467526,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music educator; violinist; organist; music theorist; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q16145150;Q1259917;Q765778;Q16031530;Q14915627,0.75,0.6666666666666666,0.7058823529411765,6,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; teacher,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,Q36834;Q1259917;Q37226,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; concert pianist; virtuoso,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q61996187;Q214970,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; performer,Q36834;Q765778;Q16145150,Q639669;Q36834;Q713200,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; conductor; teacher,Q36834,Q639669;Q36834;Q158852;Q37226,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator; organist; pianist; vocalist; choirmaster; music critic; music theorist; music historian,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer,Q36834;Q486748;Q16145150,Q639669;Q36834,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q486748,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; conductor; teacher; vocalist,Q36834;Q37226;Q158852;Q16145150,Q639669;Q36834;Q158852;Q37226;Q2643890,0.6,0.75,0.6666666666666665,3,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer; musician,Q2643890;Q2865819,Q177220;Q639669,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music teacher; conductor; violinist; organist; choir director; music educator,Q36834;Q5371902,Q36834;Q2675537;Q158852;Q1259917;Q765778;Q1076502;Q16145150,0.14285714285714285,0.5,0.22222222222222224,1,6,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,music teacher; composer,Q36834;Q16145150,Q2675537;Q36834,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,government official; theater censor; nobleman,Q82955,Q8985067;Q16744001,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music critic; letter writer,Q753110,Q36834;Q1350157;Q3589290,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; editor; publisher; music educator,Q36834;Q765778,Q36834;Q1607826;Q2516866;Q16145150,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; master of the chapel,Q36834;Q2865819,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; teacher; musician,Q36834;Q899758;Q1259917,Q36834;Q1259917;Q37226;Q639669,0.5,0.6666666666666666,0.5714285714285715,2,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; professor; principal,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q19788990;Q7245049,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist,Q36834;Q765778,Q36834;Q765778,1.0,1.0,1.0,2,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q37226;Q215793,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; maestro; teacher; conductor; violinist; keyboardist; orchestral leader; chapel master; music theorist,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; maestro; opera writer,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; accompanist,Q36834;Q158852,Q36834;Q639669;Q29448653,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,noble; courtier; politician; soldier; poet; lover,Q2478141,Q16744001;Q1511216;Q82955;Q4991371;Q49757;Q625369,0.0,0.0,0.0,0,6,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q37226,0.75,0.5,0.6,3,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852;Q486748;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852;Q177220;Q330679;Q765778;Q5758653,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,knight; theatre manager; director; arts patron,Q33999;Q2259451;Q2865819,Q102083;Q1776724;Q705996;Q15472169,0.0,0.0,0.0,0,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actor; opera performer; theatrical manager,Q33999;Q2865819,Q177220;Q33999;Q1776724,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; impresario; cultural ambassador,Q33999;Q2259451;Q2865819;Q3387717;Q20083902,Q177220;Q3029406,0.0,0.0,0.0,0,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer; principal,Q2865819,Q177220;Q713200;Q7245049,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; principal,Q36834;Q2865819,Q177220;Q7245049,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer,Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; clergyman,Q1955150,Q765778,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; vocalist,Q33999;Q2259451;Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; director of the King’s music,Q36834;Q765778;Q5371902,Q36834;Q1259917,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; singer,Q2865819,Q2643890;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; vocalist,Q177220,Q177220;Q2643890,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; singer,Q177220,Q2643890;Q177220,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; singer,Q177220;Q2865819,Q2643890;Q177220,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,lecturer; music printer,Q49757;Q13424456,Q1569495;Q120325722,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,author; poet; historian; jurist; novelist,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,Q482980;Q49757;Q201788;Q185351;Q6625963,0.6,0.21428571428571427,0.3157894736842105,3,2,11,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+contriever,qwen_qwen-2,NIL,director of the music,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; songwriter; publisher; editor; collector; adaptor,Q36180;Q49757;Q182436;Q8178443,Q49757;Q753110;Q2516866;Q1607826;Q3243461,0.2,0.25,0.22222222222222224,1,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,editor; author; publisher; journalist; literary figure,Q36834,Q1607826;Q482980;Q2516866;Q1930187,0.0,0.0,0.0,0,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; composer; music teacher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q486748;Q36834;Q2675537,0.6666666666666666,0.2222222222222222,0.3333333333333333,2,1,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; bassoonist; composer,Q36834,Q639669;Q12310971;Q36834,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; artist; pianoforte player; educator,Q36834,Q639669;Q483501;Q974144,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,royal; duchess; patron; supporter of the arts,Q2478141,Q58481980;Q516590,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; educator,Q36834;Q16145150,Q639669;Q36834;Q974144,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; teacher; composer,Q36834;Q486748,Q639669;Q37226;Q36834,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; teacher; music critic,Q36834;Q765778,Q36834;Q158852;Q486748;Q37226;Q1350157,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; music critic,Q36834;Q158852;Q486748,Q36834;Q486748;Q158852;Q37226;Q1350157,0.6,1.0,0.7499999999999999,3,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; teacher,Q36834;Q37226,Q639669;Q36834;Q37226,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; teacher; composer; conductor; vocalist; instrumentalist; arranger; editor; music critic; music theorist; piano teacher,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; teacher; music educator,Q36834;Q177220;Q1836630;Q1999862;Q2865819;Q16145150,Q177220;Q37226;Q16145150,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,ambassador,Q82955;Q193391,Q121998,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,aristocrat; diplomat; patron,Q82955;Q2478141,Q2478141;Q193391;Q516590,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; music teacher; concert organizer,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,Q36834;Q486748;Q2675537,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; composer; music publisher,Q36834;Q43845;Q486748;Q2516866,Q486748;Q36834;Q222836,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; singer; actor; impresario; manager,Q2865819,Q639669;Q177220;Q33999;Q3029406;Q721834,0.0,0.0,0.0,0,5,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; teacher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q37226,0.6666666666666666,0.2222222222222222,0.3333333333333333,2,1,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; operatic composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q486748;Q1323191;Q2490358;Q2707485,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; virtuoso,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q158852;Q37226;Q214970,0.6,0.3333333333333333,0.42857142857142855,3,2,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; singer; musician,Q2865819,Q36834;Q177220;Q639669,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music educator; pianist; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q16145150;Q486748;Q158852,0.75,0.5,0.6,3,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; singer; musician; conductor; pianist; organist; violinist; teacher; arranger; conductor; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; performer,Q36834;Q37226;Q1259917;Q1622272;Q16145150,Q1259917;Q36834;Q713200,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; virtuoso; conductor; teacher; pianist; violinist; harpsichordist; organist; kapellmeister; music theorist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,band leader; conductor,Q36834;Q158852;Q762707;Q13219637,Q1198887;Q158852,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer;,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,king; monarch; ruler,Q116;Q82955,Q12097;Q116;Q1097498,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; musician,Q36834,Q1259917;Q36834;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; nobleman; presenter,Q82955;Q12299841,Q516590;Q16744001;Q13590141,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer,Q36834,Q1259917;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; music teacher; virtuoso,Q36834;Q215793;Q805221;Q805253;Q1259917;Q2490358;Q2675537;Q5716684,Q1259917;Q36834;Q2675537;Q214970,0.75,0.375,0.5,3,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,clarinettist,Q36834;Q118865;Q639669,Q118865,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist; conductor; teacher; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q1259917;Q158852;Q37226;Q16031530,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,music critic; music journalist; doctor,Q36834;Q39631,Q1350157;Q20669622;Q39631,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; publisher; writer,Q36180;Q49757;Q182436;Q8178443,Q49757;Q2516866;Q36180,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,director; conductor,Q36834;Q1259917,Q705996;Q158852,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,writer; poet; historian; novelist,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,Q36180;Q49757;Q201788;Q6625963,1.0,0.2857142857142857,0.4444444444444445,4,0,10,RAG,RAG
+contriever,qwen_qwen-2,NIL,;,Q36834;Q158852;Q1622272;Q12310971;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36834;Q158852;Q765778;Q16145150,Q36834;Q486748,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,royal patron; duke; public figure,Q82955;Q1475726;Q2478141,Q58481980;Q662729,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; teacher; music educator,Q36834;Q158852;Q486748,Q36834;Q158852;Q486748;Q37226;Q16145150,0.6,1.0,0.7499999999999999,3,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; violinist; educator; music theorist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q1259917;Q974144;Q16031530,0.5,0.3333333333333333,0.4,3,3,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violoncellist,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; violoncellist; violinist,Q36834;Q158852;Q13219637;Q16145150,Q639669;Q1259917,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; composer; teacher; conductor; musicologist; music educator,Q36834;Q765778;Q1622272;Q16145150,Q765778;Q36834;Q37226;Q158852;Q14915627;Q16145150,0.5,0.75,0.6,3,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; music educator,Q36834;Q13424456,Q36834;Q158852;Q765778;Q16145150,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q42857;Q82955;Q215536;Q432386;Q877558;Q1402561;Q12059906,Q36834,0.0,0.0,0.0,0,1,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist,Q36834;Q158852;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q1259917,0.5,0.14285714285714285,0.22222222222222224,1,1,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; organist; teacher; music director; administrator; scholar; publisher; librettist; critic; editor; translator; poet; arranger; chorister; orchestra leader; festival organizer; arts patron; journalist; academic; lecturer; philanthropist; cultural figure; musical activist; artistic advisor; arts administrator; chamber musician; ensemble leader; vocal coach; lieder accompanist; music theorist; pedagogue; adjudicator; concert promoter; festival director; choral conductor; music historian; musical analyst; symphonist; opera composer; chamber music composer; choral composer; sacred music composer; secular music composer; organ composer; piano composer; violin composer; orchestral composer; musical innovator; musical influencer; musical genius; musical legend; artistic leader; cultural icon; musical pioneer; musical educator; musical visionary; musical revolutionary; musical reformer; musical icon; musical master; musical luminary; musical legend; musical giant; musical titan; musical virtuoso; musical superstar; musical maestro; musical authority; musical iconoclast; musical trailblazer; musical innovator; musical creator; musical architect; musical builder; musical craftsman; musical artisan; musical artist; musical creator;,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; organist; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q765778;Q5371902;Q16145150,0.5,0.42857142857142855,0.4615384615384615,3,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; nobleman,Q47064;Q82955,Q516590;Q16744001,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,archbishop; clergyman; religious leader; church official,Q42603,Q49476,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; music educator; composer,Q36834,Q158852;Q16145150;Q36834,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; arranger; musician,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q1643514;Q639669,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; librettist,Q36834,Q36834;Q8178443,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress; performer,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q21169216;Q713200,0.0,0.0,0.0,0,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera singer; performer; actor; comedian,Q36834;Q2259451;Q2865819;Q16145150,Q177220;Q2865819;Q713200;Q33999;Q245068,0.2,0.25,0.22222222222222224,1,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q486748;Q16145150,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,royalty; prince,Q116;Q82955;Q2478141;Q10732476,Q11573099;Q12886381,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; music educator; composer; conductor; choirmaster; organist; pianist; teacher; academic; scholar,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,archbishop; clergyman; religious leader; church authority; ecclesiastical figure,Q42603,Q49476,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; arranger,Q36834;Q1259917,Q36834;Q1643514,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; violinist; harpsichordist; music educator; choir director,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q1259917;Q5371902;Q16145150;Q1076502,0.5714285714285714,0.5714285714285714,0.5714285714285714,4,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; teacher,Q1402561,Q639669;Q37226,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,teacher; administrator; academic,Q738142;Q12299841,Q37226;Q358832;Q3400985,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; arranger; conductor; violinist; music educator,Q36834;Q1259917,Q36834;Q1643514;Q158852;Q1259917;Q16145150,0.4,1.0,0.5714285714285715,2,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician,Q36834,Q639669,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,maestro; chapel director,Q36834;Q330679,,0.0,0.0,0.0,0,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist; conductor; music teacher,Q36834,Q36834;Q486748;Q1259917;Q158852;Q2675537,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music publisher; arranger; editor,Q36834;Q158852;Q222836;Q765778;Q2516866,Q36834;Q222836;Q1643514;Q1607826,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; royal; nobleman; concert director,Q47064;Q82955,Q516590;Q16744001,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,comic actor; singer,Q33999;Q245068,Q245068;Q177220,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; arranger; conductor; editor,Q36834;Q486748;Q16145150,Q36834;Q1643514;Q158852;Q1607826,0.25,0.3333333333333333,0.28571428571428575,1,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; singer; musical antiquarian,Q36834;Q177220;Q639669;Q765778;Q14915627;Q16145150,Q36834;Q177220,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; theater producer; musician,Q36834,Q36834;Q1759246;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; violinist; harpsichordist; music educator; choir director; virtuoso,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q1259917;Q5371902;Q16145150;Q1076502;Q214970,0.5,0.5714285714285714,0.5333333333333333,4,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,arranger; musician; composer; editor; educator; publisher; organist; conductor; musicologist; songwriter; vocalist; pianist; harpsichordist; choir director; music educator; virtuoso; concertmaster; music engraver; music retailer,Q36834;Q158852;Q222836;Q765778;Q2516866,,0.0,0.0,0.0,0,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violoncellist,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; choirmaster; organist; teacher; musician,Q36834;Q765778,Q36834;Q1076502;Q765778;Q37226;Q639669,0.4,1.0,0.5714285714285715,2,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,chapel master; musician; teacher,Q36834,Q639669;Q37226,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; chapel master; music theorist; harpsichordist; conductor; teacher,Q36834;Q158852;Q765778,Q36834;Q16031530;Q5371902;Q158852;Q37226,0.4,0.6666666666666666,0.5,2,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; musicologist; music educator,Q36834;Q158852;Q215793;Q1259917,Q36834;Q158852;Q14915627;Q16145150,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,author; diplomat; soldier; colonial administrator,Q36180;Q82955;Q201788,Q482980;Q193391;Q4991371;Q17765219,0.0,0.0,0.0,0,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; theorist,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q18931911,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; musician,Q36834;Q2865819;Q16145150,Q177220;Q639669,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q16145150,1.0,0.3333333333333333,0.5,3,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music educator; organist; violinist; choir director; harpsichordist; musicologist; virtuoso; concertmaster; school teacher,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer,Q177220;Q2643890;Q2865819,Q177220;Q713200,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,soprano; opera singer,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; musician,Q177220;Q2865819,Q177220;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; teacher; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q37226;Q14915627,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,;,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,royal; patron;,Q116;Q82955;Q2478141;Q10732476,Q516590,0.0,0.0,0.0,0,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; theoretician,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q18931911,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; writer; musicologist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q486748;Q158852;Q36180;Q14915627,0.6,0.5,0.5454545454545454,3,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; conductor; pianist; violinist; teacher; music theorist; organist; chamber musician; orchestral conductor; music director; artistic director; music educator; musicologist; music critic; songwriter; arranger; musical director; orchestrator; symphonist; operatic composer; choral conductor; chamber music composer; soloist; ensemble player; accompanist; improviser; virtuoso; choir master; church musician; chapel master; artistic consultant; musical advisor; repertory director; symphony orchestra conductor; ensemble leader; musical ensemble director; kapellmeister; musical arranger; musical editor; concertmaster; solo performer; chamber orchestra conductor; concert conductor; musical director and conductor; music faculty; symphonic composer; orchestral composer; symphonic musician; music faculty member; music department head; artistic leader; performing artist; music producer; music supervisor; musical performer; musical artist; music faculty advisor; music lecturer; music professor; music instructor; music scholar; music history expert; musical historian; music composer; music creator; music arranger; music director and producer; music editor; music faculty leader; music faculty advisor and instructor; music faculty advisor and professor; music faculty advisor and lecturer; music,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852;Q14915627;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musicologist; music educator; historian; writer,Q36834,Q14915627;Q16145150;Q201788;Q36180,0.0,0.0,0.0,0,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; teacher; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q37226;Q14915627,0.8333333333333334,0.5555555555555556,0.6666666666666667,5,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; singer; musician,Q36834;Q1259917,Q2643890;Q177220;Q639669,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; doctor of music,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; teacher; publisher; inventor,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,Q36834;Q486748;Q37226;Q2516866;Q205375,0.4,0.3333333333333333,0.3636363636363636,2,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,emperor; patron of the arts; ruler; sovereign,Q116;Q1402561,Q39018;Q15472169;Q1097498;Q2304859,0.0,0.0,0.0,0,4,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator; choir director; virtuoso; harpsichordist; musicologist; violinist; school teacher,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,"composer; arranger; }},
+However, given the format required, the correct answer is:
+composer; arranger",Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,arranger; composer; musician,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q1643514;Q36834;Q639669,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; teacher,Q36834,Q639669;Q37226,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,leader; conductor,Q36834;Q43845;Q486748;Q2516866,Q1251441;Q158852,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; writer; dramatist,Q49757;Q214917,Q49757;Q36180;Q214917,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834;Q765778,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,accompanist; musician,Q36834;Q486748,Q29448653;Q639669,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; lyricist,Q36180;Q49757;Q214917;Q753110,Q49757;Q822146,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; teacher; musician,Q36834;Q486748;Q16145150,Q36834;Q486748;Q37226;Q639669,0.5,0.6666666666666666,0.5714285714285715,2,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; music teacher; conductor; virtuoso,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,Q36834;Q486748;Q2675537;Q158852;Q214970,0.8,0.5,0.6153846153846154,4,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; songwriter,Q36180;Q49757;Q1930187;Q14915627,Q49757;Q753110,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; writer,Q36180;Q47064;Q49757;Q82955;Q214917;Q333634;Q822146;Q2478141;Q8178443;Q18814623;Q18939491;Q125360586,Q49757;Q36180,1.0,0.16666666666666666,0.2857142857142857,2,0,10,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; songwriter; publisher,Q36180;Q49757;Q182436;Q8178443,Q49757;Q753110;Q2516866,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,song-writer; poet,Q333634;Q639669,Q753110;Q49757,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,song-writer; editor; music-publisher,Q14915627,Q753110;Q1607826,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,song-writer; poet,Q36180;Q49757;Q201788;Q333634;Q551835;Q774306;Q1930187;Q6625963,Q753110;Q49757,0.5,0.125,0.2,1,1,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,song-writer; poet,Q36180;Q49757,Q753110;Q49757,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,song-writer; poet,Q36180;Q49757;Q753110;Q864380;Q6625963,Q753110;Q49757,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,philosopher; performer; entertainer,Q43845;Q998550,Q4964182;Q713200;Q138858,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; solo player; chamber musician,Q36834;Q13219637,Q36834;Q1259917;Q105755601,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q765778;Q16145150;Q14915627,0.8571428571428571,0.6666666666666666,0.75,6,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q765778;Q16145150;Q14915627,0.8571428571428571,0.6666666666666666,0.75,6,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; music critic; music teacher; conductor,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q1350157;Q2675537;Q158852,0.8,0.5714285714285714,0.6666666666666666,4,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,oboist; musician,Q36834;Q16003954,Q16003954;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musicien de la chambre du Roi; concert organizer; musician,Q36834;Q182436;Q16003954;Q102104631,Q639669,0.0,0.0,0.0,0,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q215793;Q1162163;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,Kapelmeister; composer; conductor; music director,Q36834;Q158852,Q36834;Q158852;Q1198887,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,publisher; music printer; bookseller,Q36834;Q37226;Q175151;Q182436;Q2516866;Q40881196,Q2516866;Q120325722;Q998550,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,music publisher; engraver,Q222836,Q222836;Q329439,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q639669,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,opera singer; performer,Q36834;Q2865819,Q2865819;Q713200,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer; prima donna,Q36834;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,hostess; socialite; patron of the arts,Q1028181,Q3679472;Q512314;Q15472169,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer; vocal artist,Q2865819,Q177220;Q713200;Q2405480,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; songwriter,Q36834;Q158852;Q765778;Q16145150,Q36834;Q753110,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,concert organizer; music conductor; event manager,Q36834;Q158852,Q88202606,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,manager; theatre manager; author,Q43845;Q998550,Q721834;Q1776724;Q482980,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,tenor; opera singer,Q36834;Q2490358;Q2865819;Q8178443;Q16145150,Q27914;Q2865819,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actor,Q2865819,Q177220;Q33999,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; bass singer; opera singer,Q2865819,Q177220;Q98834013;Q2865819,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actor,Q36834;Q2259451;Q2865819;Q16145150,Q177220;Q33999,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; songwriter,Q36180;Q49757;Q131512;Q753110;Q14915627,Q49757;Q753110,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera conductor,Q36834;Q158852;Q1198887,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; violinist,Q36834;Q118865;Q639669;Q1622272;Q16145150,Q639669;Q1259917,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; cantatrice,Q2865819,Q177220;Q2936570,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; singer,Q36834;Q158852;Q177220;Q753110;Q2865819,Q36834;Q177220,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q36834;Q1259917,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music theorist; opera reformer; teacher; writer,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q486748;Q16031530;Q37226;Q36180,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; examiner; music educator,Q36834;Q486748;Q753110;Q16145150,Q486748;Q95674799;Q16145150,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; examiner; music educator,Q36834;Q486748;Q16145150,Q486748;Q95674799;Q16145150,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; examiner; music educator,Q36834,Q486748;Q95674799;Q16145150,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,novelist; writer; teacher; governess,Q36180;Q37226;Q49757;Q1540278;Q6625963,Q6625963;Q36180;Q37226;Q1540278,1.0,0.8,0.888888888888889,4,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music critic; teacher,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q1350157;Q37226,0.8,0.5714285714285714,0.6666666666666666,4,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist,Q36834;Q158852;Q691031;Q899758;Q1259917;Q1622272;Q14915627;Q16145150,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,critic; journalist; writer; theater manager,Q43845;Q998550,Q6430706;Q1930187;Q36180;Q1776724,0.0,0.0,0.0,0,4,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,music-seller,Q222836,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,arranger; musician; conductor; teacher; composer,Q36834;Q1259917,Q1643514;Q639669;Q158852;Q37226;Q36834,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; leader,Q36834;Q158852,Q1259917;Q36834;Q1251441,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; opera writer; music educator,Q36834,Q36834;Q158852;Q214970;Q16145150,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; performer; composer,Q36834;Q177220;Q18814623,Q639669;Q713200;Q36834,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; educator; music theorist; choir director; organist; chapel master,Q36834;Q177220;Q215793;Q765778;Q1076502;Q16145150,Q36834;Q974144;Q16031530;Q1076502;Q765778,0.6,0.5,0.5454545454545454,3,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; choirmaster,Q36834;Q765778,Q765778;Q1076502,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music theorist; opera writer,Q36834,Q36834;Q16031530,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; dancer; choreographer; impresario; conductor,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834;Q639669;Q5716684;Q2490358;Q3029406;Q158852,0.6666666666666666,0.4444444444444444,0.5333333333333333,4,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; inventor; musician,Q36834,Q36834;Q205375;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer,Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; soprano; vocal performer; ensemble member; duet partner; quintet participant,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; tenor; baritone; bass,Q177220;Q2865819,Q177220;Q27914;Q719678,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; musician; concert performer,Q2865819,Q177220;Q639669,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q486748,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852;Q177220;Q639669;Q806349;Q1259917,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,translator; dramatist,Q8178443,Q333634;Q214917,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; singer; actor; violinist; conductor,Q36834,Q36834;Q177220;Q33999;Q1259917;Q158852,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,soprano; opera singer; vocalist,Q36834;Q2865819,Q2865819;Q2643890,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; violinist; harpsichordist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q158852;Q765778;Q1259917;Q5371902;Q16145150,1.0,0.5454545454545454,0.7058823529411764,6,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; orchestra leader; kapellmeister; pianist; organist; music theorist; music director,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; teacher; musicologist; chapel master; orchestra conductor; chamber musician,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q158852;Q37226;Q16145150,0.8,0.8,0.8000000000000002,4,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; teacher,Q36834;Q765778;Q1622272;Q16145150,Q36834;Q765778;Q37226,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,musicologist; historian; writer; doctor,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q14915627;Q201788;Q36180;Q39631,0.75,0.42857142857142855,0.5454545454545454,3,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,harmonist; composer,Q36834;Q1259917,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; harmonist,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.8,0.888888888888889,4,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; music educator; musicologist,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q14915627,0.8,0.8,0.8000000000000002,4,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; opera composer; musical artist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q639669;Q21680731;Q639669,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator; musicologist; organist; violinist; harpsichordist; choir director; virtuoso; concertmaster; member of the Copyright Commission,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; doctor,Q36834;Q765778;Q5371902;Q81759238,Q639669;Q36834;Q39631,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,professor; accompanist,Q36834;Q16145150,Q19788990;Q29448653,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,musicologist; publisher; scholar,Q36180;Q876864;Q1350157;Q14915627,Q14915627;Q2516866;Q2248623,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,cataloguer; musicologist,Q18805;Q36834;Q201788;Q864380;Q1607826;Q2374149;Q13416354;Q14915627;Q20198542,Q33109310;Q14915627,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; entertainer; buffo singer,Q639669,Q2643890;Q138858,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; songwriter; musician,Q36834,Q36834;Q753110;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; songmaker,Q36834;Q158852;Q177220;Q753110;Q2865819,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; conductor; music director,Q36834;Q1259917;Q2675537;Q3153559,Q36834;Q1259917;Q158852;Q1198887,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q177220;Q2865819,Q36834,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,lyricist; wordsmith; poet,Q49757;Q1930187,Q822146;Q49757,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist; conductor; teacher; music theorist; organist; chamber musician; symphonist; opera composer; concertmaster,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; pianist; music teacher; organist; chapelmaster; string quartet creator; symphonist,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q713200;Q855091;Q24067349,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; violinist; teacher; musicologist; music educator,Q36834,Q36834;Q486748;Q158852;Q1259917;Q37226;Q14915627;Q16145150,0.14285714285714285,1.0,0.25,1,6,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q158852,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; composer,Q36834;Q158852;Q486748,Q158852;Q36834,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,writer; critic; musician; composer; ex-jesuit,Q36180;Q1792450;Q14915627;Q20669622,Q36180;Q6430706;Q639669;Q36834,0.25,0.25,0.25,1,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,"publisher; composer; musician;/PrivateNote:The provided context suggests Cramer is involved in publishing, which aligns with him being a publisher. Additionally, historical context not provided in the snippet indicates that Johann Baptist Cramer was also a composer and musician, but given the information, ""publisher"" is the most directly supported occupation. However, to fully comply with the instruction, I will list the most likely occupations based on the context and common knowledge about Cramer:/publisher; composer; musician",Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; teacher,Q36834,Q1259917;Q36834;Q37226,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q16145150,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist,Q36834;Q765778;Q1930187;Q14915627,Q765778,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musicologist; historian; writer; scholar; collector,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q14915627;Q201788;Q36180;Q2248623;Q3243461,0.6,0.42857142857142855,0.5,3,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musicologist; cleric; teacher; historian,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q36834;Q14915627;Q37226;Q201788,0.75,0.42857142857142855,0.5454545454545454,3,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; music copyist,Q36834;Q2865819,Q639669;Q36834;Q100605727,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,King; monarch,Q82955,Q12097;Q116,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; director,Q36834;Q158852,Q36834;Q705996,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music educator,Q36834,Q36834;Q16145150,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; music teacher; virtuoso,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q158852;Q2675537;Q214970,0.6,0.3333333333333333,0.42857142857142855,3,2,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,pupil; bassoonist,Q36834;Q12310971;Q16145150,Q48282;Q12310971,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,professor; bassoonist,Q36834;Q1622272;Q12310971;Q14915627,Q19788990;Q12310971,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,professor; musician; seller of music; publisher,Q36834;Q1622272;Q12310971;Q14915627,Q19788990;Q639669;Q2516866,0.0,0.0,0.0,0,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; harmonist,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; harmonist,Q36180;Q36834;Q214917;Q1259917;Q2962003,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; harmonist,Q36834;Q177220;Q215793;Q13219637,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music theorist; historian; priest,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q36834;Q16031530;Q201788;Q831474,0.75,0.42857142857142855,0.5454545454545454,3,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,vicar; composer; organist,Q36834;Q765778;Q2259532;Q13424456,Q193364;Q36834;Q765778,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music theorist; teacher,Q1231865;Q14915627;Q16031530;Q16145150,Q36834;Q16031530;Q37226,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; concertmaster; teacher; performer,Q36834;Q1259917,Q1259917;Q36834;Q691031;Q37226;Q713200,0.4,1.0,0.5714285714285715,2,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; teacher; virtuoso,Q36834;Q1259917;Q2675537;Q3153559,Q36834;Q1259917;Q37226;Q214970,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; author; literary figure,Q36180;Q49757;Q121594;Q333634;Q14467526,Q49757;Q482980,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; musician; teacher;,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q639669;Q37226,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; conductor; pianist; organist; violinist; teacher; music educator; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q214970;Q158852;Q486748;Q765778;Q1259917;Q37226;Q16145150;Q16031530,0.5555555555555556,0.8333333333333334,0.6666666666666667,5,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator; theater manager; operatic impresario,Q36834,Q36834;Q158852;Q16145150;Q1776724,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,piano forte player; music teacher; master,Q36834;Q486748,Q2675537;Q635788,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; teacher; music publisher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q37226;Q222836,0.5,0.2222222222222222,0.30769230769230765,2,2,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,piano forte player; teacher; master,Q36834;Q486748,Q37226;Q635788,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; choir director; music educator; conductor; composer; musicologist; concertmaster; virtuoso; harpsichordist; violinist; school teacher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; choir director; music educator; conductor,Q36834;Q765778;Q14915627;Q16031530,Q36834;Q765778;Q1076502;Q16145150;Q158852,0.4,0.5,0.4444444444444445,2,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; music educator; composer; performer,Q36834;Q486748;Q1622272;Q16145150,Q486748;Q16145150;Q36834;Q713200,0.75,0.75,0.75,3,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,leader; rebel; historical figure,Q39631;Q82955;Q193391;Q1622272,Q1251441;Q1125062,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,librettist; playwright; writer,Q36180;Q36834;Q214917;Q6625963;Q8178443,Q8178443;Q214917;Q36180,1.0,0.6,0.7499999999999999,3,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; librettist; opera producer,Q36180;Q36834;Q82955;Q158852,Q36834;Q8178443,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor,Q36834;Q486748,Q36834;Q486748;Q158852,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; musician,Q36834;Q2865819,Q177220;Q639669,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; theorist,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q18931911,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; Corifeo; musician,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834;Q639669,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+contriever,qwen_qwen-2,NIL,military leader; emperor; political figure,Q116;Q39018;Q82955;Q189290;Q372436;Q1402561;Q2304859;Q10732476;Q17010072;Q38239859,Q1402561;Q39018;Q82955,1.0,0.3,0.4615384615384615,3,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; conductor; performer; music educator; opera producer; theater director; ballet composer; dance master; court musician,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834;Q215793,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; organist; choir director; music educator,Q36834;Q765778,Q36834;Q1259917;Q765778;Q1076502;Q16145150,0.4,1.0,0.5714285714285715,2,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; bass; actor; musician,Q36834;Q2259451;Q2865819;Q16145150,Q177220;Q719678;Q33999;Q639669,0.0,0.0,0.0,0,4,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,ruler; patron of the arts,Q116;Q1097498,Q1097498;Q15472169,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; dramatist; organist; violinist; teacher; conductor,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q214917;Q765778;Q1259917;Q37226;Q158852,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; conductor; teacher; pianist; organist; violinist; musicologist; virtuoso; choir director; harpsichordist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,lecturer; professor,Q40348;Q170790;Q1622272;Q4964182;Q14565331,Q1569495;Q19788990,0.0,0.0,0.0,0,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,mathematician; philosopher; scientist; educator,Q4964182,Q170790;Q4964182;Q901;Q974144,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,mathematician; teacher,Q36180;Q170790,Q170790;Q37226,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,mathematician; physician; astrologer; writer; inventor; philosopher,Q39631;Q81096;Q155647;Q170790;Q205375;Q4964182,Q170790;Q39631;Q155647;Q36180;Q205375;Q4964182,0.8333333333333334,0.8333333333333334,0.8333333333333334,5,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,philosopher; mathematician; astronomer; heretic; Dominican friar; poet; occultist; scientist,Q11063;Q36180;Q49757;Q155647;Q170790;Q1469535;Q1622272;Q4964182,Q4964182;Q170790;Q11063;Q350347;Q49757;Q12797895;Q901,0.5714285714285714,0.5,0.5333333333333333,4,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,philosopher; heretic,Q18805;Q36180;Q39631;Q155647;Q4964182,Q4964182;Q350347,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,philosopher; mathematician; lens grinder; moralist,Q1234713;Q1238570;Q4964182;Q15991187;Q24262584;Q66060374,Q4964182;Q170790;Q66060374;Q1297719,0.5,0.3333333333333333,0.4,2,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,physicist; mathematician; astronomer; alchemist; author; philosopher; inventor; scientist,Q170790;Q4964182,Q169470;Q170790;Q11063;Q15954519;Q482980;Q4964182;Q205375;Q901,0.25,1.0,0.4,2,6,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; music educator; choirmaster,Q158852;Q16145150,Q158852;Q16145150;Q1076502,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; doctor,Q36834;Q765778;Q1028181;Q16145150,Q158852;Q39631,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer,Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer,Q177220;Q2643890;Q2865819,Q177220;Q713200,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; author,Q49757;Q8178443,Q36834;Q482980,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q37226;Q215793;Q486748;Q765778;Q1622272;Q14915627;Q16145150,Q36834,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; editor; publisher; church musician,Q36834;Q765778,Q639669;Q36834;Q1607826;Q2516866;Q355493,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; church musician; vocal composer; organist; teacher; music theorist,Q36834,Q36834;Q355493;Q28771895;Q765778;Q37226;Q16031530,0.16666666666666666,1.0,0.2857142857142857,1,5,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; ecclesiastical composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; music theorist; teacher; publisher; arranger,Q36834;Q765778;Q14915627;Q16031530,Q36834;Q765778;Q16031530;Q37226;Q2516866;Q1643514,0.5,0.75,0.6,3,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; ecclesiastical composer,Q36834;Q214917;Q1076502,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; choirmaster; teacher; musicologist; ecclesiastical composer,Q36834;Q177220;Q765778;Q16145150,Q36834;Q765778;Q1076502;Q37226;Q14915627,0.4,0.5,0.4444444444444445,2,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; organist; choirmaster,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q639669;Q765778;Q1076502,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; ecclesiastical musician,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; ecclesiastical composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music editor; anthologist; organist; conductor; choir director; music educator,Q36834,Q36834;Q6941738;Q16360440;Q765778;Q158852;Q1076502;Q16145150,0.14285714285714285,1.0,0.25,1,6,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; church musician; ecclesiastical composer,Q36834;Q765778,Q36834;Q355493,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; doctor of music,Q36834;Q765778;Q5371902;Q81759238,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer,Q36834;Q37226;Q215793,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; librettist; singer; teacher,Q36834;Q158852;Q215793;Q765778;Q14915627,Q36834;Q8178443;Q177220;Q37226,0.25,0.2,0.22222222222222224,1,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; musician; vocalist; artist; performer; opera singer,Q2865819,Q177220;Q639669;Q2643890;Q483501;Q713200;Q2865819,0.16666666666666666,1.0,0.2857142857142857,1,5,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,military officer; author,Q82955,Q189290;Q482980,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; virtuoso; conductor,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q36834;Q1259917;Q214970;Q158852,0.5,0.3333333333333333,0.4,2,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; virtuoso,Q36834;Q1259917,Q1259917;Q36834;Q214970,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; music theorist; organist,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q37226;Q16031530;Q765778,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist,Q158852;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.8,0.888888888888889,4,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852;Q639669;Q1259917,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q177220;Q2865819,Q177220;Q21169216,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress; cantatrice,Q2865819,Q177220;Q21169216;Q2936570,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,prima donna; musician; actress,Q2865819,Q639669;Q21169216,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,prima donna; musician; actress; singer,Q2865819,Q639669;Q21169216;Q177220,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852,Q36834;Q158852,1.0,1.0,1.0,2,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; ruler; noble,Q82955,Q516590;Q1097498;Q16744001,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,writer; novelist,Q36180;Q39631;Q82955;Q6625963,Q36180;Q6625963,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,writer; author,Q36180;Q182436;Q214917;Q1930187;Q6625963,Q36180;Q482980,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; teacher; violinist; organist; musicologist; music educator; virtuoso,Q36834,Q36834;Q158852;Q486748;Q37226;Q1259917;Q765778;Q14915627;Q16145150;Q214970,0.1111111111111111,1.0,0.19999999999999998,1,8,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera singer; virtuoso; composer; pianist; musician,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q2865819;Q214970;Q36834;Q486748;Q639669,0.3333333333333333,0.5,0.4,2,4,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer,Q36834;Q158852;Q806349;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer,Q36834;Q158852;Q1622272;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; performer,Q36834;Q1259917,Q639669;Q36834;Q713200,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,piano-forte player; composer,Q36834;Q43845;Q486748;Q2516866,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; concert performer; composer,Q36834;Q1259917,Q639669;Q36834,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer,Q36180;Q36834;Q49757,Q639669;Q36834,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer,Q36834,Q639669;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; author; harmony expert; thorough-bass expert,Q36834,Q639669;Q482980,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer,Q36180;Q36834;Q49757,Q639669;Q36834,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; composer; harmony expert; educator; author,Q36834,Q639669;Q36834;Q974144;Q482980,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; writer,Q36180;Q36834;Q49757,Q36834;Q639669;Q36180,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; music educator; musicologist,Q36834;Q215793,Q36834;Q214970;Q16145150;Q14915627,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; dramatist,Q36834;Q16145150,Q36834;Q214917,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; church musician; teacher; theorist,Q36834;Q765778,Q36834;Q639669;Q355493;Q37226;Q18931911,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher,Q36834,Q36834;Q37226,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musical professor; doctor of music,Q36834;Q765778;Q5371902;Q81759238,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,king; patron of the arts,Q116;Q36180;Q49757;Q2478141,Q12097;Q15472169,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q177220;Q215793;Q16145150,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834,1.0,0.09090909090909091,0.16666666666666669,1,0,10,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; music theorist,Q36834,Q36834;Q486748;Q158852;Q37226;Q16031530,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; teacher; musicologist; violinist; choir director; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; music theorist,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q37226;Q16031530,0.6,0.5,0.5454545454545454,3,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer; artist,Q36834;Q2865819,Q177220;Q483501,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera singer; prima donna,Q486748;Q1259917;Q2865819;Q16145150,Q177220;Q2865819,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,soprano; opera singer,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; tenor; baritone; bass,Q2865819,Q177220;Q27914;Q719678,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer,Q2865819;Q16145150,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer,Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; violinist; music educator; music theorist,Q36834,Q36834;Q486748;Q158852;Q1259917;Q16145150;Q16031530,0.16666666666666666,1.0,0.2857142857142857,1,5,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,Q36834;Q1259917,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist,Q36834;Q486748,Q36834;Q486748;Q1259917,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q215793;Q1162163;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,adapter; dramatist,Q214917,Q61875042;Q214917,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,playwright; poet; actor,Q214917,Q214917;Q49757;Q33999,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer; educator; musician,Q36834,Q36834;Q974144;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778,1.0,0.18181818181818182,0.3076923076923077,2,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; composer; arranger,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q765778;Q36834;Q1643514,0.6666666666666666,0.18181818181818182,0.28571428571428575,2,1,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,musicologist; editor; historian; conductor; composer; teacher; scholar,Q36180;Q876864;Q1350157;Q14915627,Q14915627;Q1607826;Q201788;Q158852;Q36834;Q37226;Q2248623,0.14285714285714285,0.25,0.18181818181818182,1,6,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q486748;Q1350157;Q6430706;Q16145150,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,music critic; writer,Q36834;Q1350157;Q21680663,Q1350157;Q36180,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,music critic; writer,Q36834;Q1350157;Q21680663,Q1350157;Q36180,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; virtuoso; concertmaster,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q36834;Q1259917;Q214970;Q691031,0.5,0.3333333333333333,0.4,2,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,music educator; director; author; professor; composer,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,Q16145150;Q705996;Q482980;Q19788990;Q36834,0.4,0.16666666666666666,0.23529411764705882,2,3,10,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q21680731,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet; playwright; translator,Q36180;Q39631;Q49757;Q182436;Q201788;Q214917;Q333634;Q551835;Q1622272;Q1930187;Q4002666;Q4964182;Q6625963;Q21550346,Q49757;Q214917;Q333634,1.0,0.21428571428571427,0.35294117647058826,3,0,11,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music director; theatre musician,Q36834;Q1198887;Q1350157;Q14915627,Q36834;Q1198887,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; performer,Q36834;Q486748,Q486748;Q713200,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; violinist; teacher; musicologist; organist; virtuoso; choir director; harpsichordist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q639669,0.5,0.14285714285714285,0.22222222222222224,1,1,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; organist; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q765778;Q5371902;Q16145150,0.5,0.42857142857142855,0.4615384615384615,3,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer; vocal artist; musician,Q2865819,Q177220;Q713200;Q2405480;Q639669,0.0,0.0,0.0,0,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,bass singer; vocalist,Q36834;Q177220;Q18814623,Q98834013;Q2643890,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; painter; poet; actor; singer,Q36180;Q49757;Q639669;Q1028181;Q2259451;Q3391743;Q11569986;Q15296811,Q36834;Q1028181;Q49757;Q33999;Q177220,0.4,0.25,0.3076923076923077,2,3,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; music director; choirmaster,Q158852,Q158852;Q1198887;Q1076502,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36180;Q36834;Q82955;Q158852,Q36834;Q21680731,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music educator; violinist; organist; music theorist; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q16145150;Q1259917;Q765778;Q16031530;Q14915627,0.75,0.6666666666666666,0.7058823529411765,6,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852;Q1259917;Q14915627;Q19747285,Q36834;Q639669,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; violinist; violist,Q36834;Q1259917,Q639669;Q1259917;Q899758,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; string player,Q639669,Q639669;Q13138067,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,monarch; queen,Q116,Q116;Q16511993,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; performer,Q36180;Q36834;Q19729565,Q639669;Q713200,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; virtuoso; concertmaster; violinist; harpsichordist; music educator; composer; conductor; organist; choir director; musicologist,Q36180;Q36834;Q19729565,,0.0,0.0,0.0,0,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; violinist; harpsichordist; music educator; choir director,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q1259917;Q5371902;Q16145150;Q1076502,0.5714285714285714,0.5714285714285714,0.5714285714285714,4,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; music educator; musicologist; virtuoso; violinist; organist; choir director; harpsichordist; school teacher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; vocalist,Q36834,Q36834;Q2643890,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; accompanist,Q639669,Q486748;Q29448653,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; maestro; opera writer,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852;Q486748;Q14915627,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; inventor; musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q205375;Q639669,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist; teacher; conductor,Q36834,Q36834;Q486748;Q1259917;Q37226;Q158852,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; music director,Q36834;Q158852;Q1622272,Q158852;Q1198887,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher; music educator,Q36834;Q765778,Q36834;Q37226;Q16145150,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; composer,Q2865819,Q177220;Q36834,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; composer,Q2865819,Q177220;Q36834,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,emperor; patron of the arts; monarch; ruler; music enthusiast,Q116;Q1402561,Q39018;Q15472169;Q116;Q1097498,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer;,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; art collector; music enthusiast,Q36834;Q82955;Q189290;Q193391,Q516590;Q10732476,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; music theorist,Q36834,Q36834;Q486748;Q158852;Q37226;Q16031530,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,sculptor; artist,Q42973;Q1028181;Q1281618;Q15296811,Q1281618;Q483501,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; pianist; conductor; teacher;,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q486748;Q158852;Q37226,0.6,0.5,0.5454545454545454,3,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,bass player; singer; composer,Q36834;Q639669,Q584301;Q177220;Q36834,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; teacher,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q486748;Q37226,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; teacher,Q36834;Q486748;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q37226,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36834;Q158852;Q486748;Q14915627,Q36834;Q486748,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36834;Q82955;Q193391;Q486748;Q2285706;Q7330070;Q14915627;Q16145150;Q21680663,Q36834;Q486748,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; music theorist; teacher,Q36180;Q36834;Q49757;Q170790;Q14915627;Q16031530,Q36834;Q16031530;Q37226,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; musician,Q177220;Q639669;Q2865819,Q177220;Q639669,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist,Q36834;Q486748;Q15980158;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,violoncellist,Q36834;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,lawyer; judge; patron of the arts; collector; writer; diarist,Q16533;Q36180;Q82955;Q329455;Q18939491,Q40348;Q16533;Q15472169;Q3243461;Q36180;Q18939491,0.5,0.6,0.5454545454545454,3,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; choirmaster; musician; teacher,Q36834;Q765778;Q21680663,Q36834;Q765778;Q1076502;Q639669;Q37226,0.4,0.6666666666666666,0.5,2,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist; music educator; composer; conductor,Q36834;Q765778;Q14915627;Q16031530,Q765778;Q16145150;Q36834;Q158852,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor,Q36834;Q158852;Q1622272;Q16145150,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,leader; violinist,Q36834;Q1259917;Q16145150,Q1251441;Q1259917,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q21680731,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; harpsichordist; conductor; virtuoso,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q765778;Q5371902;Q158852;Q214970,0.6,0.42857142857142855,0.5,3,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; pianist; music educator; musicologist,Q36834,Q36834;Q158852;Q214970;Q486748;Q16145150;Q14915627,0.16666666666666666,1.0,0.2857142857142857,1,5,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,noble; princess; duchess,Q82955,Q16744001;Q58481980,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,noble; duke; archduke; ruler; prince; governor; military leader; knight; patron of the arts; statesman,Q1097498,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; musical director,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q37226;Q1198887,0.6,0.5,0.5454545454545454,3,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; reformer; musician,Q36834;Q158852,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; pianist; conductor; teacher; vocalist; arranger; organist; violinist; choir director; music theorist; musicologist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer; musician,Q36834,Q36834;Q21680731;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; reformer; disciple; music educator,Q36834;Q765778,Q36834;Q385586;Q16145150,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; teacher; conductor; pianist; violinist; theorist; musicologist; arranger; librettist,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; musician; teacher; arts administrator,Q36834;Q158852;Q1198887,Q36834;Q158852;Q639669;Q37226;Q26903663,0.4,0.6666666666666666,0.5,2,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; music theorist; violinist; organist; musicologist; music educator; virtuoso,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; conductor; teacher; critic,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q639669;Q158852;Q37226;Q6430706,0.4,0.3333333333333333,0.3636363636363636,2,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; theorist,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q37226;Q18931911,0.6,0.5,0.5454545454545454,3,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; conductor; music educator; opera producer; librettist,Q36834;Q158852;Q1198887;Q18814623,Q36834;Q214970;Q158852;Q16145150;Q8178443,0.4,0.5,0.4444444444444445,2,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q33999;Q36180;Q36834;Q158852;Q177220;Q2259451;Q2865819;Q8178443,Q36834;Q639669,0.5,0.125,0.2,1,1,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; virtuoso; teacher,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q1259917;Q36834;Q214970;Q37226,0.5,0.3333333333333333,0.4,2,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; music educator; organist; violinist; harpsichordist; musicologist; choir director; virtuoso,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q14915627;Q16031530,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q974144;Q14915627,0.8,0.4444444444444444,0.5714285714285714,4,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; music educator; organist; violinist; harpsichordist; choir director; musicologist; virtuoso,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; teacher; music critic,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q36834;Q486748;Q158852;Q37226;Q1350157,0.6,0.6,0.6,3,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; conductor; music educator; musicologist; organist; harpsichordist; violinist; choir director; concertmaster; school teacher,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,piano maker; inventor; music publisher; composer,Q36834;Q222836;Q486748;Q885122,Q885122;Q205375;Q222836;Q36834,0.75,0.75,0.75,3,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher,Q36834;Q486748,Q36834;Q37226,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; musician; teacher; virtuoso; organist; harpsichordist; choir director; violinist; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; educator; organist; choirmaster,Q36834;Q1622272;Q16145150;Q21680663,Q36834;Q974144;Q765778;Q1076502,0.25,0.25,0.25,1,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q37226;Q486748,Q36834;Q639669,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer; virtuoso,Q36834;Q1259917;Q1622272;Q16145150,Q1259917;Q36834;Q214970,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,monarch; patron of the arts,Q16533;Q47064;Q82955;Q10732476,Q116;Q15472169,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; composer,Q36834;Q1259917;Q1622272;Q16145150,Q1259917;Q36834,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; violinist; music educator; chapel master; orchestra leader; court musician; symphonist; mass composer,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron saint of music; musician,Q639669,Q639669,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; master of Corelli; music educator,Q36834;Q355493;Q765778;Q1259917;Q21680731,Q36834;Q16145150,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist,Q36834;Q899758;Q1259917,Q36834;Q1259917,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera writer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; composer; music educator,Q36834;Q486748;Q1231865,Q486748;Q36834;Q16145150,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,monarch; king,Q82955;Q1097498;Q10732476;Q15472169,Q116;Q12097,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,Minor Canon; Organist,Q49757,Q6869158;Q765778,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,Sub-Dean; cleric; organist,Q2865819,Q11827459;Q765778,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q765778,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q33999;Q1320883;Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,poet,Q36180;Q49757;Q82955;Q214917;Q6625963;Q8178443;Q12144794,Q49757,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; music educator; musicologist; virtuoso,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627;Q214970,0.8571428571428571,0.6666666666666666,0.75,6,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; private secretary; treasurer; music educator,Q36834;Q158852;Q486748,Q36834;Q7246152;Q388338;Q16145150,0.25,0.3333333333333333,0.28571428571428575,1,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; songwriter,Q36834;Q158852;Q1076502,Q36834;Q753110,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; teacher; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q37226;Q14915627,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,private secretary; Treasurer of Her Majesty’s Opera,Q36834;Q158852;Q486748,Q7246152,0.0,0.0,0.0,0,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor,Q36834;Q37226;Q158852,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,monarch; patron,Q116;Q82955;Q2478141;Q10732476,Q116;Q516590,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; musician; opera producer,Q36834;Q158852;Q1198887;Q18814623,Q36834;Q158852;Q639669,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; music educator; virtuoso,Q36834,Q36834;Q486748;Q16145150;Q214970,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; pianist; violinist; conductor; teacher; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q486748;Q1259917;Q158852;Q37226;Q14915627,0.5714285714285714,0.6666666666666666,0.6153846153846153,4,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; leader,Q36834;Q765778;Q1028181;Q16145150,Q158852;Q1251441,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q177220;Q2643890;Q2865819,Q177220;Q21169216,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor,Q36834;Q765778;Q1028181;Q16145150,Q158852,0.0,0.0,0.0,0,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera performer; celebrity,Q805221;Q2490358;Q2865819,Q177220;Q211236,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; opera singer; vocalist,Q36834,Q177220;Q2865819;Q2643890,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,manager; music director; impresario; concert promoter; artistic director; conductor; educator; music critic; opera producer,Q14284;Q943995;Q3029406;Q39020112,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer,Q36834;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q486748;Q1643514,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; choirmaster; teacher,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778;Q1076502;Q37226,0.75,0.2727272727272727,0.39999999999999997,3,1,8,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; conductor; pianist; violinist; teacher; music theorist; musicologist; virtuoso; artist; educator; creator; intellectual; performer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; impresario; music director,Q943995,Q158852;Q3029406;Q1198887,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; orchestra leader,Q36834;Q158852;Q486748;Q1231865,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,vocalist; musician,Q36180;Q36834;Q177220;Q1259917;Q2865819,Q2643890;Q639669,0.0,0.0,0.0,0,2,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,soloist; vocalist; instrumentalist,Q2865819,Q1371914;Q2643890;Q1278335,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; concertmaster; teacher; composer,Q1259917,Q1259917;Q691031;Q37226;Q36834,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; concertmaster; violinist; music educator,Q36834;Q158852;Q486748;Q1231865,Q158852;Q691031;Q1259917;Q16145150,0.25,0.25,0.25,1,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; music teacher,Q36834;Q37226;Q158852;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q2675537,0.6,0.42857142857142855,0.5,3,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; artiste; musician,Q2865819,Q177220;Q639669,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; artiste; opera singer; performer,Q2865819,Q177220;Q2865819;Q713200,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; cantatrice,Q2865819,Q177220;Q2936570,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor; composer; director,Q36834;Q158852;Q1622272;Q13219637,Q158852;Q36834;Q705996,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; organist; professor of music,Q36180;Q36834;Q1350157;Q14915627;Q16031530;Q16145150,Q36834;Q158852;Q765778;Q81759238,0.25,0.16666666666666666,0.2,1,3,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist,Q36834;Q16145150,Q36834;Q486748,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist,Q486748,Q486748,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; music critic; teacher; musicologist; editor; publisher; organist; violinist; choir director; harpsichordist; music educator,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,organist,Q36834;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; performer; virtuoso; musician,Q36834;Q486748;Q2350126;Q2865819,Q177220;Q713200;Q214970;Q639669,0.0,0.0,0.0,0,4,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q2865819,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; violinist; teacher; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q37226;Q14915627,0.5,0.5,0.5,3,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator,Q36834;Q158852;Q333634;Q486748;Q1350157;Q1622272;Q2490358;Q8178443;Q16145150;Q18814623;Q18939491,Q36834;Q158852;Q16145150,1.0,0.2727272727272727,0.42857142857142855,3,0,8,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q1259917,1.0,0.18181818181818182,0.3076923076923077,2,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist,Q36834;Q486748,Q486748,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; choir director; educator; writer,Q36834,Q36834;Q158852;Q1076502;Q974144;Q36180,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,naval officer; military leader; national hero; admiral,Q82955;Q10669499,Q10669499;Q1402561;Q2916006,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,conductor,Q36834;Q158852;Q486748;Q1622272,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; performer,Q36834;Q177220;Q486748;Q2259451,Q639669;Q713200,0.0,0.0,0.0,0,2,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,painter; artist,Q1028181;Q3391743;Q11569986;Q14623005;Q15296811,Q1028181;Q483501,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,painter; artist,Q214917;Q333634;Q487596;Q984276;Q1028181;Q3387717;Q10862983;Q14623005;Q15296811,Q1028181;Q483501,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; teacher; music theorist,Q36834;Q158852;Q765778,Q36834;Q37226;Q16031530,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; artist,Q2865819,Q177220;Q483501,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q36834;Q2865819;Q16145150,Q177220;Q21169216,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; tenor,Q2865819,Q177220;Q27914,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; artist,Q36834;Q2865819,Q177220;Q483501,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,inventor; organist; clergyman,Q1955150,Q205375;Q765778,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; concertmaster; composer; teacher,Q36834;Q691031;Q1259917,Q1259917;Q691031;Q36834;Q37226,0.75,1.0,0.8571428571428571,3,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,violinist; musician; composer; teacher; arts contributor,Q36834;Q1259917;Q2675537;Q3153559,Q1259917;Q639669;Q36834;Q37226,0.5,0.5,0.5,2,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,patron; monarch; ruler; benefactor,Q116;Q82955;Q2478141;Q10732476,Q516590;Q116;Q1097498;Q4887411,0.25,0.25,0.25,1,3,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; organist; harpsichordist; choirmaster; violinist; teacher; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator; violinist; harpsichordist; organist; choir director; virtuoso; musicologist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; teacher; musician,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q37226;Q639669,0.8,0.6666666666666666,0.7272727272727272,4,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; pianist; opera writer,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q639669;Q486748,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; conductor; music educator; musicologist,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q639669;Q158852;Q16145150;Q14915627,0.8,0.8,0.8000000000000002,4,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; virtuoso; teacher; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q486748;Q214970;Q37226;Q14915627,0.3333333333333333,0.3333333333333333,0.3333333333333333,2,4,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; actor,Q36834;Q765778,Q36834;Q33999,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; director; violinist; teacher,Q36834,Q36834;Q705996;Q1259917;Q37226,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q37226;Q215793,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; virtuoso,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748;Q214970,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; violinist; teacher; musicologist; choir director; organist; harpsichordist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q765778,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; harpsichordist; teacher; music theorist,Q36834;Q765778;Q5371902,Q36834;Q486748;Q5371902;Q37226;Q16031530,0.4,0.6666666666666666,0.5,2,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; concertmaster,Q36834;Q899758;Q1259917,Q36834;Q1259917;Q691031,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; teacher; conductor,Q36834,Q36834;Q1259917;Q37226;Q158852,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; organist; harpsichordist; music educator; choir director,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q765778;Q5371902;Q16145150;Q1076502,0.42857142857142855,0.42857142857142855,0.42857142857142855,3,4,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; organist; violinist; harpsichordist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q214970;Q765778;Q1259917;Q5371902;Q16145150,1.0,0.5454545454545454,0.7058823529411764,6,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; vocalist; teacher; impresario,Q36834;Q16145150,Q36834;Q2643890;Q37226;Q3029406,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q13219637,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,music critic; historian; writer,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q1350157;Q201788;Q36180,0.6666666666666666,0.2857142857142857,0.4,2,1,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,master; teacher; musician; composer; performer,Q36834,Q635788;Q37226;Q639669;Q36834;Q713200,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; performer; instrumentalist; vocalist,Q36834;Q13219637;Q16145150,Q639669;Q713200;Q1278335;Q2643890,0.0,0.0,0.0,0,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; performer,Q639669,Q639669;Q713200,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator,Q36834;Q158852;Q1259917;Q1622272;Q16145150;Q21680663,Q36834;Q158852;Q16145150,1.0,0.5,0.6666666666666666,3,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; pianist; conductor; teacher; music theorist; organist; choir director; music critic; librettist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist; pianist; conductor; teacher; musicologist; music educator,Q36834,Q36834;Q1259917;Q486748;Q158852;Q37226;Q14915627;Q16145150,0.14285714285714285,1.0,0.25,1,6,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834;Q158852;Q1198887;Q18814623,Q36834;Q21680731,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; violinist; harpsichordist; organist; choir director; music educator; musicologist; virtuoso; concertmaster; school teacher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834,Q36834;Q21680731,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; music educator,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q158852;Q16145150,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; oboist; composer; performer,Q36834;Q16003954,Q639669;Q16003954;Q36834;Q713200,0.5,1.0,0.6666666666666666,2,2,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; concertmaster; solo performer; violinist; harpsichordist; music educator,Q36834;Q19760296,Q36834;Q691031;Q1259917;Q5371902;Q16145150,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; performer,Q36834;Q43845;Q486748;Q2516866,Q36834;Q486748;Q713200,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; solo performer; orchestra member,Q639669,Q639669,1.0,1.0,1.0,1,0,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; solo performer; violist,Q36834;Q13219637,Q639669;Q899758,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor,Q36834;Q486748;Q1643514,Q36834;Q158852,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; author,Q36180;Q36834;Q37226;Q49757,Q36834;Q482980,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; virtuoso; conductor; teacher; musicologist; violinist; keyboardist; choir director; orchestra leader; chamber musician,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,"composer; virtuoso; pianist; conductor; teacher; musicologist; music educator; violinist; organist; harpsichordist; orchestra leader; choir director; }},
+However, to strictly adhere to the instruction, the semicolon-separated list should be:
+
+composer; virtuoso; pianist; conductor; teacher; musicologist; music educator; violinist; organist; harpsichordist; orchestra leader; choir director",Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; conductor; violinist; teacher; music theorist,Q36834,Q36834;Q486748;Q158852;Q1259917;Q37226;Q16031530,0.16666666666666666,1.0,0.2857142857142857,1,5,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q639669,0.5,0.09090909090909091,0.15384615384615385,1,1,10,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q486748;Q12902372;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; poet; bishop; literary figure; collector; publisher; writer,Q36180;Q42603;Q49757;Q187865;Q333634;Q3243461;Q14915627,Q36834;Q49757;Q4917468;Q3243461;Q2516866;Q36180,0.5,0.42857142857142855,0.4615384615384615,3,3,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; vocalist; performer,Q36834;Q2865819,Q177220;Q2643890;Q713200,0.0,0.0,0.0,0,3,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; violinist; conductor; composer; pianist; music educator; musician,Q13219637;Q16145150,Q177220;Q1259917;Q158852;Q36834;Q486748;Q16145150;Q639669,0.14285714285714285,0.5,0.22222222222222224,1,6,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; pianist,Q1259917,Q639669;Q486748,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,musician; performer,Q36834;Q13219637,Q639669;Q713200,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; conductor,Q36834;Q486748;Q765778;Q1076502;Q16145150,Q486748;Q158852,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; choirmaster; musician; teacher; theorist; practitioner of church music,Q36834;Q765778;Q21680663,Q36834;Q765778;Q1076502;Q639669;Q37226;Q18931911,0.3333333333333333,0.6666666666666666,0.4444444444444444,2,4,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; choir director; music educator,Q36834,Q36834;Q158852;Q1076502;Q16145150,0.25,1.0,0.4,1,3,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; violinist; harpsichordist; music educator; choir director,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778;Q1259917;Q5371902;Q16145150;Q1076502,1.0,0.5454545454545454,0.7058823529411764,6,0,5,RAG,RAG
+contriever,qwen_qwen-2,NIL,director; music educator,Q36834;Q158852;Q1259917,Q705996;Q16145150,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; educator; professor; musicologist,Q36834;Q1622272;Q16145150;Q21680663,Q36834;Q158852;Q974144;Q19788990;Q14915627,0.2,0.25,0.22222222222222224,1,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer,Q36834;Q1350157,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; actress,Q36834;Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; conductor; pianist; organist; music educator; musicologist; violinist; choir director; harpsichordist; virtuoso; concertmaster; school teacher,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; opera composer; musician; artist; theatrical producer,Q36180;Q36834;Q82955;Q158852,Q36834;Q21680731;Q639669;Q483501;Q1759246,0.2,0.25,0.22222222222222224,1,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,musicologist; critic; historian; writer,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,Q14915627;Q6430706;Q201788;Q36180,0.5,0.16666666666666666,0.25,2,2,10,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; organist; teacher,Q36834;Q765778;Q1622272;Q16145150,Q36834;Q765778;Q37226,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician; virtuoso; conductor; pianist; teacher; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q214970;Q158852;Q486748;Q37226;Q16031530,0.42857142857142855,0.5,0.4615384615384615,3,4,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q765778;Q14915627;Q16031530,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; musician,Q36834;Q37226;Q177220;Q765778,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; master of the chapel,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,lithographer; artist,Q644687;Q1028181;Q16947657,Q16947657;Q483501,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,soldier; claimant to the throne; prince; Stuart pretender; Jacobite leader,Q845929;Q1402561,Q4991371;Q12886381,0.0,0.0,0.0,0,2,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; arranger,Q36834;Q158852,Q36834;Q1643514,0.5,0.5,0.5,1,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,prince; duke; music patron; music lover,Q611644,Q12886381;Q58481980;Q21625815,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,Duke; Prince; Music Patron,Q82955,Q58481980;Q12886381,0.0,0.0,0.0,0,2,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,scholar; pupil; music enthusiast; nobleman; Earl,Q82955,Q2248623;Q48282;Q16744001,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,music teacher; composer; music theorist,Q36834;Q14915627;Q16031530,Q2675537;Q36834;Q16031530,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violoncellist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; music critic; teacher; conductor,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q1350157;Q37226;Q158852,0.8,0.5714285714285714,0.6666666666666666,4,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; violinist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q1259917,1.0,0.18181818181818182,0.3076923076923077,2,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; pianist; violinist,Q36834;Q486748,Q36834;Q486748;Q1259917,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q37226;Q486748,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; songwriter,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q753110,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; songwriter,Q36834;Q158852;Q486748,Q36834;Q753110,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+contriever,qwen_qwen-2,NIL,pianist; composer; teacher; conductor; concertmaster; music director; virtuoso; accompanist; arranger; music publisher; music critic; music educator,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+contriever,qwen_qwen-2,NIL,lecturer; vocalist; music critic; judge of music; educator,Q36180;Q40348;Q49757;Q1930187;Q4263842;Q4964182,Q1569495;Q2643890;Q1350157;Q974144,0.0,0.0,0.0,0,4,6,RAG,RAG
+contriever,qwen_qwen-2,NIL,arranger; musician,Q36834;Q765778;Q16145150,Q1643514;Q639669,0.0,0.0,0.0,0,2,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer,Q36834;Q37226;Q158852;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,soprano; opera singer; concert singer,Q177220;Q2865819;Q16145150;Q21680731,Q2865819;Q1783698,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; vocalist; performer,Q2865819,Q177220;Q2643890;Q713200,0.0,0.0,0.0,0,3,1,RAG,RAG
+contriever,qwen_qwen-2,NIL,singer; tenor,Q177220,Q177220;Q27914,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+contriever,qwen_qwen-2,NIL,composer; songwriter; music publisher,Q36834;Q158852,Q36834;Q753110;Q222836,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG

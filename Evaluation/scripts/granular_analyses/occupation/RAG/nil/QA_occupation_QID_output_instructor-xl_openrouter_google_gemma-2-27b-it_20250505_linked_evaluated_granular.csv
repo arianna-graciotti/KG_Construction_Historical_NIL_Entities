@@ -1,0 +1,853 @@
+retriever,llm,entity_type,llm_answer,qid_gold_true,linked_qid,sample_precision,sample_recall,sample_f1,TP,FP,FN,approach,approach_display
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; violinist; teacher,Q36834,Q36834;Q1259917;Q37226,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,official; courtier; administrator,Q82955,Q599151;Q1511216;Q358832,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: organist,Q36834,Q765778,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; composer; organist; choirmaster; teacher,Q36834;Q13424456,Q158852;Q36834;Q765778;Q1076502;Q37226,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; composer; concertmaster; conductor; music director; educator,Q36834;Q1259917;Q2675537;Q3153559,Q1259917;Q36834;Q691031;Q158852;Q1198887;Q974144,0.3333333333333333,0.5,0.4,2,4,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music theorist; harpsichordist,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q16031530;Q5371902,1.0,0.42857142857142855,0.6,3,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,chorister; lay clerk; singing man; organist,Q36834;Q765778,Q1076502;Q6505410;Q765778,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; virtuoso; impresario,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q214970;Q3029406,0.4,0.2857142857142857,0.3333333333333333,2,3,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; pianist; violinist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q1259917,0.75,0.3333333333333333,0.46153846153846156,3,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q16145150,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist,Q36834;Q486748;Q765778,Q36834;Q765778,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:adaptor; librettist,Q49757;Q753110,Q8178443,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; arranger,Q36834;Q158852,Q36834;Q1643514,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; organist; musician,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q765778;Q639669,0.6666666666666666,0.2857142857142857,0.4,2,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; organist; singer; principal,Q36834;Q118865;Q12800682;Q14915627;Q16145150;Q97572814,Q639669;Q765778;Q177220;Q7245049,0.0,0.0,0.0,0,4,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; singer,Q36834;Q16145150,Q639669;Q177220,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q765778;Q1622272;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist,Q36834;Q486748;Q765778,Q36834;Q765778,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer,Q36834;Q765778;Q14915627;Q16145150;Q21680663,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: concert_organizer; conductor; music_patron,Q82955,Q158852,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: author; editor; historian;  music critic,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q482980;Q1607826;Q201788;Q1350157,0.25,0.14285714285714285,0.18181818181818182,1,3,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; virtuoso; violinist; pianist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q214970;Q1259917;Q486748,0.6,0.3333333333333333,0.42857142857142855,3,2,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; arranger; music adaptator,Q639669;Q1028181,Q36834;Q1643514,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; conductor; pianist; organist; violinist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q1259917,0.8,0.4444444444444444,0.5714285714285714,4,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: journalist; editor; writer,Q1930187,Q1930187;Q1607826;Q36180,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; pianist; Connoisseur,Q36834,Q36834;Q486748;Q1126160,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852;Q14915627;Q16145150;Q18931911;Q19723482,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q37226;Q177220;Q486748;Q16145150,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q1259917,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q639669,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music arranger,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q1643514,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,poet; librettist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q49757;Q8178443,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:psalmist; composer; poet,Q36180;Q49757;Q333634,Q36834;Q49757,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:librettist; poet; playwright,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q8178443;Q49757;Q214917,1.0,0.5,0.6666666666666666,3,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,author; historian; musician,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q482980;Q201788;Q639669,0.3333333333333333,0.14285714285714285,0.2,1,2,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; impresario,Q36834;Q158852;Q1198887,Q36834;Q158852;Q3029406,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834,Q36834;Q158852,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,historian; author; writer,Q201788,Q201788;Q482980;Q36180,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; patron,Q158852;Q177220;Q639669;Q765778;Q1028181,Q36834;Q516590,0.0,0.0,0.0,0,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer;actress;opera singer,Q177220;Q2865819,Q177220;Q21169216;Q2865819,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; chapel master,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Bart; patron of arts,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;poet;librettist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q49757;Q8178443,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; arranger; translator; music editor,Q36834;Q482980;Q5697103,Q36834;Q1643514;Q333634;Q6941738,0.25,0.3333333333333333,0.28571428571428575,1,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; conductor; choir director,Q36834;Q1076502;Q1278335,Q36834;Q765778;Q158852;Q1076502,0.5,0.6666666666666666,0.5714285714285715,2,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer; conductor,Q36834;Q1259917;Q2675537;Q3153559,Q1259917;Q36834;Q158852,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: censor; government official,Q82955,Q12377291;Q8985067,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; conductor; examiner,Q36834;Q158852;Q765778;Q16145150,Q36834;Q158852;Q95674799,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Principal; Conductor,Q36834;Q16145150,Q7245049;Q158852,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; librettist; music director,Q36834;Q158852;Q177220,Q36834;Q8178443;Q1198887,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musician; composer; performer,Q36834;Q1259917,Q639669;Q36834;Q713200,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: pianist; composer,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q486748;Q36834,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Esquire; music patron,Q36834;Q158852;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: philanthropist; collector; aristocrat,Q82955;Q10732476;Q14915627,Q12362622;Q3243461;Q2478141,0.0,0.0,0.0,0,3,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer; vocalist,Q2865819,Q177220;Q713200;Q2643890,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; musician; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q158852;Q639669;Q16145150,0.75,0.6,0.6666666666666665,3,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator,Q36834,Q36834;Q16145150,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; singer; performer,Q158852;Q1836630,Q639669;Q177220;Q713200,0.0,0.0,0.0,0,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; teacher; vocal pedagogue,Q37226;Q39631;Q177220;Q205375;Q1836630;Q2350126;Q2865819,Q177220;Q37226,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q37226;Q158852;Q16145150,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;artist; illustrator; portraitist,Q82955;Q483501;Q984276;Q1028181,Q483501;Q644687;Q21178131,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician; teacher,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q639669;Q37226,0.3333333333333333,0.2,0.25,1,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; musician,Q36834,Q177220;Q639669,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834;Q765778;Q5371902;Q81759238,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,librarian; musicologist; collector,Q36834;Q14915627;Q16031530,Q182436;Q14915627;Q3243461,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; violinist; pianist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q486748,0.75,0.3333333333333333,0.46153846153846156,3,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834;Q486748;Q885122,Q36834;Q486748,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: Sub-Dean; cleric,Q36180,Q11827459,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer; teacher,Q36834;Q177220;Q899758;Q1259917,Q1259917;Q36834;Q37226,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q177220;Q486748;Q14915627,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;music teacher; composer; contrapuntist,Q36834;Q158852;Q1198887;Q14915627;Q16031530,Q2675537;Q36834,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;director; music teacher,Q36834;Q177220;Q765778,Q705996;Q2675537,0.0,0.0,0.0,0,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; virtuoso; conductor; violinist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q765778;Q214970;Q158852;Q1259917,0.6,0.42857142857142855,0.5,3,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q765778;Q14915627;Q16145150;Q21680663,Q36834;Q158852,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;musician; music critic; writer; historian; biographer,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q639669;Q1350157;Q36180;Q201788;Q864380,0.4,0.2857142857142857,0.3333333333333333,2,3,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music director,Q36834,Q36834;Q1198887,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; composer,Q36834,Q1259917;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer,Q36834,Q1259917;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer,Q36834;Q691031;Q1259917,Q1259917;Q36834,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; violinist,Q36834;Q1259917,Q639669;Q1259917,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; composer,Q36834;Q1259917,Q1259917;Q36834,1.0,1.0,1.0,2,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q765778,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: revolutionary; general; politician; nationalist,Q36180;Q47064;Q82955;Q178197;Q1397808;Q18814623,Q3242115;Q83460;Q82955,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,registrar; agent,Q36834;Q765778;Q16145150,Q2322151;Q109555060,0.0,0.0,0.0,0,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,theatre manager; impresario,Q943995,Q1776724;Q3029406,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:clarinetist; musician,Q36834;Q118865,Q118865;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q16145150,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; virtuoso; concertmaster; organist; piano player; conductor,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q214970;Q691031;Q765778;Q158852,0.4,0.3333333333333333,0.3636363636363636,2,3,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera composer,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q21680731,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q639669,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator,Q36834,Q36834;Q16145150,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; soprano; opera singer,Q36834;Q2865819,Q177220;Q2865819,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: poet; lyricist,Q36180;Q49757;Q609016;Q26237228,Q49757;Q822146,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer;,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; music director; conductor,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q36834;Q1198887;Q158852,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; arranger,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q1643514,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; performer; singer; entertainer,Q639669,Q639669;Q713200;Q177220;Q138858,0.25,1.0,0.4,1,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; virtuoso; performer,Q36834;Q158852;Q765778;Q81759238,Q36834;Q158852;Q214970;Q713200,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera writer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;singer; actress,Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer; soprano; actress,Q2643890;Q2865819,Q177220;Q2865819;Q21169216,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: poet; songwriter,Q36180;Q49757;Q182436;Q8178443,Q49757;Q753110,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: founder,Q36180;Q808967;Q20669622,Q4479442,0.0,0.0,0.0,0,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; violinist; organist; choir director; harpsichordist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q1259917;Q765778;Q1076502;Q5371902,0.6666666666666666,0.5714285714285714,0.6153846153846153,4,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; virtuoso; conductor,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,Q36834;Q486748;Q214970;Q158852,1.0,0.5,0.6666666666666666,4,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;vicechairman; musician,Q49757,Q639669,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;violinist;composer,Q36834,Q1259917;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; director; organist; music theorist,Q36834;Q158852;Q1259917,Q36834;Q158852;Q705996;Q765778;Q16031530,0.4,0.6666666666666666,0.5,2,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; chapel master,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,vocalist; singer,Q2865819,Q2643890;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; singer,Q2865819,Q2643890;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:soprano; singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; singer,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q2643890;Q177220,0.0,0.0,0.0,0,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist,Q36834;Q158852,Q1259917,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician; pianist; violinist; organist; conductor; teacher,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q486748;Q1259917;Q765778;Q158852;Q37226,0.7142857142857143,0.8333333333333334,0.7692307692307692,5,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; music theorist; writer,Q36180;Q36834;Q49757;Q158852;Q486748;Q1350157;Q3387717;Q8178443;Q11774202;Q18814623;Q18939491,Q36834;Q158852;Q16031530;Q36180,0.75,0.2727272727272727,0.39999999999999997,3,1,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q16145150,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music teacher,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q2675537,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist; music teacher,Q36834,Q1259917;Q2675537,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; maestro,Q36834;Q158852;Q1259917,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer; performer; actor,Q177220;Q2865819,Q177220;Q2865819;Q713200;Q33999,0.5,1.0,0.6666666666666666,2,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; editor; music publisher,Q36834;Q765778,Q36834;Q1607826;Q222836,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,poet; writer,Q11063;Q36180;Q49757;Q170790;Q4263842,Q49757;Q36180,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36180;Q753110;Q17505902,Q36834;Q639669,0.0,0.0,0.0,0,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834;Q158852;Q806349;Q14915627,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; harpsichordist; violinist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q5371902;Q1259917,0.8,0.5714285714285714,0.6666666666666666,4,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,philosopher; essayist; statesman; scientist; author; lawyer,Q901;Q16533;Q36180;Q40348;Q82955;Q155647;Q201788;Q4964182,Q4964182;Q11774202;Q372436;Q901;Q482980;Q40348,0.5,0.375,0.42857142857142855,3,3,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;writer;essayist;politician;playwright;poet;cartoonist;editor,Q36180;Q49757;Q82955;Q214917;Q1607826;Q1930187;Q3589290;Q8178443;Q11774202,Q36180;Q11774202;Q82955;Q214917;Q49757;Q1114448;Q1607826,0.8571428571428571,0.6666666666666666,0.75,6,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,philosopher; writer; professor,Q36180;Q170790;Q201788;Q1622272;Q4964182,Q4964182;Q36180;Q19788990,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,linguist; indologist; orientalist; philologist; jurist; professor; antiquarian; philosopher,Q16533;Q36180;Q49757;Q82955;Q333634;Q1731155;Q2374149;Q4773904;Q14467526,Q14467526;Q18524037;Q1731155;Q13418253;Q185351;Q19788990;Q5697103;Q4964182,0.25,0.2222222222222222,0.23529411764705882,2,6,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; pianist; organist; violinist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q1259917,0.8,0.4444444444444444,0.5714285714285714,4,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer;violinist;music teacher;concertmaster,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,Q36834;Q1259917;Q2675537;Q691031,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; virtuoso,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q486748;Q214970,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; music educator,Q36834;Q765778;Q16145150,Q36834;Q158852;Q765778;Q16145150,0.75,1.0,0.8571428571428571,3,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; music educator,Q36834,Q36834;Q158852;Q765778;Q16145150,0.25,1.0,0.4,1,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; music educator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q158852;Q765778;Q16145150,0.75,0.42857142857142855,0.5454545454545454,3,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist,Q36834;Q486748;Q16145150,Q36834;Q765778,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; music critic; writer; musical editor,Q36834;Q486748,Q36834;Q158852;Q1350157;Q36180;Q6941738,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; pianist; organist,Q36834;Q37226;Q158852;Q16145150,Q36834;Q158852;Q486748;Q765778,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; actress,Q2643890;Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music teacher,Q36834;Q5371902,Q36834;Q2675537,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music teacher,Q36834;Q16145150,Q36834;Q2675537,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: theatre official; censor,Q82955,Q12377291,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; songwriter,Q753110,Q36834;Q753110,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Opera singer; actress,Q177220;Q2865819,Q2865819;Q21169216,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Musician; Composer; Musicologist,Q36834;Q765778,Q639669;Q36834;Q14915627,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q2865819,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q899758;Q1259917,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;musician;composer;conductor;pianist;violinist,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q639669;Q36834;Q158852;Q486748;Q1259917,0.6,0.6,0.6,3,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist,Q36834;Q765778,Q36834;Q765778,1.0,1.0,1.0,2,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; librettist,Q36834;Q37226;Q215793,Q36834;Q8178443,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q16145150,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834,Q36834;Q158852,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer; actress,Q2865819,Q177220;Q2865819;Q21169216,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: physician; musician,Q2478141,Q39631;Q639669,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q158852;Q486748;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; music educator,Q36834;Q158852;Q177220;Q330679;Q765778;Q5758653,Q36834;Q765778;Q16145150,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer,Q33999;Q2259451;Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; composer; musician,Q33999;Q2865819,Q177220;Q36834;Q639669,0.0,0.0,0.0,0,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; castrato; stage actor; musician,Q33999;Q2259451;Q2865819;Q3387717;Q20083902,Q177220;Q2259451;Q639669,0.3333333333333333,0.2,0.25,1,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; opera singer,Q36834;Q2865819,Q177220;Q2865819,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;singer;opera singer,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: opera singer; tenor,Q2865819,Q2865819;Q27914,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,organist; clergyman; priest,Q1955150,Q765778;Q831474,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; performer,Q33999;Q2259451;Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer; soprano; actress,Q2865819,Q177220;Q2865819;Q21169216,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; violinist,Q36834;Q765778;Q5371902,Q36834;Q1259917,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; singer,Q177220,Q2643890;Q177220,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; singer,Q177220,Q2643890;Q177220,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; singer,Q177220;Q2865819,Q2643890;Q177220,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,addProduct;,Q49757;Q13424456,,0.0,0.0,0.0,0,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,author; poet; novelist; playwright; historian,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,Q482980;Q49757;Q6625963;Q214917;Q201788,0.8,0.2857142857142857,0.4210526315789473,4,1,10,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;music director,Q36834;Q158852,Q1198887,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: poet; writer; editor; compiler,Q36180;Q49757;Q182436;Q8178443,Q49757;Q36180;Q1607826;Q29514511,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;physician; surgeon; lawyer,Q36834,Q39631;Q774306;Q40348,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; pianist; composer; conductor,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q639669;Q486748;Q36834;Q158852,0.75,0.3333333333333333,0.46153846153846156,3,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:Chapel Master; composer; music director,Q36834,Q36834;Q1198887,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; student,Q36834,Q639669;Q48282,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,royalty,Q2478141,Q11573099,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; composer; conductor; music educator,Q36834;Q16145150,Q639669;Q36834;Q158852;Q16145150,0.5,1.0,0.6666666666666666,2,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: organist; composer; music critic; music editor,Q36834;Q486748,Q765778;Q36834;Q1350157;Q6941738,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; musician,Q36834;Q765778,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; music critic; editor; musician,Q36834;Q158852;Q486748,Q36834;Q1350157;Q1607826;Q639669,0.25,0.3333333333333333,0.28571428571428575,1,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; pianist; singer; music educator,Q36834;Q37226,Q36834;Q158852;Q765778;Q486748;Q177220;Q16145150,0.16666666666666666,0.5,0.25,1,5,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; music educator,Q36834;Q765778,Q36834;Q158852;Q16145150,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; music teacher,Q36834;Q177220;Q1836630;Q1999862;Q2865819;Q16145150,Q177220;Q2675537,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: ambassador,Q82955;Q193391,Q121998,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: nobleman; aristocrat,Q82955;Q2478141,Q16744001;Q2478141,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Conductor; musician,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,Q158852;Q639669,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; conductor; leader,Q36834;Q43845;Q486748;Q2516866,Q36834;Q158852;Q1251441,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;conductor;composer,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q158852;Q36834,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera composer,Q36834,Q36834;Q21680731,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera composer,Q36834;Q486748;Q1323191;Q2490358;Q2707485,Q36834;Q21680731,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; virtuoso; music teacher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q214970;Q2675537,0.5,0.2222222222222222,0.30769230769230765,2,2,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; composer,Q2865819,Q177220;Q36834,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician; organist; pianist; violist; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q765778;Q486748;Q899758;Q1259917,0.8333333333333334,0.8333333333333334,0.8333333333333334,5,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer,Q36834;Q37226;Q1259917;Q1622272;Q16145150,Q1259917;Q36834,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,bandleader; conductor; musician,Q36834;Q158852;Q762707;Q13219637,Q806349;Q158852;Q639669,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852,Q36834;Q158852,1.0,1.0,1.0,2,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,King; monarch,Q116;Q82955,Q12097;Q116,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer; musician,Q36834,Q1259917;Q36834;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: nobleman; patron of the arts,Q82955;Q12299841,Q16744001;Q15472169,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist; composer,Q36834,Q1259917;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; composer,Q36834;Q215793;Q805221;Q805253;Q1259917;Q2490358;Q2675537;Q5716684,Q1259917;Q36834,1.0,0.25,0.4,2,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:clarinettist; musician,Q36834;Q118865;Q639669,Q118865;Q639669,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: physician; music critic; professor,Q36834;Q39631,Q39631;Q1350157;Q19788990,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,poet; songwriter,Q36180;Q49757;Q182436;Q8178443,Q49757;Q753110,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; opera director,Q36834;Q1259917,Q158852;Q3029406,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,author; poet; historian; novelist,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,Q482980;Q49757;Q201788;Q6625963,0.75,0.21428571428571427,0.3333333333333333,3,1,11,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; composer; violinist,Q36834;Q158852;Q1622272;Q12310971;Q14915627;Q16145150,Q639669;Q36834;Q1259917,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: royal; philanthropist,Q82955;Q1475726;Q2478141,Q12362622,0.0,0.0,0.0,0,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; pianist; music teacher,Q36834;Q158852;Q486748,Q36834;Q158852;Q765778;Q486748;Q2675537,0.6,1.0,0.7499999999999999,3,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;pianist; composer,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q486748;Q36834,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musicians; performer; cellist,Q36834;Q158852;Q13219637;Q16145150,Q713200;Q13219637,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: organist,Q36834;Q765778;Q1622272;Q16145150,Q765778,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:examiner; principal; professor,Q36834;Q13424456,Q95674799;Q7245049;Q19788990,0.0,0.0,0.0,0,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,prophet; religious leader,Q42857;Q82955;Q215536;Q432386;Q877558;Q1402561;Q12059906,Q42857,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; violinist; concert performer,Q36834;Q158852;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q1259917,0.5,0.14285714285714285,0.22222222222222224,1,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; violinist; harpsichordist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q1259917;Q5371902,0.8,0.5714285714285714,0.6666666666666666,4,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; director,Q47064;Q82955,Q158852;Q705996,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,religious leader; cleric; bishop,Q42603,Q4917468,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor,Q36834,Q158852,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q1231865;Q2490358;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; singer; musician,Q36834,Q36834;Q177220;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer; vocalist,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q713200;Q2643890,0.0,0.0,0.0,0,3,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; baritone,Q36834;Q2259451;Q2865819;Q16145150,Q177220,0.0,0.0,0.0,0,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,royal; patron of the arts,Q116;Q82955;Q2478141;Q10732476,Q15472169,0.0,0.0,0.0,0,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: archbishop; clergyman; religious leader,Q42603,Q49476,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; arranger,Q36834;Q1259917,Q36834;Q1643514,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; conductor; organist; virtuoso; concertmaster; violinist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q214970;Q691031;Q1259917,0.5,0.42857142857142855,0.4615384615384615,3,3,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,military officer; general; soldier,Q1402561,Q189290;Q83460;Q4991371,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: academic administrator; college registrar,Q738142;Q12299841,Q21281706,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q1259917,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musician; composer,Q36834,Q639669;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; maestro; music director,Q36834;Q330679,Q36834;Q1198887,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music editor; arranger; music publisher,Q36834;Q158852;Q222836;Q765778;Q2516866,Q36834;Q6941738;Q1643514;Q222836,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: conductor; patron; royalty,Q47064;Q82955,Q158852;Q516590;Q11573099,0.0,0.0,0.0,0,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,actor; singer,Q33999;Q245068,Q33999;Q177220,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; arranger,Q36834;Q486748;Q16145150,Q36834;Q1643514,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musical antiquarian,Q36834;Q177220;Q639669;Q765778;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer;opera writer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; organist; virtuoso; harpsichordist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q214970;Q5371902,0.6,0.42857142857142855,0.5,3,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; arranger; music publisher,Q36834;Q158852;Q222836;Q765778;Q2516866,Q36834;Q1643514;Q222836,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; choirmaster,Q36834;Q765778,Q36834;Q765778;Q1076502,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: Chapel Master; composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; chapel master,Q36834;Q158852;Q765778,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; arranger; music critic; music theorist; performer,Q36834;Q158852;Q215793;Q1259917,Q36834;Q1643514;Q1350157;Q16031530;Q713200,0.2,0.25,0.22222222222222224,1,4,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,author; soldier; colonial administrator; civil servant; historian; diplomat,Q36180;Q82955;Q201788,Q482980;Q4991371;Q17765219;Q212238;Q201788;Q193391,0.16666666666666666,0.3333333333333333,0.2222222222222222,1,5,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; violinist; music teacher,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q765778;Q1259917;Q2675537,0.5,0.2857142857142857,0.36363636363636365,2,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,vocalist; soprano,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,performer; singer,Q36834;Q2865819;Q16145150,Q713200;Q177220,0.0,0.0,0.0,0,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; violinist; organist; teacher,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q765778;Q37226,0.6,0.3333333333333333,0.42857142857142855,3,2,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,opera singer; vocalist,Q177220;Q2643890;Q2865819,Q2865819;Q2643890,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer; concert singer; actress,Q2865819,Q177220;Q2865819;Q1783698;Q21169216,0.25,1.0,0.4,1,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,opera singer,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer,Q177220;Q2865819,Q177220;Q713200,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer's wife,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Royal; Patron of the Arts,Q116;Q82955;Q2478141;Q10732476,Q15472169,0.0,0.0,0.0,0,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; theoretician,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q18931911,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; pianist; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q486748;Q1259917,0.75,0.5,0.6,3,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q14915627;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,music critic; music historian; writer,Q36834,Q1350157;Q20198542;Q36180,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer;conductor;pianist;organist;music critic; essayist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q1350157;Q11774202,0.6666666666666666,0.4444444444444444,0.5333333333333333,4,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music critic; journalist,Q36834,Q36834;Q1350157;Q1930187,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; musician,Q36834;Q1259917,Q177220;Q639669,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; music arranger; conductor; virtuoso; music teacher,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,Q36834;Q486748;Q1643514;Q158852;Q214970;Q2675537,0.5,0.5,0.5,3,3,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Emperor; Monarch; Ruler,Q116;Q1402561,Q39018;Q116;Q1097498,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; arranger,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q36834;Q1643514,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator,Q36834,Q36834;Q16145150,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Leader; Conductor; Composer,Q36834;Q43845;Q486748;Q2516866,Q1251441;Q158852;Q36834,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,poet; writer,Q49757;Q214917,Q49757;Q36180,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera composer,Q36834;Q765778,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:accompanist; pianist,Q36834;Q486748,Q29448653;Q486748,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: poet; lyricist,Q36180;Q49757;Q214917;Q753110,Q49757;Q822146,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist; composer; music teacher,Q36834;Q486748;Q16145150,Q486748;Q36834;Q2675537,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; virtuoso,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,Q36834;Q486748;Q214970,1.0,0.375,0.5454545454545454,3,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: poet; songwriter; lyricist,Q36180;Q49757;Q1930187;Q14915627,Q49757;Q753110;Q822146,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;poet,Q36180;Q47064;Q49757;Q82955;Q214917;Q333634;Q822146;Q2478141;Q8178443;Q18814623;Q18939491;Q125360586,Q49757,1.0,0.08333333333333333,0.15384615384615385,1,0,11,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,poet; compiler; writer; editor,Q36180;Q49757;Q182436;Q8178443,Q49757;Q29514511;Q36180;Q1607826,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,amateur singer; poet,Q333634;Q639669,Q132125061;Q49757,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: editor; publisher; musician,Q14915627,Q1607826;Q2516866;Q639669,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: novelist; essayist; journalist; translator,Q36180;Q49757;Q201788;Q333634;Q551835;Q774306;Q1930187;Q6625963,Q6625963;Q11774202;Q1930187;Q333634,0.75,0.375,0.5,3,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: poet; songwriter,Q36180;Q49757,Q49757;Q753110,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,poet; songwriter; writer,Q36180;Q49757;Q753110;Q864380;Q6625963,Q49757;Q753110;Q36180,1.0,0.6,0.7499999999999999,3,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,theatre manager; impresario,Q43845;Q998550,Q1776724;Q3029406,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; musician,Q36834;Q13219637,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; violinist; pianist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q486748,0.75,0.3333333333333333,0.46153846153846156,3,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; pianist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748,1.0,0.3333333333333333,0.5,3,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; music critic; conductor; music journalist,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q1350157;Q158852;Q20669622,0.8,0.5714285714285714,0.6666666666666666,4,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; oboist,Q36834;Q16003954,Q639669;Q16003954,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; concert organizer; composer; music director,Q36834;Q182436;Q16003954;Q102104631,Q639669;Q36834;Q1198887,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q215793;Q1162163;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:Kapelmeister; conductor; composer; musician,Q36834;Q158852,Q158852;Q36834;Q639669,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,publisher; music publisher,Q36834;Q37226;Q175151;Q182436;Q2516866;Q40881196,Q2516866;Q222836,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,publisher; music publisher,Q222836,Q2516866;Q222836,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:opera singer; vocalist,Q36834;Q2865819,Q2865819;Q2643890,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; soprano; opera singer,Q36834;Q2865819,Q177220;Q2865819,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: noble; socialite,Q1028181,Q16744001;Q512314,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer; artist,Q2865819,Q177220;Q713200;Q483501,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;music publisher; bookseller,Q36834;Q158852,Q222836;Q998550,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,theatre manager; impresario,Q43845;Q998550,Q1776724;Q3029406,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,opera singer; tenor,Q36834;Q2490358;Q2865819;Q8178443;Q16145150,Q2865819;Q27914,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,opera singer; tenor,Q2865819,Q2865819;Q27914,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer; baritone,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer; basso; bass baritone,Q36834;Q2259451;Q2865819;Q16145150,Q177220;Q2865819,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q2865819,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,poet,Q36180;Q49757;Q131512;Q753110;Q14915627,Q49757,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera writer,Q36834;Q158852;Q1198887,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; concert musician; symphony player,Q36834;Q118865;Q639669;Q1622272;Q16145150,Q639669,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; actress; performer,Q2865819,Q177220;Q21169216;Q713200,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; singer; musician,Q36834;Q158852;Q177220;Q753110;Q2865819,Q36834;Q177220;Q639669,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q1259917;Q36834,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist,Q36834;Q486748;Q753110;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; examiner; professor,Q36834;Q486748;Q16145150,Q639669;Q95674799;Q19788990,0.0,0.0,0.0,0,3,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; pianist,Q36834,Q639669;Q486748,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;author;novelist;poet,Q36180;Q37226;Q49757;Q1540278;Q6625963,Q482980;Q6625963;Q49757,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; music critic; music publisher; conductor; teacher,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q1350157;Q222836;Q158852;Q37226,0.6666666666666666,0.5714285714285714,0.6153846153846153,4,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist,Q36834;Q158852;Q691031;Q899758;Q1259917;Q1622272;Q14915627;Q16145150,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,critic; writer; philosopher,Q43845;Q998550,Q6430706;Q36180;Q4964182,0.0,0.0,0.0,0,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,music-seller,Q222836,,0.0,0.0,0.0,0,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; arranger,Q36834;Q1259917,Q36834;Q1643514,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;violinist,Q36834;Q158852,Q1259917,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; music educator,Q36834,Q36834;Q16145150,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:performer; singer; musician,Q36834;Q177220;Q18814623,Q713200;Q177220;Q639669,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q177220;Q215793;Q765778;Q1076502;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:organist; choirmaster,Q36834;Q765778,Q765778;Q1076502,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer;  music theorist; organist; harpsichordist,Q36834,Q36834;Q16031530;Q765778;Q5371902,0.25,1.0,0.4,1,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; royal court composer,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; music educator,Q36834,Q36834;Q765778;Q16145150,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer,Q33999;Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer,Q177220;Q2865819,Q177220;Q713200,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: performer; singer; musician,Q2865819,Q713200;Q177220;Q639669,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; singer; poet,Q36834;Q486748,Q36834;Q177220;Q49757,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q177220;Q639669;Q806349;Q1259917,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,translator; playwright; adaptor,Q8178443,Q333634;Q214917,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; music director; manager; artist,Q36834,Q36834;Q158852;Q1198887;Q721834;Q483501,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,opera singer; soprano,Q36834;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; violinist;,Q36834;Q158852;Q486748;Q14915627,Q36834;Q1259917,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; pianist; violinist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q1259917,0.75,0.3333333333333333,0.46153846153846156,3,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; violinist,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q1259917,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; pianist,Q36834;Q765778;Q1622272;Q16145150,Q36834;Q765778;Q486748,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer;musician,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q36834;Q639669,0.5,0.14285714285714285,0.22222222222222224,1,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,author; musicologist; historian,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q482980;Q14915627;Q201788,0.6666666666666666,0.2857142857142857,0.4,2,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;harmonist; musician,Q36834;Q1259917,Q639669,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; music teacher,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748;Q2675537,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; violinist,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q1259917,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; virtuoso; music educator,Q36834;Q158852;Q486748,Q36834;Q158852;Q214970;Q16145150,0.5,0.6666666666666666,0.5714285714285715,2,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musician; composer; organist,Q36834;Q765778;Q5371902;Q81759238,Q639669;Q36834;Q765778,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,professor; accompanist,Q36834;Q16145150,Q19788990;Q29448653,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: doctor; physician; writer; music critic,Q36180;Q876864;Q1350157;Q14915627,Q39631;Q39631;Q36180;Q1350157,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musicologist; music cataloger,Q18805;Q36834;Q201788;Q864380;Q1607826;Q2374149;Q13416354;Q14915627;Q20198542,Q14915627;Q113711434,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; singer,Q639669,Q2643890;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; songmaker,Q36834;Q158852;Q177220;Q753110;Q2865819,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; violinist; conductor; music director,Q36834;Q1259917;Q2675537;Q3153559,Q36834;Q1259917;Q158852;Q1198887,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q16031530,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q177220;Q2865819,Q36834,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: lyricist; librettist,Q49757;Q1930187,Q822146;Q8178443,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; concertina player,Q36834;Q713200;Q855091;Q24067349,Q36834;Q88105790,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; conductor,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q158852,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q486748,Q36834;Q158852,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,author; critic; historian; musi Coelho; musician,Q36180;Q1792450;Q14915627;Q20669622,Q482980;Q6430706;Q201788;Q639669,0.0,0.0,0.0,0,4,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; editor,Q36834;Q43845;Q486748;Q2516866,Q36834;Q1607826,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:music patron; violinist; composer,Q36834,Q1259917;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:organist,Q36834;Q765778;Q1930187;Q14915627,Q765778,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:music historian; writer; editor; musicologist,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q20198542;Q36180;Q1607826;Q14915627,0.75,0.42857142857142855,0.5454545454545454,3,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musicologist; music historian,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q36834;Q14915627;Q20198542,0.6666666666666666,0.2857142857142857,0.4,2,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,librarian; collector; composer; musician,Q36834;Q2865819,Q182436;Q3243461;Q36834;Q639669,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: King; patron of the arts,Q82955,Q12097;Q15472169,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:director; conductor,Q36834;Q158852,Q705996;Q158852,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; music teacher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q2675537,0.6666666666666666,0.2222222222222222,0.3333333333333333,2,1,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:pupil; bassoonist,Q36834;Q12310971;Q16145150,Q48282;Q12310971,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,professor; music teacher,Q36834;Q1622272;Q12310971;Q14915627,Q19788990;Q2675537,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: professor; musician; music publisher,Q36834;Q1622272;Q12310971;Q14915627,Q19788990;Q639669;Q222836,0.0,0.0,0.0,0,3,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician; harmonist,Q36834;Q158852;Q765778;Q16145150,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; violinist; singer,Q36180;Q36834;Q214917;Q1259917;Q2962003,Q36834;Q1259917;Q177220,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; harmoinist,Q36834;Q177220;Q215793;Q13219637,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; composer; historian; writer; scholar,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q639669;Q36834;Q201788;Q36180;Q2248623,0.4,0.2857142857142857,0.3333333333333333,2,3,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; musician,Q36834;Q765778;Q2259532;Q13424456,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: music theorist; composer; writer,Q1231865;Q14915627;Q16031530;Q16145150,Q16031530;Q36834;Q36180,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist;composer;concertmaster,Q36834;Q1259917,Q1259917;Q36834;Q691031,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; composer; leader; concertmaster,Q36834;Q1259917;Q2675537;Q3153559,Q1259917;Q36834;Q1251441;Q691031,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:poet; writer,Q36180;Q49757;Q121594;Q333634;Q14467526,Q49757;Q36180,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; music teacher; conductor,Q36834;Q158852;Q486748;Q14915627,Q36834;Q2675537;Q158852,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; violinist; conductor,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q1259917;Q158852,0.75,0.5,0.6,3,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; music director; singer,Q36834,Q36834;Q158852;Q1198887;Q177220,0.25,1.0,0.4,1,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,music teacher; piano teacher,Q36834;Q486748,Q2675537;Q17303149,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,music teacher; piano teacher,Q36834;Q486748,Q2675537;Q17303149,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: founder; patron,Q36834,Q4479442;Q516590,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: organist; composer; conductor; choirmaster,Q36834;Q765778;Q14915627;Q16031530,Q765778;Q36834;Q158852;Q1076502,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:pianist; music teacher,Q36834;Q486748;Q1622272;Q16145150,Q486748;Q2675537,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: revolutionary; leader,Q39631;Q82955;Q193391;Q1622272,Q3242115;Q1251441,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:librettist; writer; dramatist,Q36180;Q36834;Q214917;Q6625963;Q8178443,Q8178443;Q36180;Q214917,1.0,0.6,0.7499999999999999,3,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; opera composer,Q36180;Q36834;Q82955;Q158852,Q36834;Q21680731,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist; composer; virtuoso,Q36834;Q486748,Q486748;Q36834;Q214970,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist; composer; music teacher,Q36834;Q2865819,Q486748;Q36834;Q2675537,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; organist; music educator,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q765778;Q16145150,0.6666666666666666,0.2857142857142857,0.4,2,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Emperor; General; Military leader; Statesman; Politician,Q116;Q39018;Q82955;Q189290;Q372436;Q1402561;Q2304859;Q10732476;Q17010072;Q38239859,Q39018;Q83460;Q1402561;Q372436;Q82955,0.8,0.4,0.5333333333333333,4,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; violinist,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834;Q158852;Q1259917,1.0,0.3333333333333333,0.5,3,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer;opera composer,Q36834;Q215793,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator,Q36834;Q765778,Q36834;Q16145150,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer;,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: opera singer,Q177220;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer; bass; baritone,Q36834;Q2259451;Q2865819;Q16145150,Q177220;Q2865819;Q719678,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:monarch; emperor; tsar,Q116;Q1097498,Q116;Q39018;Q44356,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q765778,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,professor; lecturer,Q40348;Q170790;Q1622272;Q4964182;Q14565331,Q19788990;Q1569495,0.0,0.0,0.0,0,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: mathematician,Q4964182,Q170790,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: mathematician; geometer,Q36180;Q170790,Q170790;Q21772571,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: mathematician; astrologer; physician; gambler; philosopher; writer,Q39631;Q81096;Q155647;Q170790;Q205375;Q4964182,Q170790;Q155647;Q39631;Q9286830;Q4964182;Q36180,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: philosopher; mathematician; astronomer; Dominican friar,Q11063;Q36180;Q49757;Q155647;Q170790;Q1469535;Q1622272;Q4964182,Q4964182;Q170790;Q11063,1.0,0.375,0.5454545454545454,3,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,philosopher;millenarian,Q18805;Q36180;Q39631;Q155647;Q4964182,Q4964182,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: philosopher,Q1234713;Q1238570;Q4964182;Q15991187;Q24262584;Q66060374,Q4964182,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,physicist; mathematician; astronomer; alchemist; theologian; author; professor,Q170790;Q4964182,Q169470;Q170790;Q11063;Q15954519;Q1234713;Q482980;Q19788990,0.14285714285714285,0.5,0.22222222222222224,1,6,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; music director,Q158852;Q16145150,Q158852;Q1198887,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q765778;Q1028181;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer; performer,Q2865819,Q177220;Q2865819;Q713200,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; pianist,Q177220;Q2643890;Q2865819,Q177220;Q486748,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; songwriter,Q49757;Q8178443,Q36834;Q753110,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator,Q36834;Q37226;Q215793;Q486748;Q765778;Q1622272;Q14915627;Q16145150,Q36834;Q16145150,1.0,0.25,0.4,2,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; author; organist; editor;  music critic; church musician,Q36834;Q765778,Q36834;Q482980;Q765778;Q1607826;Q1350157;Q355493,0.3333333333333333,1.0,0.5,2,4,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; organist; musician,Q36834,Q36834;Q765778;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834;Q765778,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; organist; music theorist; music teacher; singer,Q36834;Q765778;Q14915627;Q16031530,Q36834;Q765778;Q16031530;Q2675537;Q177220,0.6,0.75,0.6666666666666665,3,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q214917;Q1076502,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q177220;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; violinist; music educator,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q765778;Q1259917;Q16145150,0.5,0.4,0.4444444444444445,2,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; organist; musician,Q36834;Q765778,Q36834;Q765778;Q639669,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music editor; organist; church musician,Q36834,Q36834;Q6941738;Q765778;Q355493,0.25,1.0,0.4,1,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; organist; music publisher,Q36834;Q765778,Q36834;Q765778;Q222836,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834;Q765778;Q5371902;Q81759238,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,òpera composer,Q36834,Q21680731,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer;musician,Q36834;Q37226;Q215793,Q36834;Q639669,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music teacher,Q36834;Q158852;Q215793;Q765778;Q14915627,Q36834;Q2675537,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: author; composer; musician,Q82955,Q482980;Q36834;Q639669,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; composer,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q1259917;Q36834,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist,Q36834;Q1259917,Q1259917,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:organist,Q158852;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q639669;Q1259917,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer; actress,Q2865819,Q177220;Q713200;Q21169216,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;prima donna; actress; musician; singer,Q2865819,Q21169216;Q639669;Q177220,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,opera singer; soprano,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; violinist,Q36834;Q158852,Q36834;Q158852;Q1259917,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,ruler; aristocrat,Q82955,Q1097498;Q2478141,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;author; novelist,Q36180;Q39631;Q82955;Q6625963,Q482980;Q6625963,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,author; writer,Q36180;Q182436;Q214917;Q1930187;Q6625963,Q482980;Q36180,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; violinist; organist; cellist; singer; harpsichordist,Q36834;Q158852,Q36834;Q158852;Q1259917;Q765778;Q13219637;Q177220;Q5371902,0.2857142857142857,1.0,0.4444444444444445,2,5,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer; soprano,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q2865819,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q806349;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q1622272;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; pianist; performer; composer; conductor,Q36834;Q1259917,Q639669;Q486748;Q713200;Q36834;Q158852,0.2,0.5,0.28571428571428575,1,4,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; conductor; violinist,Q36834;Q43845;Q486748;Q2516866,Q36834;Q486748;Q158852;Q1259917,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; performer; violinist; orchestral musician,Q36834;Q1259917,Q639669;Q713200;Q1259917;Q99460544,0.25,0.5,0.3333333333333333,1,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,music composer; musician,Q36180;Q36834;Q49757,Q36834;Q639669,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; composer,Q36834,Q639669;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musician; composer,Q36834,Q639669;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; composer,Q36180;Q36834;Q49757,Q639669;Q36834,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musician; composer,Q36834,Q639669;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; composer; harmonizer,Q36180;Q36834;Q49757,Q639669;Q36834;Q66356693,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer;  music theorist,Q36834;Q215793,Q36834;Q16031530,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; music educator,Q36834;Q16145150,Q36834;Q16145150,1.0,1.0,1.0,2,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer;musician;singer;serenader,Q36834,Q36834;Q639669;Q177220,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musical professor; composer,Q36834;Q765778;Q5371902;Q81759238,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,King; monarch,Q116;Q36180;Q49757;Q2478141,Q12097;Q116,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q14915627,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; music educator,Q36834;Q177220;Q215793;Q16145150,Q36834;Q765778;Q16145150,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; conductor; musician,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778;Q158852;Q639669,0.75,0.2727272727272727,0.39999999999999997,3,1,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q1259917,1.0,0.5,0.6666666666666666,3,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; conductor,Q36834,Q36834;Q486748;Q158852,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; violinist; impresario,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q3029406,0.75,0.5,0.6,3,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834;Q158852,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Opera Singer; Soprano,Q36834;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer,Q486748;Q1259917;Q2865819;Q16145150,Q177220;Q2865819,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: opera singer; soprano,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:opera singer,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,tenor; singer; vocalist,Q2865819,Q27914;Q177220;Q2643890,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; tenor,Q2865819,Q177220;Q27914,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,rider;,Q2865819,Q15709642,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer; opera singer,Q2865819,Q177220;Q713200;Q2865819,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: opera singer; tenor,Q2865819;Q16145150,Q2865819;Q27914,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: opera singer; tenor,Q2865819,Q2865819;Q27914,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician; conductor,Q36834,Q36834;Q639669;Q158852,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer;violinist,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,Q36834;Q1259917,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834;Q486748,Q36834;Q486748,1.0,1.0,1.0,2,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera composer; librettist,Q36834;Q215793;Q1162163;Q14915627,Q36834;Q21680731;Q8178443,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:adapter; playwright,Q214917,Q61875042;Q214917,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,playwright; poet; actor; poet;,Q214917,Q214917;Q49757;Q33999;Q49757,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator; musician,Q36834,Q36834;Q16145150;Q639669,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; operatic composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778;Q16145150,1.0,0.2727272727272727,0.42857142857142855,3,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; arranger,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q1643514,0.5,0.09090909090909091,0.15384615384615385,1,1,10,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musicologist; music historian; writer; editor,Q36180;Q876864;Q1350157;Q14915627,Q14915627;Q20198542;Q36180;Q1607826,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q639669,0.3333333333333333,0.14285714285714285,0.2,1,2,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; music critic,Q36834;Q486748;Q1350157;Q6430706;Q16145150,Q36834;Q158852;Q1350157,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,music critic; journalist; writer,Q36834;Q1350157;Q21680663,Q1350157;Q1930187;Q36180,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: music journalist; critic; writer,Q36834;Q1350157;Q21680663,Q20669622;Q6430706;Q36180,0.0,0.0,0.0,0,3,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist; composer,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q1259917;Q36834,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; author; music historian; director; professor,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,Q36834;Q482980;Q20198542;Q705996;Q19788990,0.4,0.16666666666666666,0.23529411764705882,2,3,10,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator; conductor,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q16145150;Q158852,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,playwright; poet; philosopher; historian; physician; dramatist,Q36180;Q39631;Q49757;Q182436;Q201788;Q214917;Q333634;Q551835;Q1622272;Q1930187;Q4002666;Q4964182;Q6625963;Q21550346,Q214917;Q49757;Q4964182;Q201788;Q39631;Q214917,1.0,0.35714285714285715,0.5263157894736842,5,0,9,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music director,Q36834;Q1198887;Q1350157;Q14915627,Q36834;Q1198887,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; pianist; violinist,Q36834;Q486748,Q36834;Q486748;Q1259917,0.6666666666666666,1.0,0.8,2,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer;conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; vocalist,Q177220;Q2865819,Q177220;Q2643890,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q16145150,0.5,0.14285714285714285,0.22222222222222224,1,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; harpsichordist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q765778;Q5371902,1.0,0.42857142857142855,0.6,3,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; musician; performer,Q36834;Q177220;Q18814623,Q177220;Q639669;Q713200,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; librettist,Q36180;Q49757;Q639669;Q1028181;Q2259451;Q3391743;Q11569986;Q15296811,Q36834;Q8178443,0.0,0.0,0.0,0,2,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: conductor; choir director,Q158852,Q158852;Q1076502,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; opera,Q36180;Q36834;Q82955;Q158852,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; violinist,Q36834;Q158852;Q1259917;Q14915627;Q19747285,Q36834;Q1259917,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violist; violinist,Q36834;Q1259917,Q899758;Q1259917,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist,Q639669,Q1259917,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,monarch; queen,Q116,Q116;Q16511993,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; musician; composer,Q36180;Q36834;Q19729565,Q1259917;Q639669;Q36834,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: musician; composer; violinist,Q36180;Q36834;Q19729565,Q639669;Q36834;Q1259917,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; harpsichord virtuoso,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q765778,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; music theorist,Q36834,Q36834;Q486748;Q16031530,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; musician,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q639669,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; pianist; accompanist,Q639669,Q639669;Q486748;Q29448653,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q158852;Q486748;Q14915627,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q1259917,1.0,0.5,0.6666666666666666,3,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; virtuoso,Q36834,Q36834;Q486748;Q214970,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer;singer,Q36834,Q36834;Q177220,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; music director,Q36834;Q158852;Q1622272,Q158852;Q1198887,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; teacher; music educator,Q36834;Q765778,Q36834;Q37226;Q16145150,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; composer,Q2865819,Q177220;Q36834,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; composer,Q2865819,Q177220;Q36834,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Emperor; ruler; monarch,Q116;Q1402561,Q39018;Q1097498;Q116,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; violinist; conductor; organist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q1259917;Q158852;Q765778,0.8,0.6666666666666666,0.7272727272727272,4,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:patron,Q36834;Q82955;Q189290;Q193391,Q516590,0.0,0.0,0.0,0,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; virtuoso,Q36834,Q36834;Q486748;Q214970,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,sculptor,Q42973;Q1028181;Q1281618;Q15296811,Q1281618,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: bass singer,Q36834;Q639669,Q98834013,0.0,0.0,0.0,0,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; pianist,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; music teacher,Q36834;Q486748;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q2675537,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; pianist,Q36834;Q158852;Q486748;Q14915627,Q36834;Q486748,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist; composer,Q36834;Q82955;Q193391;Q486748;Q2285706;Q7330070;Q14915627;Q16145150;Q21680663,Q486748;Q36834,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: music theorist; composer,Q36180;Q36834;Q49757;Q170790;Q14915627;Q16031530,Q16031530;Q36834,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; tenor,Q177220;Q639669;Q2865819,Q177220;Q27914,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: pianist,Q36834;Q486748;Q15980158;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violoncellist,Q36834;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: critic; writer; music critic,Q16533;Q36180;Q82955;Q329455;Q18939491,Q6430706;Q36180;Q1350157,0.3333333333333333,0.2,0.25,1,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist,Q36834;Q765778;Q21680663,Q36834;Q765778,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; music educator,Q36834;Q765778;Q14915627;Q16031530,Q36834;Q765778;Q16145150,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor,Q36834;Q158852;Q1622272;Q16145150,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; conductor,Q36834;Q1259917;Q16145150,Q1259917;Q158852,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q16145150,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; violinist; harpsichordist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778;Q1259917;Q5371902,1.0,0.36363636363636365,0.5333333333333333,4,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; virtuoso; violinist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q214970;Q1259917,0.6,0.42857142857142855,0.5,3,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; virtuoso,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q214970,0.5,0.2857142857142857,0.36363636363636365,2,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,empress; queen,Q82955,Q39018;Q16511993,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: emperor; monarch; king; ruler,Q1097498,Q39018;Q116;Q12097;Q1097498,0.25,1.0,0.4,1,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; opera composer,Q36834;Q158852,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q1198887,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator; conductor; pianist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q16145150;Q158852;Q486748,0.75,0.5,0.6,3,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q158852;Q1198887;Q18814623,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q33999;Q36180;Q36834;Q158852;Q177220;Q2259451;Q2865819;Q8178443,Q36834,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,habang; violinist; composer,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q1259917;Q36834,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q14915627;Q16031530,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; opera singer; organist; musicologist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q2865819;Q765778;Q14915627,0.4,0.2857142857142857,0.3333333333333333,2,3,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q486748,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; actress; performer,Q2865819,Q177220;Q21169216;Q713200,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852;Q486748;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; music teacher,Q36834;Q222836;Q486748;Q885122,Q36834;Q486748;Q2675537,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q486748,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musikologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q1622272;Q16145150;Q21680663,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q37226;Q486748,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist;composer,Q36834;Q1259917;Q1622272;Q16145150,Q1259917;Q36834,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,monarch; ruler,Q16533;Q47064;Q82955;Q10732476,Q116;Q1097498,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; composer,Q36834;Q1259917;Q1622272;Q16145150,Q1259917;Q36834,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; composer; patron of music,Q639669,Q639669;Q36834,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q355493;Q765778;Q1259917;Q21680731,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; violinist,Q36834;Q899758;Q1259917,Q36834;Q1259917,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; composer; organist,Q36834;Q158852;Q486748,Q158852;Q36834;Q765778,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer;,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist; composer; arranger,Q36834;Q486748;Q1231865,Q486748;Q36834;Q1643514,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: monarch; king; emperor; ruler; sovereign,Q82955;Q1097498;Q10732476;Q15472169,Q116;Q12097;Q39018;Q1097498;Q2304859,0.2,0.25,0.22222222222222224,1,4,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Minor Canon,Q49757,Q6869158,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: Sub-Dean; Church Official,Q2865819,Q11827459,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;opera singer; actress,Q33999;Q1320883;Q2865819,Q2865819;Q21169216,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: poet,Q36180;Q49757;Q82955;Q214917;Q6625963;Q8178443;Q12144794,Q49757,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852,1.0,0.2222222222222222,0.3636363636363636,2,0,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q486748,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q158852;Q1076502,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; violinist; pianist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q1259917;Q486748,0.75,0.5,0.6,3,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; pianist; organist; composer,Q36834;Q158852;Q486748,Q158852;Q486748;Q765778;Q36834,0.75,1.0,0.8571428571428571,3,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; conductor,Q36834;Q37226;Q158852,Q36834;Q158852,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;conductor;composer;pianist,Q36834;Q158852;Q486748;Q14915627,Q158852;Q36834;Q486748,1.0,0.75,0.8571428571428571,3,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,Monarch; King,Q116;Q82955;Q2478141;Q10732476,Q116;Q12097,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; opera manager,Q36834;Q158852;Q1198887;Q18814623,Q36834;Q158852;Q3029406,0.6666666666666666,0.5,0.5714285714285715,2,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q16145150,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer,Q33999;Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,theatre manager; impresario,Q36834;Q765778;Q1028181;Q16145150,Q1776724;Q3029406,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; pianist,Q177220;Q2643890;Q2865819,Q177220;Q486748,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,theatre manager; impresario,Q36834;Q765778;Q1028181;Q16145150,Q1776724;Q3029406,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer,Q805221;Q2490358;Q2865819,Q177220;Q2865819,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; performer,Q36834,Q177220;Q713200,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,manager,Q14284;Q943995;Q3029406;Q39020112,Q721834,0.0,0.0,0.0,0,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer,Q36834;Q2865819,Q177220;Q2865819,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q486748;Q1643514,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; musician,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778;Q639669,0.6666666666666666,0.18181818181818182,0.28571428571428575,2,1,9,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; virtuoso; conductor,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q214970;Q158852,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist; conductor,Q36834,Q36834;Q486748;Q158852,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: orchestra conductor; musical director,Q943995,Q1198887,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; orchestra director,Q36834;Q158852;Q486748;Q1231865,Q158852;Q1198887,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; soprano,Q36180;Q36834;Q177220;Q1259917;Q2865819,Q177220,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; soloist,Q2865819,Q2643890;Q1371914,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,violinist; singer,Q1259917,Q1259917;Q177220,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; orchestra founder; impresario,Q36834;Q158852;Q486748;Q1231865,Q158852;Q3029406,0.5,0.25,0.3333333333333333,1,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; opera singer; soprano,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36834;Q37226;Q158852;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q158852,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,":
+singer; performer",Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; opera singer,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; opera singer; actress,Q2865819,Q177220;Q2865819;Q21169216,0.3333333333333333,1.0,0.5,1,2,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q158852,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor,Q36834;Q158852;Q1622272;Q13219637,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36180;Q36834;Q1350157;Q14915627;Q16031530;Q16145150,Q36834;Q158852,0.5,0.16666666666666666,0.25,1,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834;Q16145150,Q36834;Q486748,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist,Q486748,Q486748,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music critic; pianist,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q1350157;Q486748,1.0,0.42857142857142855,0.6,3,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: organist,Q36834;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; performer,Q36834;Q486748;Q2350126;Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer,Q36834;Q2865819,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; Classical music,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor;  pianist,Q36834;Q158852;Q333634;Q486748;Q1350157;Q1622272;Q2490358;Q8178443;Q16145150;Q18814623;Q18939491,Q36834;Q158852;Q486748,1.0,0.2727272727272727,0.42857142857142855,3,0,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; virtuoso; organist; keyboardist; choir director,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q214970;Q765778;Q1075651;Q1076502,0.8,0.36363636363636365,0.5000000000000001,4,1,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist,Q36834;Q486748,Q486748,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: admiral; naval officer,Q82955;Q10669499,Q2916006;Q10669499,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: conductor; pianist; organist; musician,Q36834;Q158852;Q486748;Q1622272,Q158852;Q486748;Q765778;Q639669,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor; composer; musician,Q36834;Q177220;Q486748;Q2259451,Q158852;Q36834;Q639669,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,painter,Q1028181;Q3391743;Q11569986;Q14623005;Q15296811,Q1028181,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:painter; portraitist,Q214917;Q333634;Q487596;Q984276;Q1028181;Q3387717;Q10862983;Q14623005;Q15296811,Q1028181;Q21178131,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music teacher,Q36834;Q158852;Q765778,Q36834;Q2675537,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; soprano; opera singer,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;singer,Q36834;Q2865819;Q16145150,Q177220,0.0,0.0,0.0,0,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:singer; tenor,Q2865819,Q177220;Q27914,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; musician,Q36834;Q2865819,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: inventor;religious leader,Q1955150,Q205375,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist,Q36834;Q691031;Q1259917,Q1259917,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist; composer; conductor; music director; impresario,Q36834;Q1259917;Q2675537;Q3153559,Q1259917;Q36834;Q158852;Q1198887;Q3029406,0.4,0.5,0.4444444444444445,2,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: Empress; ruler,Q116;Q82955;Q2478141;Q10732476,Q39018;Q1097498,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; organist; organist; harpsichordist; music educator; violinist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q765778;Q5371902;Q16145150;Q1259917,0.6666666666666666,0.5714285714285714,0.6153846153846153,4,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; virtuoso; organist; teacher,Q36834;Q765778,Q36834;Q158852;Q214970;Q765778;Q37226,0.4,1.0,0.5714285714285715,2,3,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; violinist; conductor,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q1259917;Q158852,1.0,0.5,0.6666666666666666,3,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q16145150,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; virtuoso; keyboard performer; violinist; music teacher; organist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q214970;Q1259917;Q2675537;Q765778,0.5,0.5,0.5,3,3,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q765778,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music educator,Q36834,Q36834;Q16145150,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q37226;Q215793,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: pianist; composer; music teacher,Q36834;Q158852;Q486748;Q691031;Q16145150,Q486748;Q36834;Q2675537,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; pianist; violinist; organist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q1259917;Q765778,0.8,0.4444444444444444,0.5714285714285714,4,1,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; violinist,Q36834,Q36834;Q1259917,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q765778;Q5371902,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; violinist,Q36834;Q899758;Q1259917,Q36834;Q1259917,1.0,0.6666666666666666,0.8,2,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; organist; violinist; conductor_,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q765778;Q1259917;Q158852,0.75,0.42857142857142855,0.5454545454545454,3,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; musician; harpsichordist; violinist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q765778;Q639669;Q5371902;Q1259917,0.8,0.36363636363636365,0.5000000000000001,4,1,7,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q16145150,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q13219637,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: music historian; writer; editor; critic,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q20198542;Q36180;Q1607826;Q6430706,0.5,0.2857142857142857,0.36363636363636365,2,2,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;musician; performer; violinist,Q36834,Q639669;Q713200;Q1259917,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,performer; musician,Q36834;Q13219637;Q16145150,Q713200;Q639669,0.0,0.0,0.0,0,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; performer,Q639669,Q639669;Q713200,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; conductor,Q36834;Q158852;Q1259917;Q1622272;Q16145150;Q21680663,Q36834;Q158852,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; violinist; pianist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q1259917;Q486748,0.75,0.5,0.6,3,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; music engraving clerk; piano tuner; musical critic; violinist; pianist; conductor; music teacher; organist; orchestra director,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; opera writer,Q36834;Q158852;Q1198887;Q18814623,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer; music director,Q36834,Q36834;Q1198887,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera; conductor,Q36834,Q36834;Q158852,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; opera composer; musical theatre composer,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q21680731;Q64356038,0.3333333333333333,0.25,0.28571428571428575,1,2,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist; composer;,Q36834;Q16003954,Q1259917;Q36834,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: performer; cellist; composer,Q36834;Q19760296,Q713200;Q13219637;Q36834,0.3333333333333333,0.5,0.4,1,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; pianist; music teacher,Q36834;Q43845;Q486748;Q2516866,Q36834;Q158852;Q486748;Q2675537,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: violinist; composer,Q639669,Q1259917;Q36834,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:violinist; performer,Q36834;Q13219637,Q1259917;Q713200,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q486748;Q1643514,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; author; critic;poet,Q36180;Q36834;Q37226;Q49757,Q36834;Q482980;Q6430706;Q49757,0.5,0.5,0.5,2,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; organist; violinist; harpsichordist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q765778;Q1259917;Q5371902,1.0,0.5714285714285714,0.7272727272727273,4,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852;Q486748;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; pianist,Q36834,Q36834;Q486748,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q639669,0.5,0.09090909090909091,0.15384615384615385,1,1,10,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q486748;Q12902372;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,editor; poet;,Q36180;Q42603;Q49757;Q187865;Q333634;Q3243461;Q14915627,Q1607826;Q49757,0.5,0.14285714285714285,0.22222222222222224,1,1,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,singer; vocalist,Q36834;Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; tenor,Q13219637;Q16145150,Q177220;Q27914,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:musician; singer; performer,Q1259917,Q639669;Q177220;Q713200,0.0,0.0,0.0,0,3,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,musician; performer; singer,Q36834;Q13219637,Q639669;Q713200;Q177220,0.0,0.0,0.0,0,3,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist; composer; virtuoso,Q36834;Q486748;Q765778;Q1076502;Q16145150,Q486748;Q36834;Q214970,0.6666666666666666,0.4,0.5,2,1,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer;choirmaster,Q36834;Q765778;Q21680663,Q36834;Q1076502,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; music theorist,Q36834,Q36834;Q16031530,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; songwriter,Q36834,Q36834;Q753110,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;music director; conductor,Q36834;Q158852;Q1259917,Q1198887;Q158852,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,conductor,Q36834;Q1622272;Q16145150;Q21680663,Q158852,0.0,0.0,0.0,0,1,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; opera_composer,Q36834;Q1350157,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:opera singer; actress,Q36834;Q2865819,Q2865819;Q21169216,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; violinist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q1259917,0.5,0.1111111111111111,0.1818181818181818,1,1,8,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor,Q36180;Q36834;Q82955;Q158852,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: music historian; writer,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,Q20198542;Q36180,1.0,0.16666666666666666,0.2857142857142857,2,0,10,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;musician; teacher,Q36834;Q765778;Q1622272;Q16145150,Q639669;Q37226,0.0,0.0,0.0,0,2,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; operaatist,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q1259917,1.0,0.3333333333333333,0.5,2,0,4,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q765778;Q14915627;Q16031530,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; musician,Q36834;Q158852,Q36834;Q639669,0.5,0.5,0.5,1,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q37226;Q177220;Q765778,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,engraver; lithographer; artist; illustrator,Q644687;Q1028181;Q16947657,Q329439;Q16947657;Q483501;Q644687,0.5,0.6666666666666666,0.5714285714285715,2,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: Jacobite claimant to the throne; Pretender; warrior,Q845929;Q1402561,Q618536;Q1250916,0.0,0.0,0.0,0,2,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,;Duke; Prince; Composer; Patron of the Arts,Q611644,Q58481980;Q12886381;Q36834;Q15472169,0.0,0.0,0.0,0,4,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: king; prince,Q82955,Q12097;Q12886381,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pupil; student,Q82955,Q48282;Q48282,0.0,0.0,0.0,0,1,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,teacher; music instructor; composer; organist; musician,Q36834;Q14915627;Q16031530,Q37226;Q2675537;Q36834;Q765778;Q639669,0.2,0.3333333333333333,0.25,1,4,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; pianist; violinist; music educator,Q36834,Q36834;Q158852;Q486748;Q1259917;Q16145150,0.2,1.0,0.33333333333333337,1,4,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; music educator; pianist; conductor,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q16145150;Q486748;Q158852,1.0,0.5714285714285714,0.7272727272727273,4,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; virtuoso; organist; choir director; organist; harpsichordist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q214970;Q765778;Q1076502;Q765778;Q5371902,1.0,0.45454545454545453,0.625,5,0,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,pianist; composer,Q36834;Q486748,Q486748;Q36834,1.0,1.0,1.0,2,0,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; pianist; singer; violinist,Q36834;Q37226;Q486748,Q36834;Q486748;Q177220;Q1259917,0.5,0.6666666666666666,0.5714285714285715,2,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: composer; organist; singer; violinist; violist,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q765778;Q177220;Q1259917;Q899758,0.4,0.4,0.4000000000000001,2,3,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; songwriter,Q36834;Q158852;Q486748,Q36834;Q753110,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,:composer; conductor; pianist; music arranger; virtuoso,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q158852;Q486748;Q1643514;Q214970,0.6,0.3333333333333333,0.42857142857142855,3,2,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,music critic; judge; professor,Q36180;Q40348;Q49757;Q1930187;Q4263842;Q4964182,Q1350157;Q16533;Q19788990,0.0,0.0,0.0,0,3,6,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: arranger; composer,Q36834;Q765778;Q16145150,Q1643514;Q36834,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer,Q36834;Q37226;Q158852;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; soprano,Q177220;Q2865819;Q16145150;Q21680731,Q177220,1.0,0.25,0.4,1,0,3,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: vocalist; singer,Q2865819,Q2643890;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,: singer; performer,Q177220,Q177220;Q713200,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+instructor-xl,google_gemma-2-27b-it_20250505_linked_evaluated,NIL,composer; conductor; impresario; music critic,Q36834;Q158852,Q36834;Q158852;Q3029406;Q1350157,0.5,1.0,0.6666666666666666,2,2,0,RAG,RAG

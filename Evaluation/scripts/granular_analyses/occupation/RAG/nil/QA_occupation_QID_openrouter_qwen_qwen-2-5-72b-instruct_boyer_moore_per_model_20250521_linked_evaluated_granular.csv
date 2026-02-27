@@ -1,0 +1,596 @@
+retriever,llm,entity_type,llm_answer,qid_gold_true,linked_qid,sample_precision,sample_recall,sample_f1,TP,FP,FN,approach,approach_display
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,msic teacuher; sining tegacher; vocal coach,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; solo performer; violinist; cellist; viola da gamba player,Q36834;Q19760296,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; critic; playwright; journalist; politician; diplomat;Essayist; poet; satirist,Q36180;Q49757;Q82955;Q214917;Q1607826;Q1930187;Q3589290;Q8178443;Q11774202,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; vocalist,Q33999;Q2259451;Q2865819,Q177220,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer;,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; music critic; journalist,Q36834;Q486748;Q1350157;Q6430706;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q765778;Q14915627;Q16031530,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; music teacher; vocal coach; arranger; editor; translator; music publisher,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36180;Q36834;Q214917;Q1259917;Q2962003,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher,Q36834;Q5371902,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; violinist; violist,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; violinist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; publisher; songwriter; collector,Q36180;Q49757;Q182436;Q8178443,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; lyricist,Q36180;Q49757;Q609016;Q26237228,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,clarinetist,Q36834;Q118865;Q639669,Q118865,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; composer,Q2865819,Q36834;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist; teacher; conductor,Q36834;Q899758;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,archbishop; religious leader; clergyman,Q42603,Q49476,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; writer,Q49757;Q214917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; bandleader; military officer,Q36834;Q486748;Q753110;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; music educator,Q36834;Q158852;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher; conductor; pianist; music theorist; music critic; musicologist; pedagogue,Q36834;Q158852;Q14915627;Q16145150;Q18931911;Q19723482,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; musician,Q36834;Q1231865;Q2490358;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; songwriter,Q36834;Q158852;Q177220;Q753110;Q2865819,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,music educator; conductor; composer; pianist,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,theatre manager; impresario,Q943995,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher,Q36834;Q639669,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; virtuoso,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; poet,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; vocalist; performer,Q177220;Q639669;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; author,Q36180;Q36834;Q37226;Q49757,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,chorister; lay-clerk; singing-man,Q36834;Q765778,Q1076502,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; musician,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; teacher; conductor,Q36834;Q177220;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera writer,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; violinist; harpsichordist; conductor; teacher,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; church organist; music theorist; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; conductor; arranger; music teacher,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,publisher; bookseller; music engraver; music publisher,Q36834;Q37226;Q175151;Q182436;Q2516866;Q40881196,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; teacher; organist; arranger; music director; choir master; musical editor; vocalist; administrator; arts patron; benefactor; critic; impresario; festival organizer; church musician; writer; historian; scholar; society president; educator; conductor of oratorio societies; choral conductor; instrumentalist; chamber musician; festival conductor; music society president; musical impresario; advocate of British music; promoter of choral music; music festival organizer; musical society founder; organizer of concerts; promoter of young talent; musician; arts benefactor; cultural figure; patron of the arts; promoter of music education; supporter of music festivals; founder of musical institutions; conductor of choirs; arranger of music; teacher of singing; coach of vocalists; mentor to musicians; promoter of English composers; supporter of musical arts; advocate for music in education; contributor to music periodicals; editor of music publications; music theorist; historian of music; researcher; writer on music; lecturer on music; advocate for the arts; promoter of community music; cultural leader; music administrator; founder of music societies; organizer of music competitions; supporter of music scholarships; contributor to music journals; writer of music criticism; editor of music journals; organizer of,Q36834;Q486748;Q16145150,Q36834;Q639669,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; choirmaster; pianist; teacher,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; songwriter; lyricist,Q36180;Q49757;Q131512;Q753110;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher; violinist; organist; conductor; musicologist; music educator,Q36834;Q486748;Q1643514,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q158852;Q639669;Q1259917,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; music educator; librettist; music critic,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; academic; doctor of music; cantab; principal,Q36834;Q13424456,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; teacher; writer; critic; opera director; musical theorist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; harmonist,Q36834;Q177220;Q215793;Q13219637,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,sculptor; artist,Q42973;Q1028181;Q1281618;Q15296811,Q1281618,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,music director; conductor,Q36834;Q158852;Q1622272,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,music teacher; violinist; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,mathematician; physician; astrologer; writer,Q39631;Q81096;Q155647;Q170790;Q205375;Q4964182,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer,Q36180;Q36834;Q49757,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; music critic; music teacher,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,empress; patron of the arts,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,master; music teacher; performer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,official; administrator,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; violinist; violist,Q36834;Q118865;Q639669;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pretender; rebel leader; military commander; prince; nobleman,Q845929;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist,Q36834;Q177220;Q899758;Q1259917,Q1259917,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; organist; teacher; musicologist,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; novelist; governess; teacher,Q36180;Q37226;Q49757;Q1540278;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; teacher; music theorist,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,noble; courtier; diplomat; soldier; spy,Q2478141,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; music teacher; virtuoso,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,cer; arranger,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; virtuoso; conductor; music educator; harpsichordist; organist; violinist; choir director; musicologist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; arranger; pianist; music educator,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; composer; music teacher,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist; teacher; conductor,Q36834;Q899758;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; songwriter; journalist; conductor; music teacher; pianist; organist,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; music publisher; pianist; music teacher; conductor; editor; music critic; organist; violinist; harpsichordist; musicologist; music educator,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; voice teacher; conservatory instructor,Q36834;Q177220;Q1836630;Q1999862;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; church musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; performer,Q639669,Q639669,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,monarch; ruler,Q116;Q1097498,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,noble; diplomat,Q82955;Q2478141,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,actor; performer; stage artist,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pupil; bassoonist,Q36834;Q12310971;Q16145150,Q48282;Q12310971,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; author,Q36180;Q49757;Q121594;Q333634;Q14467526,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q158852;Q177220;Q639669;Q806349;Q1259917,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,ciamusin; violinist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; librettist; musician; teacher; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Sub-Dean; Chaplain,Q36180,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; musician,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; musician; teacher; clergyman; organist; choirmaster; oratorio performer; oratorio conductor; music educator,Q36834;Q158852;Q765778;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; music historian; writer; doctor,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musicologist; historian; editor; educator,Q36180;Q876864;Q1350157;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,doctor; physician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; mudiresctor; choic ral director,Q158852,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; doctor; music educator,Q36834;Q765778;Q1028181;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; organist; choir director; music educator; doctor,Q36834;Q765778;Q2259532;Q13424456,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musicologist; hymnologist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,physician; doctor,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,doctor,Q36834;Q39631,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; doctor,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; doctor,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q158852;Q1622272;Q16145150,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; musicologist; doctor,Q36834;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,revisor; editor; clergyman; organist; composer,Q36834;Q1076502;Q1278335,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; doctor,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q639669,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,bass player; musician,Q36834;Q639669,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,philosopher; mathematician; logician; moral philosopher; academic,Q36180;Q170790;Q201788;Q1622272;Q4964182,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,royalty; military leader; prince; duke,Q47064;Q82955,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,patron; nobleman,Q82955;Q1475726;Q2478141,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher; harpsichordist; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; composer; conductor; music teacher,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,nobleman; landowner; patron,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; principal,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,theater manager; writer; dramatist; letter writer,Q43845;Q998550,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,"king; monarch; ruler; sovereign; lord; leader; governor; commander; judge; legislator; diplomat; warrior; knight; chieftain; patron; benefactor; sponsor; advocate;啐  
+
+However, to adhere to the instruction, I will provide the most accurate and concise answer based on historical context:
+
+king; monarch; ruler; sovereign; legislator; warrior; knight; patron; benefactor",Q116;Q82955,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,;,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; violinist; organist; teacher; arranger; editor; music publisher,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,emperor; patron of the arts,Q116;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Duke; patron of the arts; Prince; ruler,Q611644,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,"music teacher; singing instructor; opera director;胆固醇管理专员; musicologist; vocal coach
+
+Note: The occupations ""音乐老师; 声乐指导; 歌剧导演; 胆固醇管理专员; 音乐学家; 声乐教练"" seem to be partially in Chinese and may not be accurate in this context. I will revise the answer to be fully in English and more suitable for the context:
+
+Answer: music teacher; vocal coach; singing instructor; opera director; musicologist",Q158852;Q1836630,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,mathematician; teacher,Q36180;Q170790,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,lyricist; poet,Q49757;Q1930187,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; novelist; journalist,Q36180;Q39631;Q82955;Q6625963,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; organist; violinist; pianist; teacher; arranger; musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; cello teacher; arranger,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,maestro; chapel master,Q36834;Q330679,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36180;Q753110;Q17505902,Q36834,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; impresario; manager; director; knight,Q33999;Q2259451;Q2865819;Q3387717;Q20083902,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q214917;Q1076502,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,mpocoser; pianist; conductor; teusic cacher; mritic; musicologist,Q36834;Q158852;Q486748;Q1622272;Q6430706,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; knight; manager; director,Q33999;Q2259451;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; solo performer; violinist,Q36834;Q16003954,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,artist; engraver; painter,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; composer; conductor; teacher,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; teacher,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,music teacher; conductor; composer; pianist; organist; choirmaster; musicologist; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; violinist; pianist; music teacher,Q36834;Q37226;Q158852;Q486748;Q639669;Q1231865;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,post holder; activist; skillful worker,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; teacher; administrator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet,Q11063;Q36180;Q49757;Q170790;Q4263842,Q49757,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,harmonist; composer,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; chapel master; organist; teacher; conductor; virtuoso; harpsichordist; musicologist; music educator,Q36834;Q158852;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,"military leader; revolutionary; politician; general; national hero; guerrilla fighter; explorer; farmer; journalist; sailor; Italian unification figure; deputy; exile; philanthropist; author; hunter; soldier; statesman; adventurer; carpenter;渔民; train conductor;/npm; mountaineer; 黄金矿工; 社会改革家; 宪法拥护者; 皮划艇运动员; (Note: the last occupations are not in English and should be disregarded as they are not applicable)
+
+However, sticking to the guideline of providing a semicolon-separated list in English:
+
+military leader; revolutionary; politician; general; national hero; guerrilla fighter; explorer; farmer; journalist; sailor; Italian unification figure; deputy; exile; philanthropist; author; hunter; soldier; statesman; adventurer; carpenter; train conductor; mountaineer; gold miner; social reformer; constitution supporter; canoeist
+
+But for the sake of conciseness and relevance, a more appropriate and accurate answer would be:
+
+military leader; revolutionary; politician; general; national hero; Italian unification figure; deputy; explorer; sailor; journalist; farmer; guerrilla fighter",Q36180;Q47064;Q82955;Q178197;Q1397808;Q18814623,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,director; educator; conductor; composer,Q36834;Q158852;Q1198887;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,;,Q36834;Q158852;Q1622272;Q12310971;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,master of the Chapel,Q36834,Q639669,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Duke; Prince; King,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,philosopher; theologian; mathematician; cosmologist; mystic; poet; Hermeticist,Q11063;Q36180;Q49757;Q155647;Q170790;Q1469535;Q1622272;Q4964182,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; composer,Q2865819,Q36834;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher,Q36834;Q355493;Q765778;Q1259917;Q21680731,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; virtuoso; conductor; harpsichordist; violinist; music educator; opera reformer,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; librettist; singer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,teacher; musician,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher,Q36834;Q158852;Q1259917,Q36834;Q37226,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; conductor; virtuoso; music teacher; choir director; musicologist; harpsichordist; violinist; pianist,Q36834;Q765778;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,publisher; composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; music theorist; choirmaster; teacher; clergyman,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; violinist,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,;,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,actor; comedian; performer,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; knight,Q33999;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; teacher; conductor; virtuoso; musicologist; music educator,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist,Q36834;Q486748;Q885122,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; arranger; musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; teacher; conductor; composer; performer; educator; artist; cultural figure; musical director; ensemble member,Q36834;Q118865;Q12800682;Q14915627;Q16145150;Q97572814,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; violinist; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,publisher; music engraver; bookseller; music seller; music printer; music publisher,Q222836,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,artist; lithographer,Q644687;Q1028181;Q16947657,Q483501;Q16947657,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; songwriter,Q333634;Q639669,Q753110,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q177220;Q215793;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; violinist; pianist; teacher; court musician; chapelmaster; orchestra leader; ensemble director; music theorist; music educator,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Duchess; Royal Family Member; Patron; Advocate,Q2478141,Q58481980,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,lecturer; teacher; mathematician; philosopher; scholar,Q4964182,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; virtuoso; pianist; music educator; opera composer,Q36834;Q486748;Q1323191;Q2490358;Q2707485,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q37226;Q158852,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist,Q36834;Q486748;Q15980158;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; music educator; composer; pianist; critic; director; virtuoso; organist; choir director; musicologist; violinist; harpsichordist; school teacher,Q36834;Q158852;Q486748;Q1622272;Q6430706,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,archbishop,Q42603,Q49476,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,king; monarch; ruler,Q16533;Q47064;Q82955;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,monarch; patron of the arts,Q82955;Q1097498;Q10732476;Q15472169,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,royalty; patron; benefactor,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; songwriter,Q36180;Q49757;Q753110;Q864380;Q6625963,Q49757;Q753110,1.0,0.4,0.5714285714285715,2,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; writer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; music teacher,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,manager; theatre manager,Q43845;Q998550,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; composer; publisher; teacher,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; writer,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; music educator; conductor,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; teacher; conductor; composer; performer; arts educator,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; arranger,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,monarch; patron of the arts,Q116;Q36180;Q49757;Q2478141,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,journalist; editor; publisher,Q1930187,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; performer,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist,Q36834;Q158852;Q691031;Q899758;Q1259917;Q1622272;Q14915627;Q16145150,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; violinist; musician,Q36834;Q486748;Q1643514,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; conductor; music teacher; music publisher; violinist; harpsichordist; organist; choir director; musicologist; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; singer; teacher; writer,Q36834;Q37226,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,actor; comedian; performer,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,leader; revolt organizer; historical figure,Q39631;Q82955;Q193391;Q1622272,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q14915627,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,monarch; musical director,Q82955,Q12097,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,cataloger; musicologist,Q18805;Q36834;Q201788;Q864380;Q1607826;Q2374149;Q13416354;Q14915627;Q20198542,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; music educator; librettist; conductor; pianist; harpsichordist; organist; violinist; violist; choir director; music theorist; music critic; artistic director; pedagogue,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; performer; actor; comedian; musician,Q36834;Q2259451;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist,Q36834;Q215793;Q805221;Q805253;Q1259917;Q2490358;Q2675537;Q5716684,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist,Q36834;Q486748;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist; organist; harpsichordist; conductor; teacher; musicologist; choir director; virtuoso; concertmaster; music educator,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; teacher,Q36834;Q486748;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,military officer; author; musician; guitar instructor,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; performer,Q36834;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q158852;Q177220;Q330679;Q765778;Q5758653,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,philosopher; scientist; statesman; essayist; jurist; author,Q901;Q16533;Q36180;Q40348;Q82955;Q155647;Q201788;Q4964182,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; writer,Q36180;Q47064;Q49757;Q82955;Q214917;Q333634;Q822146;Q2478141;Q8178443;Q18814623;Q18939491;Q125360586,Q49757,1.0,0.08333333333333333,0.15384615384615385,1,0,11,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,court official; government minister; nobleman; palace administrator,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,noble; diplomat; politician; philanthropist; social figure,Q82955;Q12299841,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pupil; scholar; nobleman; earl; music student; author; publisher,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; opera director; librettist; actor; teacher; pianist; violinist; cellist; writer; music theorist; music critic; arts administrator; cultural figure,Q33999;Q36180;Q36834;Q158852;Q177220;Q2259451;Q2865819;Q8178443,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,director; educator; conductor; composer; music teacher,Q36834;Q177220;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,harmonist; composer,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; arranger,Q639669;Q1028181,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; cellist,Q36834;Q158852;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist; teacher; music theorist,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; conductor; violinist; dancer; choreographer; impresario; theater manager,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; dancer; singer; violinist; teacher; theorist; impresario; court musician,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; historian; abbot,Q201788,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,director; music educator,Q36834;Q158852;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; poet; songwriter,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; music educator; publisher; virtuoso; harpist,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; music critic,Q36834;Q1350157;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,maestro; conductor; opera director,Q36834;Q158852;Q1259917,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; music theorist; teacher,Q1231865;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,organist,Q36834;Q765778;Q1930187;Q14915627,Q765778,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,artist; singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; librettist,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q486748;Q12902372;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,director; author; professor,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,,0.0,0.0,0.0,0,0,12,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q37226;Q215793;Q486748;Q765778;Q1622272;Q14915627;Q16145150,Q36834,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,translator; arranger; adapter,Q214917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; vocalist; instrumentalist; performer,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; pianist; performer,Q1259917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; conductor; impresario,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q33999;Q245068,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,director of the music,Q36834;Q158852,Q158852;Q1198887,0.5,0.5,0.5,1,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; librettist,Q49757;Q8178443,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; virtuoso; composer; conductor; teacher,Q36834;Q486748;Q765778;Q1076502;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet,Q36180;Q49757;Q82955;Q214917;Q6625963;Q8178443;Q12144794,Q49757,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,music seller,Q222836,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Kapelmeister,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; operatic tenor,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera producer,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,band leader; musician,Q36834;Q158852;Q762707;Q13219637,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; performer,Q36180;Q36834;Q19729565,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,tenor; opera singer,Q36834;Q2490358;Q2865819;Q8178443;Q16145150,Q27914,0.0,0.0,0.0,0,1,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,professor; bassoon teacher,Q36834;Q1622272;Q12310971;Q14915627,Q19788990,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; musician,Q36834;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; vocalist; duet performer,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,songwriter; poet; musician,Q36180;Q49757,Q753110,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,prima donna; actress; musician,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soprano; opera singer,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; vocalist; performer,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer; principal artist,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; actress; performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; concert performer; opera singer; vocal instructor,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist; concertmaster,Q1259917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera singer; vocal artist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; virtuoso,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q177220,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; actress,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; operatic performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soprano; singer,Q177220;Q2865819;Q16145150;Q21680731,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soprano; opera singer,Q486748;Q1259917;Q2865819;Q16145150,Q177220,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; actress; opera performer,Q33999;Q1320883;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; pianist; composer; teacher,Q36834;Q486748;Q2350126;Q2865819,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; prima donna,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,prima donna; musician; actress,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer; musician,Q2643890;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,chapel master; composer; musician,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,"prophet; religious leader; military commander; statesman;各式各样的人物（注：最后这个是中文，可能应被忽略或替换为英文“various figures”） 
+
+Note: The last term ""various figures"" is added to reflect the broad influence and roles ascribed to Muhammad, but typically the primary occupations are prophet and statesman. The correct response should be solely in English and without additional commentary:
+
+prophet; religious leader; military commander; statesman",Q42857;Q82955;Q215536;Q432386;Q877558;Q1402561;Q12059906,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; actress; opera singer; contralto; vocal performer,Q33999;Q36834;Q2259451;Q2865819,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; teacher; composer; conductor,Q37226;Q39631;Q177220;Q205375;Q1836630;Q2350126;Q2865819,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,duchess; noblewoman; princess,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist,Q36834;Q486748,Q486748,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; psalmist,Q36180;Q49757;Q333634,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; opera composer; musician; theater composer; orchestral conductor; music director; arts contributor,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; editor; publisher; scholar; historian; critic; journalist; educator; literary figure; cultural commentator,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,duke; noble; ruler; prince,Q1097498,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; virtuoso; teacher; conductor; music theorist; arranger; transcriber; editor; conductor; music educator,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,music critic; journalist,Q36834;Q1350157;Q21680663,Q1350157,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; accompanist,Q639669,Q29448653,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q1259917,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soprano; opera singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; organist; music teacher; violinist; violist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; songwriter,Q36834;Q215793;Q1162163;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; piano maker; teacher,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; virtuoso; instrumentalist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; librettist; playwright; singer; musician; teacher; diplomat; administrator,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera producer,Q36834;Q158852;Q1198887;Q18814623,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera composer; musician,Q36834;Q158852;Q1198887;Q18814623,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist,Q36834;Q765778;Q5371902,Q36834;Q1259917,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; musician,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q36834;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q177220;Q2643890;Q2865819,Q177220,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; performer; pianist,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; organist; choir director; music educator; music theorist; writer; poet; printer; publisher,Q36834;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; teacher; musicologist,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; teacher,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; violinist; teacher; music theorist; organist; chamber musician; orchestral musician;Opera Composer; Child Prodigy,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist,Q36834;Q16145150,Q36834;Q486748,0.5,0.5,0.5,1,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; arranger,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; arranger; musician,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,leader; violinist,Q36834;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,harmonium player; musician,Q36834,Q54844699,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; violinist,Q36834;Q158852;Q486748;Q1231865,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; performer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,translator; dramatist; stage preparer,Q8178443,Q214917;Q333634,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,lecturer; music printer,Q49757;Q13424456,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,publisher; printer; engraver; bookseller,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist,Q36834;Q37226;Q1259917;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,educator; academic,Q738142;Q12299841,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,theatre manager; committee member,Q43845;Q998550,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soprano; singer,Q177220,Q177220,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; music director,Q158852;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q158852,1.0,0.2857142857142857,0.4444444444444445,2,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,organist,Q158852;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,organist,Q36834;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Sub-Dean; clergyman,Q2865819,Q11827459,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,postmaster; telegraph operator,Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,concertmaster; violinist; conductor,Q36834;Q158852;Q486748;Q1231865,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834,Q158852,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,organist; choirmaster,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,teacher; violinist; choirmaster; composer; organist; conductor; musicologist; pianist; harpsichordist; music educator,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soloist; vocalist; instrumentalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; pianist; teacher,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; writer; musician,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; musician,Q486748,Q486748,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; songwriter; musician,Q753110,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q177220,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,manager,Q14284;Q943995;Q3029406;Q39020112,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera writer,Q36834;Q158852;Q1622272;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; music director; educator; violinist; composer,Q36834;Q158852;Q215793;Q1259917,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,adaptor; lyricist,Q49757;Q753110,Q822146,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; composer; music teacher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,teacher; master; pianist; musician,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; impresario; manager,Q943995,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,r; performer,Q13219637;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852;Q222836;Q765778;Q2516866,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,oboeist; musician,Q36834;Q16003954,Q16003954,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; music educator; musicologist; pianist; organist; violinist; choirmaster; music critic; music administrator,Q36834;Q177220;Q486748;Q2259451,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; music educator,Q36834;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,literary critic; judge,Q16533;Q36180;Q82955;Q329455;Q18939491,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; performer,Q36834;Q177220;Q18814623,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,accompanist,Q36834;Q486748,Q29448653,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; arranger; music teacher; musicologist,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; vocalist; musician; songwriter,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q177220;Q2865819,Q2643890,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; vocalist; performer; musician,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; student,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,manager; theatre administrator,Q36834;Q1259917;Q2675537;Q3153559,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violoncellist,Q36834;Q13219637;Q16145150,Q1259917,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soldier; military officer,Q1402561,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera singer; vocalist,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,founder; organizer,Q36180;Q808967;Q20669622,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vice-chairman,Q49757,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,wife; friend,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; singer; pianist; music teacher,Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,arranger; musician; composer; vocalist,Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; vocal performer,Q36834;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; teacher; music publisher; instrument maker,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; pianist; composer; teacher; administrator,Q36834;Q158852;Q486748;Q1622272,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; reformer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,arranger; composer; harpist; pianist,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; harpist; conductor; music educator,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,military leader; emperor; politician; strategist; statesman,Q116;Q39018;Q82955;Q189290;Q372436;Q1402561;Q2304859;Q10732476;Q17010072;Q38239859,,0.0,0.0,0.0,0,0,10,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,sailor; admiral; military leader; national hero,Q82955;Q10669499,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher; singer; vocal coach,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; violinist; music educator; organist,Q36834;Q158852;Q1259917;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; organist; church musician; choirmaster,Q36834;Q765778;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,professor; bassoon teacher,Q36834;Q1622272;Q12310971;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; music publisher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; librettist,Q36834;Q37226;Q215793,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q37226;Q215793,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist,Q36834;Q82955;Q193391;Q486748;Q2285706;Q7330070;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,priest; musician; composer; music teacher; librarian; musicologist,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; violinist; teacher; music director,Q36834;Q158852;Q806349;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist; virtuoso,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; arranger; conductor; choir director; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Bishop; collector; author; publisher; literary figure,Q36180;Q42603;Q49757;Q187865;Q333634;Q3243461;Q14915627,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist; organist; teacher,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; singer; chapel master; teacher,Q36834;Q177220;Q215793;Q765778;Q1076502;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor,Q36834;Q182436;Q16003954;Q102104631,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,performer; musician,Q36834;Q177220;Q18814623,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; piano maker; music publisher; virtuoso; conductor; teacher; music director; pianist; violinist; cellist; harpsichordist; organist; arranger; editor,Q36834;Q222836;Q486748;Q885122,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher; pianist,Q36834;Q37226;Q177220;Q486748;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; virtuoso; singer; music teacher; choirmaster,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; consort; prince; royal; patron; collector; promoter of science and industry; philanthropist,Q158852;Q177220;Q639669;Q765778;Q1028181,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,patron; art collector; nobleman,Q36834;Q82955;Q189290;Q193391,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Ambassador,Q82955;Q193391,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,royalty; heir apparent,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,hostess; socialite; aristocrat,Q1028181,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,professor; lecturer,Q40348;Q170790;Q1622272;Q4964182;Q14565331,Q1569495;Q19788990,0.0,0.0,0.0,0,2,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor,Q36180;Q36834;Q1350157;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist; composer; teacher,Q36834;Q691031;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; musician; teacher; conductor; violinist; singer; arranger; orchestrator; music theorist,Q36834;Q482980;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,monarch; queen,Q116,Q116,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; music theorist; organist; harpsichordist; ballet composer,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,artist; writer; poet; illustrator; ethnographer; cultural commentator,Q36180;Q49757;Q182436;Q8178443,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q713200;Q855091;Q24067349,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; music director; arranger; orchestrator; music teacher; musicologist; vocalist; pianist; harpsichordist; organist; violinist; violist; cellist; double bassist; flutist; oboist; clarinetist; bassoonist; horn player; trumpeter; trombonist; percussionist; theatrical musician; choir director; ensemble leader; musical theatre composer; librettist; stage musician; music critic; music publisher; arts administrator; cultural figure; musical scholar; performer; artistic director; ensemble member; music notation specialist; music theorist; music historian; pedagogue; cultural ambassador; music producer; editor; translator; impresario; arts patron; benefactor; music consultant; music festival organizer; symphony orchestra member; chamber musician; soloist; ensemble founder; musical society member; musical society leader; cultural commentator; music broadcaster; music reviewer; music journalist; music editor; music archivist; music librarian; music researcher; music preservationist; music curator; music restorer; music consultant; music impresario; music enthusiast; music philanthropist; music educator; music therapist; music analyst; music writer; music lecturer; music professor; music professor emeritus; music,Q36834;Q1198887;Q1350157;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor,Q36834;Q158852;Q177220;Q486748;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,organist; clergyman,Q1955150,Q765778,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Minor Canon; clergyman,Q49757,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera composer,Q36834;Q1350157,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q158852;Q1622272;Q13219637,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; virtuoso; violinist; pianist; music teacher; impresario; librettist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; librettist; conductor; teacher; pianist; violinist; violist; opera impresario; music administrator; music critic; music publisher; music educator; choir director; organist; harpsichordist; virtuoso,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera singer; tenor,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist,Q36834;Q158852;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; music educator; organist; choirmaster; violinist; harpsichordist; conductor; virtuoso; music theorist; chapel master,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834;Q158852;Q14915627;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; painter; poet; soldier; actor,Q36180;Q49757;Q639669;Q1028181;Q2259451;Q3391743;Q11569986;Q15296811,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,chapel master; music teacher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; virtuoso; harpsichordist; teacher,Q36834;Q765778;Q5371902,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,translator; playwright; poet; philosopher; historian; physician,Q36180;Q39631;Q49757;Q182436;Q201788;Q214917;Q333634;Q551835;Q1622272;Q1930187;Q4002666;Q4964182;Q6625963;Q21550346,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; teacher; conductor; violinist; choirmaster; pianist; theorist,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q37226;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,student; lawyer,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,playwright; librettist,Q36180;Q36834;Q214917;Q6625963;Q8178443,Q214917,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,director; conductor,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q2865819;Q16145150,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera producer,Q36834;Q158852;Q177220,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera singer; tenor; baritone; bass,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,clarinetist; musician,Q36834;Q118865,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer; teacher; performer,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera composer; musician; artist,Q36180;Q36834;Q82955;Q158852,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q177220;Q2865819,Q36834,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,soprano; vocalist,Q36180;Q36834;Q177220;Q1259917;Q2865819;Q108404711,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; opera performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor; composer; music educator,Q36834;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,conductor,Q36834;Q13424456,Q158852,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,physicist; mathematician; astronomer; natural philosopher; alchemist; theologian; civil servant; warden of the Mint; master of the Mint,Q170790;Q4964182,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; doctor of music; cantab; principal,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,diplomat; historian; writer,Q36180;Q82955;Q201788,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; organist; conductor; educator; musicologist,Q36834;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; singer; teacher; music director,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,politician; banker; Member of Parliament; Chancellor of the Exchequer,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,scholar; linguist; cataloguer; librarian; translator; historian; orientalist,Q16533;Q36180;Q49757;Q82955;Q333634;Q1731155;Q2374149;Q4773904;Q14467526,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; poet; historian; lawyer; judge,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; poet; historian; novelist; lawyer,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; teacher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist; virtuoso,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,songwriter; poet; author; historian; physician; travel writer; journalist; editor; translator; dramatist; painter; illustrator; caricaturist; librarian; teacher; clergyman; lawyer; civil servant; architect; artist; composer; musician; singer; actor; publisher; bookseller; printer; engraver; art dealer; politician; diplomat; soldier; sailor; explorer; geographer; cartographer; navigator; missionary; adventurer; sportsman; hunter; collector; curator; antiquarian; genealogist; numismatist; lexicographer; philologist; translator; critic; reviewer; broadcaster; presenter; announcer; commentator; narrator; host; interviewer; journalist; editor; publisher; writer; author; poet; playwright; novelist; biographer; essayist; columnist; diarist; memoirist; humorist; satirist; comedian; actor; performer; orator; public speaker; lecturer; teacher; tutor; mentor; guide; counselor; advisor; consultant; expert; connoisseur; aesthete; patron; benefactor; sponsor; donor; philanthropist; humanitarian; activist; advocate; reformer; lobbyist; campaigner; champion; supporter; ally; helper; defender; protector; guardian,Q36180;Q49757;Q201788;Q333634;Q551835;Q774306;Q1930187;Q6625963,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; critic; philosopher; filmmaker; actress; teacher; activist; public intellectual,Q2643890;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; author,Q36180;Q182436;Q214917;Q1930187;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,philosopher; ethicist; metaphysician; theologian; lens grinder,Q1234713;Q1238570;Q4964182;Q15991187;Q24262584;Q66060374,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist; conductor; teacher,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor,Q36834;Q158852;Q1198887,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,patron saint of music; musician; singer; composer; instrument inventor; church leader; poet; martyr,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,writer; ex-Jesuit,Q36180;Q1792450;Q14915627;Q20669622,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; instrumentalist; songwriter; arranger; orchestrator; music teacher; vocalist; conductor; choir director; harpsichordist; organist; violinist; violist; cellist; music theorist; musicologist; music publisher; music educator,Q36834;Q37226;Q177220;Q765778,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; teacher,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,rcompose; conductor; pianist; teacher; musicologist; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q158852;Q1076502,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; singer; actor; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q158852;Q1259917;Q14915627;Q19747285,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,pianist; composer; arranger,Q36834;Q486748;Q1231865,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician; church composer; organist; choirmaster; singing master; teacher; chapel royal composer; cathedral composer; court composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist; composer; teacher,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; violinist; teacher; pianist; musicologist; music educator,Q36834;Q158852;Q333634;Q486748;Q1350157;Q1622272;Q2490358;Q8178443;Q16145150;Q18814623;Q18939491,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,artist; performer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,atron; music enthusiast,Q36834;Q158852;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; songwriter,Q36180;Q49757;Q1930187;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,poet; lyricist,Q36180;Q49757;Q214917;Q753110,Q49757,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,songwriter; composer; musician,Q14915627,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,artist; illustrator; portraitist; draftsman; sketcher,Q82955;Q483501;Q984276;Q1028181,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; theorist; teacher,Q36180;Q36834;Q49757;Q170790;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,painter; artist,Q1028181;Q3391743;Q11569986;Q14623005;Q15296811,Q483501;Q1028181,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; teacher; historian; writer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; violinist,Q36834;Q1259917,Q1259917,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,painter; artist,Q214917;Q333634;Q487596;Q984276;Q1028181;Q3387717;Q10862983;Q14623005;Q15296811,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,philosopher; freethinker; heretic,Q18805;Q36180;Q39631;Q155647;Q4964182,Q350347;Q4964182,0.5,0.2,0.28571428571428575,1,1,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; actress; operatic performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; librettist; conductor; musician; artist; writer; cultural figure; opera producer,Q36180;Q36834;Q82955;Q158852,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist; composer; concertmaster; teacher; virtuoso,Q36834;Q1259917;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; choral ballad writer,Q36834;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; arranger; publisher; organist; music educator; pianist; conductor,Q36834;Q158852;Q222836;Q765778;Q2516866,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; opera composer,Q36834;Q215793,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,violinist; composer; teacher; musician,Q36834;Q1259917;Q2675537;Q3153559,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,philanthropist; nobleman,Q82955;Q10732476;Q14915627,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musician; conductor; composer; teacher; arranger; organist; pianist; musicologist; choir director; music educator,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,musical antiquarian,Q36834;Q177220;Q639669;Q765778;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,translator; adapter; hymnologist; editor,Q36834;Q482980;Q5697103,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; theatre director; writer; polemicist,Q36180;Q36834;Q49757;Q158852;Q486748;Q1350157;Q3387717;Q8178443;Q11774202;Q18814623;Q18939491,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; music theorist; pedagogue; opera director,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; opera改革者; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,playwright; poet; actor,Q214917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,lecturer; singer,Q36180;Q40348;Q49757;Q1930187;Q4263842;Q4964182,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; musician,Q36834;Q158852;Q215793;Q765778;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,composer; conductor; pianist; music educator; music theorist; choir director; violinist; organist; music critic; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,singer; musician,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,patron; ruler; nobleman; duke; governor; monarch; sovereign; benefactor; art supporter; cultural figure; political leader,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,monarch; patron,Q116;Q82955;Q2478141;Q10732476,Q116,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,Emperor; ruler; sovereign; monarch; leader; head of state,Q116;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,qwen_qwen.2.5-72b-instruct,NIL,music patron; founder; society organizer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG

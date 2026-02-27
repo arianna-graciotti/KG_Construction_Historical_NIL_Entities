@@ -1,0 +1,641 @@
+retriever,llm,entity_type,llm_answer,qid_gold_true,linked_qid,sample_precision,sample_recall,sample_f1,TP,FP,FN,approach,approach_display
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist; choral director; opera coach; conductor,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; solo performer; composer,Q36834;Q19760296,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,writer; essayist; poet; playwright; journalist,Q36180;Q49757;Q82955;Q214917;Q1607826;Q1930187;Q3589290;Q8178443;Q11774202,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q33999;Q2259451;Q2865819,Q177220,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; vocalist,Q36834;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer,Q36834;Q486748;Q1350157;Q6430706;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer,Q36834;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; pianist; composer; vocal coach; musical director,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36180;Q36834;Q214917;Q1259917;Q2962003,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music teacher,Q36834;Q5371902,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist; musician,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist; musician,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,author; editor; poet,Q36180;Q49757;Q182436;Q8178443,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; lyric poet,Q36180;Q49757;Q609016;Q26237228,Q49757,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q158852,Q1259917,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,clarinettist,Q36834;Q118865;Q639669,Q118865,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,Italian singer; composer,Q2865819,Q36834,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; violinist,Q36834;Q899758;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,bishop; religious leader,Q42603,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; literary figure,Q49757;Q214917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of Arthur O'Leary from the given sentence and context. The sentence is a list of names and does not provide information about the occupations of the people mentioned.,Q36834;Q486748;Q753110;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; composer; musician; educator,Q36834;Q158852;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music teacher; pianist; singer; impresario; editor; singer,Q36834;Q158852;Q14915627;Q16145150;Q18931911;Q19723482,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor,Q36834;Q1231865;Q2490358;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; musicist; organist; harpsichordist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; librettist; conductor; pianist; impresario,Q36834;Q158852;Q177220;Q753110;Q2865819,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Baptiste Calkin from the given sentence, as it does not provide any context or information about their occupation.",Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,theater manager; impresario,Q943995,Q1776724,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music teacher (school of),Q36834;Q639669,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; pianist; conductor; virtuoso; arranger; orchestrator; sonata writer; symphony writer; chamber music composer; piano concerto writer; songwriter; choral music composer; incidental music composer; opera writer; ballet music composer; film score composer
+
+Confidence: 90%. The only occupation missing from the above list is ""instrumentalist"" since the specific instruments played by Beethoven are not mentioned in the given sentence. Beethoven is renowned as a pianist and is often portrayed playing the violin or the viola, though there is some doubt as to his skill level in playing those instruments. Nonetheless, his main occupation, without a doubt, is as a composer, especially in the area of symphonies and piano concertos.",Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; librettist; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; pianist; musical artist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; tenor,Q177220;Q639669;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; writer; musician,Q36180;Q36834;Q37226;Q49757,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist; tenor; baritone; bass-baritone; bass; countertenor; basso profondo; oratorio soloist; chorister; opera singer; cantor; recitalist; glee club singer,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,chorister; singing man; lay clerk,Q36834;Q765778,Q1076502,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; organist,Q36834;Q177220;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; opera writer,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I do not have sufficient information to determine the occupation of Boyton Smith from the given sentence. The sentence only provides a list of names, and I do not have any context or additional information that would help identify the occupation of Boyton Smith.",Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,publisher; music publisher,Q36834;Q37226;Q175151;Q182436;Q2516866;Q40881196,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; accompanist; composer; musical director,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of Brinley Richards from the given sentence as it does not provide any context or information about his occupation.,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poeta; songwriter; author; lyricist,Q36180;Q49757;Q131512;Q753110;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; music composer; keyboardist; harpsichordist; clavichordist; organist; music teacher; Kapellmeister
+
+(Note: Occupations are inferred from the person's work as a musician, composer, and musician educator, which were common occupations during the Baroque era when C. Bach lived.)",Q36834;Q486748;Q1643514,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q158852;Q639669;Q1259917,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; musician; composer; music publisher,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"musician; doctor of music, Cambridge",Q36834;Q13424456,Q639669,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of CAROLUS MARTA FREYHERR VON WEBER from the given sentence. The sentence does not provide any information about his occupation.,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; singer; instrumentalist; teacher
+
+(The answer is based on the assumption that as a ""great harmonist,"" Caldara was likely involved in musical composition and performance in some capacity, such as singing or playing an instrument. Additionally, Caldaras association with teaching is inferred from his role as a master of the chapel master at several courts, where he would have been responsible for training choirs and instrumentalists.)",Q36834;Q177220;Q215793;Q13219637,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"sculptor; artist
+(Note: Canova was a renowned Italian sculptor and artist of the Neoclassical period.)",Q42973;Q1028181;Q1281618;Q15296811,Q1281618,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,capellmeister; conductor; musician; musical director,Q36834;Q158852;Q1622272,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music teacher; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,mathematician; physician; astrologer; philosopher; gambler; author; professor,Q39631;Q81096;Q155647;Q170790;Q205375;Q4964182,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; composer; music teacher,Q36180;Q36834;Q49757,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; pianist; critic,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; opera singer; virtuosa,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,empress; ruler,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; composer; cellist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,administrative officer; government official; court official,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q158852;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; bassoonist,Q36834;Q118865;Q639669;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,none; Charles Edward's occupation is not specified in the sentence. The sentence only mentions his involvement in the Duke of Cumberland's success and the popularity of a song of triumph associated with him.,Q845929;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q177220;Q899758;Q1259917,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; musician,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,novelist; author; poet; teacher; social critic,Q36180;Q37226;Q49757;Q1540278;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; music director; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,nobleman; courtier,Q2478141,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; music teacher; music director; conductor; performer,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"answer the question: ""What is the occupation of Cimador?""
+Answer: composer; musician; arranger",Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; musician; musical director; opera composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; concert pianist; music teacher,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist; composer,Q36834;Q899758;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; writer; music critic; musician; conductor,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,author; editor; writer,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"singer; voice teacher
+
+Explanation: Based on the sentence, Crescentini is associated with the conservatory of Peris, which suggests that they are involved in the field of singing and voice teaching.",Q36834;Q177220;Q1836630;Q1999862;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; cellist,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,chamber violinist,Q36834,Q1259917,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,ruler; colonial administrator; military officer,Q116;Q1097498,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,noble; politician; diplomat,Q82955;Q2478141,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; thespian; actor,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; bassoonist,Q36834;Q12310971;Q16145150,Q12310971,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; literary figure,Q36180;Q49757;Q121594;Q333634;Q14467526,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; conductor; violist,Q36834;Q158852;Q177220;Q639669;Q806349;Q1259917,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q1259917,Q1259917,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"Your input does not specify the occupation or provide a sentence that implies an occupation for Donizetti. A brief internet search suggests that Gaetano Donizetti was an Italian composer of operas. Therefore, the answer is:
+
+composer",Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,Sub-Dean of Majesty’s Chapels Royal.,Q36180,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; music professor or scholar,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; musical director; choir master; music educator,Q36834;Q158852;Q765778;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,author; music historian; diarist,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have access to the specific context of Dr. Chrysander's profession in the given sentence. However, based on general assumptions, Dr. Chrysander might be a ""scholar"" or ""historian,"" particularly in music, as he is mentioned in relation to a fact about music. Thus, the answer would be:
+
+scholar; historian",Q36180;Q876864;Q1350157;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,medical doctor; physician; surgeon; academic; researcher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,doctor; musical director,Q158852,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music professor; musician; composer,Q36834;Q765778;Q1028181;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; organist; composer; music professor,Q36834;Q765778;Q2259532;Q13424456,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; hymn writer; musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of Dr. H. J. Gauntlett from the given sentence.,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,doctor; physician; surgeon,Q36834;Q39631,Q39631,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; musician,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"musician; composer; organist; music teacher (based on the context that he bestowed music which was performed in the King’s Chamber gratis, indicating that he was likely a music teacher or musician by profession)",Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor,Q36834;Q158852;Q1622272;Q16145150,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musicologist; music educator; composer,Q36834;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; organist,Q36834;Q1076502;Q1278335,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,medical doctor; general practitioner; physician,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,double bass player; chamber singer,Q36834;Q639669,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,philosopher; writer; educator,Q36180;Q170790;Q201788;Q1622272;Q4964182,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"royalty; military personnel (due to the rank of ""Royal Highness"" indicating a connection to the monarchy, which typically involves military duties and responsibilities)",Q47064;Q82955,Q11573099,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,royalty; patron,Q82955;Q1475726;Q2478141,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; singer; harpsichordist; organist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of E. H. Thorne from the given sentence, as it does not provide any context or information about their occupation.",Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,noble; politican; landowner,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; principal,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; organist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,author; playwright; dramatist,Q43845;Q998550,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,king; sovereign; monarch,Q116;Q82955,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have enough information to provide a reliable answer to this question. The sentence ""Eichner died at the beginning a of the year 1777."" does not provide any information about Eichner's occupation.",Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,sovereign; emperor; monarch,Q116;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"prince; patron of the arts; master of chapel.
+
+Explanation: Ernest Augustus, Duke of Brunswick is referred to as a ""Protestant prince"" indicating his role as a leader in a Protestant state. He is also mentioned as a ""passionate lover of music"" who invites a musician to his court, confers on him the appointment of master of his chapel, and commits to his care the management of the Opera. These actions suggest that Ernest Augustus, Duke of Brunswick had an occupational role in the administration and patronage of the arts, particularly music.",Q611644,Q58481980,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,museum director; art curator; artist; art historian; archaeologist; art critic; conservator; art educator,Q158852;Q1836630,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,mathematician; geometrician; academician; philosopher; scientist,Q36180;Q170790,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; author,Q49757;Q1930187,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,novelist; writer; fiction author,Q36180;Q39631;Q82955;Q6625963,Q6625963,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of F. E. Gladstone from the given sentence as it does not provide any context or information about their occupation.,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; cellist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; conductor; pianist; organist; author,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q158852,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,maestro; chapel music director,Q36834;Q330679,Q639669,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36180;Q753110;Q17505902,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,operatic castrato singer; impresario,Q33999;Q2259451;Q2865819;Q3387717;Q20083902,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q214917;Q1076502,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; castrato singer,Q33999;Q2259451;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,solo. performer; musician,Q36834;Q16003954,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Francoeur from the given sentence. The sentence mentions that Francoeur ""belonged"" but it does not specify what he belonged to, and thus I cannot determine his occupation.",Q36834;Q158852,Q1259917,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor; music teacher,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of Frederick Westlake from the given sentence and context.,Q36834,Q95674799,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor,Q36834;Q37226;Q158852;Q486748;Q639669;Q1231865;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"The information provided is not sufficient to determine the occupation of the person ""Furno"". The sentence ""Furno, who fills this post, is equally active and skilful."" does not specify what the occupation of Furno is. We would need additional context or information to provide an accurate answer.",Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; conductor; organist; pianist; music teacher,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; esquire,Q11063;Q36180;Q49757;Q170790;Q4263842,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; harmonicist,Q36834;Q158852;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; chapel master,Q36834;Q158852;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,military leader; general; politician; revolutionary; strategist; warrior; patriot,Q36180;Q47064;Q82955;Q178197;Q1397808;Q18814623,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music educator; choir director; composer,Q36834;Q158852;Q1198887;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; artist,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist; composer,Q36834,Q1259917,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I do not have enough information to determine the occupation of Gebauer Francois Réné from the given sentence. Semicolon-separated lists of occupations are only provided when sufficient context about the person's occupation(s) is available in the sentence.,Q36834;Q158852;Q1622272;Q12310971;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; choir director; kapellmeister,Q36834,Q639669,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"king; master of chapel; manager of opera
+Note: The input does not definitively state that George I. of England was a ""master of his chapel"" or ""manager of the Opera,"" but since his father conferred these appointments on him, I am including them in the answer. However, if we were to interpret the question more strictly to only include occupations directly stated to be held by George I. of England, then the answer would only be ""king.""",Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"philosopher; astrologer; mathematician; cosmologist; writer; friar; lecturer; religious dissident; heretic; martyr
+
+(Note: Giordano Bruno was accused of heresy by the Roman Inquisition and was burned at the stake, leading to his classification as a martyr. He was a philosopher, astrologer, mathematician, and cosmologist by profession. Additionally, he worked as a writer, friar, lecturer, and religious dissident throughout his life.)",Q11063;Q36180;Q49757;Q155647;Q170790;Q1469535;Q1622272;Q4964182,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,Italian singer; composer,Q2865819,Q36834,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; violinist; teacher (based on the context provided, Giovanni Battista Bassani is a composer, musician, and violinist, and possibly also a teacher, given that he is said to be the master of the violinist Corelli)",Q36834;Q355493;Q765778;Q1259917;Q21680731,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; opera composer,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; singer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music teacher; teacher of thorough bass,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music teacher,Q36834;Q158852;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; conductor; pianist; organist; music teacher,Q36834;Q765778;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; singer; performer; musician,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music publisher; author of sacred music,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; organist; choirmaster,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; concert performer; music conductor; music educator; arranger; concert composer,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Grisi from the given sentence. The sentence only mentions Grisi shaking hands with friends, but it does not provide any information about her occupation.",Q177220;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,actor; comedian,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,operatic castrato singer,Q33999;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer; conductor,Q36834;Q765778;Q1622272;Q16145150,Q765778,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q486748;Q885122,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; composer; organist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of H. Lazarus from the given sentence. The sentence does not provide enough context to determine the occupation of H. Lazarus.,Q36834;Q118865;Q12800682;Q14915627;Q16145150;Q97572814,Q639669,0.0,0.0,0.0,0,1,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer; pianist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,publisher; music publisher,Q222836,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,artist; engraver; illustrator; lithographer; printmaker; writer; art critic; editor; painting instructor,Q644687;Q1028181;Q16947657,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; lawyer; historian; political leader; essayist,Q333634;Q639669,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; conductor; organist; patron of music; librettist; instrumentalist; singer
+(Note: Handel held various positions and was a versatile musician, so I included several related occupations.)",Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q177220;Q215793;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; conductor; teacher,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,royalty; duchess.,Q2478141,Q11573099,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,philosopher; mathematician,Q4964182,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musicians; artist; musical craftsman,Q36834;Q486748;Q1323191;Q2490358;Q2707485,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; composer; music teacher; musician,Q36834;Q37226;Q158852,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor; music teacher; performer,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist,Q36834;Q486748;Q15980158;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; musician; composer; pianist; educator,Q36834;Q158852;Q486748;Q1622272;Q6430706,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"archbishop; bishop; religious leader; clergy
+(Note: The title ""Archbishop"" already encompasses the role of a bishop, but I've included it for clarity.)",Q42603,Q4917468,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,monarch; king,Q16533;Q47064;Q82955;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"None (assuming no other context indicates otherwise); note that ""His Majesty"" is a title, not an occupation, and the sentence does not explicitly state an occupation for the person holding the title.",Q82955;Q1097498;Q10732476;Q15472169,Q116,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,royalty; heir apparent,Q116;Q82955;Q2478141;Q10732476,Q11573099,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; author,Q36180;Q49757;Q753110;Q864380;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music director; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; conductor; virtuoso; teacher; kapellmeister; musician,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,manager; theatrical director,Q43845;Q998550,Q1776724,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; musician,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of J. Thomas from the given sentence. The sentence only lists some names but does not provide information about their occupations.,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"musician; composer (reasonable assumption based on context, but not explicitly stated)",Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,king; ruler,Q116;Q36180;Q49757;Q2478141,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,publisher; journalist,Q1930187,Q1930187;Q2516866,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"The given sentence, ""For ten years Jarnowick was in great favour with the public,"" does not provide enough context to determine Jarnowick's occupation. Therefore, I cannot provide an answer.",Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834,Q1259917,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q158852;Q691031;Q899758;Q1259917;Q1622272;Q14915627;Q16145150,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q486748;Q1643514,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; author,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; music educator; composer; musical conductor,Q36834;Q37226,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine a specific occupation for John Parry from the given sentence. The sentence mentions John Parry in a social or recreational context, not a professional one.",Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; music educator; organist; musicologist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,politician; diplomat; rebel leader,Q39631;Q82955;Q193391;Q1622272,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music director; concertmaster; conductor,Q36834;Q14915627,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Kiallmark from the given sentence. The sentence only mentions musical pieces with Kiallmark's name in the title, but it does not provide information about Kiallmark's occupation.",Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,king; monarch; ruler; head of state; political leader,Q82955,Q12097,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,bibliographer; scholar; researcher; archivist,Q18805;Q36834;Q201788;Q864380;Q1607826;Q2374149;Q13416354;Q14915627;Q20198542,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music director; musician; impresario; librettist; teacher; virtuoso performer,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; artist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,bass singer; opera singer,Q36834;Q2259451;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q215793;Q805221;Q805253;Q1259917;Q2490358;Q2675537;Q5716684,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer,Q36834;Q486748;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music educator; musician; artist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; music teacher; piano pedagogue,Q36834;Q486748;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,Lieutenant - Colonel; author,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; cellist; friend,Q36834;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; songwriter,Q36834;Q158852;Q177220;Q330679;Q765778;Q5758653,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,philosopher; statesman; essayist; jurist; author,Q901;Q16533;Q36180;Q40348;Q82955;Q155647;Q201788;Q4964182,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; politician; peer; dramatist; satirist,Q36180;Q47064;Q49757;Q82955;Q214917;Q333634;Q822146;Q2478141;Q8178443;Q18814623;Q18939491;Q125360586,,0.0,0.0,0.0,0,0,12,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"courtier; officer of the royal household; minister
+ (A lord chamberlain was an officer of the royal household with responsibilities for the royal court's entertainment, including censorship of plays.)",Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,noble; politician; military officer; courtier,Q82955;Q12299841,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music student; scholar; earl; afterwards Earl of Abercorn,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; opera singer; theatre director; musician,Q33999;Q36180;Q36834;Q158852;Q177220;Q2259451;Q2865819;Q8178443,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music educator; choir director; composer,Q36834;Q177220;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; harmonist,Q36834;Q1259917,Q639669,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; arranger; orchestrator,Q639669;Q1028181,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; pianist; cellist,Q36834;Q158852;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; music educator; imitator of Lulli
+
+Note: The answer is based on the assumption that Luigi Rossi is a musician, given the context of the sentence about Italian composers and musicians. The term ""imitator of Lulli"" indicates that Rossi was influenced by the style of French composer Jean-Baptiste Lully.",Q36834;Q2865819,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; violinist; ballet composer; musical director
+Confidence: 90%. Although the sentence does not explicitly state Lulli's occupation, it refers to him as a significant composer and musician, making it highly likely that he was involved in music-related professions. The context provided in the question also increases the confidence in answering with music-related occupations.",Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,historian; writer; scholar; translator,Q201788,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music director; conductor; educator,Q36834;Q158852;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; composer; performer; conductor,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music critic; journalist; writer,Q36834;Q1350157;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; maestro,Q36834;Q158852;Q1259917,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music educator; music theorist; composer,Q1231865;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist,Q36834;Q765778;Q1930187;Q14915627,Q765778,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music composer; musician; talentable composer; musical composer,Q36834;Q486748;Q12902372;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music theorist; music journalist; educator; composer; historian; director; professor,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,,0.0,0.0,0.0,0,0,12,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer,Q36834;Q37226;Q215793;Q486748;Q765778;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,theate director; adapter,Q214917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor; music educator,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist; vocal performer,Q1259917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music director; impresario; composer,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q33999;Q245068,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; opera producer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; director of music,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,artist; scene painter; illustrator; set designer,Q49757;Q8178443,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor,Q36834;Q486748;Q765778;Q1076502;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer,Q36180;Q49757;Q82955;Q214917;Q6625963;Q8178443;Q12144794,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music seller; music publisher,Q222836,Q222836,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,kapellmeister; music director; conductor,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; tenor,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; librettist,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,bandleader; conductor; musiciansedirector,Q36834;Q158852;Q762707;Q13219637,Q806349,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the exact occupation of M. Vivier from the given sentence. The sentence suggests that M. Vivier is a performer or artist of some kind, as they have created a ""new wonder"" that has delighted Queen Victoria. However, without further information, I cannot specify their occupation more accurately than that.",Q36180;Q36834;Q19729565,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"singer; tenor;
+(Note: The answer is based on the assumption that ""first tenor"" implies that M. ‘Nourrit is a tenor singer. If the context suggests otherwise, please let me know.)",Q36834;Q2490358;Q2865819;Q8178443;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,professor of the bassoon,Q36834;Q1622272;Q12310971;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have enough information to determine the occupation of Miss Dolby from the provided sentence. The sentence only mentions that a piece was composed and dedicated to her, but it does not specify what her occupation was.",Q36834;Q2865819;Q16145150,Q177220,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; conductor; music teacher; musicologist
+
+ (Semicolon-separated list of possible occupations for the person ""Macfarren"" based on the given sentence: ""3- SEVEN VOCAL DUETS, by Bellini, S. Glover, Macfarren, Donizetti, & c.."". The person Macfarren is likely a composer, musician, conductor, music teacher, and musicologist, given the context of the sentence.)",Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; author,Q36180;Q49757,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; actress,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer,Q36834;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; singer,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,I cannot determine the occupation of Madame Caradori Allan from the given sentence.,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,prima donna; opera singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; opera singer; performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; opera singer,Q177220;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; concert performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,vocal soloist; singer,Q1259917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; virtuoso; performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q177220,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,actress; singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; singing teacher,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; soprano,Q177220;Q2865819;Q16145150;Q21680731,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist; performer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; opera singer,Q486748;Q1259917;Q2865819;Q16145150,Q2865819,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,actress; singer; dancer,Q33999;Q1320883;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singers; operatic singer; concert singer,Q36834;Q486748;Q2350126;Q2865819,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist; performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,prima donna; opera singer; stage actress,Q36834;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,prima donna; actress; musician,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I would answer: ""singer; opera singer"" or just ""soprano"", as Mademoiselle Pasta was a famous Italian operatic soprano. However, without more context from the sentence, it's hard to definitively determine the occupation of Mademoiselle Pasta in this specific sentence. The sentence appears to be incomplete or misspelled, as it's not a grammatically correct sentence and doesn't contain any information about Mademoiselle Pasta's occupation.",Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,soprano; opera singer; concert performer,Q2643890;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,chapel master; musician; composer or choir director,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"The given sentence does not specify the occupation of Mahomet. The name Mahomet in this context is likely a reference to the prophet Muhammad, who is traditionally associated with religious leadership. However, without additional context, it is not possible to definitively state an occupation for Mahomet.",Q42857;Q82955;Q215536;Q432386;Q877558;Q1402561;Q12059906,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q33999;Q36834;Q2259451;Q2865819,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; singing teacher,Q37226;Q39631;Q177220;Q205375;Q1836630;Q2350126;Q2865819,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; musician educator,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"Based on the given sentence, the occupation of Maria ot Burgundy is not explicitly mentioned. However, given the context of the sentence and the individual in question, it can be inferred that Maria ot Burgundy was a historical figure and a member of the royal family of Burgundy. Therefore, her occupation could be described as a ""royalty; nobility.""",Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,solo pianist,Q36834;Q486748,Q486748,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; translator,Q36180;Q49757;Q333634,Q49757,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; Kapellmeister; music director; teacher; writer of vocal music; conductor; opera composer,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"author; writer; scholar; journalist; editor; literary critic; educator
+
+The sentence suggests that Martini is engaged in intellectual work, such as writing and scholarly research, and may also be involved in education. Therefore, the answer is ""author; writer; scholar; journalist; editor; literary critic; educator"".",Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Maximilian I, Holy Roman Emperor (Masimilian : ot Austria) from the given sentence. The sentence does not provide information about his occupation.",Q1097498,Q39018;Q1097498,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor; music teacher,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,writer; music critic,Q36834;Q1350157;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"cellist; musician; pianist; teacher
+confidence: 90%
+
+Note: The exact occupation of May H. Mukle in this context is not explicitly stated to be a cellist, but given her inclusion in the list of musicians who are playing accompaniments and her well-known occupation as a cellist, the answer is highly probable.",Q639669,Q13219637,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; violinist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; operatic soprano,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; librettist,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; conductor; pianist; organist; soloist; chamber musician; orchestrator; concertmaster; music director; pianoforte manufacturer
+
+Note: Mendelssohn had a wide range of talents and occupations related to music. While he is best known as a composer, he also made substantial contributions to conducting, performing (as a pianist and organist), and music education.",Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q215793;Q1162163;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; piano manufacturer; music publisher,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; instrumentalist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; librettist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; vocal coach; music teacher; stage performer,Q36834;Q158852;Q1198887;Q18814623,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; pianist; opera composer; writer; music director; poet; playwright; librettist,Q36834;Q158852;Q1198887;Q18814623,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; violinist,Q36834;Q765778;Q5371902,Q36834;Q1259917,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; musician,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; contralto; vocalist,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q36834;Q2865819;Q16145150,Q177220;Q2643890,0.0,0.0,0.0,0,2,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist; vocal coach; singing teacher,Q177220;Q2643890;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q33999;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; musician,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music theorist; musical conductor; teacher of music,Q36834;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor; piano teacher; pianist-composer,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; pianist; conductor; musical prodigy
+
+Another set of inputs:
+
+Person: ""Maria Curie""
+Sentence: ""... worked at the Solvay Congresses with Ramsay, van Markovnikov, and Curie...""
+Question: ""What is the occupation of Maria Curie?""
+
+Answer: physicist; chemist; scientific researcher",Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music arranger; composer; orchestrator,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; composer; music director,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; conductor; bandleader; instrumentalist,Q36834;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; harmonium player,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; musician,Q36834;Q158852;Q486748;Q1231865,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the exact occupation of Mr. Clifton from the given sentence. The sentence mentions Mr. Clifton in the context of musical selections, so it's possible he could be a composer, musician, or have some other connection to music. However, I cannot definitively determine his occupation based on the information provided.",Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,translator; playwright; stage manager.,Q8178443,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; music director,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,printer; typesetter; publisher; lecturer; musicologist; music educator,Q49757;Q13424456,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,The sentence does not provide enough information to determine Mr. Cramer's occupation.,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist; composer; teacher; conductor,Q36834;Q37226;Q1259917;Q1622272;Q16145150,Q1259917,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,academic; teacher; researcher; administrator; scholar; tutor,Q738142;Q12299841,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,editor; journalist; writer,Q43845;Q998550,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; tenor,Q177220,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music director; conductor,Q158852;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist,Q158852;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist,Q36834;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,Minor Canon of Canterbury Cathedral; Sub - Dean of St. Paul’s,Q2865819,Q765778,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,postmaster; mail superintendent; delivery manager (specifically for transmission abroad),Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; musician,Q36834;Q158852;Q486748;Q1231865,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor,Q36834,Q158852,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; choirmaster,Q36834;Q765778,Q765778;Q1076502,0.5,0.5,0.5,1,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have enough information to determine the occupation of Mr. John Parry from the given sentence. The sentence only provides a list of names, without mentioning any occupations.",Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,tenor; vocalist; soloist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Mr. Kalkbrenner from the given sentence. The sentence only seems to allude to Mr. Kalkbrenner's good taste in selecting and treating his subjects, but it does not explicitly mention an occupation.",Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have access to the context needed to determine Mr. Kiallmark's occupation from the given sentence. If Mr. Kiallmark is an author, his pieces could be written works. If he is a musician, his pieces could be musical compositions. More information is needed to provide an accurate answer.",Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer,Q486748,Q486748,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; songwriter,Q753110,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q177220,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,theatre manager; impresario,Q14284;Q943995;Q3029406;Q39020112,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; opera director,Q36834;Q158852;Q1622272;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; music director,Q36834;Q158852;Q215793;Q1259917,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; pianist; organist; pianoforte virtuoso; music director; teacher of music; composer of oratorios; conductor of Leipzig Gewandhaus Orchestra,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,adaptor of words to music; arranger,Q49757;Q753110,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; music editor; composer; piano teacher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music teacher; piano teacher,Q36834;Q486748,Q2675537,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,orchestra conductor; impresario,Q943995,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q13219637;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; music publisher,Q36834;Q158852;Q222836;Q765778;Q2516866,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; oboist,Q36834;Q16003954,Q16003954,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; conductor; singer; composer; music teacher; organist; choir master; pianist,Q36834;Q177220;Q486748;Q2259451,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; music teacher; music educator,Q36834;Q486748;Q1622272;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"literary critic; judge of merit
+ (the sentence implies that Mr. Pepys was a sound judge of genuine merit in literature, which means he was a literary critic)",Q16533;Q36180;Q82955;Q329455;Q18939491,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; performer; vocalist,Q36834;Q177220;Q18814623,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; organist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; accompanist,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musicologist; music educator,Q36834;Q37226;Q158852;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; singer; music teacher,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; tenor,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; conductor; composer; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"student (of music, based on the context of the Royal Academy of Music)",Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,theater manager; music director; impresario,Q36834;Q1259917;Q2675537;Q3153559,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violoncellist,Q36834;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have enough information to accurately determine Mr. Waters' occupation based on the given sentence. The sentence ""This was never heard of after the retreat of Mr. Waters to Calais"" does not provide any context about Mr. Waters' job or profession.",Q1402561,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; tenor; musician,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,The given sentence does not provide sufficient information to determine the occupation of Mr. Willert Beale.,Q36180;Q808967;Q20669622,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"vice-chairman; executive
+
+These titles are based on the context of a meeting or organizational setting, as indicated by the presence of a president and the actions of occupying a chair and serving as a vice-chairman. It is important to note that the exact titles may vary depending on the specific organization or cultural context.",Q49757,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"The input does not provide sufficient information to determine an occupation for Mrs. Moscheles. The sentence only mentions that Mrs. Moscheles used to visit a friend, but it does not specify an occupation.",Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q486748,1.0,0.1111111111111111,0.19999999999999998,1,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music arranger,Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q36834;Q2865819,Q2643890,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; musician; music arranger; music publisher,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; pianist,Q36834;Q158852;Q486748;Q1622272,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,harpist; composer; conductor; pianist; flutist; instrumentalist,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; music teacher; conductor; professional harpist,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,military leader; emperor; strategist; conqueror; statesman,Q116;Q39018;Q82955;Q189290;Q372436;Q1402561;Q2304859;Q10732476;Q17010072;Q38239859,,0.0,0.0,0.0,0,0,10,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; organist; musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; kapellmeister; conductor; singer; instrumentalist; impresario
+
+Here's the reasoning:
+- The sentence states that there is a ""quartet from Naumann,"" which implies that Naumann is a composer.
+- The word ""quartet"" also implies that Naumann is a musician, as he has written music for a group of musicians.
+- In the 18th and 19th centuries, the German term ""kapellmeister"" referred to a leader of a musical ensemble, typically an orchestra or choir, so Naumann is also a kapellmeister.
+- As a kapellmeister, conductor is another appropriate job title for Naumann.
+- Additionally, since Naumann has written music for an alto and quartet, it can be inferred that he is a singer and instrumentalist.
+- Finally, Naumann may also have been an impresario, as he was a notable figure in the musical world of his time.",Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,admiral; naval officer,Q82955;Q10669499,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music teacher; composer; singing master,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"composer; musician; conductor; music director; musician (solo voices, chorus, and orchestra)",Q36834;Q158852;Q1259917;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer,Q36834;Q765778;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,professor of the bassoon,Q36834;Q1622272;Q12310971;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; music publisher; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; opera writer,Q36834;Q37226;Q215793,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; singer; actor,Q36834;Q37226;Q215793,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; music teacher; concert performer,Q36834;Q82955;Q193391;Q486748;Q2285706;Q7330070;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music teacher; musical theorist; priest,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; singer; musician,Q36834;Q158852;Q806349;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"violinist; composer; virtuoso; conductor; teacher
+
+Another example:
+
+Person: ""Marie Curie""
+Sentence: ""..lecture by Marie Curie on radioactivity.""
+Question: ""What is the occupation of Marie Curie?""
+
+Answer: physicist; chemist; researcher; academic; nobel laureate",Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q1259917,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist; music teacher; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; singer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"opera singer; singers; prima donna; contralto (based on context, as Pasta was known to have excelled in contralto roles)",Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; artist; music arranger; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer,Q36834;Q14915627;Q16031530,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,literary historian; antiquary; miscellaneous writer; Bishop of Dromore; scholar; art collector; cleric; editor; Fellow of the Royal Society of Edinburgh,Q36180;Q42603;Q49757;Q187865;Q333634;Q3243461;Q14915627,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; opera composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q177220;Q215793;Q765778;Q1076502;Q16145150,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; singer,Q36834,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,chess player; composer; musician,Q36834;Q182436;Q16003954;Q102104631,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,actor; bass-baritone singer; composer; conductor,Q36834;Q177220;Q18814623,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,piano maker; composer,Q36834;Q222836;Q486748;Q885122,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor,Q36834;Q37226;Q177220;Q486748;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music teacher,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"prince; royalty; consort; musician; dancer; artist; patron
+
+Explanation: Although the sentence only mentions Prince Albert and his participation in 'Die Elfen Walzer', it does not explicitly specify his occupation in relation to this event. However, based on general knowledge about Prince Albert, we can infer that he had multiple occupations throughout his life. Some of these include being a prince, member of the royal family, consort to Queen Victoria, a known musician, dancer, artist, and patron of the arts.",Q158852;Q177220;Q639669;Q765778;Q1028181,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,patron of art; art collector,Q36834;Q82955;Q189290;Q193391,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"noble; politician; diplomat
+(Note: The specific occupation of the Prince de la Tour d’Auvergne may vary depending on the context and time period, but based on the given sentence, we can infer that he was likely a noble, politician, or diplomat.)",Q82955;Q193391,Q16744001,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine an occupation for the Prince of Wales based on the given sentence. The sentence only indicates that the National Hymn was performed to celebrate the return of the Prince of Wales, but it does not specify his occupation.",Q116;Q82955;Q2478141;Q10732476,Q11573099,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I'm afraid the information provided in the sentence is not sufficient to determine the Princess's occupation. The sentence only describes some soirees hosted by Princess Belmonte Spinelli, but it does not specify what her occupation is. An occupation generally refers to a person's regular, paid employment, or their main activity during their daily life. Without further context or information, it is impossible to accurately determine the Princess's occupation.",Q1028181,Q512314,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,professor of mathematics; mathematician; lecturer; author; historian of mathematics,Q40348;Q170790;Q1622272;Q4964182;Q14565331,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; music professor,Q36180;Q36834;Q1350157;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q691031;Q1259917,Q1259917,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q482980;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,queen; monarch; ruler,Q116,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,vocalist; singer,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; keyboardist; music theorist,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,author; historian; artist; social commentator,Q36180;Q49757;Q182436;Q8178443,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,guitarist; composer,Q36834;Q713200;Q855091;Q24067349,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; music director; pianist; accompanist,Q36834;Q1198887;Q1350157;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; conductor,Q36834;Q158852;Q177220;Q486748;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; music director; clergy,Q1955150,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,Minor Canon,Q49757,Q6869158,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera composer; librettist,Q36834;Q1350157,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; music director; composer,Q36834;Q158852;Q1622272;Q13219637,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music editor; music critic; opera director,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; pianist; musical director; arranger; orchestrator; music teacher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; tenor,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor,Q36834;Q158852;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; librettist; musician; oratorio writer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer,Q36834;Q158852;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,painter; poet; printmaker; scenic designer; sculptor; swordsman; mercenary soldier; musician; author; physician; nobleman; satirist,Q36180;Q49757;Q639669;Q1028181;Q2259451;Q3391743;Q11569986;Q15296811,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; Chapel Master,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; music creator,Q36834;Q765778;Q5371902,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,playwright; poet; philosopher; historian; scientist,Q36180;Q39631;Q49757;Q182436;Q201788;Q214917;Q333634;Q551835;Q1622272;Q1930187;Q4002666;Q4964182;Q6625963;Q21550346,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; conductor,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; pianist; songwriter; conductor; music director; musician educator,Q36834;Q37226;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"The answer to the given question is ""student"" since Robert Schumann came from the gymnasium to Leipzig in 1828 to study Jurisprudence. Therefore, his occupation at that time was being a student.",Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,playwright; librettist,Q36180;Q36834;Q214917;Q6625963;Q8178443,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera director; singer; vocal coach,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer,Q2865819;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera composer; librettist; musician,Q36834;Q158852;Q177220,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,inventor; electrical engineer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,actor; opera singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,first clarinet; clarinetist,Q36834;Q118865,Q118865,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have enough information to determine the occupations of ""Signor Santar elli"" as the text provided does not give enough context about his occupation. In the given sentence, he is mentioned in the context of being an owner or possessor of one of the copies of a musical composition, but this does not necessarily indicate his occupation.",Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music director; impresario; conductor,Q36180;Q36834;Q82955;Q158852,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; singing teacher,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; songwriter,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; vocal soloist,Q36180;Q36834;Q177220;Q1259917;Q2865819;Q108404711,Q177220,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; tenor; impresario; conductor,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; composer; professor; musician,Q36834;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor,Q36834;Q13424456,Q158852,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; conductor; musical director; musician educator,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,physicist; mathematician; astronomer; scientist,Q170790;Q4964182,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the exact occupation of Sir J. Goss from the given sentence. The sentence only mentions his name and some titles, but it does not specify his occupation.",Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,politician; diplomat; soldier; author,Q36180;Q82955;Q201788,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,organist; composer; musicologist; choir director; professor of music,Q36834;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,conductor; composer; pianist,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; conductor; educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,The sentence does not provide sufficient information about Sir Thomas Gladstone's occupation. Additional context is required to determine his occupation.,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,linguist; orientalist; jurist; poet; philologist,Q16533;Q36180;Q49757;Q82955;Q333634;Q1731155;Q2374149;Q4773904;Q14467526,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Sir W. Scott from the given sentence. The sentence only mentions a portrait of Sir W. Scott, but it does not provide information about his occupation.",Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I would answer: the occupation of Sir Walter Scott is not specified in the sentence. The sentence only describes his appearance and energy level, but it does not provide information about his occupation. Some possible occupations for Sir Walter Scott, given that he is referred to with the title ""Sir,"" could be a knight, a noble, or a politician, but these are not mentioned in the sentence.",Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,singer; musician; vocalist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q1259917,Q1259917,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,novelist; poet; author; historian; playwright; essayist; biographer,Q36180;Q49757;Q201788;Q333634;Q551835;Q774306;Q1930187;Q6625963,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I don't have access to the context about the person ""Sontag"" in your sentence, so I can't provide a definitive answer about her occupation. According to various sources, Susan Sontag was a writer, filmmaker, teacher, and political activist. However, without more information linking the person ""Sontag"" in your sentence to the historical figure, I can't provide a precise answer. In general, without additional context, it's impossible to accurately determine a person's occupation from a sentence that doesn't mention their job or profession.",Q2643890;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,novelist; writer,Q36180;Q182436;Q214917;Q1930187;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,philosopher; lens grinder,Q1234713;Q1238570;Q4964182;Q15991187;Q24262584;Q66060374,Q4964182,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; violinist; conductor; teacher,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q158852;Q1198887,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"patron saint of music; musician; music lover (note: the answer may vary depending on the interpretation of the input, as St. Cecilia is not a professional in any of these occupations but is closely associated with them)",Q639669,Q639669,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,author; historian; scholar,Q36180;Q1792450;Q14915627;Q20669622,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; artist; musicologist,Q36834;Q37226;Q177220;Q765778,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,piano maker; cabinetmaker; furniture maker,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; pianist; organist; conductor; music director,Q36834;Q158852;Q1076502,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of Storace based on the given sentence. The sentence only mentions Storace's return to England with his sister, but it does not provide information about his occupation.",Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; violinist,Q36834;Q158852;Q1259917;Q14915627;Q19747285,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist,Q36834;Q486748;Q1231865,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music director; organist,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; tenor; virtuoso,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; virtuoso; concertmaster; pianist; musicologist; music educator,Q36834;Q158852;Q333634;Q486748;Q1350157;Q1622272;Q2490358;Q8178443;Q16145150;Q18814623;Q18939491,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,pianist; composer; conductor,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,artist; sculptor; artisan; craftworker; designer; illustrator; painter; printmaker; photographer; restorer; conservator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician,Q36834;Q158852;Q16145150,Q36834;Q639669,0.5,0.3333333333333333,0.4,1,1,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; literary figure,Q36180;Q49757;Q1930187;Q14915627,Q49757,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer; author,Q36180;Q49757;Q214917;Q753110,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,poet; writer,Q14915627,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,artist; cartoonist; illustrator; graphic designer; animator; sketch artist,Q82955;Q483501;Q984276;Q1028181,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music theorist; composer,Q36180;Q36834;Q49757;Q170790;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,painter; artist,Q1028181;Q3391743;Q11569986;Q14623005;Q15296811,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; music historian; music critic,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist; musician,Q36834;Q1259917,Q1259917,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,artist; portrait painter,Q214917;Q333634;Q487596;Q984276;Q1028181;Q3387717;Q10862983;Q14623005;Q15296811,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,philosopher; theologian,Q18805;Q36180;Q39631;Q155647;Q4964182,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; soprano,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; librettist,Q36180;Q36834;Q82955;Q158852,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q1259917;Q1622272;Q16145150,Q1259917,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; music educator; musician,Q36834;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,music editor; music arranger; music publisher,Q36834;Q158852;Q222836;Q765778;Q2516866,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; opera writer,Q36834;Q215793,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,violinist,Q36834;Q1259917;Q2675537;Q3153559,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"philanthropist; noble; politician (since a Viscount is a noble title in the British peerage system, the person would have had to participate in politics or government in some capacity to have received the title)",Q82955;Q10732476;Q14915627,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,"I cannot determine the occupation of W. G. Cusins from the given sentence, as it does not provide any context regarding their occupation.",Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musical antiquarian,Q36834;Q177220;Q639669;Q765778;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,musician; pianist; conductor; composer,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,hymnwriter; theologian; cleric; priest; minister; religious author; hymnal editor,Q36834;Q482980;Q5697103,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; librettist,Q36180;Q36834;Q49757;Q158852;Q486748;Q1350157;Q3387717;Q8178443;Q11774202;Q18814623;Q18939491,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musician; singer; glee writer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,author; playwright; poet,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; virtuoso; music director; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; music director; choir leader; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,playwright; author; poet,Q214917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,public speaker; lecturer; professor; author; historian; researcher,Q36180;Q40348;Q49757;Q1930187;Q4263842;Q4964182,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; musicologist; music educator,Q36834;Q158852;Q215793;Q765778;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,composer; conductor; pianist; virtuoso; music director; musician,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,opera singer; tenor; vocalist,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,ruler; leader; political figure,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,head of state; monarch,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,ruler; sovereign; monarch,Q116;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,mistralai_mixtral-8x7b-instruct,NIL,patron; founder,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG

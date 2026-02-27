@@ -1,0 +1,578 @@
+retriever,llm,entity_type,llm_answer,qid_gold_true,linked_qid,sample_precision,sample_recall,sample_f1,TP,FP,FN,approach,approach_display
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer; musician; composer,Q36834;Q19760296,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,essayist; poet; playwright; politician; literary critic,Q36180;Q49757;Q82955;Q214917;Q1607826;Q1930187;Q3589290;Q8178443;Q11774202,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; vocalist,Q33999;Q2259451;Q2865819,Q177220,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; opera singer; soprano,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q486748;Q1350157;Q6430706;Q16145150,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778;Q14915627;Q16031530,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36180;Q36834;Q214917;Q1259917;Q2962003,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; opera composer; music educator,Q36834;Q5371902,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; string player; performer,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; violinist; violist; cellist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; playwright; songwriter; collector of Scottish songs,Q36180;Q49757;Q182436;Q8178443,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; lyricist; songwriter,Q36180;Q49757;Q609016;Q26237228,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violinist,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,clarinettist,Q36834;Q118865;Q639669,Q118865,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; composer,Q2865819,Q36834;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist,Q36834;Q899758;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,archbishop,Q42603,Q49476,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; playwright; novelist,Q49757;Q214917,Q214917,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,principal,Q36834;Q486748;Q753110;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; composer; music educator,Q36834;Q158852;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist,Q36834;Q158852;Q14915627;Q16145150;Q18931911;Q19723482,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor,Q36834;Q1231865;Q2490358;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; songwriter; librettist,Q36834;Q158852;Q177220;Q753110;Q2865819,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; organist; music educator,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,theatrical performer; actor; singer; playwright; producer,Q943995,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q639669,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; organist; conductor; music educator,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator; symphonist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; operatic composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; songwriter,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; tenor,Q177220;Q639669;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; author; musician; theorist,Q36180;Q36834;Q37226;Q49757,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist; singer,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,chorister; lay-clerk; singing-man,Q36834;Q765778,Q1076502,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; director,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; organist,Q36834;Q177220;Q765778;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; operatist,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q13219637,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist; singer; performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,publisher; music publisher,Q36834;Q37226;Q175151;Q182436;Q2516866;Q40881196,Q2516866,1.0,0.16666666666666666,0.2857142857142857,1,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer; conductor,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Principal,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; playwright; translator,Q36180;Q49757;Q131512;Q753110;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q486748;Q1643514,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; pianist,Q36834;Q158852;Q639669;Q1259917,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator; music director,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist; singer,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer,Q36834;Q13424456,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; musicologist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q177220;Q215793;Q13219637,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,sculptor,Q42973;Q1028181;Q1281618;Q15296811,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,capellmeister; conductor; musical director,Q36834;Q158852;Q1622272,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; music teacher,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,mathematician; philosopher; physician; astrologer; author,Q39631;Q81096;Q155647;Q170790;Q205375;Q4964182,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician,Q36180;Q36834;Q49757,Q639669,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; musicologist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; soprano,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,empress; monarch; ruler,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,master; performer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,official; office-holder,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor; orchestral performer,Q36834;Q118865;Q639669;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; prince; military leader,Q845929;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violinist,Q36834;Q177220;Q899758;Q1259917,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; songwriter; music educator,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,novelist; poet; writer,Q36180;Q37226;Q49757;Q1540278;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; chevalier; courtier,Q2478141,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; virtuoso; music educator,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,arranger,Q36834;Q1259917,Q1643514,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; arranger; pianist,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera composer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; chamber musician; music teacher; conductor,Q36834;Q486748;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; conductor; music educator,Q36834;Q899758;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music educator,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer; conductor; educator,Q36834;Q177220;Q1836630;Q1999862;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; church musician,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer; musician,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,chamber violinist,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,military officer; colonel,Q116;Q1097498,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; aristocrat,Q82955;Q2478141,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer; singer; actor,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; pupil; bassoonist,Q36834;Q12310971;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; author; lyricist,Q36180;Q49757;Q121594;Q333634;Q14467526,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q158852;Q177220;Q639669;Q806349;Q1259917,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; musician; conductor,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera composer; conductor; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Sub-Dean; clergy,Q36180,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor; physician; conductor; composer,Q36834;Q158852;Q765778;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musicologist; historian; author; musician,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor; physician; medical professional,Q36180;Q876864;Q1350157;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor,Q36834,Q39631,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; conductor,Q158852,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor; physician,Q36834;Q765778;Q1028181;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor; academic; educator,Q36834;Q765778;Q2259532;Q13424456,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,hymnologist; musicologist; researcher,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor; physician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor,Q36834;Q39631,Q39631,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musicologist; professor,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,doctor; musician,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q158852;Q1622272;Q16145150,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; professor; composer; conductor,Q36834;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; organist; conductor; musician; music educator,Q36834;Q1076502;Q1278335,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; doctor,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; bass singer; chamber singer,Q36834;Q639669,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,philosopher; mathematician; educator; public official,Q36180;Q170790;Q201788;Q1622272;Q4964182,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; royal; aristocrat; political figure,Q47064;Q82955,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; public figure; philanthropist,Q82955;Q1475726;Q2478141,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,harmonist,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,"E. H. Thorne is not specified in terms of occupation in the provided sentence. Thus, the response would be an empty list. 
+
+Answer:",Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; lord; aristocrat,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Principal,Q36834;Q16145150,Q7245049,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,theater manager; playwright; director,Q43845;Q998550,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,king; monarch,Q116;Q82955,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music director; orchestrator; music educator,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,monarch; emperor; ruler,Q116;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,duke; patron of music; master of chapel; opera manager,Q611644,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,,Q158852;Q1836630,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,mathematician; geometer; philosopher,Q36180;Q170790,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,lyricist; poet; playwright,Q49757;Q1930187,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,novelist; writer; playwright; author,Q36180;Q39631;Q82955;Q6625963,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,politician; statesman; prime minister; author; editor,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; cellist; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator; musicologist; virtuoso; orchestral conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q158852,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,maestro,Q36834;Q330679,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36180;Q753110;Q17505902,Q36834,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; castrato; musician; actor; theatrical director,Q33999;Q2259451;Q2865819;Q3387717;Q20083902,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; choral director; church musician,Q36834;Q214917;Q1076502,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q1622272;Q6430706,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,theater director; manager; knight,Q33999;Q2259451;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer; musician; soloist,Q36834;Q16003954,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; music theorist,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; music educator; virtuoso,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; musicologist; conductor,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,principal,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator; nationalist composer,Q36834;Q37226;Q158852;Q486748;Q639669;Q1231865;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,unknown,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; writer,Q11063;Q36180;Q49757;Q170790;Q4263842,Q49757,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; harmonist,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Chapel Master; composer; music director,Q36834;Q158852;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,military leader; revolutionary; politician,Q36180;Q47064;Q82955;Q178197;Q1397808;Q18814623,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,director; educator,Q36834;Q158852;Q1198887;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musicologist,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,historian; philosopher; writer,Q36834;Q158852;Q1622272;Q12310971;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; music director,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,monarch; king; patron of the arts,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,philosopher; mathematician; cosmologist; writer; priest,Q11063;Q36180;Q49757;Q155647;Q170790;Q1469535;Q1622272;Q4964182,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; composer,Q2865819,Q36834;Q177220,0.0,0.0,0.0,0,2,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q355493;Q765778;Q1259917;Q21680731,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; teacher,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor,Q36834;Q158852;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator,Q36834;Q765778;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera composer; musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music educator,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,none,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,actor; actress; performer; comedian,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,theatrical director; manager,Q33999;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; organist; conductor; music educator,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music educator,Q36834;Q486748;Q885122,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer; arranger,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,principal,Q36834;Q118865;Q12800682;Q14915627;Q16145150;Q97572814,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,publisher; bookseller,Q222836,Q2516866,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,lithographer; artist; illustrator,Q644687;Q1028181;Q16947657,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; writer; lyricist,Q333634;Q639669,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musicologist; virtuoso; keyboardist; opera composer,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; opera composer,Q36834;Q177220;Q215793;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music theorist; music educator,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,royalty; duchess,Q2478141,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,philosopher; mathematician; scholar; author,Q4964182,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor,Q36834;Q486748;Q1323191;Q2490358;Q2707485,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q37226;Q158852,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q158852;Q486748;Q14915627,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist,Q36834;Q486748;Q15980158;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q158852,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,archbishop; clergyman; religious leader; bishop,Q42603,Q49476,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,monarch; king; ruler,Q16533;Q47064;Q82955;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,monarch; king; sovereign,Q82955;Q1097498;Q10732476;Q15472169,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,royalty; prince; heir apparent,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; songwriter; author; playwright,Q36180;Q49757;Q753110;Q864380;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,manager,Q43845;Q998550,Q721834,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist; composer; music publisher,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,principal,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; arranger; musician,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,monarch; king,Q116;Q36180;Q49757;Q2478141,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,journalist; editor,Q1930187,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,public figure,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violinist,Q36834;Q158852;Q691031;Q899758;Q1259917;Q1622272;Q14915627;Q16145150,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q765778;Q5371902;Q81759238,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; performer; concert composer,Q36834;Q486748;Q1643514,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician,Q36834,Q639669,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer; teacher; conductor,Q36834;Q37226,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,unknown,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; organist; violinist; musicologist; music educator; harpsichordist; choir director; concertmaster; music theorist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,leader; revolutionary; historical figure,Q39631;Q82955;Q193391;Q1622272,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musical director,Q82955,Q1198887,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musicologist; cataloguer,Q18805;Q36834;Q201788;Q864380;Q1607826;Q2374149;Q13416354;Q14915627;Q20198542,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; poet,Q36834;Q158852;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; bass; operatic performer,Q36834;Q2259451;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violinist,Q36834;Q215793;Q805221;Q805253;Q1259917;Q2490358;Q2675537;Q5716684,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; organist; music educator,Q36834;Q486748;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist; composer; teacher; pedagogue,Q36834;Q486748;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,military officer; author,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer; musician; player,Q36834;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834;Q158852;Q177220;Q330679;Q765778;Q5758653,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,philosopher; statesman; essayist; scientist; lawyer,Q901;Q16533;Q36180;Q40348;Q82955;Q155647;Q201788;Q4964182,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; playwright; writer; politician,Q36180;Q47064;Q49757;Q82955;Q214917;Q333634;Q822146;Q2478141;Q8178443;Q18814623;Q18939491;Q125360586,,0.0,0.0,0.0,0,0,12,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,official; lord; government administrator; noble,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; politician; aristocrat,Q82955;Q12299841,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,student; scholar,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; operatic composer; conductor; librettist; music educator,Q33999;Q36180;Q36834;Q158852;Q177220;Q2259451;Q2865819;Q8178443,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,director,Q36834;Q177220;Q765778,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,harmonist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; arranger,Q639669;Q1028181,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; performer; pianist; cellist,Q36834;Q158852;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; violinist,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music theorist; violinist; orchestral director,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,historian; writer; scholar; theologian,Q201788,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,director,Q36834;Q158852;Q1259917,Q705996,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; performer,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,music critic; journalist,Q36834;Q1350157;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,maestro; conductor,Q36834;Q158852;Q1259917,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; music theorist; educator,Q1231865;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,organist,Q36834;Q765778;Q1930187;Q14915627,Q765778,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor; arranger,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q486748;Q12902372;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,director; author; professor; composer,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,,0.0,0.0,0.0,0,0,12,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; music educator; pianist; conductor,Q36834;Q37226;Q215793;Q486748;Q765778;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,adapter; translator,Q214917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; performer; concert artist,Q36834;Q13219637,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; performer; conductor,Q1259917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,unknown,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; songwriter,Q33999;Q245068,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; operatic composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,director of music,Q36834;Q158852,Q1002228,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q49757;Q8178443,Q36834,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist; composer; conductor; music educator,Q36834;Q486748;Q765778;Q1076502;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; playwright,Q36180;Q49757;Q82955;Q214917;Q6625963;Q8178443;Q12144794,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,music seller,Q222836,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Kapelmeister,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,artist; singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,band leader; musician,Q36834;Q158852;Q762707;Q13219637,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; writer,Q36180;Q36834;Q19729565,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,tenor; singer; musician,Q36834;Q2490358;Q2865819;Q8178443;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,professor,Q36834;Q1622272;Q12310971;Q14915627,Q19788990,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Unknown,Q36834;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet,Q36180;Q49757,Q49757,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,prima donna; actress; musician,Q2865819,Q21169216,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; opera singer; musician,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; singer; performer,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; soprano,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,principal; singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; opera singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; opera singer,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; singer; musician,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; vocalist,Q1259917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; actress,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; pianist; performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; vocalist; singer,Q177220,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; actress; performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano,Q177220;Q2865819;Q16145150;Q21680731,Q177220,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; opera singer; soprano,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; opera singer,Q486748;Q1259917;Q2865819;Q16145150,Q2865819,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; actress; theatrical manager,Q33999;Q1320883;Q2865819,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; mezzo-soprano; music educator; opera singer; pianist; actress,Q36834;Q486748;Q2350126;Q2865819,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; soprano,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,principal; performer,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,prima donna; musician; actress,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; soprano; performer,Q2643890;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,chapel master; maestro,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,prophet; religious leader; founder,Q42857;Q82955;Q215536;Q432386;Q877558;Q1402561;Q12059906,Q42857,1.0,0.14285714285714285,0.25,1,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; prima donna; opera singer,Q33999;Q36834;Q2259451;Q2865819,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; voice teacher; vocal coach; opera singer; conductor,Q37226;Q39631;Q177220;Q205375;Q1836630;Q2350126;Q2865819,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; royalty; queen,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,solo pianist,Q36834;Q486748,Q486748,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,psalmist; poet,Q36180;Q49757;Q333634,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Not specified,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,emperor; king; duke; politician,Q1097498,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; music educator; virtuoso,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,writer; music critic,Q36834;Q1350157;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,unknown,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; pianist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; opera singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; playwright; librettist,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; organist; music educator; musical director; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q215793;Q1162163;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; pianist; composer,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; instrumentalist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; librettist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera director,Q36834;Q158852;Q1198887;Q18814623,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor,Q36834;Q158852;Q1198887;Q18814623,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist,Q36834;Q765778;Q5371902,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; pianist; performer,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; contralto; performer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,artist; soprano; performer,Q36834;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; musician; performer,Q177220;Q2643890;Q2865819,Q177220,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; vocalist,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer; musician; pianist,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; music director; church musician,Q36834;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music educator; conductor,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; music theorist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; performer; conductor,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,arranger; composer,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; musician; bandleader; performer,Q36834;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,harmonium player; presiding officer,Q36834,Q54844699,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; pianist; composer; music educator,Q36834;Q158852;Q486748;Q1231865,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,artist; designer; creator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,translator; playwright,Q8178443,Q214917,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; leader,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,lecturer; musicologist; educator,Q49757;Q13424456,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,occupant; manager; supervisor,Q36834;Q43845;Q486748;Q2516866,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; conductor,Q36834;Q37226;Q1259917;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,academic; educator; professor,Q738142;Q12299841,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,theatre manager; canvasser,Q43845;Q998550,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; tenor,Q177220,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; choir director; music educator; choral director,Q158852;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; composer; pianist,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician; orchestrator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,organist,Q158852;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,organist,Q36834;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Sub-Dean,Q2865819,Q11827459,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,registered agent; communicator,Q36834;Q765778;Q16145150,Q1155838,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,orchestra conductor; pianist; composer; orchestral musician,Q36834;Q158852;Q486748;Q1231865,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; arranger,Q36834;Q158852;Q486748;Q691031;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834,Q158852,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,organist; choirmaster,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist; soloist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,artist; designer; stylist,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q1259917,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist; composer; educator,Q486748,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; songwriter,Q753110,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist,Q177220,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,manager,Q14284;Q943995;Q3029406;Q39020112,Q721834,0.0,0.0,0.0,0,1,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera director; librettist,Q36834;Q158852;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator,Q36834;Q158852;Q215793;Q1259917,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,adapter; arranger,Q49757;Q753110,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; teacher; conductor; editor,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,master; teacher; instructor,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,orchestra conductor; orchestra leader; music director,Q943995,Q1198887,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; musician; performer,Q13219637;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q158852;Q222836;Q765778;Q2516866,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,oboist,Q36834;Q16003954,Q16003954,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer; musician; conductor,Q36834;Q177220;Q486748;Q2259451,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist,Q36834;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,diarist; writer; civil servant; politician,Q16533;Q36180;Q82955;Q329455;Q18939491,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; performer;,Q36834;Q177220;Q18814623,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,accompanist,Q36834;Q486748,Q29448653,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q37226;Q158852;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist; singer,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; actor; performer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pupil; musician; student,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,manager,Q36834;Q1259917;Q2675537;Q3153559,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violoncellist,Q36834;Q13219637;Q16145150,Q1259917,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,,Q1402561,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,artist,Q36834;Q2865819,Q483501,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,founder,Q36180;Q808967;Q20669622,Q4479442,0.0,0.0,0.0,0,1,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vice chairman,Q49757,Q1127270,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,"The sentence does not provide sufficient information to determine the occupation of Mrs. Moscheles. Therefore, the answer is:",Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor; music educator,Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,arranger; composer,Q36834;Q765778;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; vocalist,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; vocalist; performer,Q36834;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music publisher; music educator,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; composer; pianist; music educator,Q36834;Q158852;Q486748;Q1622272,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; harpist; conductor; musicologist; arranger,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; harpist; conductor; music educator,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,military leader; emperor; general; statesman; political leader,Q116;Q39018;Q82955;Q189290;Q372436;Q1402561;Q2304859;Q10732476;Q17010072;Q38239859,,0.0,0.0,0.0,0,0,10,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q82955;Q10669499,Q36834,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; vocal teacher; music educator,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator; musicologist,Q36834;Q158852;Q1259917;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; organist; musician; conductor; musicologist,Q36834;Q765778;Q21680663,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,professor,Q36834;Q1622272;Q12310971;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music publisher; arranger,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera composer; librettist,Q36834;Q37226;Q215793,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor,Q36834;Q37226;Q215793,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist; composer; music educator,Q36834;Q82955;Q193391;Q486748;Q2285706;Q7330070;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musicologist; priest; theologian,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q158852;Q806349;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; virtuoso; musician,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera composer; conductor; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; choral arranger,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q14915627;Q16031530,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,bishop; antiquarian; scholar; editor; writer; literary critic,Q36180;Q42603;Q49757;Q187865;Q333634;Q3243461;Q14915627,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; opera composer,Q36834;Q765778,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; music theorist; choir director; organist; musician,Q36834;Q177220;Q215793;Q765778;Q1076502;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; actress; performer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; chess player; music theorist; conductor,Q36834;Q182436;Q16003954;Q102104631,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,performer,Q36834;Q177220;Q18814623,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music publisher,Q36834;Q222836;Q486748;Q885122,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist; composer; conductor; music educator,Q36834;Q37226;Q177220;Q486748;Q16145150,Q36834,1.0,0.2,0.33333333333333337,1,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; dramatic composer,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,prince; consort; politician; advocate; diplomat,Q158852;Q177220;Q639669;Q765778;Q1028181,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,patron of the arts; noble; aristocrat,Q36834;Q82955;Q189290;Q193391,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,ambassador; diplomat,Q82955;Q193391,Q121998,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,royalty; prince; heir apparent,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,princess,Q1028181,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,professor; lecturer; educator; mathematician,Q40348;Q170790;Q1622272;Q4964182;Q14565331,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; composer; professor,Q36180;Q36834;Q1350157;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist,Q36834;Q691031;Q1259917,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; organist; conductor,Q36834;Q482980;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,monarch; queen; empress,Q116,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; music theorist; harpsichordist; conductor,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,observer; sketch artist; writer; satirist,Q36180;Q49757;Q182436;Q8178443,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; guitarist; musician; virtuoso,Q36834;Q713200;Q855091;Q24067349,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; conductor,Q36834;Q1198887;Q1350157;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor,Q36834;Q158852;Q177220;Q486748;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,organist; clergyman; preacher; religious leader,Q1955150,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,minor canon; clergyman; priest,Q49757,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834;Q1350157,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q158852;Q1622272;Q13219637,Q158852,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; opera composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; librettist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; tenor; opera singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; music educator; musicologist,Q36834;Q158852;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q158852;Q14915627;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; painter; poet,Q36180;Q49757;Q639669;Q1028181;Q2259451;Q3391743;Q11569986;Q15296811,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,Chapel Master,Q36834,Q36834;Q158852,0.5,1.0,0.6666666666666666,1,1,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q765778;Q5371902,Q36834,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; playwright; philosopher; historian; novelist; dramatist,Q36180;Q39631;Q49757;Q182436;Q201788;Q214917;Q333634;Q551835;Q1622272;Q1930187;Q4002666;Q4964182;Q6625963;Q21550346,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834;Q158852;Q486748;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; songwriter; music educator; music theorist,Q36834;Q37226;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; music critic; music educator,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,7,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; librettist,Q36180;Q36834;Q214917;Q6625963;Q8178443,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor; opera director,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; tenor;,Q2865819;Q16145150,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; opera director,Q36834;Q158852;Q177220,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; tenor,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,first clarinet,Q36834;Q118865,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer; conductor; teacher,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; opera writer; musician,Q36180;Q36834;Q82955;Q158852,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; tenor,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q177220;Q2865819,Q36834,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; vocalist; soloist,Q36180;Q36834;Q177220;Q1259917;Q2865819;Q108404711,Q2643890,0.0,0.0,0.0,0,1,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,principal; assistant,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; educator; musicologist,Q36834;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician,Q36834,Q36834,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,conductor,Q36834;Q13424456,Q158852,0.0,0.0,0.0,0,1,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,physicist; mathematician; astronomer; philosopher; author; natural philosopher,Q170790;Q4964182,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; educator; principal,Q36834;Q765778;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,historian; soldier; politician; writer; author,Q36180;Q82955;Q201788,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,organist; composer; conductor; music educator,Q36834;Q765778;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,politician; baronet,Q82955,Q82955,1.0,1.0,1.0,1,0,0,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,linguist; philologist; scholar; author; translator,Q16533;Q36180;Q49757;Q82955;Q333634;Q1731155;Q2374149;Q4773904;Q14467526,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,novelist; poet; historian; playwright; critic,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,novelist; poet; historian; playwright; editor,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,,0.0,0.0,0.0,0,0,14,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; musician; director,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; writer; novelist; dramatist; historian,Q36180;Q49757;Q201788;Q333634;Q551835;Q774306;Q1930187;Q6625963,,0.0,0.0,0.0,0,0,8,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,author; essayist; critic; educator,Q2643890;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,author; novelist; memoirist,Q36180;Q182436;Q214917;Q1930187;Q6625963,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,philosopher; mathematician,Q1234713;Q1238570;Q4964182;Q15991187;Q24262584;Q66060374,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; conductor; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; opera composer; music educator,Q36834;Q158852;Q1198887,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,saint; patroness of music,Q639669,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,ex-Jesuit,Q36180;Q1792450;Q14915627;Q20669622,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; librettist,Q36834;Q37226;Q177220;Q765778,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q486748,Q36834,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician,Q36834;Q158852;Q1076502,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; singer; musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q1259917;Q14915627;Q19747285,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,pianist,Q36834;Q486748;Q1231865,Q486748,1.0,0.3333333333333333,0.5,1,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; music director; choirmaster; organist; church musician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; opera singer; baritone,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist; teacher,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; pianist; music educator,Q36834;Q158852;Q333634;Q486748;Q1350157;Q1622272;Q2490358;Q8178443;Q16145150;Q18814623;Q18939491,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,artist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; organist; music educator,Q36834;Q158852;Q16145150,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; writer; lyricist,Q36180;Q49757;Q1930187;Q14915627,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; songwriter,Q36180;Q49757;Q214917;Q753110,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,poet; songwriter; editor; critic,Q14915627,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,portraitist; artist,Q82955;Q483501;Q984276;Q1028181,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,music theorist; musicologist; composer,Q36180;Q36834;Q49757;Q170790;Q14915627;Q16031530,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,painter; artist; portraitist,Q1028181;Q3391743;Q11569986;Q14623005;Q15296811,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musician; composer; musicologist,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; violinist,Q36834;Q1259917,Q1259917,1.0,0.5,0.6666666666666666,1,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,painter; artist; portraitist,Q214917;Q333634;Q487596;Q984276;Q1028181;Q3387717;Q10862983;Q14623005;Q15296811,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,philosopher; atheist; writer; poet; thinker,Q18805;Q36180;Q39631;Q155647;Q4964182,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,soprano; singer,Q2865819,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; librettist; conductor,Q36180;Q36834;Q82955;Q158852,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violinist; composer,Q36834;Q1259917;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; musician; music educator,Q36834;Q1622272;Q16145150;Q21680663,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; music publisher; musicologist; organist; conductor,Q36834;Q158852;Q222836;Q765778;Q2516866,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; librettist,Q36834;Q215793,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,violinist; composer; conductor; music educator,Q36834;Q1259917;Q2675537;Q3153559,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; politician; philanthropist,Q82955;Q10732476;Q14915627,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; virtuoso; violinist; priest; music educator,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music educator,Q36834;Q158852;Q486748,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,musical antiquarian,Q36834;Q177220;Q639669;Q765778;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; arranger; hymn writer,Q36834;Q482980;Q5697103,,0.0,0.0,0.0,0,0,3,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; music dramatist; opera director,Q36180;Q36834;Q49757;Q158852;Q486748;Q1350157;Q3387717;Q8178443;Q11774202;Q18814623;Q18939491,,0.0,0.0,0.0,0,0,11,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; singer; conductor,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; dramatist; music educator,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; musician; choral composer,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,playwright; poet; actor,Q214917,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,lecturer; speaker; educator,Q36180;Q40348;Q49757;Q1930187;Q4263842;Q4964182,,0.0,0.0,0.0,0,0,6,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer,Q36834;Q158852;Q215793;Q765778;Q14915627,,0.0,0.0,0.0,0,0,5,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,composer; conductor; virtuoso; pianist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,9,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,singer; performer; musician,Q36834;Q2865819,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,noble; sovereign; ruler,Q82955,,0.0,0.0,0.0,0,0,1,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,monarch; king; emperor; sovereign,Q116;Q82955;Q2478141;Q10732476,,0.0,0.0,0.0,0,0,4,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,emperor; monarch,Q116;Q1402561,,0.0,0.0,0.0,0,0,2,RAG,RAG
+boyer_moore_per_model,openai_gpt-4o-mini,NIL,philanthropist; politician,Q36834,,0.0,0.0,0.0,0,0,1,RAG,RAG

@@ -1,0 +1,854 @@
+retriever,llm,entity_type,llm_answer,qid_gold_true,linked_qid,sample_precision,sample_recall,sample_f1,TP,FP,FN,approach,approach_display
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist,Q36834,Q36834;Q1259917,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,official; lord; government administrator; noble,Q82955,Q599151;Q57979691;Q16744001,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,harmonium player; presiding officer,Q36834,Q54844699;Q140686,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q13424456,Q158852,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,manager,Q36834;Q1259917;Q2675537;Q3153559,Q721834,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; harpsichordist; conductor,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q16031530;Q5371902;Q158852,0.75,0.42857142857142855,0.5454545454545454,3,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,chorister; lay-clerk; singing-man,Q36834;Q765778,Q1076502,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musicologist; virtuoso; keyboardist; opera composer,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q14915627;Q214970;Q1075651;Q21680731,0.3333333333333333,0.2857142857142857,0.30769230769230765,2,4,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musical director; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q1198887;Q14915627,0.8571428571428571,0.6666666666666666,0.75,6,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q158852;Q16145150,1.0,0.6,0.7499999999999999,3,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; music educator,Q36834;Q486748;Q765778,Q36834;Q765778;Q16145150,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,adapter; arranger,Q49757;Q753110,Q61875042;Q1643514,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,arranger; composer,Q36834;Q158852,Q1643514;Q36834,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; playwright; musician; conductor; harpsichordist,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q16031530;Q214917;Q639669;Q158852;Q5371902,0.5,0.42857142857142855,0.4615384615384615,3,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,principal,Q36834;Q118865;Q12800682;Q14915627;Q16145150;Q97572814,Q7245049,0.0,0.0,0.0,0,1,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,principal,Q36834;Q16145150,Q7245049,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; conductor; music educator,Q36834;Q765778;Q1622272;Q16145150,Q36834;Q765778;Q158852;Q16145150,0.75,0.75,0.75,3,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; musician,Q36834;Q486748;Q765778,Q36834;Q765778;Q639669,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; organist; conductor; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q16145150;Q765778;Q158852;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator,Q36834;Q765778;Q14915627;Q16145150;Q21680663,Q36834;Q158852;Q486748;Q16145150,0.5,0.4,0.4444444444444445,2,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150,1.0,0.5555555555555556,0.7142857142857143,5,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; lord; aristocrat,Q82955,Q16744001;Q57979691;Q2478141,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; historian; author; musician,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q14915627;Q201788;Q482980;Q639669,0.5,0.2857142857142857,0.36363636363636365,2,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; arranger,Q36834;Q158852,Q36834;Q639669;Q158852;Q1643514,0.5,1.0,0.6666666666666666,2,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; arranger,Q639669;Q1028181,Q36834;Q1643514,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; dramatist; music educator,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q214917;Q16145150,0.5,0.3333333333333333,0.4,2,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150,1.0,0.5555555555555556,0.7142857142857143,5,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,journalist; editor,Q1930187,Q1930187;Q1607826,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist,Q36834;Q158852;Q14915627;Q16145150;Q18931911;Q19723482,Q36834;Q486748,0.5,0.16666666666666666,0.25,1,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist; composer; conductor; music educator,Q36834;Q37226;Q177220;Q486748;Q16145150,Q486748;Q36834;Q158852;Q16145150,0.75,0.6,0.6666666666666665,3,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q1259917,Q36834;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q639669,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; poet,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q639669;Q49757,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; librettist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q49757;Q8178443,1.0,0.3333333333333333,0.5,2,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,psalmist; poet,Q36180;Q49757;Q333634,Q49757,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,dramatist; poet; librettist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q214917;Q49757;Q8178443,1.0,0.5,0.6666666666666666,3,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Not specified,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,,0.0,0.0,0.0,0,0,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; opera composer; music educator,Q36834;Q158852;Q1198887,Q36834;Q158852;Q21680731;Q16145150,0.5,0.6666666666666666,0.5714285714285715,2,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; conductor; musician,Q36834,Q36834;Q21680731;Q158852;Q639669,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer,Q36834,Q639669;Q36834,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,historian; writer; scholar; theologian,Q201788,Q201788;Q36180;Q2248623;Q1234713,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,prince; consort; politician; advocate; diplomat,Q158852;Q177220;Q639669;Q765778;Q1028181,Q12886381;Q5784340;Q82955;Q380075;Q193391,0.0,0.0,0.0,0,5,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,actor; actress; performer; comedian,Q177220;Q2865819,Q33999;Q21169216;Q713200;Q245068,0.0,0.0,0.0,0,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,politician; baronet,Q82955,Q82955,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,librettist; poet; playwright; lyricist,Q36180;Q49757;Q214917;Q250867;Q753110;Q8178443,Q8178443;Q49757;Q214917;Q822146,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; arranger; hymn writer,Q36834;Q482980;Q5697103,Q36834;Q1643514;Q13424456,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; conductor; musician; music educator,Q36834;Q1076502;Q1278335,Q36834;Q765778;Q158852;Q639669;Q16145150,0.2,0.3333333333333333,0.25,1,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist; conductor; composer; music educator,Q36834;Q1259917;Q2675537;Q3153559,Q1259917;Q158852;Q36834;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,official; office-holder,Q82955,Q599151;Q599151,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; musicologist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q486748;Q14915627,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; composer; music educator,Q36834;Q158852;Q765778;Q16145150,Q158852;Q36834;Q16145150,1.0,0.75,0.8571428571428571,3,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Principal,Q36834;Q16145150,Q7245049,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera director,Q36834;Q158852;Q177220,Q36834;Q3029406,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,public figure,Q36834;Q1259917,Q662729,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,artist; designer; stylist,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q483501;Q5322166;Q3237618,0.0,0.0,0.0,0,3,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; organist; music educator,Q36834;Q158852;Q16145150,Q36834;Q639669;Q765778;Q16145150,0.5,0.6666666666666666,0.5714285714285715,2,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; politician; philanthropist,Q82955;Q10732476;Q14915627,Q16744001;Q82955;Q12362622,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q158852;Q639669,0.6666666666666666,0.4,0.5,2,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; opera composer,Q36834,Q36834;Q158852;Q21680731,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,,Q158852;Q1836630,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; voice teacher; vocal coach; opera singer; conductor,Q37226;Q39631;Q177220;Q205375;Q1836630;Q2350126;Q2865819,Q177220;Q7939609;Q2981027;Q2865819;Q158852,0.4,0.2857142857142857,0.3333333333333333,2,3,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q37226;Q158852;Q16145150,Q36834;Q158852;Q16145150,1.0,0.75,0.8571428571428571,3,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,portraitist; artist,Q82955;Q483501;Q984276;Q1028181,Q21178131;Q483501,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.8,0.888888888888889,4,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,artist,Q36834,Q483501,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musicologist; professor,Q36834;Q765778;Q5371902;Q81759238,Q36834;Q14915627;Q19788990,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; professor; composer; conductor,Q36834;Q14915627;Q16031530,Q639669;Q19788990;Q36834;Q158852,0.25,0.3333333333333333,0.28571428571428575,1,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; musicologist; music educator; violinist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q14915627;Q16145150;Q1259917,0.8571428571428571,0.6666666666666666,0.75,6,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q486748;Q885122,Q36834;Q486748;Q16145150,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Sub-Dean; clergy,Q36180,Q11827459,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist,Q36834;Q177220;Q899758;Q1259917,Q1259917,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; symphonist,Q36834,Q36834;Q158852;Q486748;Q16145150;Q105754803,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q177220;Q486748;Q14915627,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,director; educator,Q36834;Q158852;Q1198887;Q14915627;Q16031530,Q705996;Q974144,0.0,0.0,0.0,0,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,director,Q36834;Q177220;Q765778,Q705996,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music director; organist; violinist; harpsichordist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q1198887;Q765778;Q1259917;Q5371902;Q16145150,0.5714285714285714,0.5714285714285714,0.5714285714285714,4,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; opera composer,Q36834;Q765778;Q14915627;Q16145150;Q21680663,Q36834;Q158852;Q639669;Q21680731,0.25,0.2,0.22222222222222224,1,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; composer; historian,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q14915627;Q36834;Q201788,1.0,0.42857142857142855,0.6,3,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834,Q36834;Q639669;Q158852,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q486748,1.0,0.3333333333333333,0.5,2,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist,Q36834,Q36834;Q1259917,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; conductor,Q36834,Q36834;Q1259917;Q158852,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist,Q36834;Q691031;Q1259917,Q36834;Q1259917,1.0,0.6666666666666666,0.8,2,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist,Q36834;Q1259917,Q36834;Q1259917,1.0,1.0,1.0,2,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; musician; conductor,Q36834;Q1259917,Q36834;Q1259917;Q639669;Q158852,0.5,1.0,0.6666666666666666,2,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; musician; conductor,Q36834,Q36834;Q21680731;Q639669;Q158852,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; musicologist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q486748;Q14915627,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; music theorist; pianist; operatic composer,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q639669;Q16031530;Q486748,0.5,0.2857142857142857,0.36363636363636365,2,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,military leader; revolutionary; politician,Q36180;Q47064;Q82955;Q178197;Q1397808;Q18814623,Q1402561;Q3242115;Q82955,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,registered agent; communicator,Q36834;Q765778;Q16145150,Q5780518,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,artist; designer; creator,Q36834,Q483501;Q5322166;Q2500638,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,theatrical performer; actor; singer; playwright; producer,Q943995,Q33999;Q177220;Q214917;Q47541952,0.0,0.0,0.0,0,4,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; harpist; conductor; music educator,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q36834;Q3127709;Q158852;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,first clarinet,Q36834;Q118865,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; conductor; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q1259917;Q158852;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music theorist; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q16031530;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music theorist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16031530;Q16145150,0.6,0.5,0.5454545454545454,3,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; conductor; virtuoso; chamber musician; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q16031530;Q158852;Q214970;Q105755601;Q16145150,0.3333333333333333,0.5,0.4,2,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834,Q36834;Q486748;Q158852;Q16145150,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer; soprano,Q36834;Q2865819,Q177220;Q2865819,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; lyricist; songwriter,Q36180;Q49757;Q609016;Q26237228,Q49757;Q822146;Q753110,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; musician,Q36834;Q765778,Q36834;Q21680731;Q639669,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; performer,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q36834;Q639669;Q713200,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; teacher; conductor; editor,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q37226;Q158852;Q1607826,0.6,0.3333333333333333,0.42857142857142855,3,2,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q639669,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; physician; conductor; composer,Q36834;Q158852;Q765778;Q81759238,Q39631;Q39631;Q158852;Q36834,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; operatic composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; pianist; performer,Q2865819,Q639669;Q486748;Q713200,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; soprano; performer,Q2643890;Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,observer; sketch artist; writer; satirist,Q36180;Q49757;Q182436;Q8178443,Q104853163;Q15296811;Q36180;Q9334029,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,founder,Q36180;Q808967;Q20669622,Q4479442,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; organist; violinist; music director,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q639669;Q765778;Q1259917;Q1198887,0.5,0.42857142857142855,0.4615384615384615,3,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; virtuoso,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,Q36834;Q486748;Q158852;Q16145150;Q214970,1.0,0.625,0.7692307692307693,5,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; musician,Q36834,Q36834;Q21680731;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q158852;Q16145150,1.0,0.42857142857142855,0.6,3,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; musician; conductor; orchestrator,Q36834,Q36834;Q21680731;Q639669;Q158852;Q3355249,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vice chairman,Q49757,Q1127270,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music teacher,Q36834,Q36834;Q2675537,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834;Q158852;Q1259917,Q36834;Q639669;Q158852,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,chapel master; maestro,Q36834,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist; singer,Q2865819,Q2643890;Q177220,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist; singer; performer,Q2865819,Q2643890;Q177220;Q713200,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist; singer,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q2643890;Q177220,0.0,0.0,0.0,0,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; music theorist,Q36834;Q158852,Q36834;Q1259917;Q16031530,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; virtuoso; conductor; pianist; music educator; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q214970;Q158852;Q486748;Q16145150;Q14915627,0.5,0.5,0.5,3,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator,Q36834,Q36834;Q158852;Q486748;Q16145150,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music dramatist; opera director,Q36180;Q36834;Q49757;Q158852;Q486748;Q1350157;Q3387717;Q8178443;Q11774202;Q18814623;Q18939491,Q36834;Q158852;Q3029406,0.6666666666666666,0.18181818181818182,0.28571428571428575,2,1,9,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator; music theorist,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q158852;Q16145150;Q16031530,1.0,0.8,0.888888888888889,4,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist,Q36834,Q1259917,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,maestro; conductor,Q36834;Q158852;Q1259917,Q158852,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; singer; actor,Q177220;Q2865819,Q713200;Q177220;Q33999,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; physician,Q36834;Q765778,Q39631;Q39631,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; writer,Q11063;Q36180;Q49757;Q170790;Q4263842,Q49757;Q36180,1.0,0.4,0.5714285714285715,2,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36180;Q753110;Q17505902,Q36834,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music teacher; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q2675537;Q14915627,0.4,0.3333333333333333,0.3636363636363636,2,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,teacher; governess,Q2865819,Q37226;Q1540278,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q158852;Q806349;Q14915627,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; organist; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q14915627;Q16145150,0.4,0.2857142857142857,0.3333333333333333,2,3,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,philosopher; statesman; essayist; scientist; lawyer,Q901;Q16533;Q36180;Q40348;Q82955;Q155647;Q201788;Q4964182,Q4964182;Q372436;Q11774202;Q901;Q40348,0.6,0.375,0.4615384615384615,3,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,essayist; poet; playwright; politician; literary critic,Q36180;Q49757;Q82955;Q214917;Q1607826;Q1930187;Q3589290;Q8178443;Q11774202,Q11774202;Q49757;Q214917;Q82955;Q4263842,0.8,0.4444444444444444,0.5714285714285714,4,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,philosopher; mathematician; educator; public official,Q36180;Q170790;Q201788;Q1622272;Q4964182,Q4964182;Q170790;Q974144;Q599151,0.5,0.4,0.4444444444444445,2,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,linguist; philologist; scholar; author; translator,Q16533;Q36180;Q49757;Q82955;Q333634;Q1731155;Q2374149;Q4773904;Q14467526,Q14467526;Q13418253;Q2248623;Q482980;Q333634,0.4,0.2222222222222222,0.2857142857142857,2,3,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; pianist; organist; music educator; musicologist; symphonist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q214970;Q486748;Q765778;Q16145150;Q14915627;Q105754803,0.75,0.6666666666666666,0.7058823529411765,6,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; teacher,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,Q36834;Q1259917;Q37226,0.6666666666666666,0.4,0.5,2,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; musicologist; conductor,Q36834;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q486748;Q14915627;Q158852,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; music educator,Q36834;Q765778;Q16145150,Q36834;Q639669;Q158852;Q16145150,0.5,0.6666666666666666,0.5714285714285715,2,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834,Q36834;Q158852;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q158852;Q16145150,1.0,0.42857142857142855,0.6,3,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer; conductor,Q36834;Q486748;Q16145150,Q639669;Q36834;Q158852,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; songwriter; music educator,Q36834;Q486748,Q36834;Q486748;Q158852;Q753110;Q16145150,0.4,1.0,0.5714285714285715,2,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q37226;Q158852;Q16145150,Q36834;Q158852;Q639669,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,author; essayist; critic; educator,Q2643890;Q2865819,Q482980;Q11774202;Q6430706;Q974144,0.0,0.0,0.0,0,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; opera composer; music educator,Q36834;Q5371902,Q36834;Q639669;Q21680731;Q16145150,0.25,0.5,0.3333333333333333,1,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; vocal teacher; music educator,Q36834;Q16145150,Q36834;Q16145150,1.0,1.0,1.0,2,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,official; government official; noble; lord; chamberlain,Q82955,Q599151;Q8985067;Q16744001;Q57979691;Q264323,0.0,0.0,0.0,0,5,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; songwriter,Q753110,Q36834;Q639669;Q753110,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,none,Q177220;Q2865819,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer; arranger,Q36834;Q765778,Q639669;Q36834;Q1643514,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; violinist,Q36834;Q2865819,Q36834;Q639669;Q1259917,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist,Q36834;Q899758;Q1259917,Q36834;Q1259917,1.0,0.6666666666666666,0.8,2,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834,1.0,0.1111111111111111,0.19999999999999998,1,0,8,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.8,0.888888888888889,4,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; librettist,Q36834;Q37226;Q215793,Q36834;Q21680731;Q8178443,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music theorist; violinist; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q16031530;Q1259917;Q16145150,0.4,0.5,0.4444444444444445,2,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; opera composer; dramatist,Q36834,Q36834;Q158852;Q639669;Q21680731;Q214917,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer; arranger; conductor,Q36834;Q158852,Q639669;Q36834;Q1643514;Q158852,0.5,1.0,0.6666666666666666,2,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; chevalier; courtier,Q2478141,Q16744001;Q1511216,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q158852;Q486748;Q14915627,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q158852;Q177220;Q330679;Q765778;Q5758653,Q36834;Q158852;Q639669,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,theater director; manager; knight,Q33999;Q2259451;Q2865819,Q44082221;Q721834;Q102083,0.0,0.0,0.0,0,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,theatrical director; manager,Q33999;Q2865819,Q3387717;Q721834,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; castrato; musician; actor; theatrical director,Q33999;Q2259451;Q2865819;Q3387717;Q20083902,Q177220;Q639669;Q33999;Q3387717,0.5,0.4,0.4444444444444445,2,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,principal; singer,Q2865819,Q7245049;Q177220,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,principal; performer,Q36834;Q2865819,Q7245049;Q713200,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,principal; assistant,Q2865819,Q7245049;Q23835475,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor; opera singer,Q2865819,Q177220;Q27914;Q2865819,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,organist; clergyman; preacher; religious leader,Q1955150,Q765778;Q432386,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist,Q33999;Q2259451;Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist,Q36834;Q765778;Q5371902,Q36834;Q1259917,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist,Q2865819,Q2643890,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; vocalist; singer,Q177220,Q2643890;Q177220,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist,Q177220,Q2643890,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist; singer,Q177220;Q2865819,Q2643890;Q177220,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,lecturer; musicologist; educator,Q49757;Q13424456,Q1569495;Q14915627;Q974144,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,novelist; poet; historian; playwright; critic,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,Q6625963;Q49757;Q201788;Q214917;Q6430706,0.8,0.2857142857142857,0.4210526315789473,4,1,10,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,director of music,Q36834;Q158852,Q1002228,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; playwright; songwriter; collector of Scottish songs,Q36180;Q49757;Q182436;Q8178443,Q49757;Q214917;Q753110,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor,Q36834,Q39631,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician; pianist,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q713200;Q639669;Q486748,0.3333333333333333,0.1111111111111111,0.16666666666666666,1,2,8,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; music director,Q36834,Q36834;Q639669;Q1198887,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pupil; musician; student,Q36834,Q48282;Q639669;Q48282,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,royalty; duchess,Q2478141,Q11573099;Q58481980,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; organist; music educator,Q36834;Q16145150,Q36834;Q158852;Q765778;Q16145150,0.5,1.0,0.6666666666666666,2,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q486748,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,"E. H. Thorne is not specified in terms of occupation in the provided sentence. Thus, the response would be an empty list. 
+
+Answer:",Q36834;Q765778,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852;Q486748,Q36834;Q158852;Q16145150,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer; teacher; conductor,Q36834;Q37226,Q639669;Q36834;Q37226;Q158852,0.5,1.0,0.6666666666666666,2,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,politician; statesman; prime minister; author; editor,Q36834;Q765778,Q82955;Q372436;Q14212;Q482980;Q1607826,0.0,0.0,0.0,0,5,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer; conductor; educator,Q36834;Q177220;Q1836630;Q1999862;Q2865819;Q16145150,Q639669;Q36834;Q158852;Q974144,0.25,0.16666666666666666,0.2,1,3,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,ambassador; diplomat,Q82955;Q193391,Q121998;Q193391,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; aristocrat,Q82955;Q2478141,Q16744001;Q2478141,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; pianist; composer,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,Q639669;Q486748;Q36834,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist; composer; music publisher,Q36834;Q43845;Q486748;Q2516866,Q486748;Q36834;Q222836,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actor,Q2865819,Q177220;Q33999,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator; conductor,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q16145150;Q158852,1.0,0.4444444444444444,0.6153846153846153,4,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer,Q36834,Q36834;Q21680731,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q158852,Q36834;Q158852;Q639669,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q486748;Q1323191;Q2490358;Q2707485,Q36834;Q158852,0.5,0.2,0.28571428571428575,1,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q158852;Q16145150,1.0,0.4444444444444444,0.6153846153846153,4,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q2865819,Q36834,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music theorist; music educator,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q16031530;Q16145150,0.5,0.3333333333333333,0.4,2,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; musicologist; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q14915627;Q1259917,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; conductor,Q36834;Q37226;Q1259917;Q1622272;Q16145150,Q36834;Q1259917;Q158852,0.6666666666666666,0.4,0.5,2,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q14915627,0.6,0.5,0.5454545454545454,3,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,band leader; musician,Q36834;Q158852;Q762707;Q13219637,Q1198887;Q639669,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852,Q36834;Q158852;Q16145150,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,king; monarch,Q116;Q82955,Q12097;Q116,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; instrumentalist,Q36834,Q36834;Q639669;Q1278335,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; politician; aristocrat,Q82955;Q12299841,Q16744001;Q82955;Q2478141,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,chamber violinist,Q36834,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist,Q36834;Q215793;Q805221;Q805253;Q1259917;Q2490358;Q2675537;Q5716684,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,clarinettist,Q36834;Q118865;Q639669,Q118865,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor,Q36834;Q39631,Q39631,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet,Q36180;Q49757;Q182436;Q8178443,Q49757,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; opera director,Q36834;Q1259917,Q158852;Q3029406,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,novelist; poet; historian; playwright; editor,Q16533;Q36180;Q40348;Q49757;Q201788;Q214917;Q333634;Q864380;Q1209498;Q4263842;Q6625963;Q14467526;Q14915627;Q15949613,Q6625963;Q49757;Q201788;Q214917;Q1607826,0.8,0.2857142857142857,0.4210526315789473,4,1,10,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,historian; philosopher; writer,Q36834;Q158852;Q1622272;Q12310971;Q14915627;Q16145150,Q201788;Q4964182;Q36180,0.0,0.0,0.0,0,3,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist,Q36834;Q158852;Q765778;Q16145150,Q36834;Q486748,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; public figure; philanthropist,Q82955;Q1475726;Q2478141,Q16744001;Q662729;Q12362622,0.0,0.0,0.0,0,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator,Q36834;Q158852;Q486748,Q36834;Q158852;Q486748;Q16145150,0.75,1.0,0.8571428571428571,3,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150,1.0,0.5555555555555556,0.7142857142857143,5,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; pianist; cellist,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q639669;Q486748;Q13219637,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; performer; pianist; cellist,Q36834;Q158852;Q13219637;Q16145150,Q639669;Q713200;Q486748;Q13219637,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; educator; principal,Q36834;Q765778;Q1622272;Q16145150,Q36834;Q639669;Q974144;Q7245049,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer,Q36834;Q13424456,Q639669;Q36834,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,prophet; religious leader; founder,Q42857;Q82955;Q215536;Q432386;Q877558;Q1402561;Q12059906,Q42857;Q4479442,0.5,0.14285714285714285,0.22222222222222224,1,1,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; musicologist,Q36834;Q158852;Q486748;Q1622272;Q14915627;Q16145150;Q21680663,Q36834;Q486748;Q158852;Q16145150;Q14915627,1.0,0.7142857142857143,0.8333333333333333,5,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; organist; violinist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q1259917;Q16145150,0.6,0.42857142857142855,0.5,3,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; royal; aristocrat; political figure,Q47064;Q82955,Q16744001;Q2478141;Q82955,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,archbishop,Q42603,Q49476,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834,Q158852,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q158852,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; prima donna; opera singer,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q2865819,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; bass; operatic performer,Q36834;Q2259451;Q2865819;Q16145150,Q177220;Q719678,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q486748;Q16145150,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,royalty; prince; heir apparent,Q116;Q82955;Q2478141;Q10732476,Q11573099;Q12886381;Q2762318,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; doctor,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q639669;Q39631,0.5,0.16666666666666666,0.25,1,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,archbishop; clergyman; religious leader; bishop,Q42603,Q49476;Q4917468,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q1259917,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; organist; music director; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q765778;Q1198887;Q16145150,0.3333333333333333,0.2857142857142857,0.30769230769230765,2,4,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,,Q1402561,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,academic; educator; professor,Q738142;Q12299841,Q3400985;Q974144;Q19788990,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; pianist,Q36834;Q1259917,Q36834;Q639669;Q486748,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,maestro,Q36834;Q330679,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834,Q36834;Q486748;Q158852;Q16145150,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q158852;Q222836;Q765778;Q2516866,Q36834,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; royal; politician,Q47064;Q82955,Q16744001;Q82955,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; songwriter,Q33999;Q245068,Q177220;Q753110,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; arranger; pianist,Q36834;Q486748;Q16145150,Q36834;Q1643514;Q486748,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musical antiquarian,Q36834;Q177220;Q639669;Q765778;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; opera composer; musician,Q36834,Q36834;Q158852;Q21680731;Q639669,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; harpsichordist; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q5371902;Q14915627;Q16145150,0.3333333333333333,0.2857142857142857,0.30769230769230765,2,4,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music publisher; musicologist; organist; conductor,Q36834;Q158852;Q222836;Q765778;Q2516866,Q36834;Q222836;Q14915627;Q765778;Q158852,0.8,0.8,0.8000000000000002,4,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; cellist; musician,Q36834,Q36834;Q13219637;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834;Q765778,Q36834;Q639669;Q158852,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Chapel Master,Q36834,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Chapel Master; composer; music director,Q36834;Q158852;Q765778,Q36834;Q1198887,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852;Q215793;Q1259917,Q36834;Q158852;Q16145150,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,historian; soldier; politician; writer; author,Q36180;Q82955;Q201788,Q201788;Q4991371;Q82955;Q36180;Q482980,0.6,1.0,0.7499999999999999,3,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834,1.0,0.14285714285714285,0.25,1,0,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,,Q2865819,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Unknown,Q36834;Q2865819;Q16145150,,0.0,0.0,0.0,0,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; musicologist; virtuoso; orchestral conductor,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q16145150;Q14915627;Q214970,0.8333333333333334,0.5555555555555556,0.6666666666666667,5,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; musician; performer,Q177220;Q2643890;Q2865819,Q177220;Q639669;Q713200,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor,Q177220;Q2865819,Q177220;Q27914,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; pianist; violinist; music educator; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q639669;Q486748;Q1259917;Q16145150;Q14915627,0.7142857142857143,0.8333333333333334,0.7692307692307692,5,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,"The sentence does not provide sufficient information to determine the occupation of Mrs. Moscheles. Therefore, the answer is:",Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,,0.0,0.0,0.0,0,0,9,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,royalty; prince; heir apparent,Q116;Q82955;Q2478141;Q10732476,Q11573099;Q12886381;Q2762318,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,theoretician; composer,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q18931911;Q36834,1.0,0.2857142857142857,0.4444444444444445,2,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; music director,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q486748;Q16145150;Q1198887,0.6,0.5,0.5454545454545454,3,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q16031530,0.6,0.5,0.5454545454545454,3,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q158852;Q14915627;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer; musicologist,Q36834,Q639669;Q36834;Q14915627,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,orchestra conductor; musician; performer,Q36834;Q1259917,Q639669;Q713200,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music publisher; music educator,Q36834;Q158852;Q222836;Q486748;Q14915627;Q16145150,Q36834;Q486748;Q222836;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,emperor; monarch,Q116;Q1402561,Q39018;Q116,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q158852,1.0,0.4,0.5714285714285715,2,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; operatic composer; music educator; musician,Q36834,Q36834;Q158852;Q16145150;Q639669,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; harpist; conductor; musicologist; arranger,Q36834;Q158852;Q2490358;Q3127709;Q14915627;Q16145150,Q36834;Q3127709;Q158852;Q14915627;Q1643514,0.8,0.6666666666666666,0.7272727272727272,4,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834,Q36834;Q639669;Q158852,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,occupant; manager; supervisor,Q36834;Q43845;Q486748;Q2516866,Q721834;Q1240788,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; playwright; novelist,Q49757;Q214917,Q49757;Q214917;Q6625963,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; playwright; librettist,Q36834;Q765778,Q36834;Q214917;Q8178443,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,accompanist,Q36834;Q486748,Q29448653,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; songwriter,Q36180;Q49757;Q214917;Q753110,Q49757;Q753110,1.0,0.5,0.6666666666666666,2,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music theorist; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q16031530;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; chamber musician; music teacher; conductor,Q36834;Q486748;Q16145150,Q36834;Q486748;Q105755601;Q2675537;Q158852,0.4,0.6666666666666666,0.5,2,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; virtuoso,Q36180;Q36834;Q158852;Q214970;Q250867;Q486748;Q16145150;Q21680663,Q36834;Q486748;Q158852;Q16145150;Q214970,1.0,0.625,0.7692307692307693,5,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; writer; lyricist,Q36180;Q49757;Q1930187;Q14915627,Q49757;Q36180;Q822146,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; playwright; writer; politician,Q36180;Q47064;Q49757;Q82955;Q214917;Q333634;Q822146;Q2478141;Q8178443;Q18814623;Q18939491;Q125360586,Q49757;Q214917;Q36180;Q82955,1.0,0.3333333333333333,0.5,4,0,8,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; songwriter; playwright,Q36180;Q49757;Q182436;Q8178443,Q49757;Q753110;Q214917,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; writer; lyricist,Q333634;Q639669,Q49757;Q36180;Q822146,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; songwriter; editor; critic,Q14915627,Q49757;Q753110;Q1607826;Q6430706,0.0,0.0,0.0,0,4,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; writer; novelist; dramatist; historian,Q36180;Q49757;Q201788;Q333634;Q551835;Q774306;Q1930187;Q6625963,Q49757;Q36180;Q6625963;Q214917;Q201788,0.8,0.5,0.6153846153846154,4,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet,Q36180;Q49757,Q49757,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; songwriter; author; playwright,Q36180;Q49757;Q753110;Q864380;Q6625963,Q49757;Q753110;Q482980;Q214917,0.5,0.4,0.4444444444444445,2,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,theater manager; playwright; director,Q43845;Q998550,Q1776724;Q214917;Q705996,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q13219637,Q36834;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150,1.0,0.5555555555555556,0.7142857142857143,5,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music critic; music educator,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q1350157;Q16145150,1.0,0.5714285714285714,0.7272727272727273,4,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,oboist,Q36834;Q16003954,Q16003954,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; chess player; music theorist; conductor,Q36834;Q182436;Q16003954;Q102104631,Q36834;Q639669;Q10873124;Q16031530;Q158852,0.2,0.25,0.22222222222222224,1,4,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; operatist,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q215793;Q1162163;Q14915627,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Kapelmeister,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,publisher; music publisher,Q36834;Q37226;Q175151;Q182436;Q2516866;Q40881196,Q2516866;Q222836,0.5,0.16666666666666666,0.25,1,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,publisher; bookseller,Q222836,Q2516866;Q998550,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; organist; conductor,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q639669;Q765778;Q158852,0.5,0.4,0.4444444444444445,2,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; opera singer; actress,Q36834;Q2865819,Q2865819;Q21169216,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; opera singer; actress,Q36834;Q2865819,Q2865819;Q21169216,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,princess,Q1028181,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actor; performer,Q2865819,Q177220;Q33999;Q713200,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; librettist; musician; conductor,Q36834;Q158852;Q765778;Q16145150,Q36834;Q8178443;Q639669;Q158852,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q36834;Q158852,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,manager,Q43845;Q998550,Q721834,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,tenor; singer; musician,Q36834;Q2490358;Q2865819;Q8178443;Q16145150,Q27914;Q177220;Q639669,0.0,0.0,0.0,0,3,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor; opera singer,Q2865819,Q177220;Q27914;Q2865819,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer; baritone,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; bass; opera singer; performer,Q36834;Q2259451;Q2865819;Q16145150,Q177220;Q719678;Q2865819;Q713200,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; soprano; actress; opera singer,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q21169216;Q2865819,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; playwright; translator,Q36180;Q49757;Q131512;Q753110;Q14915627,Q49757;Q214917;Q333634,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; opera composer,Q36834;Q158852;Q1198887,Q36834;Q158852;Q21680731,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; orchestral performer,Q36834;Q118865;Q639669;Q1622272;Q16145150,Q36834;Q639669;Q158852,0.6666666666666666,0.4,0.5,2,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; performer,Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; songwriter; librettist,Q36834;Q158852;Q177220;Q753110;Q2865819,Q36834;Q753110;Q8178443,0.6666666666666666,0.4,0.5,2,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; virtuoso; musician,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q36834;Q1259917;Q214970;Q639669,0.5,0.3333333333333333,0.4,2,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; musicologist,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q639669;Q14915627,0.5,0.3333333333333333,0.4,2,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,principal,Q36834;Q486748;Q753110;Q16145150,Q7245049,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Principal,Q36834;Q486748;Q16145150,Q7245049,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,principal,Q36834,Q7245049,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,novelist; poet; writer,Q36180;Q37226;Q49757;Q1540278;Q6625963,Q6625963;Q49757;Q36180,1.0,0.6,0.7499999999999999,3,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.5714285714285714,0.7272727272727273,4,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist,Q36834;Q158852;Q691031;Q899758;Q1259917;Q1622272;Q14915627;Q16145150,Q1259917,1.0,0.125,0.2222222222222222,1,0,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,theatre manager; canvasser,Q43845;Q998550,Q1776724;Q638172,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,music seller,Q222836,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,arranger,Q36834;Q1259917,Q1643514,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist,Q36834;Q158852,Q1259917,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; operatic composer,Q36834,Q36834;Q158852,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer,Q36834;Q177220;Q18814623,Q713200,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; choir director; organist; musician,Q36834;Q177220;Q215793;Q765778;Q1076502;Q16145150,Q36834;Q16031530;Q1076502;Q765778;Q639669,0.6,0.5,0.5454545454545454,3,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,organist; choirmaster,Q36834;Q765778,Q765778;Q1076502,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; musician; conductor,Q36834,Q36834;Q16031530;Q639669;Q158852,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music theorist; violinist; orchestral director,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834;Q158852;Q16031530;Q1259917,0.75,0.3333333333333333,0.46153846153846156,3,1,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; harpsichordist; opera composer; musician,Q36834,Q36834;Q16031530;Q5371902;Q21680731;Q639669,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actress,Q33999;Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor; performer,Q177220;Q2865819,Q177220;Q27914;Q713200,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q486748,Q36834;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q158852;Q177220;Q639669;Q806349;Q1259917,Q36834;Q639669,1.0,0.3333333333333333,0.5,2,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,translator; playwright,Q8178443,Q333634;Q214917,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; singer; musician,Q36834,Q36834;Q177220;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; opera singer; actress,Q36834;Q2865819,Q2865819;Q21169216,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q639669;Q158852;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150,1.0,0.5555555555555556,0.7142857142857143,5,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; musician,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q765778;Q639669,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; conductor; music educator,Q36834;Q765778;Q1622272;Q16145150,Q36834;Q765778;Q158852;Q16145150,0.75,0.75,0.75,3,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; organist; music educator,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q36834;Q639669;Q158852;Q765778;Q16145150,0.4,0.2857142857142857,0.3333333333333333,2,3,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; biographer; historian,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q14915627;Q864380;Q201788,0.6666666666666666,0.2857142857142857,0.4,2,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,harmonist,Q36834;Q1259917,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,harmonist,Q36834,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; arranger,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q639669;Q1643514,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.8,0.888888888888889,4,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musicologist; pianist; conductor,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q14915627;Q486748;Q158852,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; musicologist,Q36834;Q158852;Q486748,Q36834;Q158852;Q486748;Q14915627,0.75,1.0,0.8571428571428571,3,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; musician,Q36834;Q765778;Q5371902;Q81759238,Q39631;Q639669,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.8,0.888888888888889,4,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q36834;Q16145150,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.5714285714285714,0.7272727272727273,4,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; physician; medical professional,Q36180;Q876864;Q1350157;Q14915627,Q39631;Q39631;Q11974939,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; cataloguer,Q18805;Q36834;Q201788;Q864380;Q1607826;Q2374149;Q13416354;Q14915627;Q20198542,Q14915627;Q33109310,0.5,0.1111111111111111,0.1818181818181818,1,1,8,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,,Q639669,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; songwriter; opera singer; musician,Q36834,Q36834;Q753110;Q2865819;Q639669,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,songmaker; composer,Q36834;Q158852;Q177220;Q753110;Q2865819,Q36834,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,director; musician; conductor,Q36834;Q1259917;Q2675537;Q3153559,Q705996;Q639669;Q158852,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music teacher; musicologist; violinist; symphonist; chamber musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q2675537;Q14915627;Q1259917;Q105754803;Q105755601,0.375,0.5,0.42857142857142855,3,5,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q177220;Q2865819,Q36834,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,lyricist; poet; playwright,Q49757;Q1930187,Q822146;Q49757;Q214917,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist; violinist; symphonist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q16031530;Q1259917;Q105754803,0.5714285714285714,0.6666666666666666,0.6153846153846153,4,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music theorist; violinist; school teacher,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q16031530;Q1259917;Q2251335,0.4,0.5,0.4444444444444445,2,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; guitarist; musician; virtuoso,Q36834;Q713200;Q855091;Q24067349,Q36834;Q855091;Q639669;Q214970,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834,Q36834;Q486748;Q158852;Q16145150,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; orchestrator,Q36834;Q158852;Q1622272;Q14915627;Q16031530;Q16145150;Q18931911,Q36834;Q158852;Q639669;Q3355249,0.5,0.2857142857142857,0.36363636363636365,2,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q158852;Q486748,Q158852,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,ex-Jesuit,Q36180;Q1792450;Q14915627;Q20669622,,0.0,0.0,0.0,0,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q43845;Q486748;Q2516866,Q36834;Q486748;Q16145150,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist; composer; conductor,Q36834,Q1259917;Q36834;Q158852,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q158852;Q16145150,1.0,0.6,0.7499999999999999,3,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,organist,Q36834;Q765778;Q1930187;Q14915627,Q765778,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; historian; composer; author; editor,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q14915627;Q201788;Q36834;Q482980;Q1607826,0.6,0.42857142857142855,0.5,3,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; priest; theologian,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q14915627;Q831474;Q1234713,0.3333333333333333,0.14285714285714285,0.2,1,2,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; composer; conductor; teacher,Q36834;Q2865819,Q639669;Q36834;Q158852;Q37226,0.25,0.5,0.3333333333333333,1,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musical director,Q82955,Q1198887,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; operatic composer; conductor; musician,Q36834,Q36834;Q158852;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,director,Q36834;Q158852,Q705996,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music publisher; arranger,Q36834,Q36834;Q486748;Q222836;Q1643514,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q158852,1.0,0.3333333333333333,0.5,3,0,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; pupil; bassoonist,Q36834;Q12310971;Q16145150,Q639669;Q48282;Q12310971,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,professor,Q36834;Q1622272;Q12310971;Q14915627,Q19788990,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,professor,Q36834;Q1622272;Q12310971;Q14915627,Q19788990,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; harmonist,Q36834;Q158852;Q765778;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36180;Q36834;Q214917;Q1259917;Q2962003,Q36834,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q177220;Q215793;Q13219637,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,music theorist; composer; priest; educator,Q36834;Q201788;Q250867;Q486748;Q14915627;Q16031530;Q16145150,Q16031530;Q36834;Q831474;Q974144,0.5,0.2857142857142857,0.36363636363636365,2,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; academic; educator,Q36834;Q765778;Q2259532;Q13424456,Q39631;Q3400985;Q974144,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; educator,Q1231865;Q14915627;Q16031530;Q16145150,Q36834;Q16031530;Q974144,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; violinist; composer,Q36834;Q1259917,Q639669;Q1259917;Q36834,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist; composer; conductor; music educator,Q36834;Q1259917;Q2675537;Q3153559,Q1259917;Q36834;Q158852;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; author; lyricist,Q36180;Q49757;Q121594;Q333634;Q14467526,Q49757;Q482980;Q822146,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q639669;Q158852;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist; virtuoso; opera composer; chamber musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; opera composer; musician; pianist,Q36834,Q36834;Q158852;Q21680731;Q639669;Q486748,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,master; teacher; instructor,Q36834;Q486748,Q635788;Q37226;Q777952,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q16145150,1.0,0.3333333333333333,0.5,3,0,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,master; teacher; instructor,Q36834;Q486748,Q635788;Q37226;Q777952,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,philanthropist; politician,Q36834,Q12362622;Q82955,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,organist; composer; conductor; music educator,Q36834;Q765778;Q14915627;Q16031530,Q765778;Q36834;Q158852;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist,Q36834;Q486748;Q1622272;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,leader; revolutionary; historical figure,Q39631;Q82955;Q193391;Q1622272,Q1251441;Q3242115,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; librettist,Q36180;Q36834;Q214917;Q6625963;Q8178443,Q36834;Q8178443,1.0,0.4,0.5714285714285715,2,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; librettist; conductor,Q36180;Q36834;Q82955;Q158852,Q36834;Q8178443;Q158852,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist,Q36834;Q486748,Q36834;Q486748,1.0,1.0,1.0,2,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; performer; musician,Q36834;Q2865819,Q177220;Q713200;Q639669,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music theorist; harpsichordist; conductor; organist,Q36834;Q765778;Q2490358;Q5371902;Q14915627;Q16031530;Q18931911,Q36834;Q16031530;Q5371902;Q158852;Q765778,0.8,0.5714285714285714,0.6666666666666666,4,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; orchestrator,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834;Q639669;Q158852;Q3355249,0.5,0.2222222222222222,0.30769230769230765,2,2,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,military leader; emperor; general; statesman; political leader,Q116;Q39018;Q82955;Q189290;Q372436;Q1402561;Q2304859;Q10732476;Q17010072;Q38239859,Q1402561;Q39018;Q83460;Q372436;Q20069267,0.6,0.3,0.4,3,2,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; string player; violinist; music educator,Q36834;Q37226;Q158852;Q805221;Q1231865;Q1259917;Q2490358;Q5716684;Q16145150,Q36834;Q158852;Q639669;Q13138067;Q1259917;Q16145150,0.6666666666666666,0.4444444444444444,0.5333333333333333,4,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; librettist,Q36834;Q215793,Q36834;Q639669;Q8178443,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; opera composer,Q36834;Q765778,Q36834;Q639669;Q21680731,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; opera singer,Q177220;Q2865819,Q2865819,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,bass; singer; actor; performer; colonel,Q36834;Q2259451;Q2865819;Q16145150,Q719678;Q177220;Q33999;Q713200;Q104680,0.0,0.0,0.0,0,5,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor; opera singer; colonel,Q2865819,Q177220;Q27914;Q2865819;Q104680,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,military officer; colonel,Q116;Q1097498,Q189290;Q104680,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; pianist; conductor; music educator; music theorist; opera composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q486748;Q158852;Q16145150;Q16031530;Q21680731,0.5714285714285714,0.6666666666666666,0.6153846153846153,4,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; instrumentalist; music educator; musicologist; symphonist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q1278335;Q16145150;Q14915627;Q105754803,0.42857142857142855,0.5,0.4615384615384615,3,4,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,professor; lecturer; educator; mathematician,Q40348;Q170790;Q1622272;Q4964182;Q14565331,Q19788990;Q1569495;Q974144;Q170790,0.25,0.2,0.22222222222222224,1,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,philosopher; mathematician; scholar; author,Q4964182,Q4964182;Q170790;Q2248623;Q482980,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,mathematician; geometer; philosopher,Q36180;Q170790,Q170790;Q21772571;Q4964182,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,mathematician; philosopher; physician; astrologer; author,Q39631;Q81096;Q155647;Q170790;Q205375;Q4964182,Q170790;Q4964182;Q39631;Q155647;Q482980,0.8,0.6666666666666666,0.7272727272727272,4,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,philosopher; mathematician; cosmologist; writer; priest,Q11063;Q36180;Q49757;Q155647;Q170790;Q1469535;Q1622272;Q4964182,Q4964182;Q170790;Q2998308;Q36180;Q831474,0.6,0.375,0.4615384615384615,3,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,philosopher; atheist; writer; poet; thinker,Q18805;Q36180;Q39631;Q155647;Q4964182,Q4964182;Q36180;Q49757;Q24885626,0.5,0.4,0.4444444444444445,2,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,philosopher; mathematician,Q1234713;Q1238570;Q4964182;Q15991187;Q24262584;Q66060374,Q4964182;Q170790,0.5,0.16666666666666666,0.25,1,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,physicist; mathematician; astronomer; philosopher; author; natural philosopher,Q170790;Q4964182,Q169470;Q170790;Q11063;Q4964182;Q482980;Q88208585,0.3333333333333333,1.0,0.5,2,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; choir director; music educator; choral director,Q158852;Q16145150,Q158852;Q1076502;Q16145150,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; physician,Q36834;Q765778;Q1028181;Q16145150,Q39631;Q39631,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist,Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist,Q33999;Q2865819,Q177220;Q2643890,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist,Q177220;Q2643890;Q2865819,Q177220;Q2643890,1.0,0.6666666666666666,0.8,2,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q49757;Q8178443,Q36834,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music educator; pianist; conductor,Q36834;Q37226;Q215793;Q486748;Q765778;Q1622272;Q14915627;Q16145150,Q36834;Q16145150;Q486748;Q158852,0.75,0.375,0.5,3,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,hymnologist; musicologist; researcher,Q36834;Q765778,Q52553554;Q14915627;Q1650915,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; music director; choirmaster; organist; church musician,Q36834,Q36834;Q1198887;Q1076502;Q765778;Q355493,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; director,Q36834;Q765778,Q36834;Q639669;Q705996,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; music director; church musician,Q36834;Q765778;Q14915627;Q16031530,Q36834;Q639669;Q1198887;Q355493,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; choral director; church musician,Q36834;Q214917;Q1076502,Q36834;Q639669;Q355493,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; organist,Q36834;Q177220;Q765778;Q16145150,Q36834;Q639669;Q765778,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; organist; choral director,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q639669;Q765778,0.6666666666666666,0.4,0.5,2,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; church musician,Q36834;Q765778,Q36834;Q639669;Q355493,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q765778,Q36834;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q765778;Q5371902;Q81759238,Q36834;Q639669,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer,Q36834,Q36834;Q21680731,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q37226;Q215793,Q36834;Q158852,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q158852;Q215793;Q765778;Q14915627,Q36834,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actress,Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,military officer; author,Q82955,Q189290;Q482980,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; virtuoso; conductor,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q36834;Q1259917;Q214970;Q158852,0.5,0.3333333333333333,0.4,2,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; musician; director,Q36834;Q1259917,Q36834;Q1259917;Q639669;Q705996,0.5,1.0,0.6666666666666666,2,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,organist,Q158852;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; music educator,Q36834;Q158852;Q486748;Q1622272;Q16145150,Q36834;Q158852;Q639669;Q16145150,0.75,0.6,0.6666666666666665,3,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; pianist,Q36834;Q158852;Q639669;Q1259917,Q36834;Q639669;Q486748,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer,Q177220;Q2865819,Q177220,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,prima donna; musician; actress,Q2865819,Q639669;Q21169216,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,prima donna; actress; musician,Q2865819,Q21169216;Q639669,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music director; orchestrator; music educator,Q36834;Q158852,Q36834;Q158852;Q1198887;Q3355249;Q16145150,0.4,1.0,0.5714285714285715,2,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; sovereign; ruler,Q82955,Q16744001;Q2304859;Q1097498,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,novelist; writer; playwright; author,Q36180;Q39631;Q82955;Q6625963,Q6625963;Q36180;Q214917;Q482980,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,author; novelist; memoirist,Q36180;Q182436;Q214917;Q1930187;Q6625963,Q482980;Q6625963;Q11774156,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; musicologist,Q36834,Q36834;Q486748;Q158852;Q16145150;Q14915627,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer; soprano; musician,Q33999;Q36834;Q2259451;Q2865819,Q177220;Q2865819;Q639669,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer,Q36834;Q158852;Q806349;Q14915627,Q36834;Q21680731,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera director; librettist,Q36834;Q158852;Q1622272;Q16145150,Q36834;Q3029406;Q8178443,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; performer; concert artist,Q36834;Q1259917,Q639669;Q713200;Q106750916,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music publisher,Q36834;Q43845;Q486748;Q2516866,Q36834;Q486748;Q222836,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; performer; concert artist,Q36834;Q1259917,Q639669;Q713200;Q106750916,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician,Q36180;Q36834;Q49757,Q639669,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician,Q36834,Q639669,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician,Q36834,Q639669,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician,Q36180;Q36834;Q49757,Q639669,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician,Q36834,Q639669,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician,Q36180;Q36834;Q49757,Q639669,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; dramatist,Q36834;Q215793,Q36834;Q639669;Q214917,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; dramatic composer,Q36834;Q16145150,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; music educator,Q36834;Q765778,Q36834;Q639669;Q16145150,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musical professor; composer,Q36834;Q765778;Q5371902;Q81759238,Q36834,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,monarch; king,Q116;Q36180;Q49757;Q2478141,Q116;Q12097,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; opera composer; music educator,Q36834;Q158852,Q36834;Q639669;Q21680731;Q16145150,0.25,0.5,0.3333333333333333,1,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q14915627,Q36834;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; opera composer,Q36834;Q177220;Q215793;Q16145150,Q36834;Q639669;Q21680731,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q16031530,0.6,0.5,0.5454545454545454,3,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834,Q36834;Q486748;Q158852;Q16145150,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musicologist,Q36834;Q158852,Q36834;Q158852;Q14915627,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; opera singer; musician,Q36834;Q2865819,Q2865819;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; opera singer,Q486748;Q1259917;Q2865819;Q16145150,Q2865819,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer; soprano,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,artist; singer,Q2865819,Q483501;Q177220,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor,Q2865819,Q177220;Q27914,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor;,Q2865819;Q16145150,Q177220;Q27914,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q2865819,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist,Q36834,Q36834;Q486748;Q158852;Q16145150;Q16031530,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; violin maker; music educator,Q36834;Q1259917;Q14915627;Q16031530;Q16145150,Q36834;Q1259917;Q21009864;Q16145150,0.75,0.6,0.6666666666666665,3,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q486748,Q36834;Q486748;Q16145150,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; operatic composer; musician; conductor,Q36834;Q215793;Q1162163;Q14915627,Q36834;Q639669;Q158852,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,adapter; translator,Q214917,Q61875042;Q333634,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,playwright; poet; actor,Q214917,Q214917;Q49757;Q33999,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; librettist,Q36834,Q36834;Q8178443,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; musician,Q36834,Q36834;Q21680731;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; music educator; musicologist; virtuoso; conductor; choir director; harpsichordist; violinist; school teacher,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; arranger; musician,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q1643514;Q639669,0.3333333333333333,0.09090909090909091,0.14285714285714288,1,2,10,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; physician,Q36180;Q876864;Q1350157;Q14915627,Q39631;Q39631,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; music director; organist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q639669;Q158852;Q1198887;Q765778,0.4,0.2857142857142857,0.3333333333333333,2,3,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q486748;Q1350157;Q6430706;Q16145150,Q36834,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,writer; music critic,Q36834;Q1350157;Q21680663,Q36180;Q1350157,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,music critic; journalist,Q36834;Q1350157;Q21680663,Q1350157;Q1930187,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist; composer; virtuoso; conductor,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q1259917;Q36834;Q214970;Q158852,0.5,0.3333333333333333,0.4,2,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,director; author; professor; composer,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,Q705996;Q482980;Q19788990;Q36834,0.25,0.08333333333333333,0.125,1,3,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; music educator,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q158852;Q639669;Q16145150,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; playwright; philosopher; historian; novelist; dramatist,Q36180;Q39631;Q49757;Q182436;Q201788;Q214917;Q333634;Q551835;Q1622272;Q1930187;Q4002666;Q4964182;Q6625963;Q21550346,Q49757;Q214917;Q4964182;Q201788;Q6625963;Q214917,1.0,0.35714285714285715,0.5263157894736842,5,0,9,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834;Q1198887;Q1350157;Q14915627,Q36834;Q639669;Q158852,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician; pianist,Q36834;Q486748,Q713200;Q639669;Q486748,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist; violinist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627;Q1259917,0.8571428571428571,0.6666666666666666,0.75,6,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; performer; musician,Q177220;Q2865819,Q177220;Q713200;Q639669,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; opera composer; music educator; musicologist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q639669;Q158852;Q21680731;Q16145150;Q14915627,0.3333333333333333,0.2857142857142857,0.30769230769230765,2,4,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; harpsichordist; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q5371902;Q14915627;Q16145150,0.4,0.2857142857142857,0.3333333333333333,2,3,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; performer; vocalist,Q2865819,Q177220;Q713200;Q2643890,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; performer;,Q36834;Q177220;Q18814623,Q177220;Q713200,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; painter; poet,Q36180;Q49757;Q639669;Q1028181;Q2259451;Q3391743;Q11569986;Q15296811,Q36834;Q1028181;Q49757,0.6666666666666666,0.25,0.36363636363636365,2,1,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; conductor,Q158852,Q639669;Q158852,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; operatic composer,Q36180;Q36834;Q82955;Q158852,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q1259917;Q14915627;Q19747285,Q36834;Q158852;Q1259917;Q16145150,0.75,0.6,0.6666666666666665,3,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; violinist; violist; cellist,Q36834;Q1259917,Q639669;Q1259917;Q899758;Q13219637,0.25,0.5,0.3333333333333333,1,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; string player; performer,Q639669,Q639669;Q13138067;Q713200,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,monarch; queen; empress,Q116,Q116;Q16511993;Q39018,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; writer,Q36180;Q36834;Q19729565,Q36834;Q639669;Q36180,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36180;Q36834;Q19729565,Q36834;Q639669;Q158852,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; oratorio composer; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q16145150,0.25,0.14285714285714285,0.18181818181818182,1,3,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; musicologist,Q36834,Q36834;Q486748;Q158852;Q16145150;Q14915627,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; pianist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q214970;Q486748;Q16145150;Q14915627,0.8333333333333334,0.5555555555555556,0.6666666666666667,5,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; virtuoso; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q214970;Q14915627,0.5,0.5,0.5,3,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; songwriter,Q36834,Q36834;Q639669;Q753110,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,unknown,Q639669,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator; opera composer,Q36834,Q36834;Q158852;Q16145150;Q21680731,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q214970;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; musicologist; violinist; opera composer,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q158852;Q486748;Q16145150;Q14915627;Q1259917;Q21680731,0.5714285714285714,0.6666666666666666,0.6153846153846153,4,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music theorist; music educator,Q36834,Q36834;Q486748;Q158852;Q16031530;Q16145150,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; singer; conductor,Q36834,Q36834;Q639669;Q177220;Q158852,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,capellmeister; conductor; musical director,Q36834;Q158852;Q1622272,Q158852;Q1198887,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,founder; educator; composer; music instructor,Q36834;Q765778,Q4479442;Q974144;Q36834;Q2675537,0.25,0.5,0.3333333333333333,1,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; composer,Q2865819,Q177220;Q36834,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; composer,Q2865819,Q177220;Q36834,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,monarch; emperor; ruler,Q116;Q1402561,Q116;Q39018;Q1097498,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; pianist; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q158852;Q486748;Q16145150,0.8,0.6666666666666666,0.7272727272727272,4,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,patron of the arts; noble; aristocrat,Q36834;Q82955;Q189290;Q193391,Q15472169;Q16744001;Q2478141,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music director; music educator; music theorist,Q36834,Q36834;Q486748;Q158852;Q1198887;Q16145150;Q16031530,0.16666666666666666,1.0,0.2857142857142857,1,5,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,sculptor,Q42973;Q1028181;Q1281618;Q15296811,Q1281618,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q16031530;Q14915627,0.5,0.5,0.5,3,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; bass singer; chamber singer,Q36834;Q639669,Q177220;Q98834013,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; virtuoso; music educator,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q486748;Q214970;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist; composer; teacher; pedagogue,Q36834;Q486748;Q1622272;Q14915627;Q16145150,Q486748;Q36834;Q37226;Q1231865,0.5,0.4,0.4444444444444445,2,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q14915627,Q36834;Q486748;Q16145150,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist; composer; music educator,Q36834;Q82955;Q193391;Q486748;Q2285706;Q7330070;Q14915627;Q16145150;Q21680663,Q486748;Q36834;Q16145150,1.0,0.3333333333333333,0.5,3,0,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,music theorist; musicologist; composer,Q36180;Q36834;Q49757;Q170790;Q14915627;Q16031530,Q16031530;Q14915627;Q36834,1.0,0.5,0.6666666666666666,3,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor,Q177220;Q639669;Q2865819,Q177220;Q27914,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist,Q36834;Q486748;Q15980158;Q16145150,Q486748,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violoncellist,Q36834;Q13219637;Q16145150,,0.0,0.0,0.0,0,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,diarist; writer; civil servant; politician,Q16533;Q36180;Q82955;Q329455;Q18939491,Q18939491;Q36180;Q212238;Q82955,0.75,0.6,0.6666666666666665,3,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; musician; conductor; musicologist,Q36834;Q765778;Q21680663,Q36834;Q765778;Q639669;Q158852;Q14915627,0.4,0.6666666666666666,0.5,2,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834,Q36834;Q158852,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834,Q36834;Q639669;Q158852,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; organist; music educator; musicologist; choral director,Q36834;Q765778;Q14915627;Q16031530,Q36834;Q158852;Q765778;Q16145150;Q14915627,0.6,0.75,0.6666666666666665,3,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q158852;Q1622272;Q16145150,Q158852,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; musician; bandleader; performer,Q36834;Q1259917;Q16145150,Q158852;Q639669;Q806349;Q713200,0.0,0.0,0.0,0,4,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q1231865;Q2490358;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q639669,0.3333333333333333,0.14285714285714285,0.2,1,2,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music director; music educator,Q36834,Q36834;Q486748;Q158852;Q1198887;Q16145150,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; organist; music director,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q765778;Q1198887,0.5,0.2857142857142857,0.36363636363636365,2,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; royalty; queen,Q82955,Q16744001;Q11573099;Q16511993,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,emperor; king; duke; politician,Q1097498,Q39018;Q12097;Q58481980;Q82955,0.0,0.0,0.0,0,4,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; violinist; music educator,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917;Q16145150,1.0,0.6666666666666666,0.8,4,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer,Q36834;Q158852,Q36834;Q21680731,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q16031530,0.6,0.5,0.5454545454545454,3,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer;,Q36834;Q158852;Q1622272;Q14915627;Q16145150;Q21680731,Q36834,1.0,0.16666666666666666,0.2857142857142857,1,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q1198887,Q36834;Q158852,1.0,0.6666666666666666,0.8,2,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834,Q36834;Q486748;Q158852;Q16145150,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q158852;Q486748;Q855091;Q1350157;Q24067349,Q36834;Q158852;Q639669,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; violinist,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q158852;Q1259917,1.0,0.5,0.6666666666666666,3,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q158852,Q36834;Q158852,1.0,1.0,1.0,2,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor,Q36834;Q158852;Q1198887;Q18814623,Q36834;Q158852,1.0,0.5,0.6666666666666666,2,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; operatic composer; conductor; librettist; music educator,Q33999;Q36180;Q36834;Q158852;Q177220;Q2259451;Q2865819;Q8178443,Q36834;Q158852;Q8178443;Q16145150,0.75,0.375,0.5,3,1,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; virtuoso,Q36834;Q855091;Q899758;Q1259917;Q21680663;Q124800918,Q36834;Q1259917;Q214970,0.6666666666666666,0.3333333333333333,0.4444444444444444,2,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q14915627;Q16031530,Q36834,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; virtuoso; organist; music educator; musicologist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q639669;Q158852;Q214970;Q765778;Q16145150;Q14915627,0.2857142857142857,0.2857142857142857,0.2857142857142857,2,5,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q16145150,1.0,0.4444444444444444,0.6153846153846153,4,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q14915627,1.0,0.5555555555555556,0.7142857142857143,5,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q36834;Q486748;Q16145150,0.6666666666666666,0.4,0.5,2,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; musicologist; teacher,Q36834;Q214970;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q486748;Q14915627;Q37226,0.5,0.3333333333333333,0.4,2,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; opera singer,Q2865819,Q2865819,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834;Q158852;Q486748;Q14915627,Q36834;Q639669;Q158852,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music publisher,Q36834;Q222836;Q486748;Q885122,Q36834;Q486748;Q222836,1.0,0.75,0.8571428571428571,3,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q486748,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q14915627;Q16145150,0.25,0.14285714285714285,0.18181818181818182,1,3,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; music educator,Q36834;Q1622272;Q16145150;Q21680663,Q36834;Q158852;Q639669;Q16145150,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; songwriter; music educator; music theorist,Q36834;Q37226;Q486748,Q36834;Q639669;Q753110;Q16145150;Q16031530,0.2,0.3333333333333333,0.25,1,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist; composer,Q36834;Q1259917;Q1622272;Q16145150,Q1259917;Q36834,1.0,0.5,0.6666666666666666,2,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,monarch; king; ruler,Q16533;Q47064;Q82955;Q10732476,Q116;Q12097;Q1097498,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist; composer,Q36834;Q1259917;Q1622272;Q16145150,Q1259917;Q36834,1.0,0.5,0.6666666666666666,2,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q16031530;Q1259917,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator; violinist; harpsichordist,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q16145150;Q1259917;Q5371902,0.4,0.5,0.4444444444444445,2,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,saint; patroness of music,Q639669,,0.0,0.0,0.0,0,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q355493;Q765778;Q1259917;Q21680731,Q36834,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; conductor; music educator,Q36834;Q899758;Q1259917,Q36834;Q1259917;Q158852;Q16145150,0.5,0.6666666666666666,0.5714285714285715,2,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; composer; pianist,Q36834;Q158852;Q486748,Q158852;Q36834;Q486748,1.0,1.0,1.0,3,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; operatic composer,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist,Q36834;Q486748;Q1231865,Q486748,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,monarch; king; sovereign,Q82955;Q1097498;Q10732476;Q15472169,Q116;Q12097;Q2304859,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,minor canon; clergyman; priest,Q49757,Q6869158;Q831474,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,Sub-Dean,Q2865819,Q11827459,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; organist; conductor; music director,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q639669;Q765778;Q158852;Q1198887,0.4,0.4,0.4000000000000001,2,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actress; theatrical manager,Q33999;Q1320883;Q2865819,Q177220;Q21169216;Q1776724,0.0,0.0,0.0,0,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,poet; playwright,Q36180;Q49757;Q82955;Q214917;Q6625963;Q8178443;Q12144794,Q49757;Q214917,1.0,0.2857142857142857,0.4444444444444445,2,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; organist; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q486748;Q765778;Q16145150;Q14915627,1.0,0.6666666666666666,0.8,6,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q158852;Q486748,Q36834;Q158852;Q639669,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q158852;Q1076502,Q36834;Q158852;Q639669,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; leader,Q36834;Q158852;Q486748,Q158852;Q1251441,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q37226;Q158852,Q158852,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q158852;Q486748;Q14915627,Q158852,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,monarch; king; emperor; sovereign,Q116;Q82955;Q2478141;Q10732476,Q116;Q12097;Q39018;Q2304859,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; opera director; musician,Q36834;Q158852;Q1198887;Q18814623,Q36834;Q158852;Q3029406;Q639669,0.5,0.5,0.5,2,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; musicologist,Q36834,Q36834;Q158852;Q486748;Q16145150;Q14915627,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music theorist; conductor; music educator; violinist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q16031530;Q158852;Q16145150;Q1259917,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer,Q33999;Q2865819,Q177220,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,doctor; physician,Q36834;Q765778;Q1028181;Q16145150,Q39631;Q39631,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; performer,Q177220;Q2643890;Q2865819,Q177220;Q713200,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,not specified,Q36834;Q765778;Q1028181;Q16145150,,0.0,0.0,0.0,0,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer; actress,Q805221;Q2490358;Q2865819,Q177220;Q2865819;Q21169216,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actress; performer,Q36834,Q177220;Q21169216;Q713200,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,manager,Q14284;Q943995;Q3029406;Q39020112,Q721834,0.0,0.0,0.0,0,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; vocalist; performer,Q36834;Q2865819,Q177220;Q2643890;Q713200,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q486748;Q1643514,Q36834,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music teacher; conductor; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q2675537;Q158852;Q14915627,0.4,0.3333333333333333,0.3636363636363636,2,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music teacher; musicologist,Q36834,Q36834;Q486748;Q158852;Q2675537;Q14915627,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,orchestra conductor; orchestra leader; music director,Q943995,Q1198887,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; pianist; composer; music educator,Q36834;Q158852;Q486748;Q1231865,Q158852;Q486748;Q36834;Q16145150,0.75,0.75,0.75,3,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; vocalist; soloist,Q36180;Q36834;Q177220;Q1259917;Q2865819;Q108404711,Q2643890;Q1371914,0.0,0.0,0.0,0,2,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,vocalist; soloist,Q2865819,Q2643890;Q1371914,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; vocalist,Q1259917,Q2643890,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,orchestra conductor; pianist; composer; orchestral musician,Q36834;Q158852;Q486748;Q1231865,Q486748;Q36834;Q99460544,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actress; performer,Q2865819,Q177220;Q21169216;Q713200,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator; nationalist composer,Q36834;Q37226;Q158852;Q486748;Q639669;Q1231865;Q16145150,Q36834;Q158852;Q16145150,1.0,0.42857142857142855,0.6,3,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; soprano,Q2865819,Q177220,0.0,0.0,0.0,0,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; opera singer,Q2865819,Q177220;Q2865819,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q158852,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q158852;Q1622272;Q13219637,Q158852,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor,Q36834;Q158852;Q486748;Q1622272;Q6430706,Q158852,1.0,0.2,0.33333333333333337,1,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; composer; professor,Q36180;Q36834;Q1350157;Q14915627;Q16031530;Q16145150,Q158852;Q36834;Q19788990,0.3333333333333333,0.16666666666666666,0.2222222222222222,1,2,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; performer; conductor,Q36834;Q16145150,Q36834;Q486748;Q713200;Q158852,0.25,0.5,0.3333333333333333,1,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist; composer; educator,Q486748,Q486748;Q36834;Q974144,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q16145150,1.0,0.5714285714285714,0.7272727272727273,4,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,organist,Q36834;Q765778,Q765778,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; mezzo-soprano; music educator; opera singer; pianist; actress,Q36834;Q486748;Q2350126;Q2865819,Q177220;Q108404711;Q16145150;Q2865819;Q486748;Q21169216,0.3333333333333333,0.5,0.4,2,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q2865819,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; violinist; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q1259917;Q16031530,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator,Q36834;Q158852;Q333634;Q486748;Q1350157;Q1622272;Q2490358;Q8178443;Q16145150;Q18814623;Q18939491,Q36834;Q158852;Q486748;Q16145150,1.0,0.36363636363636365,0.5333333333333333,4,0,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,solo pianist,Q36834;Q486748,,0.0,0.0,0.0,0,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834,Q36834,1.0,1.0,1.0,1,0,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q82955;Q10669499,Q36834,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,conductor; composer; pianist; music educator,Q36834;Q158852;Q486748;Q1622272,Q158852;Q36834;Q486748;Q16145150,0.75,0.75,0.75,3,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician; conductor,Q36834;Q177220;Q486748;Q2259451,Q713200;Q639669;Q158852,0.0,0.0,0.0,0,3,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,painter; artist; portraitist,Q1028181;Q3391743;Q11569986;Q14623005;Q15296811,Q1028181;Q483501;Q21178131,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,painter; artist; portraitist,Q214917;Q333634;Q487596;Q984276;Q1028181;Q3387717;Q10862983;Q14623005;Q15296811,Q1028181;Q483501;Q21178131,0.3333333333333333,0.1111111111111111,0.16666666666666666,1,2,8,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music teacher;,Q36834;Q158852;Q765778,Q36834;Q158852;Q2675537,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actress,Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,artist; soprano; performer,Q36834;Q2865819;Q16145150,Q483501;Q713200,0.0,0.0,0.0,0,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor; performer,Q2865819,Q177220;Q27914;Q713200,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,artist,Q36834;Q2865819,Q483501,0.0,0.0,0.0,0,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,inventor; organ builder,Q1955150,Q205375;Q1937431,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist; composer; conductor,Q36834;Q691031;Q1259917,Q1259917;Q36834;Q158852,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,violinist,Q36834;Q1259917;Q2675537;Q3153559,Q1259917,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,empress; monarch; ruler,Q116;Q82955;Q2478141;Q10732476,Q39018;Q116;Q1097498,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; organist; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q765778;Q14915627;Q16145150,0.3333333333333333,0.2857142857142857,0.30769230769230765,2,4,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q765778,Q36834;Q158852;Q16145150,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; conductor; music educator; music director,Q36834;Q158852;Q639669;Q1259917;Q14915627;Q16145150,Q36834;Q1259917;Q158852;Q16145150;Q1198887,0.8,0.6666666666666666,0.7272727272727272,4,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q158852;Q486748;Q16145150,1.0,0.8,0.888888888888889,4,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator; music theorist; opera composer,Q36834;Q158852;Q14915627;Q16031530;Q16145150,Q36834;Q158852;Q16145150;Q16031530;Q21680731,0.8,0.8,0.8000000000000002,4,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; music theorist; symphonist; violinist; chamber musician,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,,0.0,0.0,0.0,0,0,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; opera composer; violinist; church musician,Q36834;Q765778,Q36834;Q639669;Q21680731;Q1259917;Q355493,0.2,0.5,0.28571428571428575,1,4,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; musician,Q36834,Q36834;Q21680731;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician; opera composer; music educator,Q36834;Q37226;Q215793,Q36834;Q158852;Q639669;Q21680731;Q16145150,0.2,0.3333333333333333,0.25,1,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator; conductor; virtuoso,Q36834;Q158852;Q486748;Q691031;Q16145150,Q36834;Q486748;Q16145150;Q158852;Q214970,0.8,0.8,0.8000000000000002,4,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; musicologist,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q14915627,1.0,0.5555555555555556,0.7142857142857143,5,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; conductor; musician,Q36834,Q36834;Q21680731;Q158852;Q639669,0.25,1.0,0.4,1,3,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; operatic composer,Q36834;Q765778,Q36834;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778;Q5371902,Q36834,1.0,0.3333333333333333,0.5,1,0,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; musician,Q36834;Q899758;Q1259917,Q36834;Q1259917;Q639669,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; virtuoso; violinist; priest; music educator,Q36834,Q36834;Q214970;Q1259917;Q831474;Q16145150,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; musicologist; music educator,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q14915627;Q16145150,0.2,0.14285714285714285,0.16666666666666666,1,4,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; concertmaster; organist; choir director; violinist; school teacher; harpsichordist; musicologist; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q14915627,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q16145150,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q13219637,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; historian; writer; composer,Q36180;Q36834;Q201788;Q765778;Q5371902;Q14915627;Q20198542,Q14915627;Q201788;Q36180;Q36834,1.0,0.5714285714285714,0.7272727272727273,4,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,master; performer,Q36834,Q635788;Q713200,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician; player,Q36834;Q13219637;Q16145150,Q713200;Q639669;Q4197743,0.0,0.0,0.0,0,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician,Q639669,Q713200;Q639669,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator; musicologist,Q36834;Q158852;Q1259917;Q1622272;Q16145150;Q21680663,Q36834;Q158852;Q16145150;Q14915627,0.75,0.5,0.6,3,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; violinist; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q486748;Q158852;Q16145150;Q1259917;Q16031530,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist,Q36834,Q36834;Q486748;Q158852;Q16145150;Q16031530,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera director,Q36834;Q158852;Q1198887;Q18814623,Q36834;Q3029406,0.5,0.25,0.3333333333333333,1,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; musician,Q36834,Q36834;Q21680731;Q639669,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; opera composer; conductor,Q36834,Q36834;Q21680731;Q158852,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q1231865;Q2490358;Q14915627,Q36834;Q158852;Q639669,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician; soloist,Q36834;Q16003954,Q713200;Q639669;Q1371914,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician; composer,Q36834;Q19760296,Q713200;Q639669;Q36834,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician,Q36834;Q43845;Q486748;Q2516866,Q713200;Q639669,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician,Q639669,Q713200;Q639669,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,performer; musician; cellist,Q36834;Q13219637,Q713200;Q639669;Q13219637,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; performer; concert composer,Q36834;Q486748;Q1643514,Q36834;Q639669;Q713200,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; author; musician; theorist,Q36180;Q36834;Q37226;Q49757,Q36834;Q482980;Q639669;Q18931911,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; opera composer; music educator; musicologist,Q36834;Q765778;Q943995;Q1259917;Q1622272;Q5371902;Q21680731,Q36834;Q158852;Q214970;Q21680731;Q16145150;Q14915627,0.3333333333333333,0.2857142857142857,0.30769230769230765,2,4,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; music educator; music theorist; symphonist,Q36834;Q158852;Q486748;Q14915627,Q36834;Q158852;Q214970;Q16145150;Q16031530;Q105754803,0.3333333333333333,0.5,0.4,2,4,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; pianist; conductor; music educator; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q486748;Q158852;Q16145150;Q14915627,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; pianist; music educator; musicologist,Q36834,Q36834;Q158852;Q486748;Q16145150;Q14915627,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; organist; music educator; musicologist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q158852;Q214970;Q765778;Q16145150;Q14915627,1.0,0.5454545454545454,0.7058823529411764,6,0,5,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q486748;Q12902372;Q14915627,Q36834,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,bishop; antiquarian; scholar; editor; writer; literary critic,Q36180;Q42603;Q49757;Q187865;Q333634;Q3243461;Q14915627,Q4917468;Q5697103;Q2248623;Q1607826;Q36180;Q4263842,0.16666666666666666,0.14285714285714285,0.15384615384615383,1,5,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; singer; performer,Q36834;Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; contralto; performer,Q2865819,Q177220;Q713200,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; musician; performer,Q13219637;Q16145150,Q177220;Q639669;Q713200,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; performer; conductor,Q1259917,Q639669;Q713200;Q158852,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; performer; concert artist,Q36834;Q13219637,Q639669;Q713200;Q106750916,0.0,0.0,0.0,0,3,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,pianist; composer; conductor; music educator,Q36834;Q486748;Q765778;Q1076502;Q16145150,Q486748;Q36834;Q158852;Q16145150,0.75,0.6,0.6666666666666665,3,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; organist; musician; choral director,Q36834;Q765778;Q21680663,Q36834;Q765778;Q639669,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; choral composer,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; choral arranger,Q36834,Q36834;Q639669;Q23197257,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; organist; violinist; musicologist; music educator; harpsichordist; choir director; concertmaster; music theorist,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,,0.0,0.0,0.0,0,0,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,director,Q36834;Q158852;Q1259917,Q705996,0.0,0.0,0.0,0,1,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; pianist; conductor; music educator; music theorist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q486748;Q158852;Q16145150;Q16031530,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; educator; musicologist,Q36834;Q1622272;Q16145150;Q21680663,Q36834;Q158852;Q974144;Q14915627,0.25,0.25,0.25,1,3,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; musician,Q36834;Q1350157,Q36834;Q158852;Q639669,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; actress; soprano,Q36834;Q2865819,Q177220;Q21169216,0.0,0.0,0.0,0,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; virtuoso; pianist; organist; music educator,Q36180;Q36834;Q158852;Q486748;Q765778;Q1028181;Q1622272;Q14915627;Q16145150,Q36834;Q158852;Q214970;Q486748;Q765778;Q16145150,0.8333333333333334,0.5555555555555556,0.6666666666666667,5,1,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; opera writer; musician,Q36180;Q36834;Q82955;Q158852,Q36834;Q158852;Q639669,0.6666666666666666,0.5,0.5714285714285715,2,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musicologist; teacher; musician,Q36180;Q36834;Q158852;Q182436;Q1002228;Q1231865;Q1350157;Q1622272;Q14915627;Q16031530;Q16145150;Q20198542,Q14915627;Q37226;Q639669,0.3333333333333333,0.08333333333333333,0.13333333333333333,1,2,11,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; teacher,Q36834;Q765778;Q1622272;Q16145150,Q639669;Q37226,0.0,0.0,0.0,0,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; operatic composer,Q36834,Q36834;Q639669,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor; pianist; music educator; musicologist,Q36834;Q486748;Q639669;Q765778;Q1259917;Q16145150,Q36834;Q639669;Q158852;Q486748;Q16145150;Q14915627,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,2,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; opera composer,Q36834,Q36834;Q639669;Q21680731,0.3333333333333333,1.0,0.5,1,2,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q765778;Q14915627;Q16031530,Q36834,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q158852,Q36834,1.0,0.5,0.6666666666666666,1,0,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; librettist,Q36834;Q37226;Q177220;Q765778,Q36834;Q639669;Q8178443,0.3333333333333333,0.25,0.28571428571428575,1,2,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician,Q36834;Q765778,Q36834;Q639669,0.5,0.5,0.5,1,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,lithographer; artist; illustrator,Q644687;Q1028181;Q16947657,Q16947657;Q483501;Q644687,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,noble; prince; military leader,Q845929;Q1402561,Q16744001;Q12886381;Q1402561,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; conductor,Q36834;Q158852,Q36834;Q639669;Q158852,0.6666666666666666,1.0,0.8,2,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,duke; patron of music; master of chapel; opera manager,Q611644,Q58481980;Q3029406,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,monarch; king; patron of the arts,Q82955,Q116;Q12097;Q15472169,0.0,0.0,0.0,0,3,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,student; scholar,Q82955,Q48282;Q2248623,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,teacher; composer; musicologist; theorist,Q36834;Q14915627;Q16031530,Q37226;Q36834;Q14915627;Q18931911,0.5,0.6666666666666666,0.5714285714285715,2,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; music educator; music theorist,Q36834,Q36834;Q486748;Q158852;Q16145150;Q16031530,0.2,1.0,0.33333333333333337,1,4,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36180;Q36834;Q158852;Q486748;Q1350157;Q14915627;Q16145150,Q36834;Q486748;Q16145150,1.0,0.42857142857142855,0.6,3,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; violinist; conductor; music educator,Q36834;Q158852;Q214970;Q691031;Q765778;Q1076502;Q1259917;Q2251335;Q5371902;Q14915627;Q16145150,Q36834;Q1259917;Q158852;Q16145150,1.0,0.36363636363636365,0.5333333333333333,4,0,7,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,musician; pianist; performer,Q36834;Q486748,Q639669;Q486748;Q713200,0.3333333333333333,0.5,0.4,1,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; music educator,Q36834;Q37226;Q486748,Q36834;Q486748;Q16145150,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; musician; songwriter,Q36834;Q482980;Q765778;Q14915627;Q16031530,Q36834;Q639669;Q753110,0.3333333333333333,0.2,0.25,1,2,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; conductor; music educator,Q36834;Q158852;Q486748,Q36834;Q158852;Q16145150,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,1,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer; pianist; conductor; teacher,Q36834;Q158852;Q486748;Q1231865;Q1259917;Q1622272;Q14915627;Q16145150;Q18939491,Q36834;Q486748;Q158852;Q37226,0.75,0.3333333333333333,0.46153846153846156,3,1,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,lecturer; speaker; educator,Q36180;Q40348;Q49757;Q1930187;Q4263842;Q4964182,Q1569495;Q1758037;Q974144,0.0,0.0,0.0,0,3,6,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,arranger; composer,Q36834;Q765778;Q16145150,Q1643514;Q36834,0.5,0.3333333333333333,0.4,1,1,2,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,composer,Q36834;Q37226;Q158852;Q16145150,Q36834,1.0,0.25,0.4,1,0,3,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano,Q177220;Q2865819;Q16145150;Q21680731,,0.0,0.0,0.0,0,0,4,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,soprano; singer; musician,Q2865819,Q177220;Q639669,0.0,0.0,0.0,0,2,1,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,singer; tenor,Q177220,Q177220;Q27914,0.5,1.0,0.6666666666666666,1,1,0,ZS,ZS
+zero-shot,openai_gpt-4o-mini_20250423_linked_evaluated,NIL,manager,Q36834;Q158852,Q721834,0.0,0.0,0.0,0,1,2,ZS,ZS
